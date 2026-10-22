@@ -1,0 +1,19 @@
+{
+ "sim": {
+  "power": {
+   "reactorCritical": "REAKTOR KRITISCH — Kerntemperatur über der roten Linie",
+   "heatVented": "Wärme abgeführt — Leistung zurück",
+   "reactorRecovered": "Reaktorkern wieder unter der roten Linie"
+  },
+  "mines": {
+   "detonation": "Minendetonation — Rumpfintegrität {pct}%",
+   "lock": "Minenerfassung — {designator} im Anflug!"
+  },
+  "eng": {
+   "venting": "Plasma-Entlüftung — Leistung für {sec}s halbiert"
+  },
+  "screen": {
+   "setByName": "{name}"
+  }
+ }
+}

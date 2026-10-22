@@ -1,0 +1,57 @@
+{
+ "encounter": {
+  "survey": {
+   "label": "ERSTES LICHT: VERMESSUNG",
+   "objective": "Das System vermessen: eine Anomalie bis zum vollen Scan kartieren"
+  },
+  "patrol": {
+   "label": "PIRATENPATROUILLE",
+   "objective": "Alle Feinde vernichten"
+  },
+  "ambush": {
+   "label": "PIRATENHINTERHALT",
+   "objective": "Alle Feinde vernichten"
+  },
+  "asteroidField": {
+   "label": "ASTEROIDENFELD",
+   "objective": "Die Piraten vernichten, die sich in den Felsen verstecken"
+  },
+  "driftField": {
+   "label": "TREIBFELD",
+   "objective": "Die Piraten vernichten, die zwischen den bewegten Felsen treiben"
+  },
+  "derelict": {
+   "label": "WRACKRUMPF",
+   "objective": "Das Wrack für Bergegut tief scannen"
+  },
+  "distress": {
+   "label": "NOTRUF",
+   "objective": "Funk: beantworte den Mayday",
+   "defendObjective": "Den Frachter verteidigen: alle Feinde vernichten"
+  },
+  "minefield": {
+   "label": "MINENFELD",
+   "objective": "Das Wrack im Feld erreichen und scannen"
+  },
+  "hunter": {
+   "label": "JÄGER-KILLER",
+   "objective": "Den Elite-Jäger vernichten"
+  },
+  "firstContact": {
+   "label": "ERSTKONTAKT",
+   "objective": "Funk: einen Kanal öffnen"
+  },
+  "trader": {
+   "label": "GILDEN-HÄNDLER",
+   "objective": "Funk: den Händler rufen"
+  },
+  "debrisStorm": {
+   "label": "TRÜMMERSTURM",
+   "objective": "Den Sturm durchqueren und die Rückmeldung in seinem Herzen vermessen"
+  },
+  "evacuation": {
+   "label": "KOLONIEEVAKUIERUNG",
+   "objective": "Den Konvoi decken, bis die Transporter springen"
+  }
+ }
+}

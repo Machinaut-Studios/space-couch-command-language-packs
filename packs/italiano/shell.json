@@ -1,0 +1,96 @@
+{
+  "shell": {
+    "brand": "Space Couch Command",
+    "picker": {
+      "hint": "OSPITA UNA PARTITA SU QUESTO COMPUTER O UNISCITI A UNA SU UN ALTRO",
+      "hostButton": "▶ OSPITA PARTITA",
+      "joinButton": "UNISCITI"
+    },
+    "join": {
+      "go": "ENTRA",
+      "back": "TORNA",
+      "anyway": "ENTRA COMUNQUE",
+      "addressLabel": {
+        "desktop": "Link d'invito Steam o indirizzo dell'host",
+        "mobile": "Indirizzo host"
+      },
+      "addressPlaceholder": "Link d'invito Steam o 192.168.1.70",
+      "hint": {
+        "desktop": "INCOLLA UN LINK D'INVITO STEAM, O DIGITA L'INDIRIZZO DI RETE LOCALE O IL LINK DELL'HOST",
+        "mobile": "INDIRIZZO DELL'HOST DALLA SUA LOBBY: IP, IP:PORTA O IL LINK COMPLETO"
+      },
+      "needAddr": "INSERISCI L'INDIRIZZO DELL'HOST — es. 192.168.1.70",
+      "noIpv6": "GLI INDIRIZZI IPv6 NON SI POSSONO USARE QUI. CHIEDI ALL'HOST IL SUO INDIRIZZO IPv4 (es. 192.168.1.70)",
+      "looking": "RICERCA DI {host} …",
+      "portSeparator": " O ",
+      "silent": {
+        "desktop": "NESSUNA RISPOSTA DA {host} SU {ports}. CONTROLLA L'INDIRIZZO, VERIFICA CHE ENTRAMBI I COMPUTER SIANO SULLA STESSA RETE E CONTROLLA IL FIREWALL DELL'HOST",
+        "mobile": "NESSUNA RISPOSTA DA {host} SU {ports}. CONTROLLA L'INDIRIZZO, VERIFICA CHE ENTRAMBI I DISPOSITIVI SIANO SULLA STESSA WI-FI E CONSENTI EVENTUALI RICHIESTE DI ACCESSO ALLA RETE LOCALE"
+      },
+      "listener": "QUALCOSA RISPONDE A {address} MA NON SI È IDENTIFICATO COME PLANCIA. PROVO COMUNQUE; LA TUA CONSOLE CHIEDERÀ IL CODICE STANZA",
+      "found": "STANZA {room} TROVATA SU {host} — ATTENDI",
+      "foundNoRoom": "HOST TROVATO SU {host}. LA TUA CONSOLE CHIEDERÀ IL CODICE STANZA",
+      "unverified": "CHIAMATA A {address} SENZA VERIFICA. SE NON C'È NULLA, LA TUA CONSOLE RESTERÀ SULLA SCHERMATA DI ACCESSO",
+      "steamJoining": "ACCESSO ALLA PLANCIA STEAM …",
+      "steamRestarting": "ACCESSO ALLA PLANCIA STEAM — RIAVVIO COME EQUIPAGGIO REMOTO"
+    },
+    "standby": {
+      "hostDesktop": "IN HOSTING SU QUESTO COMPUTER — ATTENDI",
+      "hostPhone": "IN HOSTING SU QUESTO TELEFONO — ATTENDI",
+      "leaving": "USCITA DA QUESTA PLANCIA — FINE SERVIZIO"
+    },
+    "toolbar": {
+      "mainTab": "SCHERMO PRINC.",
+      "stationTab": "POSTAZIONE",
+      "popout": "STACCA",
+      "popoutTitle": "Apri lo schermo principale in una finestra separata",
+      "popoutShow": "MOSTRA FINESTRA",
+      "popoutRetry": "RIPROVA A STACCARE",
+      "join": "UNISCITI",
+      "joinTitle": "Smetti di ospitare e unisciti a un'altra plancia",
+      "leave": "LASCIA PLANCIA",
+      "invite": "INVITA AMICI",
+      "lanPhones": "TELEFONI: {phones} · SCHERMO PRINCIPALE: {main}",
+      "lanRemote": "PLANCIA REMOTA · STANZA {room}",
+      "lanJoined": "HOST {host} · STANZA {room}",
+      "askOnConsole": "DALLA TUA CONSOLE",
+      "mainFrameTitle": "Schermo princ.",
+      "stationFrameTitle": "Postazione",
+      "bridgeMissing": "bridge della shell assente — caricamento preload fallito"
+    },
+    "steam": {
+      "offline": "STEAM SCOLLEGATO",
+      "online": "IN LINEA",
+      "named": "STEAM: {name}",
+      "inviteFailed": "STEAM: INVITO NON RIUSCITO",
+      "friendsOpen": "STEAM: LISTA AMICI APERTA"
+    },
+    "boot": {
+      "poweringBridge": "ACCENSIONE PLANCIA",
+      "startingCore": "AVVIO NUCLEO NODE",
+      "unpacking": "ESTRAZIONE DATI DI GIOCO",
+      "unpackingPercent": "ESTRAZIONE DATI DI GIOCO · {pct}%",
+      "firstLaunchOnly": "solo al primo avvio — i successivi saranno rapidi",
+      "waiting": "ATTESA DEI SISTEMI DI PLANCIA",
+      "elapsed": "{line} · {seconds}s",
+      "checkingLan": "VERIFICA RETE LAN",
+      "bridgeUp": "PLANCIA OK",
+      "joining": "INGRESSO IN PLANCIA",
+      "leaving": "USCITA DA QUESTA PLANCIA",
+      "leavingDetail": "fine servizio",
+      "standingBy": "PLANCIA IN ATTESA",
+      "standingByDetail": "ospita la partita o unisciti a un'altra",
+      "coreStopped": "NUCLEO PLANCIA FERMO",
+      "coreUnresponsive": "NUCLEO PLANCIA NON RISPONDE",
+      "coreLost": "NUCLEO PLANCIA PERSO IN SECONDO PIANO",
+      "forceClose": "forza la chiusura dell'app e riavviala"
+    },
+    "chip": {
+      "station": "📺 TV",
+      "stationLabel": "Vai allo schermo principale",
+      "leave": "⏏ ESCI",
+      "leaveLabel": "Lascia questa plancia",
+      "frameTitle": "Space Couch Command: schermo principale"
+    }
+  }
+}

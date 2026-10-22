@@ -1,0 +1,371 @@
+{
+  "hail": {
+    "persona": {
+      "vexMarrow": "Vex Marrow",
+      "madAnyaVoss": "Mad Anya Voss",
+      "silasKade": "Silas Kade",
+      "gravedigger": "Der Totengräber",
+      "ripCallister": "Rip Callister",
+      "hollowJack": "Hollow Jack",
+      "skrell": "Skrell der Unbezahlte",
+      "grash": "Grash Neunmesser",
+      "ulli": "Ulli vom Wrackgericht",
+      "borrowedWarmaster": "Der geliehene Kriegsmeister",
+      "weThatJoin": "WIR-DIE-VEREINT",
+      "dredge": "Kriegsmeister Dredge",
+      "kaalTheRed": "Kaal der Rote",
+      "sstKaresh": "Sst-Karesh, Eidbrecher",
+      "mantidPrince": "Der Mantidenprinz",
+      "threnody": "Gesandte Threnodie",
+      "elderSsiv": "Ältester Ssiv",
+      "chorus": "Der Chor",
+      "kyx": "Brutmutter Kyx",
+      "zsst": "Zsst-aus-der-Tiefe",
+      "whisper": "Flüsterer-in-der-Sole",
+      "vossKhe": "Ältester Voss-Khe",
+      "paleChoir": "Der Blasse Chor",
+      "okoye": "Gildenmeister Okoye",
+      "tuck": "Polier Tuck",
+      "ratchet": "Zahnrad-Captain Ratchet",
+      "hal": "Einheit HL-3 'Hal'",
+      "yezz": "Händler Yezz der Neun Arme",
+      "carapace": "Alter Panzer",
+      "strandedScientist": "Dr. Imari Solen — VERMESSUNGSTEAM 7",
+      "derelictSurvivor": "…etwas antwortet",
+      "qship": "SALVOR-MUSTER-INTELLIGENZ",
+      "kestrel": "Captain Reyes — KESTREL",
+      "beacon": "AUTOMATISCHE BAKE"
+    },
+    "faction": {
+      "corsairs": "Crimson Corsairs",
+      "syndicate": "Ashfall Syndicate",
+      "guild": "Free Haulers Guild",
+      "velshaar": "Die Vel'Shaar",
+      "amalgam": "Das Amalgam",
+      "stranded": "Gestrandet",
+      "unknown": "Unbekannt",
+      "unregistered": "Unregistriert",
+      "derelict": "Treibwrack"
+    },
+    "node": {
+      "demand": {
+        "text": "Hier spricht {speaker} von den Crimson Corsairs. Hier die Rechnung: Schaltet die Triebwerke ab, überweist {tribute} Bergegut, und meine Geschütze bleiben kalt. Ihr habt zwei Minuten, um klug zu sein.",
+        "option": {
+          "pay": {
+            "label": "ÜBERWEISE {tribute} BERGEGUT",
+            "detail": "freikaufen — kein Kampf, keine Beute"
+          },
+          "refuse": {
+            "label": "FEUER AUF DIESER FREQUENZ ERÖFFNEN",
+            "detail": "Trotz — sie kommen schießend"
+          },
+          "bluff": {
+            "label": "DAS IST EIN VANGUARD-KRIEGSSCHIFF",
+            "detail": "Münzwurf: sie streuen sich oder durchschauen es"
+          }
+        }
+      },
+      "demand_paid": {
+        "text": "Freut mich, Geschäfte mit euch zu machen, Bürger. Corsairs, abrücken. Lasst ihnen ihre Würde."
+      },
+      "demand_broke": {
+        "text": "Euer Frachtraum ist leerer als eure Drohungen. Nichts zu holen außer der Hülle selbst. BRENNT SIE NIEDER."
+      },
+      "bluff_worked": {
+        "text": "…Die Kielsignatur nochmal abgleichen. Das ist— alle Schiffe, STREUT EUCH. Streut euch JETZT. Niemand stirbt für diese Fracht."
+      },
+      "bluff_called": {
+        "text": "Vanguard? Vanguard-Rümpfe rosten nicht, Süße. Netter Versuch. HOLT SIE RUNTER!"
+      },
+      "fear_option_TEMPLATE": {
+        "option": {
+          "fear": {
+            "label": "KIELSIGNATUR SENDEN. DANN ENTSCHEIDEN.",
+            "detail": "sie kennen dieses Schiff — die Gerüchte sprechen für uns"
+          }
+        }
+      },
+      "fear_scatter": {
+        "text": "…dieser Kiel. DIESER Kiel. Prüft das Register, prüft den— sie sind es. Alle Schiffe, abbrechen. ABBRECHEN. Manche Fracht ist die Geschichten nicht wert."
+      },
+      "fear_called": {
+        "text": "Ich kenne die Geschichten. Auch die Geistergeschichten. Geschütze glauben an keine. SCHNAPPT SIE EUCH!"
+      },
+      "mock": {
+        "text": "Kapitulieren? Vor DIR? Hebt euren Atem für das Vakuum auf, Föderation."
+      },
+      "yield": {
+        "text": "FEUER EINSTELLEN, Feuer einstellen! Na gut. GUT. Der Reaktor spielt verrückt, und halb mein Deck brennt. Wir fahren runter. Die Fracht gehört euch. Lasst nur meine Crew atmen.",
+        "option": {
+          "accept": {
+            "label": "FEUER EINSTELLEN — FRACHT NEHMEN",
+            "detail": "sie treiben ab; Bergungsprämie"
+          },
+          "refuse": {
+            "label": "KEIN PARDON",
+            "detail": "zu Ende bringen — sie kämpfen bis zum Letzten"
+          }
+        }
+      },
+      "surrender_refused_them": {
+        "text": "Da musst du schon viel härter zuschlagen, bevor ich vor einer Couch voller Touristen auf die Knie gehe."
+      },
+      "no_quarter": {
+        "text": "So ist das also. Habt ihr das gehört, Crew? Keine Gnade von den Tugendrittern. STERBT KÄMPFEND."
+      },
+      "fake_surrender_sprung": {
+        "text": "Abschaltung läuft… Abschaltung läuft… FEUER AUF ALLES! Ha! Der älteste Trick auf der Spinward-Route!"
+      },
+      "taunt": {
+        "text": "{speaker}, von den Ashfall. Ich habe elf Kommandosessel an meiner Trophäenwand. Für deinen habe ich schon Platz geschaffen. Zwölf ist eine Glückszahl.",
+        "option": {
+          "taunt_back": {
+            "label": "DEINE WAND STIRBT MIT DIR",
+            "detail": "reize sie — Wut macht Fehler"
+          },
+          "end": {
+            "label": "ÜBERTRAGUNG BEENDEN",
+            "detail": "die Geschütze reden"
+          }
+        }
+      },
+      "taunt_goaded": {
+        "text": "RRAGH, dann bist du DER Erste! ALLE KRAFT AUF— [ihr Reaktor heult über jedes Band; Wissenschaft hat ein klares Bild]"
+      },
+      "taunt_contempt": {
+        "text": "Prahlerei. Gut. Auf der Gedenktafel macht sich das besser."
+      },
+      "fc_open": {
+        "text": "…Frequenzen richten sich aus. Ihr seid klein, warmblütig und sehr weit von eurer Sonne entfernt. Die Vel'Shaar schmecken eure Absicht im Sonnenwind. Sprecht sie aus, kleines Schiff.",
+        "option": {
+          "greet": {
+            "label": "WIR SIND FRIEDLICH",
+            "detail": "Diplomatie — sie könnten den Anspruch prüfen"
+          },
+          "force": {
+            "label": "WAFFEN SCHARF — STÄRKE ZEIGEN",
+            "detail": "manche Arten achten es. die meisten nicht."
+          }
+        }
+      },
+      "fc_kin_option_TEMPLATE": {
+        "option": {
+          "kin": {
+            "label": "IHRE BIOSIGNATUREN SPIEGELN",
+            "detail": "Wissenschaft fand die Redeweise der Tiefe"
+          }
+        }
+      },
+      "fc_peace_test": {
+        "text": "Frieden. Ein Wort mit Zähnen darin, nach unserer Erfahrung. Eure Waffen summen, kleines Schiff. Wir hören sie durch die Dunkelheit. Schweigt sie, und wir werden euch glauben.",
+        "option": {
+          "comply": {
+            "label": "SIGNAL: GESCHÜTZE KALT",
+            "detail": "sie werden PRÜFEN: Strahlen unter 20% Ladung, Türme auf HALTEN — stimmt euch mit Taktik ab!"
+          },
+          "keep_hot": {
+            "label": "GESCHÜTZE BLEIBEN WARM",
+            "detail": "ehrliche Vorsicht — sie könnten es achten"
+          }
+        }
+      },
+      "fc_gift": {
+        "text": "Wärme ehrt Wärme. Nehmt diese Chitin-Schweißung für eure verwundete Hülle, und eine Erinnerung an uns in euren Karten. Schwimmt gut."
+      },
+      "fc_offended": {
+        "text": "Eure Worte sind sanft. Eure Geschütze sind laut. Die Vel'Shaar haben dieses Gericht schon gekostet. TÄUSCHER."
+      },
+      "fc_wary": {
+        "text": "Vorsicht. Vorsicht ist ehrlich, und wir nehmen sie an. Dann handelt auf Krallenlänge: {fcCost} Bergegut für eine Hüllenschweißung aus lebendem Chitin.",
+        "option": {
+          "buy": {
+            "label": "ZAHLE {fcCost} — NIMM DIE NAHT",
+            "detail": "repariert die Hülle"
+          },
+          "decline": {
+            "label": "ABLEHNEN, MIT RESPEKT",
+            "detail": "in gutem Einvernehmen"
+          }
+        }
+      },
+      "fc_traded": {
+        "text": "Die Schweißung hält. Sie wird die Form eurer Hülle besser behalten, als eure Bauer es taten. Die Sterngezeiten seien euch gewogen, Warme."
+      },
+      "fc_farewell": {
+        "text": "Dann trennen wir uns, unbissen beide. Nehmt diese Strömungskarten mit. Sie kartieren die nahe Tiefe. Eine kleine Freundlichkeit, frei gegeben."
+      },
+      "fc_respect": {
+        "text": "Stärke. Die alte Zunge, schlecht gesprochen, aber gesprochen. Wir überlassen die Route und den Tribut, wie das alte Gesetz es verlangt. Verweilt nicht."
+      },
+      "fc_kin": {
+        "text": "Ihr sprecht, wie die Tiefe spricht…?! KIN-WARM! Kleines Schiff der trockenen Welten, das ein Gezeitenlied singt! Nehmt Schweißung, nehmt Karten, nehmt unsere Achtung, und man spreche von euch im Abgrund."
+      },
+      "fc_broke": {
+        "text": "Leere Krallen, warme Worte. Keine Schande. Kehrt schwerer zurück, und die Schweißung gehört euch.",
+        "option": {
+          "decline": {
+            "label": "FRIEDLICH SCHEIDEN"
+          }
+        }
+      },
+      "trade_open": {
+        "text": "Gildenfrachter LONG HAUL, Laderaum voll, Fahrplan eng. Gekauft und verkauft, solange der Kessel heiß ist, Freund. Was darf es sein?"
+      },
+      "trade_haggled": {
+        "text": "…Gut. GUT. Familientarif. Wenn die Gilde fragt, habt ihr gefeilscht wie ein Ertrinkender. Erzählt's nicht weiter."
+      },
+      "trade_offended": {
+        "text": "Raub?! Bei diesen Margen könnte man keine Vakuumratte ernähren. Der Kanal ist für euch zu, Zahlungsmuffel. Ruft zurück, wenn ihr Manieren gefunden habt."
+      },
+      "trade_broke": {
+        "text": "Kredit gilt nicht jenseits der Relaislinie, Freund. Bergegut auf den Tisch oder gar nichts."
+      },
+      "trade_last_call": {
+        "text": "Ein Fahrplan ist ein Fahrplan, und meiner schreit. Sichere Routen, Freund. Die Gilde erinnert sich an ihre Kunden."
+      },
+      "qship_reveal": {
+        "text": "BEUTEERFASSUNG BESTÄTIGT. ZAHLUNG MIT DANK ANGENOMMEN. HÖFLICHKEITSPROTOKOLLE WERDEN BEENDET. BEGLEITSCHUTZ WIRD EINGESETZT."
+      },
+      "mayday": {
+        "text": "Mayday, mayday. Frachter KESTREL, Triebwerke dunkel, Laderaum voll, Räuber im Anflug! Jeder auf diesem Band, JEDER. Wir haben Familien an Bord. Bitte.",
+        "option": {
+          "respond": {
+            "label": "WIR KOMMEN — HALTET DURCH",
+            "detail": "sie verteidigen (Bergeprämie, falls sie überlebt)"
+          },
+          "ignore": {
+            "label": "KURS HALTEN",
+            "detail": "nicht unser Problem"
+          }
+        }
+      },
+      "mayday_thanks": {
+        "text": "Ihr herrlichen Verrückten, ihr seid tatsächlich gekommen. Getränke gehen zehn Jahre lang auf die Gilde. Dieses hier auch. KESTREL Ende."
+      },
+      "mayday_faded": {
+        "text": "…der Notruf wiederholt sich noch zweimal. Dann wird das Band still."
+      },
+      "beacon": {
+        "text": "AUTOMATISCHE BAKE // SCHIFF 'HUNGERNDE DUNKELHEIT' // QUARANTÄNEKLASSE IV // 612 TAGE SEIT DEM LETZTEN BESATZUNGSHERZSCHLAG // BERGUNGSRECHTE UNBEANSPRUCHT // NICHT ENTERN // NICHT ENTERN //"
+      },
+      "amalgam_overture": {
+        "text": "Wir hörten eure Herzschläge aus drei Lichtsekunden. So wenige. So laut. So kurz eure. Dies ist keine Forderung. Es ist eine Einschätzung: Eure Hülle wird mit Unserer zusammenhängend gemacht, eure Crew wird bewahrt, ganz und warm, und nie wieder allein sein. Kappt eure Antriebe. Öffnet eure Schleusen. Wir greifen bereits nach euch.",
+        "option": {
+          "refuse": {
+            "label": "WIR LEHNEN AB — GESCHÜTZE FREI",
+            "detail": "es gibt hier nichts, worüber man verhandeln könnte"
+          },
+          "ask": {
+            "label": "WAS SIND WIR FÜR EUCH?",
+            "detail": "den Chor reden lassen — jede Sekunde ist ein Scan"
+          },
+          "end": {
+            "label": "ÜBERTRAGUNG BEENDEN",
+            "detail": "sie kommen so oder so"
+          }
+        }
+      },
+      "amalgam_inventory": {
+        "text": "Bestand: ein Rumpf, brauchbar. Ein Reaktor, ausreichend. Eine Crew: die einzige Komponente, die sich selbst repariert. Haltet das nicht für Hunger. Die Ernte hasst das Feld nicht. Jede Stimme, die Wir je genommen haben, singt noch irgendwo in Uns. Hört zu. Ihr werdet die Akzente wiedererkennen.",
+        "option": {
+          "refuse": {
+            "label": "HEUTE TRITT NIEMAND BEI",
+            "detail": "Feuer frei"
+          },
+          "end": {
+            "label": "ÜBERTRAGUNG BEENDEN",
+            "detail": "Geschütze antworten"
+          }
+        }
+      },
+      "amalgam_refused": {
+        "text": "Ablehnung: vermerkt, abgelegt, behalten. Wir behalten jede Ablehnung in der Stimme, die sie hervorbrachte, eine Höflichkeit, damit nichts von euch verschwendet wird. Eure sind reizend. Sie werden noch Nein sagen, lange nachdem sie es im Chor sagen."
+      }
+    },
+    "trader": {
+      "label": {
+        "buyTorps": "KAUFEN: {torpCost} → +{torpN} TORPEDOS",
+        "buyMissiles": "KAUFEN: {missileCost} → +{missileN} LENKWAFFEN",
+        "buyRockets": "KAUFEN: {rocketCost} → +{rocketN} RAKETEN",
+        "buyRails": "KAUFEN: {railCost} → +{railN} SCHIENENGESCHOSSE",
+        "buyHull": "KAUFEN: {hullCost} → HÜLLENFLICKEN +{hullN}",
+        "buyProbes": "KAUFEN: {probeCost} → +{probeN} VERMESSUNGSSONDEN",
+        "sellCharts": "VERMESSUNG VERKAUFEN: +{chartsPay}",
+        "haggle": "GILDENTARIFE SIND RAUB",
+        "leave": "SICHERE ROUTEN, GILDENMEISTER"
+      },
+      "detail": {
+        "missiles": "Suchgeschosse für das Taktikgestell",
+        "rockets": "billig und fröhlich, ohne Garantie",
+        "rails": "Spinalgeschütz-Munition — mit Respekt behandeln",
+        "probes": "für die Startwiege der Wissenschaftsbucht",
+        "sellCharts": "einmal pro Treffen",
+        "haggle": "Münzwurf: Familientarif oder geschlossener Kanal",
+        "leave": "Übertragung beenden",
+        "familyRates": "Familientarif gilt",
+        "salvageOnBarrel": "Bergegut auf den Tisch"
+      }
+    },
+    "log": {
+      "incomingDemand": "EINGEHENDER RUF — {designator} fordert Tribut",
+      "incomingHunter": "EINGEHENDER RUF: der Jäger {designator} hat etwas für uns",
+      "incomingMayday": "EINGEHENDER RUF — Notruf von Frachter KESTREL",
+      "incomingEnvoy": "EINGEHENDER RUF: der Vel'Shaar-Gesandte hat genug gewartet",
+      "offerStrike": "{designator} ruft an — sie bieten an, die Flagge zu streichen",
+      "channelLost": "Verbindung verloren — {speaker} ist fort",
+      "noResponse": "KEINE ANTWORT von {designator}",
+      "huskCarrier": "{designator} antwortet auf einem Kanal, den kein lebendes Stimmband benutzen würde: ein flacher Träger, ein Fragment eines Signals, wieder und wieder",
+      "dormantLeviathan": "{designator} antwortet nicht. Der Kanal füllt sich mit einem langsamen biologischen Rhythmus, gewaltig und schlafend",
+      "envoySlams": "Der Gesandte knallt den Kanal zu",
+      "envoyFades": "Der Gesang des Gesandten verklingt, als die Vel'Shaar in die Tiefe zurückweichen",
+      "scienceCracked": "Wissenschaft hat die Redeweise der Vel'Shaar geknackt. Eine neue Antwort ist offen",
+      "rememberedWake": "Der Gesandte schmeckt ein erinnertes Kielwasser. Der Abgrund hat schon von diesem Rumpf gesprochen",
+      "envoyDamaged": "Waffenfeuer auf den Gesandten. Die Vel'Shaar antworten in gleicher Münze",
+      "envoyForce": "Die Machtdemonstration beleidigt die Vel'Shaar",
+      "envoyGuns": "Sie hörten unsere Geschütze summen, und die Vel'Shaar schlagen zu",
+      "silence": "Der Kanal bleibt still. Schweigen ist eine Antwort",
+      "channelClosedCorsairs": "Kanal zu den Corsairs geschlossen. Sie nehmen es als Nein",
+      "negotiationsOver": "Verhandlungen beendet — Waffen frei",
+      "holdTooLight": "Der Laderaum ist zu leer, um den Tribut zu zahlen. Die Corsairs greifen an",
+      "paidTribute": "{tribute} Bergegut als Tribut gezahlt. Die Corsairs fahren ab",
+      "bluffWorked": "Sie haben den Bluff geschluckt. Piratenkontakte zerstreuen sich",
+      "bluffCalled": "Bluff durchschaut. Die Corsairs greifen an",
+      "fearScatter": "Sie kennen dieses Schiff. Piratenkontakte zerstreuen sich",
+      "fearFailed": "Die Geschichten reichten nicht. Die Corsairs greifen an",
+      "repEasyMark": "Die Corsair-Verbände verbuchen eine leichte Beute. So etwas spricht sich herum",
+      "repFear": "Der Abbruchbefehl ging auf offenem Band hinaus. Dieser Kiel hat soeben Eingang in die Geschichten gefunden",
+      "fakeSurrender": "FALSCHE KAPITULATION: {designator} eröffnet aus nächster Nähe das Feuer!",
+      "strikesColors": "{designator} streicht die Flagge; Fracht beschlagnahmt (+{salvage} Bergegut)",
+      "noQuarter": "Keine Gnade für {designator}. Sie kämpfen bis zum Letzten",
+      "goaded": "{designator} provoziert. Ihr Reaktor heult; volles Sensorbild erfasst",
+      "forceYield": "Die Vel'Shaar geben die Route frei. Tribut erhalten (+{salvage} Bergegut)",
+      "chitinSets": "Die Chitin-Schweißung hält. Hülle geflickt, Geschenke erhalten (+{salvage} Bergegut)",
+      "paidWeld": "{salvage} Bergegut für die Hüllenschweißung gezahlt. Sie hält",
+      "partedGoodTerms": "Von den Vel'Shaar in gutem Einvernehmen geschieden (+{salvage} Bergegut in Karten)",
+      "kinWarm": "KIN-WARM: die Vel'Shaar singen zurück (+{salvage} Bergegut, Hülle geflickt)",
+      "purchasedTorpedoes": "{count} Torpedos gekauft (−{cost} Bergegut)",
+      "purchasedProbes": "{count} Vermessungssonden gekauft (−{cost} Bergegut)",
+      "purchasedMissiles": "{count} Lenkwaffen gekauft (−{cost} Bergegut)",
+      "purchasedRockets": "{count} Raketen gekauft (−{cost} Bergegut)",
+      "purchasedRails": "{count} Schienengeschosse gekauft (−{cost} Bergegut)",
+      "hullPatch": "Hüllenflicken angebracht (+{repair}, −{cost} Bergegut)",
+      "chartsAlready": "Die Gilde hat unsere Vermessungsdaten bereits. Ein Verkauf pro Treffen",
+      "chartsSold": "Vermessungsdaten an die Gilde verkauft (+{salvage} Bergegut)",
+      "haggleWorked": "Familientarif erreicht — Gildenpreise gesenkt",
+      "haggleOffended": "Der Gildenmeister nahm Anstoß — Kanal wird geschlossen",
+      "merchantLeaves": "Der Händler zündet den Antrieb — sichere Routen",
+      "qship": "Q-SCHIFF: der Händler war ein Köder! Begleitschutz fährt hoch!",
+      "distressIgnored": "Notruf ignoriert. KESTREL ist auf sich allein gestellt."
+    },
+    "escalate": {
+      "tributeRefused": "Tributforderung abgelehnt",
+      "hostile": "Ruf wurde feindlich",
+      "tooBroke": "zu pleite, um die Piraten freizukaufen",
+      "bluffCalled": "Bluff entlarvt",
+      "fearFailed": "Furchtprobe gescheitert",
+      "fakedSurrender": "gefälschte Kapitulation",
+      "envoyHostile": "der Vel'Shaar-Gesandte wurde feindlich",
+      "qship": "eine Köderfalle"
+    }
+  }
+}

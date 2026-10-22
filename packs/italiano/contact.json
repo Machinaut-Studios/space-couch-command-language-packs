@@ -1,0 +1,27 @@
+{
+  "contact": {
+    "class": {
+      "raptor": "Caccia classe Raptor",
+      "corsair": "Intercettore Corsair",
+      "reaver": "Scialuppa Reaver",
+      "envoy": "Emissario Vel'Shaar",
+      "basilisk": "Lancia d'artiglieria Basilisk",
+      "swarm": "Drone da sciame Sentinel",
+      "collector": "Reticolo mietitore Collector",
+      "leviathan": "Leviatano stellare — clade abissale vivente",
+      "chimera": "Incrociatore biomeccanico Chimera"
+    },
+    "derelictHulk": "Relitto abbandonato",
+    "guildFreighter": "Mercantile della Gilda LONG HAUL",
+    "freighterKestrel": "Mercantile KESTREL",
+    "voidGuardian": "Drone Sentinel — guardiano del Void",
+    "sentinelPrime": "SENTINEL PRIME — nucleo dello sciame",
+    "husk": "GUSCIO {class}",
+    "huskSentinelPrime": "GUSCIO SENTINEL PRIME — nucleo corrotto",
+    "transport": {
+      "meridian": "Trasporto coloniale MERIDIAN",
+      "larkspur": "Trasporto coloniale LARKSPUR",
+      "halcyonDawn": "Trasporto coloniale HALCYON DAWN"
+    }
+  }
+}

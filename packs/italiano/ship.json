@@ -1,0 +1,60 @@
+{
+  "ship": {
+    "class": {
+      "wren": {
+        "label": "WREN",
+        "blurb": "Lancia monoposto: un solo sedile, e ogni compito a bordo è tuo.",
+        "subtitle": "1 POSTO · LANCIA",
+        "tagline": "Un solo posto, e ogni compito a bordo è tuo."
+      },
+      "cutter": {
+        "label": "SPARROW",
+        "blurb": "Cutter a 2 posti: veloce, fragile, e tutti fanno tutto.",
+        "subtitle": "2 POSTI · CUTTER",
+        "tagline": "Veloce, fragile, e tutti fanno tutto."
+      },
+      "corvette": {
+        "label": "TALON",
+        "blurb": "Corvetta a 3 posti: il capitano pilota e parla.",
+        "subtitle": "3 POSTI · CORVETTA",
+        "tagline": "Il capitano pilota e parla."
+      },
+      "frigate": {
+        "label": "VANGUARD",
+        "blurb": "Fregata a 4 posti: un addetto dedicato per ogni sistema principale.",
+        "subtitle": "4 POSTI · FREGATA",
+        "tagline": "Un addetto dedicato per ogni sistema principale."
+      },
+      "cruiser": {
+        "label": "SOVEREIGN",
+        "blurb": "Incrociatore a 5 posti: la plancia classica, con il Capitano al comando dal divano.",
+        "subtitle": "5 POSTI · INCROC.",
+        "tagline": "La plancia classica, con il Capitano al comando dal divano."
+      },
+      "dreadnought": {
+        "label": "COLOSSUS",
+        "blurb": "Corazzata da 6+ posti: lenta e pesante, con artiglieri alle torrette.",
+        "subtitle": "6+ POSTI · CORAZZATA",
+        "tagline": "Lenta e pesante, con artiglieri alle torrette."
+      }
+    },
+    "seat": {
+      "command": "Comandante",
+      "helm_tac": "Pilota-Artigliere",
+      "ops": "Operazioni",
+      "sci_comms": "Scienze e Comunicazioni",
+      "engineer": "Ingegneria",
+      "helm": "Timone",
+      "tactical": "Tattica",
+      "sciops": "Scienze e Comunicazioni",
+      "science": "Scienze",
+      "comms": "Comunicazioni",
+      "cupola": "Artigliere Cupola",
+      "cannoneer_a": "Cannoniere — Phaser I",
+      "cannoneer_b": "Cannoniere — Phaser II",
+      "cannoneer_c": "Cannoniere — Phaser III",
+      "cannoneer_d": "Cannoniere — Phaser IV"
+    },
+    "cannoneerNote": "pensato per i membri più giovani"
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "view": {
+    "lobby": {
+      "wordmark": "SPACE COUCH COMMAND",
+      "shop": {
+        "button": "MIGLIORIE",
+        "buttonBanked": "MIGLIORIE ◈{banked}"
+      },
+      "back": "TORNA IN PLANCIA",
+      "key": {
+        "enter": "ENTER",
+        "esc": "ESC"
+      },
+      "tabs": {
+        "crew": "EQUIPAGGIO",
+        "crewCount": "EQ. {seated}/{core}",
+        "upgrades": "MIGLIORIE",
+        "upgradesBanked": "MIGLIORIE ◈{banked}",
+        "saved": "SALVATAGGI",
+        "savedCount": "SALVATAGGI {count}"
+      },
+      "pager": {
+        "more": "ANCORA {n}",
+        "top": "TORNA SU"
+      },
+      "seat": {
+        "short": {
+          "helm": "TIMONE",
+          "tactical": "TATTICA",
+          "engineer": "INGEGN.",
+          "science": "SCIENZE",
+          "comms": "COMUN.",
+          "helm_tac": "PILOTA",
+          "ops": "OPERAZ.",
+          "sci_comms": "SCI·COMUN.",
+          "sciops": "SCI·COMUN.",
+          "command": "COMANDANTE",
+          "cupola": "CUPOLA"
+        },
+        "open": "libera",
+        "cannoneers": "CANNONIERI · OPZIONALI",
+        "cannoneersShort": "CANNONI",
+        "noGunners": "0 SU {total}",
+        "gunnerMore": "{name} +{more}"
+      },
+      "join": {
+        "kickerRemote": "PLANCIA REMOTA",
+        "kickerNoNetwork": "NESSUNA RETE",
+        "kickerRoomCode": "CODICE STANZA",
+        "kickerMirror": "DUPLICA QUESTO SCHERMO",
+        "caption": "INQUADRA PER UNIRTI",
+        "captionMirror": "⚠ NON PER UNIRSI",
+        "remoteBody": "SIEDITI DA «POSTAZIONE» QUI SOPRA",
+        "noLanBody": "⚠ COLLEGA QUESTO DISPOSITIVO E I TELEFONI ALLA STESSA RETE WI-FI, POI RIAVVIA",
+        "copyLink": "COPIA LINK",
+        "copied": "COPIATO ✓",
+        "castJoinQr": "QR INGRESSO",
+        "castBackToJoinQr": "TORNA AL QR INGRESSO",
+        "castAnotherTv": "ALTRA TV",
+        "castShowOnAnotherTv": "MOSTRA SU UN'ALTRA TV"
+      },
+      "crew": {
+        "kicker": "EQUIP.",
+        "reconnecting": "⚠ RICONNESSIONE…",
+        "solo": "IN SOLITARIA? LA WREN SI PILOTA CON UNA SOLA POSTAZIONE",
+        "kickerNobody": "EQUIPAGGIO · ANCORA NESSUNO",
+        "kickerPicks": "EQUIPAGGIO · SI SCEGLIE LA POSTAZIONE DAL PROPRIO DISPOSITIVO",
+        "kickerNobodyShort": "POSTAZIONI VUOTE",
+        "guide": {
+          "step1": "PRENDI UNA POSTAZIONE",
+          "step2": "SCEGLI LÌ LA TUA POSTAZIONE",
+          "step2Sub": "OGNUNO SCEGLIE LA PROPRIA",
+          "step3Remote": "L'HOST AVVIA LA MISSIONE",
+          "step3Local": "SCEGLI UNA NAVE · POI PREMI AVVIA",
+          "thisComputerStation": "QUESTO COMPUTER · LA SCHEDA «POSTAZIONE»",
+          "thisPhoneMenu": "QUESTO TELEFONO · ☰ MENU ▸ APRI UNA POSTAZIONE QUI",
+          "everyoneScan": "TUTTI GLI ALTRI · INQUADRATE IL CODICE QR",
+          "phonesScan": "TELEFONI E TABLET · INQUADRATE IL CODICE QR",
+          "openLink": "APRI IL LINK IN UNA NUOVA SCHEDA",
+          "thisScreenOpenLink": "QUESTO SCHERMO · APRI IL LINK IN UNA NUOVA SCHEDA"
+        }
+      },
+      "launch": {
+        "cta": "AVVIA",
+        "waiting": "ATTENDO L'EQUIPAGGIO",
+        "crewed": {
+          "one": "{seated} SU {count} POSTAZIONE OCCUPATA · PRONTI: {ready}",
+          "many": "{seated} SU {count} POSTAZIONI OCCUPATE · PRONTI: {ready}",
+          "other": "{seated} SU {count} POSTAZIONI OCCUPATE · PRONTI: {ready}"
+        },
+        "crewedShort": "{seated}/{core} A BORDO · PRONTI {ready}",
+        "gunners": {
+          "one": "+{count} CANNONIERE",
+          "many": "+{count} CANNONIERI",
+          "other": "+{count} CANNONIERI"
+        },
+        "gunnersShort": "+{n} CANNONI",
+        "blocked": "⚠ NESSUNA POSTAZIONE OCCUPATA — PRENDINE PRIMA UNA",
+        "reconnecting": "⚠ {seat} IN RICONNESSIONE...",
+        "overwrites": "⚠ L'AVVIO SOVRASCRIVE IL SALVATAGGIO DI {name}",
+        "hostLaunches": "L'HOST AVVIA LA MISSIONE",
+        "hostLaunchesShort": "L'HOST AVVIA",
+        "openLinkTakeStation": "APRI IL LINK IN UNA NUOVA SCHEDA PER PRENDERE UNA POSTAZIONE",
+        "openLinkShort": "APRI IL LINK IN UNA NUOVA SCHEDA",
+        "scanTakeStation": "INQUADRA IL QR PER PRENDERE UNA POSTAZIONE",
+        "scanShort": "INQUADRA IL QR PER UNIRTI",
+        "newRunAs": "NUOVA MISSIONE: {name}",
+        "newRunUnnamed": "NUOVA MISSIONE · NAVE SENZA NOME",
+        "toastHullLoaded": "SCAFO DI {name} CARICATO — RIOCCUPATE LE POSTAZIONI E RIPRENDI",
+        "toastHullChanged": "SCAFO CAMBIATO — EQUIPAGGIO, RISCEGLIETE LE POSTAZIONI"
+      },
+      "saves": {
+        "kicker": "RIPRENDI UNA NAVE SALVATA",
+        "denyReason": "⚠ POSTAZIONI VUOTE — PRIMA OCCUPATELE",
+        "loadWarning": "⚠ PASSA A {label} — L'EQUIPAGGIO RISCEGLIE LE POSTAZIONI, POI RIPRENDI",
+        "resume": "RIPRENDI {name}",
+        "load": "CARICA {name}",
+        "crewCount": "{n} A BORDO",
+        "crewUnrecorded": "EQUIPAGGIO IGNOTO",
+        "sectorLine": "SETTORE {sector} · {label} · {crew}",
+        "sectorLineShort": "SETTORE {sector} · {label}",
+        "seatCrewFirst": "OCCUPA LE POSTAZIONI"
+      },
+      "ship": {
+        "kicker": "NAVE",
+        "nameKicker": "NOME NAVE",
+        "draftStrip": "NOME NAVE ▸ {draft}",
+        "stat": {
+          "hull": "SCAFO",
+          "reactor": "REATTORE",
+          "beams": "RAGGI",
+          "guns": "CANNONI",
+          "tubes": "TUBI",
+          "torps": "SILURI"
+        },
+        "statLineA": "SCAFO {hull} · REATT. {reactor} · RAGGI {beams}",
+        "statLineB": "CANNONI {guns} · TUBI {tubes} · SILURI {torps}",
+        "unseat": "⚠ CAMBIARE NAVE LIBERA LE POSTAZIONI ({n})",
+        "namePlaceholder": "NAVE SENZA NOME",
+        "verbName": "DAI NOME",
+        "verbRename": "RINOMINA",
+        "keySave": "SALVA",
+        "keyCancel": "ANNULLA",
+        "helperCollideEdit": "⚠ UNA NAVE SALVATA HA GIÀ QUESTO NOME — L'AVVIO LA SOVRASCRIVE",
+        "helperEditing": "TASTIERA ▸ FINE SALVA",
+        "helperCollide": "⚠ L'AVVIO SOVRASCRIVE QUESTO SALVATAGGIO"
+      },
+      "upgrades": {
+        "kicker": "MIGLIORIE",
+        "banked": "◈ {banked} IN CASSA",
+        "earn": "GUADAGNA ◈ ROTTAMI IN MISSIONE",
+        "bankedEarn": "◈ {banked} IN CASSA · GUADAGNA ROTTAMI IN MISSIONE",
+        "installed": "✓ INSTALLATO",
+        "alreadyInstalled": "✓ GIÀ INSTALLATO",
+        "buy": "COMPRA ◈ {cost}",
+        "buyPhone": "COMPRA ◈{cost}",
+        "needPhone": "SERVONO ◈{need}",
+        "need": "SERVONO ◈ {need}",
+        "needMore": "MANCANO ANCORA ◈ {need}",
+        "warnNeedMorePhone": "⚠ MANCANO ◈{need}",
+        "warnNeedMore": "⚠ MANCANO ◈ {need}"
+      }
+    },
+    "science": {
+      "idle": {
+        "title": "NESSUNA SCANSIONE",
+        "hint": "SCIENZE: SCEGLI UN CONTATTO DA SCANSIONARE"
+      },
+      "analysisCaption": "ANALISI",
+      "targetPointsCaption": "PUNTI BERSAGLIO",
+      "vitals": {
+        "hull": "SCAFO {cur}/{max}",
+        "shield": "SCUDI {cur}/{max}"
+      },
+      "spoolWarn": "⚠ CARICA DI SALTO RILEVATA — MOTORE DI FUGA {pct}%",
+      "probesAboard": "SONDE A BORDO {count}",
+      "classText": {
+        "unresolved": "ECO NON RISOLTA",
+        "unknown": "CLASSE IGNOTA — SCANSIONE IN CORSO"
+      },
+      "typeWord": {
+        "derelict": "RELITTO ABBANDONATO",
+        "mine": "MINA DI PROSSIMITÀ",
+        "friendly": "MERCANTILE CIVILE",
+        "asteroid": "ASTEROIDE",
+        "unknown": "OGGETTO SCONOSCIUTO"
+      },
+      "subRow": {
+        "online": "◈ {designator}",
+        "offline": "◈ {designator}  [FUORI USO]",
+        "empty": "NESSUN PUNTO BERSAGLIO — CONTINUA LA SCANSIONE"
+      }
+    },
+    "ui": {
+      "boot": {
+        "skipHint": {
+          "touch": "TIENI PREMUTO PER SALTARE",
+          "keyboard": "TIENI [SPAZIO] PER SALTARE"
+        },
+        "crewReady": "PRONTI {ready}/{total}",
+        "test": {
+          "mainframe": {
+            "label": "MAINFRAME ORACLE 9",
+            "status": "ATTIVO"
+          },
+          "memory": {
+            "label": "MEMORIA CENTRALE 262144K",
+            "status": "VERIFICATA"
+          },
+          "nav": {
+            "label": "COMPUTER DI NAVIGAZIONE",
+            "status": "NOMINALE"
+          },
+          "sensors": {
+            "label": "MATRICE SENSORI",
+            "status": "CALIBRATA"
+          },
+          "weapons": {
+            "label": "INTERBLOCCO ARMI",
+            "status": "SICURO"
+          },
+          "reactor": {
+            "label": "CONTENIMENTO REATTORE",
+            "status": "STABILE"
+          },
+          "lifeSupport": {
+            "label": "SUPPORTO VITALE"
+          },
+          "cryo": {
+            "label": "BAIA CRIOGENICA",
+            "status": "OCCUPANTI: {crew}"
+          },
+          "cartography": {
+            "label": "CARTOGRAFIA STELLARE",
+            "status": "CARICATA"
+          }
+        },
+        "line": {
+          "interfaceReady": "INTERFACCIA 2037 PRONTA",
+          "registry": "UES {ship} // REGISTRO 47-ND-1120",
+          "crew": "EQUIPAGGIO {crew} · IA 01 · MISSIONE: [CLASSIFICATA]",
+          "awaiting": "> IN ATTESA DI TRAFFICO PRIORITARIO . . ."
+        },
+        "defaultShip": "HERALD",
+        "signalDivider": "── SEGNALE IN ARRIVO ──",
+        "priorityHeader": "◉ PRIORITÀ UNO — TRASMISSIONE IN ARRIVO // COMANDO DELLA FLOTTA",
+        "transmission": {
+          "anomaly": "I sensori a lungo raggio hanno rilevato un'anomalia in rotta diretta verso le colonie interne: un VOID in movimento, una regione di spazio che non restituisce massa, né luce, né segnale.",
+          "orders": "Intercettatelo, trovatene l'origine, valutate la minaccia e fate rapporto."
+        },
+        "telemetry": {
+          "line": "> {line} ..... OK",
+          "plot": "CALCOLO VETTORE DI INTERCETTAZIONE",
+          "paging": "CARICAMENTO TABELLE NAV // CARTE DEI SETTORI",
+          "align": "ALLINEAMENTO PIATTAFORMA INERZIALE",
+          "spool": "CARICA CELLA DI PROVA DEL CONDENSATORE DI SALTO",
+          "crossCheck": "VERIFICA INCROCIATA DEI VALORI BASE DEI SENSORI",
+          "arming": "ATTIVAZIONE BUS TELEMETRICO",
+          "cryo": "CICLO DI RISVEGLIO CRIOGENICO COMPLETATO",
+          "stations": "LE POSTAZIONI DELL'EQUIPAGGIO RISPONDONO",
+          "uplink": "COLLEGAMENTO COMANDO DELLA FLOTTA: AGGANCIATO",
+          "signalFloor": "FONDO DI SEGNALE NOMINALE // NESSUN ECO DAL VOID"
+        },
+        "solution": "SOLUZIONE DI INTERCETTAZIONE {bar} {pct}%",
+        "ready": "SISTEMI PRONTI",
+        "begin": "► INIZIA LA MISSIONE"
+      },
+      "credits": {
+        "header": "SB-OS 2.4 // RICONOSCIMENTI",
+        "title": "SPACE COUCH COMMAND",
+        "soundtrack": "◇  COLONNA SONORA ORIGINALE  ◇",
+        "licence": "Musica concessa in licenza da White Bat Audio, usata con autorizzazione.",
+        "close": {
+          "touch": "TOCCA OVUNQUE PER CHIUDERE",
+          "keyboard": "ESC / C — CHIUDI"
+        }
+      },
+      "settings": {
+        "header": "SB-OS 2.4 // CONSOLE HOST",
+        "hint": {
+          "touch": "TOCCA UNA RIGA · TOCCA FUORI PER CHIUDERE",
+          "keysClose": "↑↓ SCEGLI · ENTER CONFERMA · ESC CHIUDI",
+          "keysResume": "↑↓ SCEGLI · ENTER CONFERMA · ESC RIPRENDI"
+        },
+        "row": {
+          "theme": "TEMA: {value}",
+          "themeWide": "TEMA: AMBRA",
+          "sound": "AUDIO: {value}",
+          "soundWide": "AUDIO: SPENTO",
+          "fullscreen": "SCHERMO INTERO: {value}",
+          "fullscreenWide": "SCHERMO INTERO: SPENTO",
+          "station": "APRI UNA POSTAZIONE QUI",
+          "joinHost": "UNISCITI A UN ALTRO HOST",
+          "credits": "RICONOSCIMENTI",
+          "close": "CHIUDI",
+          "resume": "RIPRENDI",
+          "restart": "RICOMINCIA MISSIONE",
+          "abandon": "ABBANDONA MISSIONE"
+        },
+        "desc": {
+          "theme": "CAMBIA LA PALETTE CRT (T)",
+          "sound": "ACCENDI O SPEGNI L'ALTOPARLANTE DI PLANCIA (M)",
+          "fullscreen": "RIEMPI TUTTO LO SCHERMO (F)",
+          "station": "TRASFORMA QUESTO SCHERMO IN UNA POSTAZIONE",
+          "joinHost": "SMETTI DI OSPITARE — TORNA A «OSPITA PARTITA / UNISCITI»",
+          "credits": "OMAGGIO ALLA COLONNA SONORA — WHITE BAT AUDIO (C)",
+          "closeLobby": "CHIUDI IL PANNELLO — TORNA ALLA LOBBY",
+          "resume": "CHIUDI IL PANNELLO — TORNA IN PLANCIA",
+          "restart": "RIPARTI DAL SETTORE 1",
+          "abandon": "INCASSA I ROTTAMI — TORNA ALLA LOBBY"
+        }
+      }
+    },
+    "game": {
+      "documentTitle": "Space Couch Command — Schermo principale",
+      "hud": {
+        "sector": {
+          "none": "SETTORE —",
+          "line": "SETTORE {n} — {label}"
+        },
+        "alert": {
+          "green": "ALLERTA VERDE",
+          "yellow": "ALLERTA GIALLA",
+          "red": "ALLERTA ROSSA"
+        },
+        "sysLabel": "SB-OS 2.4 // LINK PLANCIA",
+        "jump": {
+          "charge": "SALTO {pct}%",
+          "ready": "SALTO PRONTO"
+        },
+        "stats": "ROTTAMI {salvage} · ABBATT. {kills}",
+        "ribbon": "◍ TRASMISSIONE IN ARRIVO — COMUNICAZIONI",
+        "ordnance": {
+          "torpedo": {
+            "one": "⚠ SILURO IN ARRIVO",
+            "many": "⚠ SILURI ×{count} IN ARRIVO",
+            "other": "⚠ SILURI ×{count} IN ARRIVO"
+          },
+          "missile": {
+            "one": "⚠ MISSILE",
+            "many": "⚠ MISSILI ×{count}",
+            "other": "⚠ MISSILI ×{count}"
+          },
+          "rail": {
+            "one": "⚠ COLPO RAIL",
+            "many": "⚠ COLPI RAIL ×{count}",
+            "other": "⚠ COLPI RAIL ×{count}"
+          },
+          "rocket": {
+            "one": "⚠ RAZZO",
+            "many": "⚠ RAZZI ×{count}",
+            "other": "⚠ RAZZI ×{count}"
+          }
+        }
+      },
+      "titleCard": "SETTORE {n} — {label}",
+      "clear": {
+        "title": "SETTORE COMPLETATO",
+        "ready": "MOTORE A SALTO PRONTO — TIMONE: ESEGUI",
+        "spool": "CARICA IL MOTORE A SALTO PER PROSEGUIRE — CARICA SALTO {pct}%"
+      },
+      "gameOver": {
+        "shipLost": "NAVE PERDUTA",
+        "demoComplete": "DEMO COMPLETATA",
+        "stats": {
+          "sectorsFlown": "SETTORI PERCORSI",
+          "sectorsReached": "SETTORE MASSIMO",
+          "salvageBanked": "ROTTAMI IN CASSA",
+          "kills": "ABBATTIMENTI",
+          "coloniesSaved": "COLONIE SALVATE"
+        },
+        "restart": "▶ NUOVA MISSIONE  [ENTER]",
+        "lobby": "▷ TORNA ALLA LOBBY  [L]",
+        "hint": "ESC: MENU",
+        "cta": "◈ AGGIUNGI SPACE COUCH COMMAND AI DESIDERI STEAM"
+      },
+      "boot": {
+        "banner": "SB-OS 2.4 // SCHERMO DI PLANCIA",
+        "memory": "CONTROLLO MEMORIA ........ OK",
+        "phosphor": "MATRICE FOSFORI .......... OK",
+        "shipnet": "LINK SHIPNET ............. SINC",
+        "link": "COLLEGAMENTO PLANCIA STABILITO",
+        "fault": "GUASTO AL COLLEGAMENTO: {reason}"
+      },
+      "connection": {
+        "lost": "◍ SEGNALE PERSO — RICONNESSIONE…",
+        "failed": "◍ CONNESSIONE PERSA — RICARICA LA PAGINA"
+      },
+      "settingsValue": {
+        "theme": {
+          "green": "VERDE",
+          "amber": "AMBRA",
+          "mixed": "MISTO"
+        },
+        "on": "ACCESO",
+        "off": "SPENTO"
+      },
+      "muteKey": "M",
+      "music": {
+        "artist": "White Bat Audio",
+        "pack": {
+          "la2077": "LA 2077 Atmosphere Pack",
+          "darksynth": "Darksynth"
+        },
+        "track": {
+          "theMessage": "The Message",
+          "hourglass": "Hourglass",
+          "implantChip": "Implant Chip",
+          "lostInAStrangeCity": "Lost in a Strange City",
+          "neonAlley": "Neon Alley",
+          "policeWork": "Police Work",
+          "project31": "Project #31",
+          "itsAlmostDawn": "It's Almost Dawn",
+          "youreBeingFollowed": "You're Being Followed",
+          "surveillance": "Surveillance",
+          "corruption": "Corruption",
+          "ghostInTheMachine": "Ghost in the Machine",
+          "theHunter": "The Hunter",
+          "theNightstalkerOfChiba": "The Nightstalker of Chiba",
+          "upload": "Upload"
+        }
+      }
+    },
+    "stage": {
+      "comms": {
+        "idle": {
+          "title": "MONITOR CANALI",
+          "sub": "— NESSUNA TRASMISSIONE ATTIVA —",
+          "none": "NESSUN TRAFFICO",
+          "last": "ULTIMA TRASMISSIONE: {contact}"
+        },
+        "live": {
+          "label": "TRASMISSIONE IN DIRETTA",
+          "unknownContact": "CONTATTO SCONOSCIUTO",
+          "contactFaction": "{speaker} — {faction}",
+          "receiving": "◍ RICEZIONE TRASMISSIONE…",
+          "respCaption": "OPZIONI DI RISPOSTA — RISPONDE COMUNICAZIONI…",
+          "endTransmission": "◈ FINE TRASMISSIONE",
+          "expiryCaption": "TEMPO PER RISPONDERE",
+          "expirySecs": "{secs}s"
+        },
+        "signal": {
+          "title": "{label} — {designator}",
+          "unknownSignal": "SEGNALE SCONOSCIUTO",
+          "sub": "MONITOR PASSIVO — SOLO RICEZIONE · NESSUN CANALE DI RITORNO",
+          "listening": "· · · IN ASCOLTO",
+          "carrierBurst": "◍ IMPULSO PORTANTE"
+        }
+      },
+      "chart": {
+        "caption": "CARTA NAV // GALASSIA",
+        "sysTitle": "SISTEMA: {name}",
+        "legend": "● MAPPATO · ◌ FRONTIERA DI SEGNALE · SBIADITO = OLTRE I SENSORI",
+        "dest": "META ▸ {name}",
+        "destRandom": "SISTEMA CASUALE",
+        "destLocked": "FISSATA",
+        "uncharted": "INESPLORATO",
+        "destTag": "▸ META",
+        "debris": "⚠ DETRITI",
+        "idle": {
+          "title": "IN ATTESA DI CARTE",
+          "sub": "RILEVAMENTO A LUNGO RAGGIO IN CORSO"
+        }
+      },
+      "helm": {
+        "heading": "ROTTA",
+        "evasive": "EVASIVA",
+        "throttle": "MANETTA",
+        "jumpCharge": "CARICA SALTO",
+        "jumpReady": "PRONTO",
+        "jumpEngage": "CARICA SALTO — TIMONE: ESEGUI",
+        "jumpSpooling": "CARICA SALTO — IN CORSO",
+        "hazards": {
+          "caption": "PERICOLI VICINI",
+          "captionLock": "PERICOLI VICINI — MINA AGGANCIATA",
+          "captionNone": "PERICOLI VICINI — NESSUNO",
+          "asteroid": "AST   {designator} {dist}u",
+          "mine": "MINA  {name} {dist}u",
+          "mineLock": "MINA  {name} {dist}u ◀ AGGANCIO",
+          "unknownMine": "ignota"
+        }
+      },
+      "eng": {
+        "headline": "REATTORE {out} u/s · RICHIESTA {demand} u/s",
+        "overclock": "⚠ OVERCLOCK",
+        "colSystem": "SISTEMA",
+        "colIntegrity": "INTEGRITÀ",
+        "colPower": "ENERG. ASSEGN. / RICHIESTA",
+        "system": {
+          "reactor": "REATTORE",
+          "engines": "MOTORI",
+          "jumpDrive": "MOTORE A SALTO",
+          "lifeSupport": "SUPPORTO VITALE",
+          "sensors": "SENSORI",
+          "weapons": "ARMI",
+          "shields": "SCUDI"
+        },
+        "rowOffline": "{system}  [FUORI USO]",
+        "power": "{alloc}/{dem} u/s",
+        "idle": "fermo"
+      }
+    },
+    "mods": {
+      "title": "MOD",
+      "language": "LINGUA",
+      "languageRow": "LINGUA ▸ {value}",
+      "desc": {
+        "language": "SCEGLI LA LINGUA DEL GIOCO",
+        "mods": "PACCHETTI LINGUA INSTALLATI E CARTELLA MOD"
+      },
+      "close": {
+        "touch": "TOCCA FUORI PER CHIUDERE",
+        "keyboard": "SU / GIÙ — ENTER — ESC CHIUDE"
+      },
+      "english": "English",
+      "refresh": "AGGIORNA",
+      "exportTemplate": "ESPORTA MODELLO INGLESE",
+      "openFolder": "APRI CARTELLA MOD",
+      "empty": "Nessun pacchetto lingua installato.",
+      "noFolder": "Questo dispositivo non ha una cartella mod.",
+      "loading": "CARICAMENTO LINGUA…",
+      "exported": "Modello scritto in {path}",
+      "exportFailed": "Impossibile scrivere il modello",
+      "lobbyOnly": "LA LINGUA SI CAMBIA NELLA LOBBY",
+      "row": {
+        "coverage": "{percent}% TRADOTTO",
+        "version": "v{version}",
+        "author": "di {author}",
+        "clean": "NESSUN PROBLEMA",
+        "problems": {
+          "one": "{count} PROBLEMA",
+          "many": "{count} PROBLEMI",
+          "other": "{count} PROBLEMI"
+        },
+        "unusable": "INUTILIZZABILE"
+      }
+    }
+  }
+}

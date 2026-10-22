@@ -1,0 +1,18 @@
+{
+  "signal": {
+    "label": {
+      "phenomenon": "SEGNALE ANOMALO",
+      "organism": "SEGNALE BIOLOGICO",
+      "creatureSite": "SEGNALE RICORRENTE",
+      "mega": "PORTANTE STRUTTURATA",
+      "beacon": "FARO AUTOMATICO"
+    },
+    "tune": {
+      "phenomenon": "Comunicazioni si sintonizza su un segnale anomalo — {designator} in banda",
+      "organism": "Comunicazioni si sintonizza su un segnale biologico — {designator} in banda",
+      "creatureSite": "Comunicazioni si sintonizza su un segnale ricorrente — {designator} in banda",
+      "mega": "Comunicazioni si sintonizza su una portante strutturata — {designator} in banda",
+      "beacon": "Comunicazioni si sintonizza su un faro automatico — {designator} in banda"
+    }
+  }
+}

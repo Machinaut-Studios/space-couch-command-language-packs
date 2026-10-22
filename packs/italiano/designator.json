@@ -1,0 +1,35 @@
+{
+  "designator": {
+    "callsign": "{num} {word}",
+    "callsignSuffix": "{num} {word}-{i}",
+    "poi": "P-{n} {word}",
+    "nato": {
+      "alpha": "Alpha",
+      "bravo": "Bravo",
+      "charlie": "Charlie",
+      "delta": "Delta",
+      "echo": "Echo",
+      "foxtrot": "Foxtrot",
+      "golf": "Golf",
+      "hotel": "Hotel",
+      "india": "India",
+      "juliett": "Juliett",
+      "kilo": "Kilo",
+      "lima": "Lima",
+      "mike": "Mike",
+      "november": "November",
+      "oscar": "Oscar",
+      "papa": "Papa",
+      "quebec": "Quebec",
+      "romeo": "Romeo",
+      "sierra": "Sierra",
+      "tango": "Tango",
+      "uniform": "Uniform",
+      "victor": "Victor",
+      "whiskey": "Whiskey",
+      "xray": "X-ray",
+      "yankee": "Yankee",
+      "zulu": "Zulu"
+    }
+  }
+}

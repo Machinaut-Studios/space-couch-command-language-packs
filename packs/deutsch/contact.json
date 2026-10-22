@@ -1,0 +1,27 @@
+{
+ "contact": {
+  "class": {
+   "raptor": "Raptor-Jäger",
+   "corsair": "Corsair-Abfangjäger",
+   "reaver": "Reaver-Kutter",
+   "envoy": "Vel'Shaar-Gesandter",
+   "basilisk": "Basilisk-Artillerielanze",
+   "swarm": "Sentinel-Schwarmdrohne",
+   "collector": "Collector-Erntegitter",
+   "leviathan": "Sternenleviathan — lebende Tiefenklade",
+   "chimera": "Chimäre-Biomechkreuzer"
+  },
+  "derelictHulk": "Treibendes Wrack",
+  "guildFreighter": "Gildenfrachter LONG HAUL",
+  "freighterKestrel": "Frachter KESTREL",
+  "voidGuardian": "Sentinel-Drohne — Wächter der VOID",
+  "sentinelPrime": "SENTINEL PRIME — Schwarm-Nexus",
+  "husk": "HÜLLE {class}",
+  "huskSentinelPrime": "HÜLLE SENTINEL PRIME — korrumpierter Nexus",
+  "transport": {
+   "meridian": "Kolonietransporter MERIDIAN",
+   "larkspur": "Kolonietransporter LARKSPUR",
+   "halcyonDawn": "Kolonietransporter HALCYON DAWN"
+  }
+ }
+}

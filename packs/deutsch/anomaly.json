@@ -1,0 +1,679 @@
+{
+ "anomaly": {
+  "def": {
+   "verdant_world": {
+    "prefix": "UNBEKANNTER KÖRPER",
+    "label": "Grüne Welt — biotisch",
+    "scan": {
+     "m35": "Atmosphäre warm und feucht. Chlorophyll-Analogon auf jedem Band: Die ganze Welt betreibt Photosynthese.",
+     "m70": "Die Oberfläche löst sich auf: Rifftürme aus lebendem Glas, kilometerhoch, in Mustern wachsend. Die Muster wiederholen sich.",
+     "m100": "Die Türme pulsieren nacheinander, während wir darüber hinwegziehen. SHIPNET legt es als Gruß ab. Die Wissenschaft legt es als Wetter ab. Wir protokollieren beides."
+    },
+    "outcome": {
+     "hullBloom": "Sporenregen legt sich auf unsere Mikrometeoriten-Narben und härtet wie Schweißnaht aus (Hülle +{hull})",
+     "salvageCacheSmall": "Ein Aerobremsmanöver schöpft veredelte Organik ab (+{salvage} Bergegut)",
+     "nothing": "Keine Landung. Manche Gärten gehören nicht uns. Vermessung archiviert."
+    }
+   },
+   "cinder_world": {
+    "prefix": "UNBEKANNTER KÖRPER",
+    "label": "Glutwelt — toter Schmiedeofen",
+    "scan": {
+     "m35": "Oberflächentemperatur für Schlacke normal. Tektonische Narben in perfekten konzentrischen Ringen. Das war einmal Industrie.",
+     "m70": "Orbitaler Trümmerring: Gießereirahmen, Massenbeschleuniger-Schienen, alle kalt. Wer diese Schmiede betrieb, ist ausgelaufen und nie zurückgekehrt.",
+     "m100": "Tiefenradar zeigt den Mantel, bis ganz nach unten in hexagonale Galerien ausgehöhlt. Die ganze Welt war die Schmiede."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Der Trümmerring gibt intakte Legierungsbestände her (+{salvage} Bergegut)",
+     "radiationFlare": "Ein ruhender Massenbeschleuniger-Kondensator entlädt sich beim Vorbeiflug: {damage} Hülle über den Frontbogen",
+     "nothing": "Die Galerien sind leer. Selbst die Geister haben ausgestempelt. Vermessung archiviert."
+    }
+   },
+   "shrouded_giant": {
+    "prefix": "UNBEKANNTER KÖRPER",
+    "label": "Verhüllter Riese — Tiefensender",
+    "scan": {
+     "m35": "Wasserstoffhülle, Sturmzellen so groß wie Monde. Unter dem Rauschen: eine Trägerwelle. Künstlich. Geduldig.",
+     "m70": "Die Trägerwelle indiziert uns: Schiffsklasse, Masse, Waffenbestückung. Irgendetwas da unten führt sehr alte Bücher.",
+     "m100": "Die Übertragung endet mit einem Datenstoß direkt auf unsere Antenne. Feindlich ist er nicht: Es ist ein Verzeichnis aller anderen in diesem Sektor."
+    },
+    "outcome": {
+     "intel": "Das Hauptbuch dekodiert sauber: jeder Feind im Sektor, markiert und klassifiziert. Sensoren sind scharf.",
+     "nothing": "Das Hauptbuch ist weiter verschlüsselt, als wir reichen. Wir protokollieren die Bibliothekarin und ziehen weiter.",
+     "radiationFlare": "Eine Sturmzelle schlägt bei Ende des Stoßes an unseren Kiel: {damage} Hülle. Die Bibliothekarin verlangt eine Gebühr."
+    }
+   },
+   "hollow_moon": {
+    "prefix": "UNBEKANNTER KÖRPER",
+    "label": "Hohler Mond — resonierend",
+    "scan": {
+     "m35": "Ein gerissener Mond. Der Dichte-Scan sagt FALSCH: achtzig Prozent Leere, Wände von perfekter Stärke.",
+     "m70": "Die Hohlräume schwingen mit unseren Triebwerksharmonien mit. Er echot nicht uns. Er antwortet in gleicher Art.",
+     "m100": "Resonanzkarte vollständig: Das Innere ist eine einzige Kammer, geformt wie nichts, gestimmt wie eine Glocke. Wir werden sie nicht ein zweites Mal anschlagen."
+    },
+    "outcome": {
+     "nothing": "SHIPNET legt die Aufzeichnung unter UNGEKLÄRT ab. Manche Rätsel behalten ihre Gedanken für sich.",
+     "intel": "Die stehende Welle der Glocke trägt jeden Triebwerkston des Sektors zu uns zurück. Kontakte aufgelöst.",
+     "salvageCacheSmall": "Vermessungsrechte auf einen resonanten Körper bringen eine Finderprämie aus dem Gildenregister (+{salvage} Bergegut)"
+    }
+   },
+   "ringed_giant": {
+    "prefix": "UNBEKANNTER KÖRPER",
+    "label": "Beringter Koloss — Bänderriese",
+    "scan": {
+     "m35": "Das Ringsystem misst vierhunderttausend Kilometer von Rand zu Rand: geflochtenes Eis, von Hirtenmonden zusammengetrieben, das sich in einer Milliarde langsamer Kollisionen zermahlt. Die Bänder darunter drehen sich wie gegossene Bronze.",
+     "m70": "Ein Sturm, älter als unsere Art, reitet auf dem dritten Band: ein Antizyklon von der Größe eines Ozeans, bernsteinfarben gegen das Ammoniak. Seit zehntausend Jahren schließt und öffnet er dasselbe Auge.",
+     "m100": "Vermessung abgeschlossen. Die Ringe archivieren alles, was das System je zerbrochen hat: Monde, Kometen, Besucher. Irgendwo im Geflecht liegt immer etwas, das sich lohnt, an Bord zu kranen."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Bergegut aus dem Ringgeflecht: eisgefangene Wrackteile und Hirtenmond-Erz, aus dem Geflecht gekrant (+{salvage} Bergegut)",
+     "torpedoCache": "Eine Munitionskapsel treibt im äußeren Geflecht, vereist und intakt. Torpedo-Vorrat +{torpedoes}",
+     "radiationFlare": "Die Magnetosphäre schlägt eine Peitsche aus geladenem Ringstaub über unseren Bug",
+     "nothing": "Der Riese behält seine Ringe und sein Wetter. Vermessung archiviert. Die Couch wird die Bilder wollen."
+    }
+   },
+   "icefall_comet": {
+    "prefix": "SCHNELLES ECHO",
+    "label": "Eisfall-Komet — Langperioden-Wanderer",
+    "scan": {
+     "m35": "Kern aus Urzeit-Eis, stark ausgasend auf der Sonnenseite. Der Schweif zieht tausend Kilometer Glitzern hinter sich her. Er wird für uns nicht langsamer.",
+     "m70": "Spektrometrie durch die Koma zeigt Wassereis, Methan und Organik sowie eine Ader von etwas Raffiniertem. Dieser Schneeball hat schon Dinge getroffen und die Trümmer behalten.",
+     "m100": "Volle Serie im Kasten. Er fällt, seit es Kolonien gibt, und er wird noch fallen, wenn das Protokoll Staub ist. Halte Schritt, wenn du seine Fracht willst."
+    },
+    "outcome": {
+     "salvageCacheSmall": "Flüchtiges Eis im Frachtraum blitzverarbeitet. Die Gilde zahlt für saubere Reaktionsmasse (+{salvage} Bergegut)",
+     "probeCache": "Eine alte Vermessungssonde reitet auf dem Kern, eisverschweißt und ruhend. Aufbereitungscrews bergen +{probes} Sonden",
+     "nothing": "Er fällt weiter. Wir fliegen weiter. Allein die Bilder waren die Jagd wert."
+    }
+   },
+   "leviathan_husk": {
+    "prefix": "MASSIVES ECHO",
+    "label": "Leviathan-Hülle — Tiefenklade",
+    "scan": {
+     "m35": "Organische Hülle, gewachsen statt gebaut. Die Klade-Marker der Vel'Shaar stimmen nicht. Älter. Eine Tiefenklade, von der die Gesandten nicht singen.",
+     "m70": "Wundanalyse: Er ist im Kampf gestorben. Die Waffe, die seine Flanke öffnete, ist in keinem SHIPNET-Register verzeichnet. Er floh hierher, um zu sterben.",
+     "m100": "Herzkammern kalt. Markkammern ehrlich versiegelt. Was ihn tötete, kam nie hinein."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Die Markkammern öffnen sich einer geduldigen Hand: dichtes Biometall, intakt (+{salvage} Bergegut)",
+     "ambush": "Bewegung in den Wundkanälen. Aasfresser hatten im Kadaver genistet, und wir haben sie geweckt.",
+     "torpedoCache": "Knochenregale halten kristallisierte Munition: {torpedoes} Kampfköpfe, angepasst an unsere Rohre.",
+     "nothing": "Die Hülle behält ihre Toten. Wir versiegeln die Vermessung und lassen sie treiben."
+    }
+   },
+   "precursor_ring": {
+    "prefix": "GEOMETRISCHES ECHO",
+    "label": "Vorläuferring — gebrochen",
+    "scan": {
+     "m35": "Ein gebrochener Ring, viel zu regelmäßig für Gestein. Das Material liefert ein Spektrum, für das SHIPNET keinen Namen hat.",
+     "m70": "Die Bruchflächen sind poliert. Er war nicht zerbrochen, er wurde geschlossen. Etwas wollte, dass diese Tür kein zweites Mal benutzt wird.",
+     "m100": "Die Innenfläche wiederholt eine Glyphenkette eine Million Mal. Beste Übersetzung: ein Pfeil, der wegzeigt. Wovon weg?"
+    },
+    "outcome": {
+     "intel": "Ein ruhendes Wächtergitter erwacht für einen Scan und gibt uns seine Augen. Alle Kontakte aufgelöst.",
+     "salvageCacheSmall": "Bruchabrieb ist verwertbar. Exotische Bestände geborgen (+{salvage} Bergegut)",
+     "nothing": "Der Ring gibt sonst nichts her. Der Pfeil zeigt weg. Wir nehmen den Hinweis."
+    }
+   },
+   "guild_cache": {
+    "prefix": "FRACHTVERBAND",
+    "label": "Gilden-Frachtkapseln — abgeworfen",
+    "scan": {
+     "m35": "Frachtkapseln in langsamer Spirale, Transponder entfernt. Abwurfmuster der Freien Frachter: in Eile abgestoßen, zum Finden gedacht.",
+     "m70": "Kapselsiegel intakt. Gildenmanifest-Geister bergbar. Eigentümer: wer die Dunkelheit zuerst fragt.",
+     "m100": "Manifest entschlüsselt: „WENN GEFUNDEN, BEHALTEN. BESSER DU ALS SIE.“ Die Gilde führt ehrliche Bücher."
+    },
+    "outcome": {
+     "salvageCacheSmall": "Kapseln aufgebrochen und an Bord gekrant (+{salvage} Bergegut). Besser wir als sie.",
+     "torpedoCache": "Eine Kapsel ist eine Gilden-Munitionskiste: {torpedoes} Torpedos in Transportwiegen",
+     "probeCache": "Eine Kapsel ist ein Gilden-Vermessungskit mit unversehrten Siegeln: {probes} Sonde, umgerüstet für unsere Bucht",
+     "ambush": "Anspruchsjäger lagen dunkel in der Spirale und warteten darauf, dass jemand anderes die Öffnung übernimmt"
+    }
+   },
+   "siren_wreck": {
+    "prefix": "AUTOM. ENTWARNUNG",
+    "label": "Wrack — falscher Transponder",
+    "scan": {
+     "m35": "Ein Wrack, das auf Dauerschleife eine Gilden-ENTWARNUNG sendet. Zur Sicherheit: Wracks melden sich normalerweise nicht als in Ordnung.",
+     "m70": "Transponder-Prüfsumme schlägt fehl. Die Entwarnung ist aus drei verschiedenen Schiffen zusammengeschnitten. Jemand hat dieses Wiegenlied komponiert.",
+     "m100": "Unter der Schleife ein zweiter Kanal: eine Zählung. Er hat einundvierzig Anflüge vor unserem gezählt."
+    },
+    "outcome": {
+     "ambush": "Das Wiegenlied bricht mitten im Ton ab. Hochfahrsignaturen rundum: Die Zählung wollte eine runde Zahl",
+     "salvageCacheSmall": "Der Köder war mit echter Fracht bestückt. Wir haben sie schnell an Bord gefegt (+{salvage} Bergegut)",
+     "nothing": "Die Falle ist längst aufgegeben; nur ihre Geduld ist geblieben. Wir tragen uns in die Zählung ein und fliegen weiter."
+    }
+   },
+   "molt_husk": {
+    "prefix": "ORGANISCHES ECHO",
+    "label": "Vel'Shaar-Häutungshülle",
+    "scan": {
+     "m35": "Organisches Gitter, hohl, im Kilometermaßstab. Der Klade-Gesang der Vel'Shaar meldet: ruhend. Das ist kein Schiff, sondern eine abgestreifte Haut.",
+     "m70": "Die Häutung trägt noch lebende Schweißsporen in ihren Nähten. Die Vel'Shaar lassen nichts aus Versehen zurück.",
+     "m100": "Klade-Marker-Übersetzung: eine Geschenkglyphe. Die Tiefe legt ihre alten Mäntel dort ab, wo die Kalten treiben."
+    },
+    "outcome": {
+     "hullBloom": "Schweißsporen wandern in unsere Nähte und setzen sich. Platten ausgebessert (Hülle +{hull})",
+     "intel": "Die Sinnesgruben der Häutung funktionieren noch. Wer sie ausleiht, beleuchtet jeden Jäger im Dunkeln.",
+     "nothing": "Die Sporen schlafen zu tief, um zu erwachen. Wir protokollieren das Geschenk, das wir nicht nehmen konnten."
+    }
+   },
+   "radiant_rift": {
+    "prefix": "SENSORANOMALIE",
+    "label": "Strahlender Riss — Raumscherung",
+    "scan": {
+     "m35": "Eine Lichtnaht, wo der Raum falsch faltet. Die Instrumente sind sich über ihre Entfernung uneinig. Alle.",
+     "m70": "Der Rand des Risses wirft geladene Fahnen in einem langsamen Zyklus aus. Schön und ionisierend. Besatzung von den Beobachtungsfenstern weg.",
+     "m100": "Für einen Frame des Scans zeigte der Riss ein Sternenfeld, das nicht unseres ist. Archiviert. Markiert. Nicht besprochen."
+    },
+    "outcome": {
+     "radiationFlare": "Eine Fahne schnellt über unseren Bug: {damage} Hülle abgetragen. Riskante Wissenschaft.",
+     "intel": "Die Brechung an der Scherung rückt den ganzen Sektor in Fokus. Alle Kontakte aufgelöst.",
+     "nothing": "Der Riss schließt sein Auge. Die Vermessung birgt mehr Fragen, als sie begann."
+    }
+   },
+   "munitions_grave": {
+    "prefix": "TRÜMMERFELD",
+    "label": "Kriegsdepot — versenkte Munition",
+    "scan": {
+     "m35": "Treibende Munitionshülsen, jahrzehntelang kalt. Muster einer Flottenversenkung: Jemand hat hier draußen einen Krieg beendet und den Rest abgekippt.",
+     "m70": "Hülsennummern eingebrannt. Gefechtsköpfe inert... meistens. Handhabungsprotokoll: behutsam.",
+     "m100": "Depotkern erreicht: stabilisierte Kampfköpfe in gildenkompatiblen Wiegen. Der Krieg ist vorbei. Munition hält."
+    },
+    "outcome": {
+     "torpedoCache": "Geborgene Munition an Bord gewunden: {torpedoes} Torpedos in unsere Rohre umgebettet.",
+     "radiationFlare": "Ein beschädigter Gefechtskopf zündet bei der Bergung: {damage} Hülle über den Frontbogen.",
+     "nothing": "Jede Wiege, die wir erreichen, ist ausgebrannt. Jemand Behutsameres war vor uns hier."
+    }
+   },
+   "wormhole_aperture": {
+    "prefix": "LINSEN-ECHO",
+    "label": "Wurmloch-Öffnung — eingefrorenes Sternenlicht",
+    "scan": {
+     "m35": "Ein Lichtring hängt, wo keine Masse sein dürfte: Sternenlicht, gebeugt und gehalten. Die Sterne im Ring sind Jahre älter als der Himmel darum herum.",
+     "m70": "Die Linse ist ein Schlund. Etwas hält ihn offen: Die Vermessung liest Struktur in der Krümmung, geduldig wie Architektur.",
+     "m100": "Öffnung kartiert und an den Navigationsplan gekoppelt. Die ferne Mündung ist real, und sie ist fern. Die Brücke hält, so lange wir sie nutzen wollen."
+    },
+    "outcome": {
+     "wormhole": "Die Öffnung stabilisiert sich. Die ferne Mündung löst sich im System {system} auf. Steuer kann über die Brücke springen."
+    }
+   },
+   "ghost_signal": {
+    "prefix": "WIEDERHOLTES SIGNAL",
+    "label": "Geisterbake — wiederholend",
+    "scan": {
+     "m35": "Ein Notsignalmuster auf totem Band, wiederholt sich. Die Verschlüsselung ist gildenstandard... sechs Revisionen veraltet.",
+     "m70": "Das Muster zerfällt mitten in der Schleife und startet neu. Das ist keine Bake, die zyklisch läuft. Das ist eine Bake, die ausfällt. Sie ruft schon lange.",
+     "m100": "Das Signal wiederholt sich... es ist alt. Ursprung trianguliert: einen Sprung entfernt. Jemand wartet noch darauf, gefunden zu werden."
+    },
+    "outcome": {
+     "questClue": "Koordinaten dekodiert und an den Sprungplan gekoppelt. Faden GHOST BEACON ist offen",
+     "nothing": "Die Schleife kollabiert in Rauschen, bevor der Ursprung sich auflöst. Die Dunkelheit behält diesen hier."
+    }
+   },
+   "beacon_wreck": {
+    "prefix": "KALTES ECHO",
+    "label": "Stummes Schiff — Bakenquelle",
+    "scan": {
+     "m35": "Da ist sie. Eine Hülle aus gewachsenem Chitin, Triebwerke dunkel, Kiel von etwas Geduldigem gebrochen. Die Bake schreit noch aus einer toten Kehle.",
+     "m70": "Innenscan: Mannschaftsräume von innen versiegelt. Sie haben rationiert und gewartet. Die Rechnung auf den Schotts zählt neunhundert Tage.",
+     "m100": "Das letzte Logglyph, in den Hals der Bake eingebrannt, lautet: WIR HIELTEN STAND. Die Laderäume sind intakt. Vermessungsdrohnen auslassen."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Die Laderäume brechen sauber auf: raffinierte Legierungen, versiegelte Kerne (+{salvage} Bergegut)",
+     "ambush": "Die Bake hat nicht nur uns gerufen. Bergungsläufer kommen heiß herein, Anspruchsladungen scharf"
+    }
+   },
+   "sleeper_vault": {
+    "prefix": "BEARBEITETES ECHO",
+    "label": "Vorläufer-Tresor — die schlafende Naht",
+    "scan": {
+     "m35": "Eine bearbeitete Steinnaht, einen Kilometer lang, zugenäht mit einem Metall, das jeden Katalog überdauert. Die Koordinaten des Relikts enden hier.",
+     "m70": "Seismisches Echo: Die Naht ist hohl, und die Höhlung ist warm. Strom zirkuliert darin, langsam wie ein schlafender Puls.",
+     "m100": "Vermessung abgeschlossen. Ein Zugangspunkt: ein Kernknoten atmet unter der Naht. Der Tresor öffnet sich bei einem Antippen. Nichts in der Vermessung sagt, was ihn wieder schließt."
+    },
+    "outcome": {
+     "nothing": "Die Naht hält den Atem an. Der Kernknoten wartet auf unsere Nerven.",
+     "intel": "Über der Naht reiten unsere Sensoren für einen Scan auf ihrem Wachgitter. Alle Kontakte im Sektor aufgelöst"
+    },
+    "poiOutcome": {
+     "core": {
+      "salvageVault": "Der Kern öffnet sich wie ein Saatguttresor: Vorläuferbestand jenseits ehrlicher Schätzung (+{salvage} Bergegut)",
+      "awakening": "Die Naht war nie ein Tresor. Sie war eine Wiege, und das Antippen klingt wie ein Geburtsschrei. Der GUARDIAN erwacht"
+     }
+    }
+   },
+   "debris_heart": {
+    "prefix": "DICHTES KERN-ECHO",
+    "label": "Schmelzwerk-Wrack — das Herz des Sturms",
+    "scan": {
+     "m35": "Jeder Brocken in diesem Sturm analysiert gleich: Schlacke, ein Guss, ein Ofen. Der Ofen liegt noch vor uns.",
+     "m70": "Auflösung: ein Gießerei-Schiff, rückgratgebrochen, hält still und verliert Teile. Der Sturm ist kein Wetter. Er ist eine Wunde, die nie verschorft ist.",
+     "m100": "Vermessung abgeschlossen. Der Gießraum ist kalt und versiegelt, aber eine Bergenaht meldet INTAKT. Was sie beim Bruch gießen wollte, steckt noch darin."
+    },
+    "outcome": {
+     "nothing": "Das Wrack hält seinen Kurs durch den eigenen Schutt, mitten im Zentrum des Sturms, den es selbst gemacht hat.",
+     "salvageCacheLarge": "Der Vermessungsdurchgang streift ihren äußeren Ausfluss: gesiebte Gießereiware, frei treibend (+{salvage} Bergegut)"
+    },
+    "poiOutcome": {
+     "relic": {
+      "salvageVault": "Die Naht öffnet sich beim letzten Guss, abgekühlt in ihrer Wiege: Legierung jenseits ehrlicher Schätzung (+{salvage} Bergegut)",
+      "salvageJackpot": "Die Sonde schreitet die Naht ab und hebt Barren um Barren, jeder mit dem Zeichen einer toten Flotte gestempelt (+{salvage} Bergegut)",
+      "torpedoes": "Die Naht hält keine Barren. Sie ist ein Magazin, trocken gestapelt und intakt: {torpedoes} Torpedos in unsere Rohre umgerüstet",
+      "awakening": "Der Guss wurde nie beendet. Die Besatzung hat ihn gestoppt und den Laderaum von außen verschweißt. Die Naht öffnet sich. Etwas gießt sich heraus"
+     }
+    }
+   },
+   "ice_moon": {
+    "prefix": "UNBEKANNTER KÖRPER",
+    "label": "Eismond — kryovulkanisch",
+    "scan": {
+     "m35": "Eine Schale aus blau-weißem Eis, von Pol zu Pol von Bruchnarben durchzogen. Unter der Kruste: Flüssigkeit. Warme Flüssigkeit. Etwas hält sie warm.",
+     "m70": "Kryo-Geysire speien in langsamem Rhythmus, zu langsam für Gezeiten und zu regelmäßig für Wetter. Das unterirdische Meer hat einen Herzschlag.",
+     "m100": "Tiefsonar-Echos unter dem Eis: lange Formen, die absichtsvoll ziehen und mit unserer Umlaufbahn Schritt halten. Das Meer beobachtet uns zurück. Vermessung versiegelt."
+    },
+    "outcome": {
+     "salvageCacheSmall": "Ein Geysir schleudert raffinierte Sole-Metalle aus dem Schwerkraftbrunnen. Sie werden abgeschöpft und verstaut (+{salvage} Bergegut)",
+     "radiationFlare": "Eine Kryo-Fahne detoniert vor unserem Bug: schockgefrorene Splitter über den Frontbogen ({damage} Hülle)",
+     "nothing": "Das Eis behält sein Meer, und das Meer behält seine Formen. Wir halten Abstand. Vermessung archiviert."
+    }
+   },
+   "worldring": {
+    "prefix": "KOLOSSALES ECHO",
+    "label": "Weltring — bewohnbares Band",
+    "scan": {
+     "m35": "Das Echo ist ein Ring: ein Band aus bearbeiteter Materie, breit genug, um Kontinente darauf zu durchqueren, rotierend für Schwerkraft. Niemand baut so etwas. Jemand hat das gebaut.",
+     "m70": "Die Innenseite trägt Boden, trockene Meere und Städte, zu Glas geworden. Die Atmosphären-Rückhaltewände stehen noch. Die Lichter sind aus, aber der Boden ist warm.",
+     "m100": "Analyse der Spinlager: Der Ring bremst seit zehntausend Jahren ab. Jemand lässt ihn sanft auslaufen. Ein langer Abschied, gepflegt von etwas Geduldigem."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Ein Bruch in der Haltewand gibt Strukturlegierung frei, die keine unserer Gießereien herstellen kann (+{salvage} Bergegut)",
+     "intel": "Das Verkehrsgitter des Rings wacht noch über seinen Himmel, und für einen Scan wachen auch wir. Alle Kontakte aufgelöst",
+     "radiationFlare": "Ein Spinlager schlägt Funken, als wir seinen Schatten kreuzen. Die Entladung streift den Frontbogen ({damage} Hülle)",
+     "nothing": "Zehntausend Jahre Abschied, und wir gehören nicht dazu. Vermessung mit Respekt archiviert."
+    }
+   },
+   "war_sphere": {
+    "prefix": "KOLOSSALES ECHO",
+    "label": "Schlachtsphäre — kalte Festung",
+    "scan": {
+     "m35": "Eine Sphäre aus Panzerung, hundert Schiffe breit, auf jedem Band dunkel. Der Äquatorgraben ist eine Waffenreihe. Alles davon zielt jetzt auf nichts.",
+     "m70": "Der Fokusteller am Scheitel könnte einen Mond zerbrechen. Kondensatorbänke zeigen verbraucht, nicht entladen. Diese Festung hat einmal alles abgefeuert, was sie hatte.",
+     "m100": "Gefechtsbuch aus dem Graben geborgen: Es feuerte alles auf alles, und als es fertig war, war es allein. Die Garnison ging lieber in die Dunkelheit, als die Kosten zu zählen. Intakt."
+    },
+    "outcome": {
+     "torpedoCache": "Die Munitionsdecks halten stabilisierte Kampfköpfe auf Wiegen, die unsere Rohre annehmen: {torpedoes} Torpedos geborgen",
+     "ambush": "Der Graben war nicht leer. Squatter betreiben abgeschaltete Reaktoren in den Geschützgalerien, und wir haben an ihre Tür geklopft",
+     "salvageCacheLarge": "Panzer-Abtrag aus dem großen Graben veredelt sich wunderbar (+{salvage} Bergegut)",
+     "nothing": "Die Festung behält ihr Schweigen. Manche Siege sollten ungeprüft bleiben. Vermessung archiviert."
+    }
+   },
+   "star_cradle": {
+    "prefix": "UNMÖGLICHES ECHO",
+    "label": "Sternenkäfig — die Sternenwiege",
+    "scan": {
+     "m35": "Die Sensoren melden einen Stern, wo keiner zu sehen ist. Er ist da, gefangen hinter einem Gitter aus Platten von der Größe von Welten, und trinkt sein Licht zu einem Flüstern herunter.",
+     "m70": "Das Gitter ist unvollständig: Ein Öffnungstor steht offen, breit genug für eine Flotte. Licht quillt heraus wie aus einer Wunde. Die Erbauer haben die Tür offen gelassen.",
+     "m100": "Leistungsanalyse: Der Käfig erntet den Stern nicht. Er hält ihn, auf niedriger Glut wie ein Herdfeuer gegen einen Winter, der noch nicht gekommen ist. Abgelegt unter: vorbereiten."
+    },
+    "outcome": {
+     "intel": "Ein Ritt auf dem Sammelgitter des Käfigs erleuchtet für einen Scan den ganzen Sektor. Alle Kontakte aufgelöst",
+     "salvageCacheLarge": "Eine abgeworfene Sammelplatte, kilometerlang, wird zu Laderaum-Bestand zerlegt (+{salvage} Bergegut)",
+     "radiationFlare": "Das Öffnungstor flackert, als wir seinen Wurf kreuzen. Gefangenes Sternenlicht streift den Frontbogen ({damage} Hülle)",
+     "nothing": "Der Herd ist niedergebrannt und der Winter nicht gekommen. Wir lassen die Tür, wie wir sie vorfanden. Vermessung archiviert."
+    }
+   },
+   "haven_station": {
+    "prefix": "STRUKTURIERTES ECHO",
+    "label": "Freihafenring — stille Verankerung",
+    "scan": {
+     "m35": "Eine Radstation auf sanfter, perfekter Drehung. Andockarme ausgefahren, Anflugleuchten wechseln auf Grün, kein Verkehr und kein Funk. Eine offene Tür im Dunkeln.",
+     "m70": "Der Habitatring ist unter Druck und warm. Registergeister nennen ihn eine Raststation der Freien Frachter, ordentlich verlassen, mit verschweißten Docks und versiegelten Vorräten. Gildenbrauch: bestückt für jeden, der sie braucht.",
+     "m100": "Das Hafenmeister-Journal schließt mit einem ständigen Eintrag: „LIEGEPLATZ FREI. NIMM, WAS DICH FLIEGEN LÄSST. PROTOKOLLIERE, WAS DU NIMMST. DIE STRASSE SORGT.“ Die Straße sorgt."
+    },
+    "outcome": {
+     "salvageCacheSmall": "Loses Deckgut über die Courtesy-Leine herübergewunden (+{salvage} Bergegut). Die Straße sorgt.",
+     "intel": "Die Verkehrskontrolle der Verankerung führt noch ehrliche Bücher. Jeder Rumpf, den sie angepingt hat, erscheint auf unserer Karte",
+     "nothing": "Wir tragen unseren Besuch ins Hafenmeister-Journal ein, wie es der Brauch verlangt. Die Verankerung dreht sich weiter, geduldig für den nächsten Kiel."
+    },
+    "poiOutcome": {
+     "hatch": {
+      "salvageJackpot": "Das gesicherte Dock nimmt unsere Klammern wie einen alten Freund an. Versiegelte Gildenvorräte werden dem Manifest freigegeben (+{salvage} Bergegut)",
+      "salvageLarge": "Die Frachtschleuse zykelt sauber: palettierter Bestand, nach Dockbrauch unser (+{salvage} Bergegut)",
+      "torpedoes": "Der Quartiermeister-Käfig hält Kampfköpfe auf Gildenstandard-Wiegen: {torpedoes} Torpedos umgerüstet"
+     },
+     "core": {
+      "reactorFlush": "Landstrom übernimmt unsere Last, während der Abgriff läuft. Reaktorkern kalt gespült: +{reactor} Kernintegrität",
+      "salvageLarge": "Der Treibstoffbunker der Verankerung misst uns einen vollen Zug ohne Beschwerde zu (+{salvage} Bergegut)",
+      "torpedoes": "Der Munitionsbunker beantwortet unseren Anzapf-Code: {torpedoes} Torpedos an Bord gekrant"
+     }
+    }
+   },
+   "ring_pilgrim": {
+    "prefix": "KOHÄRENTE ANTRIEBSFAHNE",
+    "label": "Ringantrieb-Pilger — flüchtiges Wunder",
+    "scan": {
+     "m35": "Ein Schiff in Fahrt: ein schlanker Rumpf, der durch einen Antriebsring zieht, breiter als eine Stadt. Sein Kielwasser ist sauber: keine Abgase, keine Trümmer, kein Lärm. Nur gebogener Raum, höflich zurückgegeben.",
+     "m70": "Es hat uns gesehen. Der Ring dimmt einmal, langsam und bewusst, dann läuft er weiter. Querverweis aller Kontaktprotokolle: Der nächste Treffer ist eine Verbeugung.",
+     "m100": "Vermessung vollständig, und es hat sie erlaubt. Es hielt Kurs und Fahrt während der ganzen Messung und verbarg nichts. Wer immer sie sind, sie wollten verstanden werden. Das Archiv wird uns alle überdauern."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Eine Kiste löst sich aus dem Kielwasser des Pilgers und treibt langsam und zeremoniell zu unserem Bug: ein Geschenk, ohne ein Wort gegeben (+{salvage} Bergegut)",
+     "intel": "Der Pilger öffnet seine Karten für einen langen Moment unserer Antenne. Alle Kontakte im Sektor aufgelöst.",
+     "probeCache": "Er gibt etwas zurück, das wir verloren haben: eine Vermessungssonde, seit Jahrzehnten tot nach ihrer Seriennummer, gereinigt und funktionsfähig (+{probes} Sonde). Wir haben diese Sonde nie geflogen.",
+     "nothing": "Der Ring dimmt noch einmal, und der Pilger zieht weiter, ungehetzt, hinaus zu einem Ziel, wo die Karten enden. Sichere Straßen, Fremder."
+    }
+   },
+   "collapsed_star": {
+    "prefix": "GRAVITATIONSANOMALIE",
+    "label": "Kollabierter Stern — Akkretionsofen",
+    "scan": {
+     "m35": "Die Instrumente sind sich beim Echo nur in einem Punkt einig: Licht geht hinein und kommt nicht heraus. Akkretionsring auf vollem Feuer. Steuer: auf die Drift achten.",
+     "m70": "Der Ring kaut auf einem eingefangenen Konvoi. Rumpffragmente sind um den Horizont zu Licht verschmiert. Einige dieser Kiele senden noch Signale, während sie hinabgehen.",
+     "m100": "Vermessung abgeschlossen aus respektvollem Bogen. Der Schlund behält, was er nimmt. Das eingefrorene letzte Licht von allem, was er verschlungen hat, hängt am Horizont wie in einem Museum. Wir haben fotografiert und Abstand gehalten."
+    },
+    "outcome": {
+     "intel": "Gravitationslinsen biegen den ganzen Sektor in unser Array, und jeder Kontakt wird im schrecklichen Glas des Schlundes aufgelöst",
+     "salvageCacheLarge": "Frame-Dragging-Trümmer ziehen stabile Bahnen am Ringrand. Ein sorgfältiger Abstreifer zahlt sich aus (+{salvage} Bergegut)",
+     "radiationFlare": "Der Ofen spuckt relativistischen Sprühnebel über den Frontbogen ({damage} Hülle)",
+     "nothing": "Der Schlund behält seine Toten und sein Licht. Vermessung archiviert; die Hände am Steuer waren ruhig."
+    }
+   },
+   "spindle_star": {
+    "prefix": "PERIODISCHER SENDER",
+    "label": "Neutronenbake — Millisekunden-Spindel",
+    "scan": {
+     "m35": "Ein toter Stern, auf einen Schrei hochgedreht, bestreicht den Sektor mit einer Strahlungspeitsche im Uhrentakt. Jeder Durchgang schlägt auf die Hülle. Zähl den Takt, Steuer.",
+     "m70": "Der Takt ist perfekt. Navigatoren nutzten diese Spindel einst als Leuchtturm. Alte Sprungkarten peilen sie noch an. Wir sind irgendwo, wo Schiffe einmal fuhren.",
+     "m100": "Vermessung abgeschlossen zwischen den Peitschenhieben. Die Spindel hält ihren Takt eine Milliarde Jahre lang und markiert eine Straße, die niemand mehr befährt. Der Leuchtturm hat sein Meer überlebt."
+    },
+    "outcome": {
+     "intel": "Die Peitsche hinterleuchtet jeden Rumpf im Sektor wie ein Blitzlicht. Kontakte aufgelöst",
+     "radiationFlare": "Um einen halben Takt verpasst. Die Peitsche trifft uns voll ({damage} Hülle)",
+     "nothing": "Der Takt geht gleichgültig weiter. Vermessung archiviert; unser Timing war gut."
+    }
+   },
+   "ember_veil": {
+    "prefix": "DIFFUSES ECHO",
+    "label": "Emissionsnebel — Glutschleier",
+    "scan": {
+     "m35": "Eine stehende Bank ionisierten Staubs, von innen beleuchtet vom ersten Licht eines Protosterns. Die Sensorechos weichen an seinen Rändern ab: unsere und die aller anderen.",
+     "m70": "Im Schleier verstummt unser Kielwasser: Der Staub trinkt unsere Signatur. Ein Schiff könnte sich hier verbergen. Schiffe haben es getan. Der Staub hält alte Rumpfschatten wie Fossilien.",
+     "m100": "Vermessung abgeschlossen. Der Protostern wird in hunderttausend Jahren wirklich leuchten und dieses Versteck wegbrennen. Bis dahin hütet der Schleier Geheimnisse für jeden, der still genug ist, sie zu verdienen."
+    },
+    "outcome": {
+     "salvageCacheSmall": "Staubbahn-Kondensat, elektrostatisch auf unsere Hülle gebacken, wird als raffinierter Bestand bewertet (+{salvage} Bergegut)",
+     "probeCache": "Einer der fossilen Rumpfschatten ist echt: eine verlorene Vermessungssonde, treibend in der Bahn, umgerüstet für unsere Bucht (+{probes} Sonde)",
+     "nothing": "Der Schleier behält seine Fossilien und seine Stille. Wir tragen das Versteck ein. Eine Besatzung merkt sich, wo die Deckungen sind."
+    }
+   },
+   "drift_medusa": {
+    "prefix": "WEICHES ECHO",
+    "label": "Leere Meduse — treibender Gasbeutel",
+    "scan": {
+     "m35": "Das Echo hat keinen Rumpf. Es atmet: eine durchscheinende Glocke von der Größe einer Korvette, pulsierend im Sonnenwind, kilometerlange leuchtende Fransen hinter sich.",
+     "m70": "Es weidet in der Staubbahn des Sektors, harmlos wie Wetter. Die Fransen stechen alles, was sie berühren, und hier draußen ist niemand dumm genug, es zu versuchen.",
+     "m100": "Vollständige biologische Serie aufgezeichnet. Es trieb durch unseren Schatten, als wir fertig wurden, das Glockenlicht wellend, das Nächste zu einem Gruß, das ein Gasbeutel hat. Eingetragen als: nachbarschaftlich."
+    },
+    "outcome": {
+     "hullBloom": "Abgestreifte Glockenmembran legt sich über unsere Narben und härtet wie Lack (Hülle +{hull})",
+     "salvageCacheSmall": "Abgestoßene Fransenlipide, kalt verstaut für die Xeno-Abteilung der Gilde (+{salvage} Bergegut)",
+     "nothing": "Es pulsiert weiter die Staubbahn hinab, ungestört. Manche Begegnungen sind nur zwei Reisende, die sich passieren."
+    }
+   },
+   "crystal_choir": {
+    "prefix": "FACETTIERTES ECHO",
+    "label": "Kristallwesen — Gitterchor",
+    "scan": {
+     "m35": "Ein verzweigtes Gitter aus lebendem Kristall, kilometerlang, wächst im offenen Leerraum. Jede Facette klingt in einer anderen Tonhöhe. Zusammen ergeben sie einen Akkord.",
+     "m70": "Der Akkord ändert sich, als wir näher kommen. Unsere Triebwerksharmonien werden in das Lied gefaltet. Es singt über uns. Das Nährfeld in seinem Kern spannt sich.",
+     "m100": "Vermessung abgeschlossen: Silizium-Gitterleben, mineralreich über jede ehrliche Ader hinaus, und es sang unsere Schiffsnummer zu uns zurück, als wir gingen. Die Gilde hat dafür keine Form. Wir heften es unter beidem ab."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Abgestreifte Facetten lösen sich vom Chor: nahezu reiner Gitterbestand, losgesungen und behutsam eingesammelt (+{salvage} Bergegut)",
+     "radiationFlare": "Das Nährfeld biegt sich in unsere Richtung. Eine Resonanzspitze schert über den Frontbogen ({damage} Hülle)",
+     "nothing": "Der Chor singt weiter, gleichgültig gegenüber jeder Bewertung. Wir gehen, bevor er unser ganzes Lied lernt."
+    }
+   },
+   "solar_grazer": {
+    "prefix": "BIOLOGISCHES ECHO",
+    "label": "Sonnenmanta — Segelflügel-Weidegänger",
+    "scan": {
+     "m35": "Flügel. Lebende Sonnensegel, einen Kilometer von Spitze zu Spitze, kippen im Lichtdruck. Es weidet die Photonenströmung wie Herdentiere eine Ebene.",
+     "m70": "Es erträgt unseren Schatten auf Vermessungsdistanz, knapp. Flugreaktionsanalyse: Ein Akt der Aggression, und es taucht in den tiefen Himmel. Waffen kalt, alle.",
+     "m100": "Volle xenobiologische Serie: Fressen, Kippen, der lange, langsame Flügelgesang eines Wesens, das nie etwas fürchten musste. Das Archiv zahlt für solches Staunen. Die Waffen blieben kalt. Gut geflogen."
+    },
+    "outcome": {
+     "salvageCacheLarge": "Die Xeno-Abteilung der Gilde zahlt eine volle Serienprämie für eine lebende Weidegänger-Studie (+{salvage} Bergegut)",
+     "hullBloom": "Segelstaub aus seinem Kielwasser legt sich auf unsere Platten und härtet (Hülle +{hull})"
+    }
+   },
+   "reef_bloom": {
+    "prefix": "VERSTREUTE BIOMASSE",
+    "label": "Leere Korallenblüte — driftendes Riff",
+    "scan": {
+     "m35": "Ein Wald ohne Welt darunter: verzweigte Kalzitkolonien, verankert an einem Kies aus toten Kometen, die Polypen offen zum Sternenlicht.",
+     "m70": "Das Riff wächst dem nächsten Stern entgegen, einen Meter pro Jahrhundert. Geduld als Überlebensstrategie. Das Polypenlicht kräuselt sich, wenn unsere Scheinwerfer es streifen.",
+     "m100": "Vermessung abgeschlossen. In zehn Millionen Jahren wird dies eine Wand am Himmel sein. Wir waren hier, als es ein Garten war. Das Protokoll wird sich für uns erinnern."
+    },
+    "outcome": {
+     "hullBloom": "Riffpolypen besiedeln unsere Mikrometeoriten-Narben und härten wie gegossener Stein (Hülle +{hull})",
+     "salvageCacheSmall": "Toter Kalzit-Wedel, so dicht wie gutes Erz, an Bord gekrant (+{salvage} Bergegut)",
+     "nothing": "Der Garten wächst in eigenem Tempo und behält seine eigenen Gedanken. Vermessung archiviert."
+    }
+   },
+   "mistweaver": {
+    "prefix": "IONEN-DUNST",
+    "label": "Nebelweber — sentientes Plasma",
+    "scan": {
+     "m35": "Eine driftende Plasmabank, die sich keiner Klassifikation fügt. Sie ordnet sich neu, jedes Mal wenn das Vermessungsfenster schließt. Sie ist weder Wetter noch Maschine. Sie ist absichtsvoll.",
+     "m70": "Sie webt unsere Sensorimpulse zurück, umgeordnet und umgebaut, fast Syntax. Das Linguistik-Paket meldet eine 92-prozentige Übereinstimmung mit einer Form: Fragesatz.",
+     "m100": "Das Gewebe löst sich endlich auf: ein Muster, das über die ganze Bank stabil blieb, geduldig wie ein Lehrer mit einem langsamen Schüler. Es ist eine Frage, und sie wartet auf unsere Antwort."
+    },
+    "outcome": {
+     "questClue": "Die Frage entfaltet sich zu Koordinaten, gewoben und gefaltet wie Stoff. Faden THE WEAVER'S QUESTION ist offen",
+     "nothing": "Das Gewebe zerstreut sich mitten im Muster, seine Frage ungestellt oder zurückgezogen. Der Dunst treibt weiter, und wir sind nicht sicher, wer von uns im Vorstellungsgespräch versagt hat."
+    }
+   },
+   "weaver_loom": {
+    "prefix": "GEWEBTES ECHO",
+    "label": "Der Webstuhl des Webers — Vorläufergitter",
+    "scan": {
+     "m35": "Die Koordinaten enden an einem Webstuhl: ein Gitter aus bearbeitetem Raum, breiter als ein Mond, Fäden aus gebogenem Licht zwischen Ankermassen straff gespannt. Die Frage des Nebelwebers kam von hier.",
+     "m70": "Der Webstuhl läuft, langsam. Er webt etwas aus Vakuum und Geduld, und er ist fast fertig. Das Musterssignal in seinem Herzen ist wieder die Frage, nur lauter.",
+     "m100": "Vermessung abgeschlossen. Ein Zugangspunkt: das gewebte Signal am Herzshuttle. Dekodiere es, und wir beantworten die Frage. Nichts in der Vermessung sagt, was der Webstuhl mit einer falschen Antwort macht."
+    },
+    "outcome": {
+     "nothing": "Der Webstuhl hält seinen Faden. Das Herzshuttle wartet auf unsere Antwort.",
+     "intel": "Über die Ankermassen reitend, reiten unsere Sensoren für einen Scan auf den Kettfäden des Webstuhls. Alle Kontakte im Sektor aufgelöst"
+    },
+    "poiOutcome": {
+     "signal": {
+      "salvageVault": "Der Webstuhl nimmt die Antwort an und webt Bezahlung: Bahnen stabilen Fremdgitters spulen sich in unseren Laderaum (+{salvage} Bergegut)",
+      "awakening": "Der Webstuhl nimmt die Antwort an und stellt eine härtere Frage. Der HÜTER entfaltet sich aus dem Gitter: Die CHIMERA nimmt unser Maß"
+     }
+    }
+   },
+   "sentinel_signal": {
+    "prefix": "MUSTERHAFTE EMISSION",
+    "label": "Wächtersignal — geduldiges Zirpen",
+    "scan": {
+     "m35": "Ein mechanisches Zirpen, das sich auf einem Band wiederholt, das niemand lizenziert. Es ist kein Notsignal und keine Bake. Es ist eine Zählung, die geduldig etwas zählt.",
+     "m70": "Registerdurchlauf abgeschlossen: nichts. Die Kodierung ist älter als jeder Katalog, den SHIPNET erreicht, älter als die Gilde und älter als die Karten. Und sie zerfällt nicht.",
+     "m100": "Das Zirpen wird nicht ins Dunkel gesendet. Es berichtet an etwas, nach einem Zeitplan, der länger ist als die aufgezeichnete Geschichte. Der Rückweg trianguliert sauber: ein totes Relais, einen Sprung tiefer."
+    },
+    "outcome": {
+     "questClue": "Rückweg an den Sprungplan gekoppelt. Das Signal peilt ein totes Relais im nächsten System an. Faden THE SENTINEL SIGNAL ist offen"
+    }
+   },
+   "sentinel_relay": {
+    "prefix": "TOTES MASCHINEN-ECHO",
+    "label": "Wächterrelais — ruhende Vermittlung",
+    "scan": {
+     "m35": "Der Rückweg endet an einem Gitter: Antennenflügel kilometerlang, maschinengewachsen, kalt auf jedem Band. Die Heimvermittlung des Zirpens, dunkel auf ihrem Posten.",
+     "m70": "Nicht tot. Ruhend. Restkraft zirkuliert unter den Flügeln, langsam wie ein überwinternder Puls. Das Zirpen läuft hier durch, ausgehend, zu etwas Tieferem als die Karten reichen.",
+     "m100": "Vermessung abgeschlossen. Ein Zugangspunkt: das Leitsignal im Herzen des Gitters. Dekodiere es, und wir erfahren, wer zuhört. Nichts in der Vermessung sagt, was Zuhören kostet."
+    },
+    "outcome": {
+     "nothing": "Das Gitter hält seinen Winterpuls. Das Leitsignal wartet auf unsere Nerven.",
+     "intel": "Über die Antennenflügel reitend, reiten unsere Sensoren für einen Scan auf dem Wachnetz des Relais. Alle Kontakte im Sektor aufgelöst."
+    },
+    "poiOutcome": {
+     "signal": {
+      "lore": "Der Decodierstrom verbindet sich sauber, und das Relais erwacht lange genug, um ihn zu leiten: ein Handschlag, ausgehend. Dann verstummt das Zirpen. Nach Jahrhunderten des Zählens: Stille. Etwas hat uns gehört. Etwas hat zurückgerufen."
+     }
+    }
+   },
+   "void_contact": {
+    "prefix": "NULL-ECHO",
+    "label": "Die Leere — strukturierte Abwesenheit",
+    "scan": {
+     "m35": "Die Instrumente sind sich diesmal einig, und worin sie sich einig sind, ist nichts: keine Masse, kein Licht und kein Signal. Ein Loch im Himmel mit einem Kurs. Löcher haben keine Kurse.",
+     "m70": "Verdeckungskartierung: Hintergrundsterne erlöschen an seiner Vorderkante und kehren an der Hinterkante zurück. Das Nichts hat eine Länge. Und einen Bug.",
+     "m100": "Integration abgeschlossen. Die Leere ist ein Rumpf, kilometerlang, getarnt über alles hinaus, was in den Büchern steht, und unterwegs, auf Kurs zu den inneren Kolonien. Es ist keine Anomalie. Es ist ein Schiff."
+    },
+    "outcome": {
+     "nothing": "Die Vermessung schließt mit einem Nachtrag, maschinell markiert mit niedriger Konfidenz: Das Kielwasser des Rumpfes ist kälter als das Vakuum. Als spare er jedes Joule für den Lauf auf."
+    }
+   },
+   "sanctuary_berth": {
+    "prefix": "VERBORGENER KOLOSS",
+    "label": "Die Arche — getarnt, unterwegs",
+    "scan": {
+     "m35": "Aus der Nähe verdünnt sich die Tarnung zu einem Schimmer: Hüllenplatten gewachsen, nicht gefräst, in Kursen, älter als jedes Register. Die Arche funkt nicht, sie bremst nicht, und es kümmert sie nicht, dass wir hier sind.",
+     "m70": "Tiefenradar durch eine offene Gitterflanke zeigt Kojen: Tausende über Tausende, wie Waben gestapelt, jede hält eine facettierte Kristallform. Sie sind keine Fracht. Sie haben Pulse. Langsame.",
+     "m100": "Vermessung abgeschlossen. Eine Schläferarche unter voller Tarnung, besetzt von niemandem, der wach ist, läuft hart aus einer Richtung, in die sie ihre Sensoren nicht richten wird. Mittschiffs spricht noch ein System: eine gewebte Aufzeichnung, an niemanden übertragen. Die Vermessung sagt nicht, wer sie sind. Die Aufzeichnung vielleicht schon."
+    },
+    "outcome": {
+     "nothing": "Die Arche hält ihren Kurs und ihr Schweigen. Die Kojen pulsieren weiter, langsam wie der Winter.",
+     "intel": "Über ihre dorsalen Kurse reitend, reiten unsere Sensoren für einen Scan auf dem Wachgitter der Arche. Alle Kontakte im Sektor aufgelöst."
+    },
+    "poiOutcome": {
+     "relic": {
+      "lore": "Die Sonde hebt eine gravierte Platte von der Rumpfbahn. Die Glyphenkette wiederholt eine Sequenz, immer wieder, so wie eine Hand einen Namen schreibt, den sie zu vergessen fürchtet.",
+      "salvageLarge": "Ein abgescherter Ständer aus gewachsenem Hüllenmetall treibt im Kielwasser der Arche. Keine unserer Gießereien kann ihn gießen, und das Register zahlt dafür (+{salvage} Bergegut)"
+     }
+    }
+   },
+   "void_relay": {
+    "prefix": "NACHLAUFENDES ECHO",
+    "label": "Archivrelais — abgeworfen",
+    "scan": {
+     "m35": "Eine Trommel aus gewachsenem Metall taumelt im alten Kielwasser der Arche, abgeworfen wie eine Brotkrume oder eine Blackbox. Das Gewebesignal aus der Aufzeichnung der Arche endet hier.",
+     "m70": "Die Trommel ist ein Relais. Sie hat die Aufzeichnung der Arche nach außen übertragen, in einer Schleife, länger als unsere Karten Namen haben. Kein Notruf. Eine Warnung, an jeden gerichtet, der nachkommt.",
+     "m100": "Vermessung abgeschlossen. Der Schwanzabschnitt der Aufzeichnung liegt in dieser Trommel, der Teil, den die Arche nicht mehr gesendet hat. Ein Zugangspunkt: die abgetrennte Aufzeichnung. Dekodiere sie, und die Geschichte endet. Nichts in der Vermessung sagt, dass uns das Ende gefallen wird."
+    },
+    "outcome": {
+     "nothing": "Die Trommel taumelt weiter, geduldig. Die abgetrennte Aufzeichnung wartet auf unsere Nerven.",
+     "salvageCacheSmall": "Die abgestoßenen Gehäuseplatten des Relais werden als exotischer Bestand bewertet (+{salvage} Bergegut)"
+    }
+   }
+  },
+  "poiLabel": {
+   "mineral": {
+    "magnetiteSeam": "MAGNETITADER",
+    "iridiumBloom": "IRIDIUMBLÜTE",
+    "crystalShearField": "KRISTALL-SCHERFELD",
+    "rareEarthVein": "SELTENERDE-ADER"
+   },
+   "relic": {
+    "precursorShard": "VORLÄUFER-SCHERBE",
+    "gravenMonolith": "GRAVIERTER MONOLITH",
+    "sealedReliquary": "VERSIEGELTER SCHREIN",
+    "glyphCutPlate": "GLYPHENPLATTE"
+   },
+   "hatch": {
+    "sealedAirlock": "VERSIEGELTE LUKE",
+    "weldedBlastHatch": "VERSCHWEISSTE STOSSLUKE",
+    "breachedCargoMaw": "AUFGEBROCHENE FRACHTLUKE"
+   },
+   "signal": {
+    "repeatingEmitter": "WIEDERKEHRENDER SENDER",
+    "buriedBlackBox": "VERGRABENE BLACKBOX",
+    "coherentEchoSource": "KOHÄRENTE ECHOQUELLE"
+   },
+   "organism": {
+    "sporeBloom": "SPORENBLÜTE",
+    "dormantBiomass": "RUHENDE BIOMASSE",
+    "thingInTheIce": "DAS DING IM EIS",
+    "reefPolypCluster": "RIFF-POLYPENCLUSTER"
+   },
+   "core": {
+    "livePowerCore": "AKTIVER KRAFTKERN",
+    "fuelCellCache": "BRENNSTOFFDEPOT",
+    "hummingCapacitorBank": "SUMMENDE KONDENSATORBANK"
+   }
+  },
+  "poiOutcome": {
+   "mineral": {
+    "salvageSmall": "Strahlschneider beißen sauber. {salvage} Bergegut gesiebtes Erz an Bord gekrant",
+    "salvageLarge": "Die Ader verläuft tiefer als geschätzt: {salvage} Bergegut dichter Bestand geborgen",
+    "salvageJackpot": "ANALYSEMELDUNG: Seltenerdgitter, nahezu rein. Der Laderaum nimmt {salvage} Bergegut auf, und die Gilde wird wissen wollen, woher",
+    "tremor": "Die Ader destabilisiert sich mitten im Schnitt. Ein Beben schert Trümmer über unsere Strahlhalterungen ({damage} Hülle)"
+   },
+   "relic": {
+    "salvageLarge": "Die Sonde hebt es unversehrt. Vorläuferarbeit: Das Register zahlt {salvage} Bergegut allein für die Herkunft",
+    "questClue": "Unter der Patina: KOORDINATEN, eingeschnitten, um Sterne zu überdauern. Das Relikt ist ein Schlüssel. Faden SLEEPER SEAM ist offen",
+    "cursed": "Die Sonde bettet es an Bord. Jedes Instrument im Schiff stockt einmal, gemeinsam. Das Relikt ist warm. Es sollte nicht warm sein.",
+    "salvageSmall": "Es zerbröckelt in den Klammern der Sonde, doch die Bruchstücke werten sich gut auf (+{salvage} Bergegut)"
+   },
+   "hatch": {
+    "salvageJackpot": "Die Sonde durchstreift die Dunkelheit und findet den letzten Vorrat der Besatzung: versiegelt, intakt, herrenlos (+{salvage} Bergegut)",
+    "lore": "Das Sondenlicht streift eine Logtafel, die neben der Luke angeschraubt ist. Der letzte Eintrag ist ein Wort, so tief eingeritzt, dass der Griffel brach: UNTEN.",
+    "probeLost": "Sondentelemetrie: Innenraum-Bruch… Umgebungswärme steigt… Bewegung zurück. Prüfe erneut. Prüfe erneut.",
+    "awakening": "Der Laderaum war besetzt. Ein Brutwesen rollt sich aus der Dunkelheit und verlässt den Rumpf durch die Hülle"
+   },
+   "signal": {
+    "intel": "Der Decoder rastet das Muster ein: Es ist ein WACHNETZ, und wir stehen darin und schauen hinaus. Jeder Feind im Sektor wird aufgelöst",
+    "questClue": "Das Signal entwirrt sich zur Nav-Verse: alte Koordinaten, noch singend. Faden SLEEPER SEAM ist offen",
+    "trapPing": "Der Decode antwortet zurück. Es war eine Fangleine, und wir haben sie gerade eingeholt",
+    "salvageSmall": "Es ist eine veraltete Gilden-Anspruchsboje. Die Anmeldung als unser Anspruch bringt {salvage} Bergegut"
+   },
+   "organism": {
+    "hullPatch": "Die Probe schmiegt sich an unsere vernarbten Platten, als hätte sie uns gefehlt. Schweißwachstum setzt sich (Hülle +{hull})",
+    "salvageSmall": "Kultur versiegelt und kalt verstaut. Die Xeno-Abteilung der Gilde zahlt {salvage} Bergegut, ungesehen",
+    "infestation": "Die Probe war ein Schwarmkeim. Rumpffresser in der Rücklaufleitung! Schadenskontrolle brennt sie aus ({drain} Hülle/s für {duration}s)"
+   },
+   "core": {
+    "reactorFlush": "Die Zelle trinkt unsere Abwärme, während sie sich leert. Reaktorkern kalt gespült, +{reactor} Kernintegrität",
+    "torpedoes": "Im Gehäuse: Kampfkopf-Wiegen nach Gildenstandard. {torpedoes} Torpedos umgerüstet",
+    "salvageLarge": "Kondensatorbänke bis auf den letzten Coulomb abgezapft (+{salvage} Bergegut)",
+    "tremor": "Die Zelle destabilisiert sich unter dem Anzapfen. Entladung springt über den Rumpf ({damage} Hülle)"
+   }
+  },
+  "terminal": {
+   "wreck": {
+    "line1": "…Tag 61: Das Klopfen im Achterschacht hält perfekten Takt mit dem Reaktor. Der Chief sagt Resonanz. Der Chief irrt.",
+    "line2": "FRACHTMANIFEST (berichtigt): 40 t Erz, 12 Kryo-Kojen, 11 BELEGT. Koje 7 nicht öffnen.",
+    "line3": "Auto-Log: innere Schleuse in einer Wache 214-mal gezykelt. Kein Anzug ausgecheckt.",
+    "line4": "…wir haben C-Deck versiegelt und die Spanten verschweißt. Wenn du das liest, traue der Stille nicht.",
+    "line5": "MEDIZINBUCHT: Besatzung klagt über „Gezähltwerden“. Ruhe verordnet. Klagen aufgehört. Alle.",
+    "line6": "letzter Eintrag: es hat die Türcodes gelernt. Wir haben ihm die Türcodes nie beigebracht."
+   },
+   "cave": {
+    "line1": "VERMESSUNGSTEAM 3: Die Adern glitzern hier unten falsch. Die Analyse sagt nichts. Die Analyse ist blind.",
+    "line2": "…Bohrkopf kam poliert zurück. Nicht abgenutzt. Poliert.",
+    "line3": "Auto-Bake: seismisches Ereignis 4.1, Muster wiederholt sich alle 47 Minuten. Genau.",
+    "line4": "Lagerlog: Ilsa hat die Lampen zweimal gezählt. Neunzehn. Wir haben zwölf gepackt.",
+    "line5": "…die Tunnel werden wärmer, je tiefer wir gehen. Niemand will „atmen“ sagen."
+   },
+   "organic": {
+    "line1": "BIOPSIE 12: Das Gewebe heilt um den Probenehmer. Es behält den Probenehmer.",
+    "line2": "…das Akustikteam sagt, das Summen ist Verdauung. Sie scherzen. Bitte lass sie scherzen.",
+    "line3": "Feldnotiz: Die Wände zucken jetzt vor den Lampen zurück. Am ersten Tag taten sie es nicht.",
+    "line4": "…nicht laufen. Es bemerkt das Laufen. Geh zu den Booten, dann wird es nur zusehen."
+   },
+   "halls": {
+    "line1": "DOZENTEN-PROTOKOLL: Galerie 9 fehlt. Nicht geschlossen; fehlt. Der Korridor ist kürzer geworden.",
+    "line2": "…die Erbauer haben jeden Bogen auf etwas Viermal-so-Hohes skaliert und jeden Türgriff auf unsere Höhe.",
+    "line3": "Wartung: Die Lichter in der großen Halle ordnen sich nachts neu. Das Muster ist ein Countdown.",
+    "line4": "…wir haben die letzte Nachricht der Bewohner gefunden. Es ist ein Wort, in Wandhöhe wiederholt: NOCH DA"
+   }
+  },
+  "log": {
+   "scanMilestone": "SCAN {pct}% {designator}: {text}",
+   "podLore": "{designator}: {lore}",
+   "probeTerminal": "Sonde greift ein kaltes Terminal ab: {line}"
+  }
+ }
+}

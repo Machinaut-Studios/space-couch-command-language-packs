@@ -1,0 +1,73 @@
+{
+ "galaxy": {
+  "name": "{lead} {tail}",
+  "fallbackName": "SYSTEM {n}",
+  "lead": {
+   "kessler": "KESSLER",
+   "haldane": "HALDANE",
+   "varga": "VARGA",
+   "calder": "CALDER",
+   "merrow": "MERROW",
+   "okonjo": "OKONJO",
+   "thiele": "THIELE",
+   "brandt": "BRANDT",
+   "sorrel": "SORREL",
+   "ivey": "IVEY",
+   "quince": "QUINCE",
+   "marlow": "MARLOW",
+   "danner": "DANNER",
+   "vesper": "VESPER",
+   "harrow": "HARROW",
+   "lowell": "LOWELL",
+   "fenn": "FENN",
+   "asher": "ASHER",
+   "riggs": "RIGGS",
+   "tamsin": "TAMSIN",
+   "cole": "COLE",
+   "paley": "PALEY"
+  },
+  "tail": {
+   "drift": "DRIFT",
+   "reach": "REACH",
+   "expanse": "EXPANSE",
+   "shoals": "SHOALS",
+   "gate": "GATE",
+   "anchorage": "ANCHORAGE",
+   "verge": "VERGE",
+   "passage": "PASSAGE",
+   "spindle": "SPINDLE",
+   "hollow": "HOLLOW",
+   "crossing": "CROSSING",
+   "deep": "DEEP",
+   "spur": "SPUR",
+   "strait": "STRAIT",
+   "bank": "BANK",
+   "wake": "WAKE",
+   "threshold": "THRESHOLD",
+   "gyre": "GYRE",
+   "march": "MARCH",
+   "falls": "FALLS"
+  },
+  "solo": {
+   "theNarrows": "THE NARROWS",
+   "theShallows": "THE SHALLOWS",
+   "theAnvil": "THE ANVIL",
+   "theQuiet": "THE QUIET",
+   "theLadder": "THE LADDER",
+   "theMoorings": "THE MOORINGS",
+   "theRookery": "THE ROOKERY",
+   "thePale": "THE PALE"
+  },
+  "signal": {
+   "faintCarrier": "schwache Trägerwelle",
+   "mineralReturns": "mineralreiche Echos",
+   "wreckageField": "Trümmerfeld",
+   "biosign": "BIOSIGNATUR?",
+   "ionWake": "Ionenspur, wochenalt",
+   "regularPulse": "regelmäßiger Puls — künstlich?",
+   "gravShadow": "gravimetrischer Schatten",
+   "drivePlumes": "Antriebsfahnen, lange erkaltet"
+  },
+  "wormholeMouth": "WURMLOCH-MÜNDUNG"
+ }
+}

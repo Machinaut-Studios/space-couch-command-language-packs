@@ -1,0 +1,12 @@
+{
+ "run": {
+  "probe": {
+   "siteName": "{poi} · {site}",
+   "unchartedSite": "UNKARTIERTE STELLE"
+  },
+  "crew": {
+   "member": "{name}·{role}",
+   "join": "{head} / {tail}"
+  }
+ }
+}

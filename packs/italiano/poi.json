@@ -1,0 +1,40 @@
+{
+  "poi": {
+    "action": {
+      "mineral": {
+        "label": "ESTRAI",
+        "blurb": "taglia la vena col raggio e caricala a bordo"
+      },
+      "relic": {
+        "label": "RECUPERA",
+        "blurb": "invia una sonda a sollevare l'oggetto"
+      },
+      "hatch": {
+        "label": "INVIA SONDA",
+        "blurb": "fai passare una sonda dall'apertura"
+      },
+      "signal": {
+        "label": "DECODIFICA",
+        "blurb": "passa lo schema nel decodificatore"
+      },
+      "organism": {
+        "label": "CAMPIONA",
+        "blurb": "raccogli un campione biologico a distanza"
+      },
+      "core": {
+        "label": "PRELEVA",
+        "blurb": "sifona la cella prima che si destabilizzi"
+      }
+    },
+    "campaign": {
+      "sleeperPodRows": "CRIOCAPSULA DI CRISTALLO — FILE SU FILE",
+      "sleeperPodPulse": "CRIOCAPSULA DI CRISTALLO — DEBOLE BATTITO",
+      "archive": "L'ARCHIVIO — registro intessuto",
+      "severedRecord": "REGISTRO TRONCATO — coda d'archivio"
+    },
+    "log": {
+      "surveyResolves": "Il rilevamento identifica {designator} — {label} ({action} disponibile)",
+      "reviewAction": "ESAMINA"
+    }
+  }
+}

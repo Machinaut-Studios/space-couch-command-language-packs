@@ -1,0 +1,86 @@
+{
+ "quest": {
+  "ghost_beacon": {
+   "name": "GHOST BEACON",
+   "stage1": {
+    "log": "GHOST BEACON: springt hinaus und findet die Quelle des Signals",
+    "journal": "GHOST BEACON: die Koordinaten halten. Was immer das gesendet hat, ist einen Sprung entfernt, und es sendet noch immer."
+   },
+   "stage2": {
+    "journal": "GHOST BEACON abgeschlossen. Die Besatzung des stillen Schiffs ist endlich beantwortet. Bergungsanspruch anerkannt (+{salvage} Bergegut). Ihre Vermessungssonde antwortet noch auf Diagnosen und ist für unsere Bucht neu eingerichtet (+{probes} Sonde)."
+   }
+  },
+  "sleeper_seam": {
+   "name": "SLEEPER SEAM",
+   "stage1": {
+    "log": "SLEEPER SEAM: folgt den Koordinaten des Relikts zum Vorläuferstandort",
+    "journal": "SLEEPER SEAM: die Koordinaten sind sauber kartiert. Was in diesen Schlüssel passt, liegt einen Sprung entfernt, und es hat sehr lange geduldig gewartet."
+   },
+   "stage2": {
+    "log": "SLEEPER SEAM: vermesst den Tresor und zapft seinen Kern an, falls die Crew sich traut",
+    "journal": "SLEEPER SEAM: der Tresor ist echt und warm. Der Kernknoten unter der Naht lässt sich anzapfen. Die Vermessung sagt nicht, was die Naht genommen hat, dass sie so versiegelt werden musste."
+   },
+   "stage3": {
+    "journal": "SLEEPER SEAM abgeschlossen: die Naht ist geöffnet. Was sie behielt, behält sie nicht mehr."
+   }
+  },
+  "weaver_question": {
+   "name": "THE WEAVER'S QUESTION",
+   "stage1": {
+    "log": "THE WEAVER'S QUESTION: folgt den gefalteten Koordinaten zum Webstuhl",
+    "journal": "THE WEAVER'S QUESTION: die Koordinaten entfalten sich sauber. Was danach fragte, liegt einen Sprung entfernt und hat auf einen Schüler gewartet, der die Lektion wert ist."
+   },
+   "stage2": {
+    "log": "THE WEAVER'S QUESTION: gebt unsere Antwort an den Webstuhl. Entschlüsselt das gewebte Signal, falls die Crew sich traut",
+    "journal": "THE WEAVER'S QUESTION: der Webstuhl ist echt und läuft. Das Herzschiff lässt eine Entschlüsselung zu. Die Vermessung sagt nicht, was der Webstuhl mit einer falschen Antwort macht."
+   },
+   "stage3": {
+    "journal": "THE WEAVER'S QUESTION abgeschlossen: gefragt, beantwortet und bezahlt. So oder so."
+   }
+  },
+  "sentinel_signal": {
+   "name": "THE SENTINEL SIGNAL",
+   "stage1": {
+    "log": "THE SENTINEL SIGNAL: findet das tote Relais und entschlüsselt das Signal, das es hält",
+    "journal": "THE SENTINEL SIGNAL: der Rückweg hält. Das Relais liegt einen Sprung tiefer, und das Zirpen zählt weiter, geduldig wie der Winter."
+   },
+   "stage2": {
+    "log": "THE SENTINEL SIGNAL: der Handshake wurde gehört. Springt, wenn bereit, und kommt auf Gefechtsstationen an",
+    "journal": "THE SENTINEL SIGNAL: das Relais hat unsere Entschlüsselung weitergeleitet, und etwas jenseits der Karten hat geantwortet. Der Handshake trug unsere Rumpfnummer. Die nächste Ankunft wird nicht leise sein."
+   },
+   "stage3": {
+    "log": "THE SENTINEL SIGNAL: die Wächter sind gekommen. Vernichtet den Schwarm",
+    "journal": "THE SENTINEL SIGNAL: die Antwort kommt in Zahlen. Die Zählung war immer ein Zielregister."
+   },
+   "stage4": {
+    "journal": "THE SENTINEL SIGNAL abgeschlossen: der Schwarm ist Schrott, und die alte Zählung ist gebrochen. Bergungsrechte an Maschinenwracks dieses Alters werden voll ausgezahlt (+{salvage} Bergegut). Ein Kadaver barg eine intakte Vermessungssonde (+{probes} Sonde)."
+   }
+  },
+  "the_void": {
+   "orders": "◉ PRIORITÄT EINS, FLOTTENKOMMANDO: Weitbereichssensoren verfolgen ein sich bewegendes VOID auf direktem Kurs zu den inneren Kolonien. Es gibt keine Masse, kein Licht und kein Signal zurück. Fangt es ab, findet seinen Ursprung, bewertet die Bedrohung und meldet zurück.",
+   "name": "THE VOID",
+   "stage1": {
+    "log": "THE VOID: nähert euch der Struktur und legt eine vollständige Vermessung auf ihren Rumpf",
+    "journal": "THE VOID: die Anomalie des Flottenkommandos hat einen Rumpf. Es ist ein Schiff jenseits registrierter Größe, getarnt, auf Kurs zu den inneren Kolonien … und um unsere Vermessungsspur regen sich alte Maschinen. Was immer es ist, es wird bewacht."
+   },
+   "stage2": {
+    "log": "THE VOID: der Bericht bricht ab. Findet das Relais in ihrem Kielwasser",
+    "journal": "ARCHIVFRAGMENT geborgen. Der gewebte Bericht entschlüsselt sich in Bruchstücken: ein Volk namens OSSARI, Ozeane von ihnen, schlafend in Kristall, und eine Heimat UNMADE hinter ihnen, deren Materie auseinandergenommen und von etwas umgewidmet wurde, das nicht aufhört. Der Bericht bricht mitten im Eintrag ab."
+   },
+   "stage3": {
+    "journal": "ARCHIVFRAGMENT geborgen: das Ende des Berichts. Es endet mitten im Satz, und die letzte vollständige Zeile ist eine Peilung: das Kielwasser, vor dem sie geflohen sind. Wir haben es eingetragen. Das Kielwasser, vor dem es floh, steht AN UNSEREM HIMMEL, hinter uns, zwischen Heimat und hier."
+   },
+   "podLore": {
+    "attempt1": "Die Sonde setzt sauber ein, und die Kapsel weist sie ab: stabilisiert, das Gitter webt sich schneller um unsere Schnittstelle neu, als es zubeißen kann. Der Puls im Innern verlangsamt sich, beruhigt sich … tiefer.",
+    "attempt2": "Zweiter Versuch. Das Gitter liest diesmal unsere Sonde und antwortet mit einem Muster. Das Linguistikpaket markiert eine Form mit niedriger Konfidenz: 'noch nicht'. Der Puls der Kapsel hält. Unserer setzt aus.",
+    "attempt3": "Letzter Versuch. Die Schnittstelle beschlägt sich im Moment der Berührung. Die Kapsel versiegelt sich selbst samt unserem Werkzeug in der Schweißnaht, sanft, so wie man eine Tür zu einem schlafenden Kind schließt. Die Vermessung markiert sie: stabilisiert. Was immer sie weckt, sind nicht wir. Vielleicht sollte nichts sie wecken."
+   },
+   "unmaking": {
+    "band25": "Die Langstreckenpläne achtern werden still. Die Sterne sind noch da; alles, was zwischen ihnen flog, ist fort. Und manches, was noch fliegt … klingt falsch.",
+    "band50": "Die Räuberverbände achtern haben den Dialekt gewechselt: mehr Verkehr, kürzere Rufe, und jeder von ihnen wurde beantwortet. Dort hinten ist jetzt etwas sehr organisiert, und es ist näher, als es war.",
+    "band75": "Spektrograph, Heckbogen: Das Sternenlicht selbst verliert Linien. Ganze Frequenzen kommen einfach nicht mehr an. Die Aufzeichnung benutzte dafür ein Wort. Wir haben aufgehört, es laut zu übersetzen.",
+    "band100": "Die Heckkarte endet an einer Kante: eine sich bewegende Grenze, jenseits derer unsere Instrumente dasselbe Nichts zurückgeben, das einst das VOID zurückgab. Sie ist in diesem Himmel. Lauft, warnt die Kolonien, und haltet nicht an."
+   }
+  }
+ }
+}

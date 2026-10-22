@@ -1,0 +1,233 @@
+{
+  "log": {
+    "testKnob": {
+      "probeAutoLaunched": "OPZIONE TEST: sonda lanciata in automatico"
+    },
+    "mods": {
+      "summary": {
+        "ok": "Mancanti: {missing}, obsolete: {stale}, avvisi: {warnings}",
+        "unusable": "Non utilizzabile (errori: {errors})"
+      },
+      "problem": {
+        "unknownKey": "{key}: chiave inesistente nel gioco",
+        "placeholderAdded": "{key}: aggiunge un segnaposto che il gioco non ha, quindi la voce è stata scartata",
+        "placeholderOmitted": "{key}: manca un segnaposto presente in inglese",
+        "pluralGap": "{key}: manca una forma plurale richiesta da questa lingua",
+        "pluralNoOther": "{key}: le forme plurali richiedono la forma other, quindi la voce è stata scartata",
+        "tooLong": "{key}: più lunga dello spazio disponibile ({max} caratteri)",
+        "hailTooLong": "{key}: molto più lunga della battuta di chiamata in inglese",
+        "markup": "{key}: contiene markup, quindi la voce è stata scartata",
+        "badLeaf": "{key}: il testo deve essere una stringa o forme plurali",
+        "badKey": "{key}: chiave non utilizzabile",
+        "tooDeep": "{key}: annidamento troppo profondo",
+        "duplicateKey": "{key}: definita due volte, viene usata la prima",
+        "stale": "{key}: l'inglese è cambiato da quando è stata tradotta",
+        "manifest": "pack.json: campo {field} mancante o non valido",
+        "noUsable": "Nessuna voce di testo utilizzabile",
+        "fileUnreadable": "{file}: lettura impossibile",
+        "fileBadJson": "{file}: JSON non valido",
+        "fileTooBig": "{file}: supera il limite di dimensione",
+        "fontRejected": "{file}: rifiutato come font",
+        "duplicateId": "ID pacchetto {id} già usato dalla cartella {folder}: pacchetto ignorato",
+        "packTooBig": "Troppo grande per essere inviato ai dispositivi dell'equipaggio"
+      }
+    },
+    "system": {
+      "reactor": "REATTORE",
+      "engines": "MOTORI",
+      "jumpDrive": "MOTORE SALTO",
+      "lifeSupport": "SUPPORTO VITALE",
+      "sensors": "SENSORI",
+      "weapons": "ARMI",
+      "shields": "SCUDI",
+      "hull": "SCAFO"
+    },
+    "jump": {
+      "charged": "Motore a salto carico: Timone, puoi saltare",
+      "fullSpool": "CARICA AL MASSIMO: il condensatore carico si scarica nel nucleo. Saltate presto, o l'Ingegneria dovrà sfogarlo",
+      "engaged": "Salto avviato — si lascia il settore {sector}",
+      "engagedAbandoned": "Salto avviato — si lascia il settore {sector} (obiettivo abbandonato)",
+      "transitOutrunsUplink": "Il transito di salto distanzia l'uplink, e la chiamata svanisce alle nostre spalle",
+      "lockout": "Blocco del motore a salto — le bobine di campo rifiutano l'ordine. Ingegneria: devia energia",
+      "lockoutResets": "Il blocco si azzera in transito: la statica del salto ripulisce il bus dall'intrusione"
+    },
+    "redAlert": "ALLARME ROSSO — {reason}",
+    "alert": {
+      "weaponsFire": "fuoco d'arma da {designator}",
+      "torpedoLaunch": "lancio di siluri da {designator}",
+      "missileLaunch": "lancio di missili da {designator}",
+      "railFire": "fuoco railgun da {designator}",
+      "hostileClosing": "{designator} ostile si avvicina",
+      "derelictAmbush": "imboscata al relitto",
+      "anomalyAmbush": "imboscata a {designator}",
+      "voidGuardians": "i guardiani del Void si sono destati",
+      "somethingVast": "qualcosa di immenso si è destato a {designator}",
+      "snare": "il segnale decifrato era un'esca",
+      "relicClaimants": "chi reclama il reperto maledetto ci ha trovati",
+      "reinforcements": "rinforzi in risposta alla chiamata di {designator}",
+      "sentinels": "lo sciame di sentinelle ci ha trovati",
+      "leviathanAwake": "il leviatano si è svegliato"
+    },
+    "hostilesCleared": "Ostili eliminati — fine dell'allarme rosso",
+    "enemy": {
+      "escapes": "{designator} salta via — contatto perso",
+      "spoolHalted": "Il motore a salto di {designator} si spegne — carica di fuga congelata",
+      "breaksOff": "{designator} si sgancia e fa rotta verso lo spazio profondo — fuga riuscita",
+      "torpedoLaunch": "SILURO IN ACQUA — {designator}",
+      "decoy": "{designator} lancia un'esca: i nostri siluri potrebbero seguirla",
+      "missilesInbound": "MISSILI IN ARRIVO — salva di {designator}",
+      "railDischarge": "SCARICA RAILGUN — {designator} — esci dalla linea di tiro!",
+      "destroyedAdrift": "{designator} va in pezzi alla deriva",
+      "destroyed": "Bersaglio distrutto: {designator} (+{salvage} rottami)",
+      "destroyedTooSlow": "Abbiamo perso {who} — troppo lenti",
+      "berthAway": "{shipClass} è IN SALVO — le sue cuccette saltano via, lontano dal fuoco"
+    },
+    "auto": {
+      "vent": "AUTO-SFIATO attivo — scarico del plasma, potenza dimezzata per {sec}s",
+      "repairComplete": "AUTO-RIPARAZIONE completata — {system} in linea",
+      "repairStalled": "AUTO-RIPARAZIONE ferma — niente rottami ({system} al {pct}%)"
+    },
+    "derelict": {
+      "scanComplete": "Scansione del relitto completata — recuperati {torpedoes} siluri",
+      "trap": "È UNA TRAPPOLA — contatti ostili in accensione!"
+    },
+    "shipLost": "NAVE PERDUTA nel settore {sector}. Rottami messi in cassa: {salvage}.",
+    "demoComplete": "DEMO COMPLETATA: {sectors} settori percorsi, {salvage} rottami messi in cassa. Aggiungi Space Couch Command alla lista dei desideri per continuare a volare.",
+    "merchantArrives": "Il mercantile della Gilda LONG HAUL arriva in salto. La linea di rifornimento ci ha raggiunti. Comunicazioni: chiamalo quando vuoi",
+    "freighterThanks": "La KESTREL ci ringrazia: rottami trasferiti",
+    "distressResponding": "Rispondiamo alla richiesta di soccorso della KESTREL: ostili in arrivo",
+    "objectiveComplete": "Obiettivo completato: {label} (+{reward} rottami). Carica il motore a salto quando vuoi.",
+    "arrival": "Settore {sector}: {label} — {objective}",
+    "swarmSignatures": "FIRME DI SCIAME: {count} piccoli echi che si muovono come un solo organismo. I cannoni conteranno più dei siluri",
+    "survey": {
+      "unresolved": {
+        "one": "RILEVAMENTO {designator} — {count} eco non risolta sul radar",
+        "many": "RILEVAMENTO {designator} — {count} echi non risolti sul radar",
+        "other": "RILEVAMENTO {designator} — {count} echi non risolti sul radar"
+      }
+    },
+    "nav": {
+      "destinationCleared": "Destinazione annullata — il prossimo salto prenderà la prima rotta libera",
+      "courseLaid": "Rotta impostata: sistema {system}",
+      "courseLaidWormhole": "Rotta impostata: sistema {system} — attraverso l'apertura",
+      "fixCharted": "Punto nave: sistema {system} — cartografato",
+      "fixRevisited": "Punto nave: sistema {system} — già visitato; il vicinato è cambiato"
+    },
+    "outage": {
+      "decays": "Il blocco di {system} svanisce. Lo schema d'intrusione perde coerenza",
+      "surgeGrounded": "Sovratensione scaricata a terra attraverso l'involucro degli scudi. Nessun sistema perso",
+      "harvest": "PROTOCOLLO DI MIETITURA — {designator} entra nel nostro bus e si prende {system} per le sue scorte. Ingegneria: devia energia",
+      "intrusion": "RAFFICA D'INTRUSIONE da {designator} — blocco di {system}. Ingegneria: devia energia",
+      "anomalyFlare": "{designator} divampa — la sovratensione manda offline {system}. Ingegneria: devia energia",
+      "hazardEmissions": "Le emissioni di {designator} si insinuano nella rete — {system} in arresto d'emergenza. Ingegneria: devia energia",
+      "strayLance": "Un fascio di radiazioni vagante manda in arresto {system} — condotti fusi. Ingegneria: devia energia",
+      "rerouteComplete": "DEVIAZIONE completata — {system} di nuovo sul bus"
+    },
+    "probe": {
+      "away": "Sonda lanciata verso {designator} — ne restano {remaining}",
+      "telemetryLive": "Telemetria della sonda attiva — Scienze ai comandi, Comunicazioni allo scandaglio (SONDA / RADAR SONDA sullo schermo principale)",
+      "onPad": "Sonda sulla piattaforma — canale di estrazione in apertura. Tienila ferma.",
+      "extractionInterrupted": "Estrazione interrotta — la sonda ha lasciato la piattaforma",
+      "recoveryManifest": {
+        "one": "Inventario recupero — {count} capsula di rottami portata in stiva (+◈{pay})",
+        "many": "Inventario recupero — {count} capsule di rottami portate in stiva (+◈{pay})",
+        "other": "Inventario recupero — {count} capsule di rottami portate in stiva (+◈{pay})"
+      },
+      "recovered": "Sonda recuperata e riarmata — ottimo lavoro, Scienze",
+      "lostCaught": "SEGNALE PERSO: il video si dissolve nella statica. Qualcosa l'ha trovata prima.",
+      "lostAborted": "Sonda autodistrutta su ordine di Scienze — SEGNALE PERSO per mano nostra",
+      "lostWrecked": "Scafo della sonda a zero — SEGNALE PERSO nel buio",
+      "lostJump": "Il transito di salto spezza il cavo della sonda — SEGNALE PERSO, sonda perduta",
+      "signalLost": "SEGNALE PERSO: il video da {designator} si dissolve nella statica e lì resta. Registro chiuso, irrisolto."
+    },
+    "outcome": {
+      "staleSignalClue": "Le coordinate del segnale coincidono con un filone che SHIPNET ha già — nessun dato nuovo ({designator})",
+      "staleDecodedClue": "Le coordinate decifrate coincidono con un filone che SHIPNET ha già — nessun dato nuovo ({designator})",
+      "apertureFizzles": "L'apertura si flette… e ricade in luce stellare deviata. L'altra bocca non prende mai forma.",
+      "lurkerAnswers": "Qualcosa in agguato risponde al ping: una firma in accensione al nostro traverso",
+      "hullChewersEnd": "Controllo danni: i mangiascafo si spengono — drenaggio finito, le piastre reggono",
+      "curseHeld": "Deboli firme di salto indugiano al bordo del settore… e restano a distanza. Qualcosa là fuori le inquieta.",
+      "relicBeacon": "Il calore del reperto era un faro. Chi lo reclama esce dal salto, armi spianate"
+    },
+    "contained": {
+      "anomalyAmbush": "{designator}: un movimento fa scattare ogni allarme di prossimità… poi nulla. Ciò che si era mosso ora tace.",
+      "guardians": "Firme di macchine si destano nella scia della struttura… e si fermano al bordo del settore. Il canto là fuori sospende la loro conta.",
+      "hatch": "{designator}: qualcosa di immenso si agita dietro il portello… e si ferma. Il canto là fuori lo trattiene.",
+      "snare": "L'esca lancia il suo ping nel silenzio. Nulla risponde finché dura il canto.",
+      "sentinels": "Firme di salto si affollano al bordo del settore in formazione perfetta… e lì si fermano. Il canto là fuori sospende la loro conta.",
+      "boss": "Una firma immensa si affaccia al bordo del settore… e vira via. Il canto là fuori inquieta persino i giganti.",
+      "leviathan": "{designator} freme nel sonno… e si placa. Il canto là fuori lo tiene sommerso."
+    },
+    "campaign": {
+      "archiveFragment": "FRAMMENTO D'ARCHIVIO salvato nella memoria profonda della nave: {total} recuperati in tutti i registri",
+      "longRetreat": "LA LUNGA RITIRATA: nuovo ordine permanente, autoimposto. Ripiegare sistema dopo sistema e avvisare ogni colonia che le rotte raggiungono ancora.",
+      "guardiansWake": "GUARDIANI: firme di macchine si destano lungo la scia della struttura, muovendosi come una cosa sola. Contavano che arrivasse qualcuno",
+      "podFiled": "{designator} a registro: STABILIZZATO. Il reticolo rifiuta l'interfaccia. I dormienti tengono per sé i loro pensieri.",
+      "archiveRepeats": "Il registro intessuto ripete ciò che SHIPNET già conserva: nessun verso nuovo (l'archivio è paziente)",
+      "severedRepeats": "Il registro reciso ripete il suo avvertimento al buio. SHIPNET ne conserva già ogni parola"
+    },
+    "rep": {
+      "killedAdrift": "Si era arreso, e l'abbiamo finito alla deriva. La storia corre già sulle frequenze dei predoni, e viaggia con il nostro numero di chiglia",
+      "refuseWin": "Pretesa respinta, pretendenti rottamati. I registri dei Corsairs riclassificano questa chiglia come COSTOSA",
+      "guildApology": "Le scuse della Gilda arrivano sul canale garantito: il 'mercante' batteva bandiera falsa. Le tariffe di famiglia restano aperte a questo equipaggio"
+    },
+    "uplink": {
+      "sourceDestroyed": "Sorgente uplink distrutta — chiamata morta",
+      "cut": "Uplink interrotto — {designator} è in fuga",
+      "transmitting": "{designator} trasmette un uplink a banda larga — rinforzi. {cta}",
+      "ctaAuto": "disturbatore auto in azione (blocco {pct}%)",
+      "ctaComms": "Comun.: disturba!",
+      "reinforcementsArrive": "⚠ RINFORZI SUL CAMPO — la chiamata è passata (bloccato {pct}%)",
+      "callDies": "La chiamata muore nella statica — nessuno l'ha sentita (bloccato {pct}%)"
+    },
+    "boss": {
+      "collectorDown": "Il reticolo mietitore si disfa cella dopo cella. Il suo tesoro è nostro (+{salvage} rottami; tra il bottino una sonda da rilevamento sigillata, +{probes} sonda)",
+      "leviathanDown": "Il canto del leviatano si spegne. La Gilda onora il diritto sulla carcassa (+{salvage} rottami). Il registro non dice se ne sia valsa la pena",
+      "chimeraDown": "La chimera si sfalda: chiglie rubate si staccano dalla biomassa (+{salvage} rottami). Da qualche parte, diversi registri navali chiudono vecchie pratiche",
+      "leviathanReturn": "ENORME ECO BIOLOGICA: {designator}. Qualcosa grande quanto un anello habitat va alla deriva al bordo del settore, addormentato. Scienze vorrà il rilevamento. Tattica preferirebbe di no.",
+      "collectorContact": "CONTATTO ENORME: {designator}. Un reticolo mietitore si dispiega contro le stelle, e ha già iniziato a catalogare il nostro scafo",
+      "cruiserContact": "CONTATTO ENORME: {designator}. Un incrociatore biomeccanico emerge dal buio, chiglia in avanti e affamato",
+      "leviathanSurvey": "Rilevamento completato. Un leviatano vivo degli abissi, registrato da un capo all'altro mentre dormiva. Lo xenoarchivio paga la meraviglia (+{salvage} rottami)",
+      "leviathanWakes": "IL LEVIATANO SI SVEGLIA: {designator} volge verso di noi tutta la sua mole lunga un cielo. Ricorda chi gli ha sparato",
+      "broodlings": "Piccoli della covata escono dalle bocche del mantello. Le firme di SCIAME si moltiplicano",
+      "keens": "{designator} ULULA: una seconda covata si strappa dalla ferita",
+      "startles": "{designator} SI SPAVENTA: spiega le ali-vela e si tuffa nel cielo profondo. La finestra di rilevamento si sta chiudendo",
+      "grazerGone": "{designator} non c'è più: un'increspatura di polvere di vela dove c'era il brucatore. Il buio nega le sue meraviglie agli impazienti"
+    },
+    "hazard": {
+      "gravityShear": "⚠ TAGLIO GRAVITAZIONALE — {designator} ci tiene per la chiglia. Timone: esci dal pozzo SUBITO",
+      "gravityClear": "Fuori dal pozzo di {designator} — lo scafo smette di gemere",
+      "radiationLash": "SFERZATA DI RADIAZIONI — il fascio di {designator} spazza lo scafo ({damage} sull'arco esposto)",
+      "veilCloses": "Il velo si chiude intorno a noi e la nostra scia si fa silenziosa. I cercatori faticheranno a trovare uno scafo così discreto",
+      "veilOpens": "Fuori dal velo. La nostra firma torna a essere rumore onesto",
+      "radiationZone": "⚠ ZONA AD ALTA RADIAZIONE — schermatura in degrado. Timone: rientra nel settore",
+      "radiationNominal": "Livelli di radiazione nella norma — di nuovo entro i confini del settore",
+      "radiationCollapsed": "SCHERMATURA ANTIRADIAZIONI CROLLATA: i compartimenti dell'equipaggio sono esposti alla tempesta. Nessun superstite."
+    },
+    "front": {
+      "rearQuiet": "I canali di retrovia del Comando della Flotta tacciono. Non sono disturbati: nessuno risponde. Qualcosa sta succedendo a poppa.",
+      "closing": "⚠ Il confine a poppa si sta chiudendo su questo sistema. Finite ciò che il settore richiede e SALTATE",
+      "ownsSky": "⚠ Il confine a poppa possiede già metà del cielo di questo sistema: una finestra di sopravvivenza, non un settore. Fate in fretta e SALTATE",
+      "huskSeen": "Un predone risulta sbagliato su ogni banda. La sua corazza è stratificata come tessuto cicatriziale, e le sue luci di navigazione ripetono uno schema che non è il loro. Qualcosa a poppa sta riusando le navi.",
+      "huskPrime": "Una GRANDE firma di macchina viaggia col branco. La sua telemetria si ripete, distorta, come un'eco che risponde a un'eco",
+      "sentinelsCome": "ARRIVANO LE SENTINELLE: {count} firme di macchine escono dal salto in formazione perfetta, e una è GRANDE. L'handshake del ripetitore era una convocazione",
+      "evacBerths": "{count} trasporti coloniali sulla mappa, imbarchi ancora in corso. Tenete lontani i predoni finché ogni timer non si riempie",
+      "evacBerthsFront": "{count} trasporti coloniali sulla mappa, imbarchi ancora in corso. Tenete lontani i predoni finché ogni timer non si riempie. Il fronte è qui: ogni posto conta doppio",
+      "colonyAway": {
+        "one": "COLONIA IN SALVO: {count} trasporto ha fatto il salto (+{pay} rottami). La Gilda registra un debito di gratitudine. Colonie salvate in questa missione: {saved}",
+        "many": "COLONIA IN SALVO: {count} trasporti hanno fatto il salto (+{pay} rottami). La Gilda registra un debito di gratitudine. Colonie salvate in questa missione: {saved}",
+        "other": "COLONIA IN SALVO: {count} trasporti hanno fatto il salto (+{pay} rottami). La Gilda registra un debito di gratitudine. Colonie salvate in questa missione: {saved}"
+      },
+      "lastTransportDies": "L'ultimo trasporto muore allo scadere del suo timer d'imbarco. Il canale della colonia continua a trasmettere per un po'. Poi smette."
+    },
+    "runAbandoned": "Missione abbandonata — {salvage} rottami in cassa",
+    "returnedToLobby": "Ritorno alla lobby — riequipaggia e riparti",
+    "save": {
+      "beyondDemo": "Quel salvataggio va oltre la demo — la demo copre i settori 1–{max}.",
+      "flies": "La missione salvata usa la classe {shipClass} — postazioni azzerate; prendete posto e premete ancora RIPRENDI",
+      "continues": "La nave {ship} riprende dal suo ultimo arrivo di salto nel sistema {system}"
+    },
+    "uncharted": "inesplorato",
+    "playerBack": "{player} è di nuovo alla sua postazione"
+  }
+}

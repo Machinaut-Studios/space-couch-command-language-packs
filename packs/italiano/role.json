@@ -1,0 +1,14 @@
+{
+  "role": {
+    "captain": "Capitano",
+    "helm": "Timone",
+    "tactical": "Tattica",
+    "engineering": "Ingegneria",
+    "science": "Scienze",
+    "comms": "Comunicazioni",
+    "cannoneer": "Cannoniere",
+    "cupolaGunner": "Artigliere Cupola",
+    "host": "Host",
+    "shipnet": "SHIPNET"
+  }
+}

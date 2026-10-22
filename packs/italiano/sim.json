@@ -1,0 +1,19 @@
+{
+  "sim": {
+    "power": {
+      "reactorCritical": "REATTORE CRITICO — temperatura del nucleo oltre la linea rossa",
+      "heatVented": "Sfiato completato — potenza ripristinata",
+      "reactorRecovered": "Reattore di nuovo sotto la linea rossa"
+    },
+    "mines": {
+      "detonation": "Detonazione mina — integrità scafo {pct}%",
+      "lock": "Aggancio mina — {designator} in arrivo!"
+    },
+    "eng": {
+      "venting": "Sfiato plasma — potenza dimezzata per {sec}s"
+    },
+    "screen": {
+      "setByName": "{name}"
+    }
+  }
+}

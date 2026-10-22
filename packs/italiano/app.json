@@ -1,0 +1,59 @@
+{
+  "app": {
+    "fatal": {
+      "missingWebBuild": {
+        "title": "Build web mancante",
+        "message": "Nessuna build SPA in {dir}. Esegui: pnpm -F @scc/{name} build"
+      },
+      "portInUse": {
+        "title": "Porta già in uso",
+        "message": "La porta {port} ({label}) è già in uso, probabilmente da un'altra copia di Space Couch Command o da uno stack di sviluppo. La modalità host richiede proprio queste porte, perché i telefoni sulla tua rete possano unirsi."
+      },
+      "connectionLost": {
+        "title": "Connessione persa",
+        "message": "{why}\nChiedi all'host un nuovo invito."
+      },
+      "joinFailed": {
+        "title": "Accesso fallito",
+        "message": "La lobby dell'host non ha un codice stanza. La sua plancia è ancora attiva?"
+      },
+      "steamJoinUnavailable": {
+        "title": "Accesso Steam non disponibile",
+        "message": "Apri Steam e avvia questa edizione dalla tua libreria, poi riprova l'invito."
+      },
+      "wrongEdition": {
+        "title": "Edizione Steam errata",
+        "message": "Entrambi i giocatori devono usare la demo, oppure entrambi il gioco completo.",
+        "inviteMessage": "Questo invito è per un'altra edizione. Entrambi i giocatori devono usare la demo, oppure entrambi il gioco completo."
+      },
+      "startupFailed": {
+        "title": "Avvio non riuscito"
+      }
+    },
+    "portLabel": {
+      "gameServer": "server di gioco",
+      "mainScreen": "schermo princ.",
+      "stations": "postazioni"
+    },
+    "joinPrompt": {
+      "message": "Unirsi alla plancia del tuo amico?",
+      "detail": "Questa plancia si spegne (i telefoni sulla rete locale vengono disconnessi) e Space Couch Command si riavvia come membro remoto dell'equipaggio.",
+      "stay": "Resta qui",
+      "leave": "Esci e unisciti"
+    },
+    "window": {
+      "mainScreenTitle": "{title} — Schermo principale"
+    },
+    "steam": {
+      "p2pFailed": "Sessione P2P di Steam fallita (codice {code})",
+      "lobbyMissingData": "Alla lobby di questa plancia mancano i dati della stanza.",
+      "hostLeft": "L'host ha lasciato questa plancia.",
+      "unavailable": "Steam non disponibile",
+      "linkUnavailable": "STEAM NON DISPONIBILE — APRI STEAM E AVVIA IL GIOCO DALLA TUA LIBRERIA",
+      "linkWrongEdition": "QUESTO LINK STEAM È PER UN'ALTRA EDIZIONE — ENTRAMBI I GIOCATORI DEVONO USARE LA DEMO, O ENTRAMBI IL GIOCO COMPLETO",
+      "invalidLink": "LINK DI INVITO STEAM NON VALIDO — COPIA L'INTERO LINK DA INVITA AMICI",
+      "joinNotHere": "NON PUOI UNIRTI A UNA PLANCIA STEAM DA QUESTA SCHERMATA",
+      "joinFailed": "ACCESSO STEAM FALLITO — VERIFICA CHE STEAM SIA ONLINE E RIPROVA"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parascope": {
+    "range": "{dist}u",
+    "chevron": "{tag} {dist}u",
+    "lock": "◉ AGGANCIO",
+    "tracking": "◌ TRACCIAMENTO",
+    "threatScope": {
+      "title": "RADAR MINACCE · 360°",
+      "view": "VISTA {deg}°"
+    },
+    "nav": {
+      "title": "NAV · DALL'ALTO",
+      "north": "N",
+      "heading": "ROTTA {deg}°"
+    },
+    "projectile": {
+      "torpedo": "SILURO",
+      "missile": "MISSILE",
+      "rocket": "RAZZO",
+      "rail": "RAILGUN",
+      "noisemaker": "ESCA",
+      "flare": "BENGALA"
+    },
+    "collision": {
+      "banner": "⚠ rotta di collisione — {designator} {sec}s",
+      "unknown": "CONTATTO"
+    },
+    "spinal": {
+      "armed": "ASSE SPINALE ▲ ARMATO",
+      "fwd": "ASSE SPINALE ▲ PRUA",
+      "edgeLeft": "◄ ASSE PRUA",
+      "edgeRight": "ASSE PRUA ►",
+      "lock": "◉ AGGANCIO SPINALE — {name} {dist}u"
+    },
+    "touch": {
+      "steerLeft": "vira a sinistra",
+      "steerRight": "vira a destra",
+      "throttleUp": "più manetta",
+      "throttleDown": "meno manetta"
+    },
+    "trigger": {
+      "fire": "fuoco",
+      "rail": "railgun",
+      "safe": "sicura"
+    },
+    "chip": {
+      "recenter": "⌖ ricentra",
+      "freeLookOn": "☉ visuale libera: sì",
+      "freeLookOff": "☉ visuale libera: no",
+      "gyro": "⌖ giroscopio",
+      "railArmed": "⌁ railgun armato",
+      "armRail": "⌁ arma railgun"
+    },
+    "hint": {
+      "touch": "◄ ► vira · ▲ ▼ manetta · trascina = guarda · arma + tocca = railgun",
+      "keyboard": "a/d vira · w/s manetta · trascina guarda · r ricentra · arma + spazio = railgun"
+    }
+  }
+}

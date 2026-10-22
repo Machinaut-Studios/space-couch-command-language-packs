@@ -1,0 +1,60 @@
+{
+ "ship": {
+  "class": {
+   "wren": {
+    "label": "WREN",
+    "blurb": "1-Crew-Skiff: ein Sitz, und jede Aufgabe an Bord ist deine.",
+    "subtitle": "1-CREW-SKIFF",
+    "tagline": "Ein Sitz, und jede Pflicht an Bord gehört dir."
+   },
+   "cutter": {
+    "label": "SPARROW",
+    "blurb": "2-Crew-Kutter: schnell, zerbrechlich, und jeder macht alles.",
+    "subtitle": "2-CREW-KUTTER",
+    "tagline": "Schnell, zerbrechlich, und jeder macht alles."
+   },
+   "corvette": {
+    "label": "TALON",
+    "blurb": "3-Crew-Korvette: der Captain fliegt und funkt.",
+    "subtitle": "3-CREW-KORVETTE",
+    "tagline": "Der Captain fliegt und funkt."
+   },
+   "frigate": {
+    "label": "VANGUARD",
+    "blurb": "4-Crew-Fregatte: eine eigene Hand an jedem Kernsystem.",
+    "subtitle": "4-CREW-FREGATTE",
+    "tagline": "Eine eigene Hand an jedem Kernsystem."
+   },
+   "cruiser": {
+    "label": "SOVEREIGN",
+    "blurb": "5-Crew-Kreuzer: die klassische Brücke, mit dem Captain, der von der Couch aus führt.",
+    "subtitle": "5-CREW-KREUZER",
+    "tagline": "Die klassische Brücke, der Captain führt von der Couch aus."
+   },
+   "dreadnought": {
+    "label": "COLOSSUS",
+    "blurb": "6+-Crew-Dreadnought: langsam und schwer, mit bemannten Geschütztürmen.",
+    "subtitle": "6+ CREW-DREADNOUGHT",
+    "tagline": "Langsam und schwer, mit bemannten Geschütztürmen."
+   }
+  },
+  "seat": {
+   "command": "Schiffsführung",
+   "helm_tac": "Pilot-Schütze",
+   "ops": "Operationen",
+   "sci_comms": "Wissenschaft & Funk",
+   "engineer": "Technik",
+   "helm": "Steuer",
+   "tactical": "Taktik",
+   "sciops": "Wissenschaft & Funk",
+   "science": "Wissenschaft",
+   "comms": "Funk",
+   "cupola": "Kuppel-Schütze",
+   "cannoneer_a": "Kanonier — Phaser I",
+   "cannoneer_b": "Kanonier — Phaser II",
+   "cannoneer_c": "Kanonier — Phaser III",
+   "cannoneer_d": "Kanonier — Phaser IV"
+  },
+  "cannoneerNote": "für junge Crew-Mitglieder gedacht"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "signal": {
+  "label": {
+   "phenomenon": "ANOMALES SIGNAL",
+   "organism": "BIOLOGISCHES SIGNAL",
+   "creatureSite": "WIEDERKEHRENDES SIGNAL",
+   "mega": "STRUKTURIERTER TRÄGER",
+   "beacon": "AUTOMATISCHE BAKE"
+  },
+  "tune": {
+   "phenomenon": "Funk stimmt ein anomales Signal ab — {designator} auf den Bändern",
+   "organism": "Funk stimmt ein biologisches Signal ab — {designator} auf den Bändern",
+   "creatureSite": "Funk stimmt ein wiederkehrendes Signal ab — {designator} auf den Bändern",
+   "mega": "Funk stimmt einen strukturierten Träger ab — {designator} auf den Bändern",
+   "beacon": "Funk stimmt eine automatische Bake ab — {designator} auf den Bändern"
+  }
+ }
+}

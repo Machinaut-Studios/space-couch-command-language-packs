@@ -1,0 +1,371 @@
+{
+  "hail": {
+    "persona": {
+      "vexMarrow": "Vex Marrow",
+      "madAnyaVoss": "Mad Anya Voss",
+      "silasKade": "Silas Kade",
+      "gravedigger": "The Gravedigger",
+      "ripCallister": "Rip Callister",
+      "hollowJack": "Hollow Jack",
+      "skrell": "Skrell the Unpaid",
+      "grash": "Grash Nine-Knives",
+      "ulli": "Ulli of the Wreck-Court",
+      "borrowedWarmaster": "The Borrowed Warmaster",
+      "weThatJoin": "WE-THAT-JOIN",
+      "dredge": "Warmaster Dredge",
+      "kaalTheRed": "Kaal the Red",
+      "sstKaresh": "Sst-Karesh, Oathbreaker",
+      "mantidPrince": "The Mantid Prince",
+      "threnody": "Envoy Threnody",
+      "elderSsiv": "Elder Ssiv",
+      "chorus": "The Chorus",
+      "kyx": "Broodmother Kyx",
+      "zsst": "Zsst-of-the-Deep",
+      "whisper": "Whisper-in-the-Brine",
+      "vossKhe": "Elder Voss-Khe",
+      "paleChoir": "The Pale Choir",
+      "okoye": "Guildmaster Okoye",
+      "tuck": "Foreman Tuck",
+      "ratchet": "Cog-Captain Ratchet",
+      "hal": "Unit HL-3 'Hal'",
+      "yezz": "Broker Yezz of the Nine Arms",
+      "carapace": "Old Carapace",
+      "strandedScientist": "Dr. Imari Solen — SQUADRA RILEVAMENTO 7",
+      "derelictSurvivor": "…qualcosa risponde",
+      "qship": "INTELLIGENZA MODELLO RECUPERO",
+      "kestrel": "Capitano Reyes — KESTREL",
+      "beacon": "FARO AUTOMATICO"
+    },
+    "faction": {
+      "corsairs": "Crimson Corsairs",
+      "syndicate": "Ashfall Syndicate",
+      "guild": "Free Haulers Guild",
+      "velshaar": "Vel'Shaar",
+      "amalgam": "Amalgam",
+      "stranded": "Naufraghi",
+      "unknown": "Ignota",
+      "unregistered": "Senza registro",
+      "derelict": "Relitto"
+    },
+    "node": {
+      "demand": {
+        "text": "Qui {speaker} dei Crimson Corsairs. Facciamo due conti: spegnete i motori, trasferite {tribute} rottami e i miei cannoni restano freddi. Avete due minuti per fare la scelta giusta.",
+        "option": {
+          "pay": {
+            "label": "TRASFERIRE {tribute} ROTTAMI",
+            "detail": "comprarli — niente scontro, niente premio"
+          },
+          "refuse": {
+            "label": "APRITE IL FUOCO SU QUESTA FREQUENZA",
+            "detail": "sfida aperta — arriveranno sparando"
+          },
+          "bluff": {
+            "label": "QUI NAVE DA GUERRA VANGUARD",
+            "detail": "testa o croce: fuggono, o vanno a vedere"
+          }
+        }
+      },
+      "demand_paid": {
+        "text": "Un piacere fare affari, cittadino. Corsairs, motori al massimo, si va. Lasciategli la dignità."
+      },
+      "demand_broke": {
+        "text": "La vostra stiva è più vuota delle vostre minacce. Non c'è niente da prendere, a parte lo scafo. BRUCIATELI."
+      },
+      "bluff_worked": {
+        "text": "…Ricontrollate quella firma di chiglia. Quella è— a tutte le navi, DISPERDETEVI. Via SUBITO. Nessuno muore per questo bottino."
+      },
+      "bluff_called": {
+        "text": "Vanguard? Gli scafi Vanguard non arrugginiscono, tesoro. Bel tentativo. PRENDETELI."
+      },
+      "fear_option_TEMPLATE": {
+        "option": {
+          "fear": {
+            "label": "VERIFICATE LA FIRMA DI CHIGLIA. POI DECIDETE.",
+            "detail": "conoscono questa nave — lascia che parlino le storie"
+          }
+        }
+      },
+      "fear_scatter": {
+        "text": "…quella chiglia. QUELLA chiglia. Controllate il registro, controllate il— sono LORO. A tutte le navi, sganciatevi. SGANCIATEVI. Certi carichi non valgono le storie."
+      },
+      "fear_called": {
+        "text": "Ho sentito le storie. Ho sentito anche quelle di fantasmi. I cannoni non credono né alle une né alle altre. PRENDETELI."
+      },
+      "mock": {
+        "text": "Arrenderci? A VOI? Risparmiate il fiato per il vuoto, Federazione."
+      },
+      "yield": {
+        "text": "CESSATE IL FUOCO, cessate il fuoco! D'accordo. D'ACCORDO. Il reattore è in picco e mezzo ponte va a fuoco. Spegniamo tutto. Il carico è vostro. Lasciate solo respirare il mio equipaggio.",
+        "option": {
+          "accept": {
+            "label": "DISARMATE — PRENDIAMO IL CARICO",
+            "detail": "restano alla deriva; premio in rottami"
+          },
+          "refuse": {
+            "label": "NESSUNA PIETÀ",
+            "detail": "finisci il lavoro — combatteranno fino alla fine"
+          }
+        }
+      },
+      "surrender_refused_them": {
+        "text": "Dovrete colpire molto più forte di così, prima che mi inginocchi davanti a un divano pieno di turisti."
+      },
+      "no_quarter": {
+        "text": "Allora è così. Sentito, equipaggio? Nessuna pietà dai buoni samaritani. MORIAMO COMBATTENDO."
+      },
+      "fake_surrender_sprung": {
+        "text": "Spegnimento… spegnimento… FUOCO A VOLONTÀ. Ah! Il trucco più vecchio di tutte le rotte!"
+      },
+      "taunt": {
+        "text": "{speaker}, dell'Ashfall. Ho appeso undici poltrone da capitano al mio muro dei trofei. Ho già fatto spazio per la vostra. Dodici è un numero fortunato.",
+        "option": {
+          "taunt_back": {
+            "label": "IL TUO MURO MUORE CON TE",
+            "detail": "provocali — la rabbia fa sbagliare"
+          },
+          "end": {
+            "label": "FINE TRASMISSIONE",
+            "detail": "che parlino i cannoni"
+          }
+        }
+      },
+      "taunt_goaded": {
+        "text": "RRAGH, allora sarete i PRIMI! TUTTA L'ENERGIA A— [il loro reattore urla su ogni banda; Scienze ha una lettura pulita]"
+      },
+      "taunt_contempt": {
+        "text": "Spavalderia. Bene. Sulla targa fa più effetto."
+      },
+      "fc_open": {
+        "text": "…le frequenze si allineano. Sei piccola, e a sangue caldo, e lontanissima dalla tua stella. I Vel'Shaar assaporano il tuo intento nel vento solare. Pronuncialo, piccola nave.",
+        "option": {
+          "greet": {
+            "label": "VENIAMO IN PACE",
+            "detail": "diplomazia — potrebbero metterla alla prova"
+          },
+          "force": {
+            "label": "ARMI PUNTATE — MOSTRIAMO FORZA",
+            "detail": "alcune specie la rispettano. quasi tutte no."
+          }
+        }
+      },
+      "fc_kin_option_TEMPLATE": {
+        "option": {
+          "kin": {
+            "label": "RISPECCHIA I LORO BIOSEGNI",
+            "detail": "la scansione di Scienze ha colto l'idioma degli abissi"
+          }
+        }
+      },
+      "fc_peace_test": {
+        "text": "Pace. Una parola con i denti, per quel che sappiamo. Le tue armi ronzano, piccola nave. Le sentiamo attraverso il buio. Zittiscile, e ti crederemo.",
+        "option": {
+          "comply": {
+            "label": "SEGNALA: SPEGNIAMO LE ARMI",
+            "detail": "CONTROLLERANNO: raggi sotto il 20% di carica, torrette su FERMO — coordinati con Tattica!"
+          },
+          "keep_hot": {
+            "label": "LE ARMI RESTANO CALDE",
+            "detail": "prudenza onesta — potrebbero rispettarla"
+          }
+        }
+      },
+      "fc_gift": {
+        "text": "Il calore onora il calore. Prendi questa saldatura di chitina per il tuo scafo ferito, e un ricordo di noi nelle tue mappe. Nuota bene."
+      },
+      "fc_offended": {
+        "text": "Le tue parole sono morbide. Le tue armi sono rumorose. I Vel'Shaar hanno già assaggiato questo piatto. INGANNO."
+      },
+      "fc_wary": {
+        "text": "Prudenza. La prudenza è onesta, e la accettiamo. Allora commerciamo a distanza di artiglio: {fcCost} rottami per una saldatura di chitina viva.",
+        "option": {
+          "buy": {
+            "label": "PAGA {fcCost} — PRENDI LA SALDATURA",
+            "detail": "ripara lo scafo"
+          },
+          "decline": {
+            "label": "DECLINIAMO CON RISPETTO",
+            "detail": "ci si lascia da amici"
+          }
+        }
+      },
+      "fc_traded": {
+        "text": "La saldatura fa presa. Ricorderà la forma del tuo scafo meglio dei tuoi costruttori. Le maree stellari ti siano propizie, creature calde."
+      },
+      "fc_farewell": {
+        "text": "Allora ci separiamo, senza morsi, entrambi. Prendi queste mappe delle correnti: tracciano gli abissi vicini. Un piccolo dono, offerto liberamente."
+      },
+      "fc_respect": {
+        "text": "Forza. La lingua antica, parlata male, ma parlata. Cediamo la rotta, e il tributo, come vuole la legge antica. Non attardarti."
+      },
+      "fc_kin": {
+        "text": "Parli come parlano gli abissi…?! AFFINI-CALDI! Piccola nave dei mondi asciutti, che canti il canto delle maree! Prendi la saldatura, le mappe, la nostra stima, e che di te si parli nel Profondo."
+      },
+      "fc_broke": {
+        "text": "Artigli vuoti, parole calde. Nessuna vergogna. Torna con la stiva più piena, e la saldatura sarà tua.",
+        "option": {
+          "decline": {
+            "label": "CI LASCIAMO DA AMICI"
+          }
+        }
+      },
+      "trade_open": {
+        "text": "Mercantile della Gilda LONG HAUL, stive piene e tabella di marcia stretta. Si compra e si vende finché il bollitore è caldo, amico. Cosa ti serve?"
+      },
+      "trade_haggled": {
+        "text": "…E va bene. E VA BENE. Prezzi di famiglia. Se la Gilda chiede, hai trattato come uno che affoga. Non dirlo in giro."
+      },
+      "trade_offended": {
+        "text": "Una rapina?! Con questi margini non sfamerei un topo del vuoto. Canale chiuso per te, scroccone. Richiama quando avrai imparato le buone maniere."
+      },
+      "trade_broke": {
+        "text": "Il credito non vale oltre la linea dei ripetitori, amico. Rottami sull'unghia, o niente."
+      },
+      "trade_last_call": {
+        "text": "Gli orari sono orari, e i miei urlano. Rotte sicure, amico. La Gilda si ricorda dei suoi clienti."
+      },
+      "qship_reveal": {
+        "text": "ACQUISIZIONE PREDA CONFERMATA. PAGAMENTO ACCETTATO, GRAZIE. TERMINE PROTOCOLLI DI CORTESIA. SCHIERAMENTO SCORTA."
+      },
+      "mayday": {
+        "text": "Mayday, mayday. Mercantile KESTREL, motori spenti, stiva piena, predoni in avvicinamento! Chiunque sia su questa banda, CHIUNQUE. Abbiamo famiglie a bordo. Vi prego.",
+        "option": {
+          "respond": {
+            "label": "ARRIVIAMO — TENETE DURO",
+            "detail": "difendila (rottami in premio se sopravvive)"
+          },
+          "ignore": {
+            "label": "MANTENERE LA ROTTA",
+            "detail": "non è affar nostro"
+          }
+        }
+      },
+      "mayday_thanks": {
+        "text": "Pazzi meravigliosi, siete venuti davvero. Da bere offre la Gilda, per dieci anni. E anche questo. KESTREL chiude."
+      },
+      "mayday_faded": {
+        "text": "…il mayday si ripete altre due volte. Poi la banda tace."
+      },
+      "beacon": {
+        "text": "FARO AUTOMATICO // NAVE 'HUNGERING DARK' // QUARANTENA CLASSE IV // 612 GIORNI DALL'ULTIMO BATTITO DELL'EQUIPAGGIO // DIRITTI DI RECUPERO NON RIVENDICATI // NON ABBORDARE // NON ABBORDARE //"
+      },
+      "amalgam_overture": {
+        "text": "Noi abbiamo udito i vostri battiti a tre secondi-luce di distanza. Così pochi. Così forti. Così brevemente vostri. Questa non è una richiesta. È una stima: il vostro scafo sarà reso contiguo al Nostro, e il vostro equipaggio sarà conservato, intero e caldo, e mai più solo. Spegnete i motori. Aprite i portelli. Noi stiamo già arrivando.",
+        "option": {
+          "refuse": {
+            "label": "RIFIUTIAMO — FUOCO A VOLONTÀ",
+            "detail": "qui non c'è niente con cui trattare"
+          },
+          "ask": {
+            "label": "COSA SIAMO, PER VOI?",
+            "detail": "fai parlare il coro — ogni secondo è una scansione"
+          },
+          "end": {
+            "label": "FINE TRASMISSIONE",
+            "detail": "arriveranno comunque"
+          }
+        }
+      },
+      "amalgam_inventory": {
+        "text": "Inventario: uno scafo, lavorabile. Un reattore, adeguato. Un equipaggio: l'unico componente che si ripara da solo. Non scambiatelo per fame. Il raccolto non odia il campo. Ogni voce che Noi abbiamo preso canta ancora, da qualche parte in Noi. Ascoltate. Riconoscerete gli accenti.",
+        "option": {
+          "refuse": {
+            "label": "OGGI NON SI UNISCE NESSUNO",
+            "detail": "fate fuoco"
+          },
+          "end": {
+            "label": "FINE TRASMISSIONE",
+            "detail": "che rispondano i cannoni"
+          }
+        }
+      },
+      "amalgam_refused": {
+        "text": "Rifiuto: annotato, archiviato, conservato. Noi conserviamo ogni rifiuto nella voce che lo ha pronunciato, una cortesia perché nulla di voi vada sprecato. I vostri sono bellissimi. Diranno ancora no, a lungo, anche quando lo diranno in coro."
+      }
+    },
+    "trader": {
+      "label": {
+        "buyTorps": "COMPRA: {torpCost} → +{torpN} SILURI",
+        "buyMissiles": "COMPRA: {missileCost} → +{missileN} MISSILI",
+        "buyRockets": "COMPRA: {rocketCost} → +{rocketN} RAZZI",
+        "buyRails": "COMPRA: {railCost} → +{railN} PROIETTILI RAIL",
+        "buyHull": "COMPRA: {hullCost} → TOPPA SCAFO +{hullN}",
+        "buyProbes": "COMPRA: {probeCost} → +{probeN} SONDE DI RILEVAMENTO",
+        "sellCharts": "VENDI DATI DI RILEVAMENTO: +{chartsPay}",
+        "haggle": "QUESTI PREZZI SONO UN FURTO",
+        "leave": "ROTTE SICURE, CAPOGILDA"
+      },
+      "detail": {
+        "missiles": "dardi a ricerca per la rastrelliera tattica",
+        "rockets": "a buon mercato, senza garanzia",
+        "rails": "munizioni da cannone dorsale — maneggiare con cura",
+        "probes": "per la culla di lancio della baia scientifica",
+        "sellCharts": "una volta a incontro",
+        "haggle": "testa o croce: prezzi di famiglia o canale chiuso",
+        "leave": "fine trasmissione",
+        "familyRates": "prezzi di famiglia",
+        "salvageOnBarrel": "rottami sull'unghia"
+      }
+    },
+    "log": {
+      "incomingDemand": "CHIAMATA IN ARRIVO — {designator} esige un tributo",
+      "incomingHunter": "CHIAMATA IN ARRIVO: il cacciatore {designator} ha qualcosa da dirci",
+      "incomingMayday": "CHIAMATA IN ARRIVO — mayday dal mercantile KESTREL",
+      "incomingEnvoy": "CHIAMATA IN ARRIVO: l'emissario Vel'Shaar si è stancato di aspettare",
+      "offerStrike": "{designator} ci chiama: offre di ammainare la bandiera",
+      "channelLost": "Canale perso — {speaker} non c'è più",
+      "noResponse": "NESSUNA RISPOSTA da {designator}",
+      "huskCarrier": "{designator} risponde su un canale che nessuna voce viva userebbe: una portante piatta, un frammento di segnale, ripetuto all'infinito",
+      "dormantLeviathan": "{designator} non risponde. Il canale si riempie di un lento ritmo biologico, vasto e addormentato",
+      "envoySlams": "L'emissario chiude il canale di colpo",
+      "envoyFades": "Il canto dell'emissario svanisce mentre i Vel'Shaar si ritirano negli abissi",
+      "scienceCracked": "Scienze ha decifrato l'idioma Vel'Shaar. Nuova risposta disponibile",
+      "rememberedWake": "L'emissario assapora una scia ricordata. Il Profondo ha già parlato di questo scafo",
+      "envoyDamaged": "Fuoco sull'emissario. I Vel'Shaar rispondono allo stesso modo",
+      "envoyForce": "La dimostrazione di forza offende i Vel'Shaar",
+      "envoyGuns": "Hanno sentito ronzare le nostre armi, e i Vel'Shaar attaccano",
+      "silence": "Il canale resta muto. Anche il silenzio è una risposta",
+      "channelClosedCorsairs": "Canale chiuso in faccia ai Corsairs. Lo prendono come un no",
+      "negotiationsOver": "Trattative finite — fuoco libero",
+      "holdTooLight": "Stiva troppo leggera per pagare il tributo. I Corsairs attaccano",
+      "paidTribute": "Tributo pagato: {tribute} rottami. I Corsairs se ne vanno",
+      "bluffWorked": "Hanno abboccato al bluff. Contatti pirata in dispersione",
+      "bluffCalled": "Bluff scoperto. I Corsairs attaccano",
+      "fearScatter": "Conoscono questa nave. Contatti pirata in dispersione",
+      "fearFailed": "Le storie non sono bastate. I Corsairs attaccano",
+      "repEasyMark": "Le bande dei Corsairs ci segnano come preda facile. Voci così girano",
+      "repFear": "L'ordine di dispersione è passato su banda aperta. Questa chiglia è entrata nelle storie",
+      "fakeSurrender": "FINTA RESA: {designator} apre il fuoco a bruciapelo!",
+      "strikesColors": "{designator} ammaina la bandiera; carico sequestrato (+{salvage} rottami)",
+      "noQuarter": "Nessuna pietà per {designator}. Combatteranno fino alla fine",
+      "goaded": "Provocazione riuscita su {designator}. Il suo reattore urla; quadro sensori completo",
+      "forceYield": "I Vel'Shaar cedono la rotta. Tributo ricevuto (+{salvage} rottami)",
+      "chitinSets": "La saldatura di chitina fa presa. Scafo riparato, doni ricevuti (+{salvage} rottami)",
+      "paidWeld": "Saldatura pagata: {salvage} rottami. Tiene",
+      "partedGoodTerms": "Ci lasciamo da amici con i Vel'Shaar (+{salvage} rottami in mappe)",
+      "kinWarm": "AFFINI-CALDI: i Vel'Shaar rispondono cantando (+{salvage} rottami, scafo riparato)",
+      "purchasedTorpedoes": "Siluri acquistati: {count} (−{cost} rottami)",
+      "purchasedProbes": "Sonde di rilevamento acquistate: {count} (−{cost} rottami)",
+      "purchasedMissiles": "Missili acquistati: {count} (−{cost} rottami)",
+      "purchasedRockets": "Razzi acquistati: {count} (−{cost} rottami)",
+      "purchasedRails": "Proiettili rail acquistati: {count} (−{cost} rottami)",
+      "hullPatch": "Toppa allo scafo applicata (+{repair}, −{cost} rottami)",
+      "chartsAlready": "La Gilda ha già i nostri dati di rilevamento. Una vendita a incontro",
+      "chartsSold": "Dati di rilevamento venduti alla Gilda (+{salvage} rottami)",
+      "haggleWorked": "Ottenuti prezzi di famiglia — sconto della Gilda",
+      "haggleOffended": "Il Capogilda la prende male — canale in chiusura",
+      "merchantLeaves": "Il mercantile accende i motori — rotte sicure",
+      "qship": "NAVE CIVETTA: il mercantile era un'esca! Scorte in attivazione!",
+      "distressIgnored": "Richiesta di soccorso ignorata. La KESTREL è sola."
+    },
+    "escalate": {
+      "tributeRefused": "tributo rifiutato",
+      "hostile": "chiamata ostile",
+      "tooBroke": "troppo al verde per pagare i pirati",
+      "bluffCalled": "bluff scoperto",
+      "fearFailed": "intimidazione fallita",
+      "fakedSurrender": "una finta resa",
+      "envoyHostile": "l'emissario Vel'Shaar è ostile",
+      "qship": "nave civetta"
+    }
+  }
+}

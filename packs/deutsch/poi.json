@@ -1,0 +1,40 @@
+{
+ "poi": {
+  "action": {
+   "mineral": {
+    "label": "ABBAUEN",
+    "blurb": "den Flöz wegschneiden und an Bord holen"
+   },
+   "relic": {
+    "label": "BERGEN",
+    "blurb": "eine Sonde schicken, um das Objekt zu heben"
+   },
+   "hatch": {
+    "label": "SONDE SENDEN",
+    "blurb": "eine Sonde durch die Öffnung schieben"
+   },
+   "signal": {
+    "label": "DEKODIEREN",
+    "blurb": "das Muster durch den Decoder laufen lassen"
+   },
+   "organism": {
+    "label": "PROBE NEHMEN",
+    "blurb": "eine biologische Fernprobe nehmen"
+   },
+   "core": {
+    "label": "ANZAPFEN",
+    "blurb": "die Zelle abzapfen, bevor sie instabil wird"
+   }
+  },
+  "campaign": {
+   "sleeperPodRows": "KRISTALL-SCHLAFKAPSEL — REIHE UM REIHE",
+   "sleeperPodPulse": "KRISTALL-SCHLAFKAPSEL — SCHWACHER PULS",
+   "archive": "DAS ARCHIV — gewebte Aufzeichnung",
+   "severedRecord": "ABGETRENNTE AUFZEICHNUNG — Archivende"
+  },
+  "log": {
+   "surveyResolves": "Vermessung löst {designator} auf — {label} ({action} verfügbar)",
+   "reviewAction": "PRÜFEN"
+  }
+ }
+}

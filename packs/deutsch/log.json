@@ -1,0 +1,230 @@
+{
+ "log": {
+  "testKnob": {
+   "probeAutoLaunched": "TEST-KNOPF: Sonde automatisch gestartet"
+  },
+  "mods": {
+   "summary": {
+    "ok": "{missing} fehlen, {stale} veraltet, {warnings} Warnungen",
+    "unusable": "Nicht verwendbar: {errors} Fehler"
+   },
+   "problem": {
+    "unknownKey": "{key}: kein Schlüssel des Spiels",
+    "placeholderAdded": "{key}: fügt einen Platzhalter hinzu, den das Spiel nicht kennt, daher verworfen",
+    "placeholderOmitted": "{key}: lässt einen Platzhalter aus, den das Englische hat",
+    "pluralGap": "{key}: fehlt eine Pluralform, die diese Sprache braucht",
+    "pluralNoOther": "{key}: Pluralformen brauchen eine Form „other“, daher verworfen",
+    "tooLong": "{key}: länger als der Platz erlaubt ({max} Zeichen)",
+    "hailTooLong": "{key}: deutlich länger als die englische Funkzeile",
+    "markup": "{key}: enthält Markup, daher verworfen",
+    "badLeaf": "{key}: Text muss eine Zeichenkette oder Pluralformen sein",
+    "badKey": "{key}: kein brauchbarer Schlüssel",
+    "tooDeep": "{key}: zu tief verschachtelt",
+    "duplicateKey": "{key}: doppelt definiert, es gilt der erste",
+    "stale": "{key}: das Englische hat sich seit der Übersetzung geändert",
+    "manifest": "pack.json: {field} fehlt oder ist ungültig",
+    "noUsable": "Keine brauchbaren Texteinträge",
+    "fileUnreadable": "{file}: konnte nicht gelesen werden",
+    "fileBadJson": "{file}: ist kein gültiges JSON",
+    "fileTooBig": "{file}: überschreitet die Größengrenze",
+    "fontRejected": "{file}: als Schrift abgelehnt",
+    "duplicateId": "Paket-ID {id} wird schon von Ordner {folder} verwendet, daher wurde dieses Paket übersprungen",
+    "packTooBig": "Zu groß, um an die Geräte der Crew geschickt zu werden"
+   }
+  },
+  "system": {
+   "reactor": "REAKTOR",
+   "engines": "TRIEBWERKE",
+   "jumpDrive": "SPRUNGANTRIEB",
+   "lifeSupport": "LEBENSERHALTUNG",
+   "sensors": "SENSOREN",
+   "weapons": "WAFFEN",
+   "shields": "SCHILDE",
+   "hull": "HÜLLE"
+  },
+  "jump": {
+   "charged": "Sprungantrieb geladen — Steuer kann zünden",
+   "fullSpool": "VOLLER SPOOL: der geladene Kondensator entlädt sich in den Kern. Bald springen, oder Technik lässt ihn über die Ventile ab",
+   "engaged": "Sprung eingeleitet — Sektor {sector} verlassen",
+   "engagedAbandoned": "Sprung eingeleitet — Sektor {sector} wird verlassen (Auftrag abgebrochen)",
+   "transitOutrunsUplink": "Der Sprungtransit überholt die Uplink-Verbindung, und der Funk verblasst hinter uns",
+   "lockout": "Sprungantrieb gesperrt — die Feldspulen verweigern den Befehl. Technik: Energie umleiten",
+   "lockoutResets": "Die Sperre setzt sich im Transit zurück: das Sprungrauschen spült den Eindringling vom Bus"
+  },
+  "redAlert": "ROTALARM — {reason}",
+  "alert": {
+   "weaponsFire": "Waffenfeuer von {designator}",
+   "torpedoLaunch": "Torpedostart von {designator}",
+   "missileLaunch": "Raketenstart von {designator}",
+   "railFire": "Schienenfeuer von {designator}",
+   "hostileClosing": "Feind {designator} nähert sich",
+   "derelictAmbush": "Hinterhalt am Wrack",
+   "anomalyAmbush": "Hinterhalt bei {designator}",
+   "voidGuardians": "die Wächter des VOID sind erwacht",
+   "somethingVast": "etwas Gewaltiges erwacht bei {designator}",
+   "snare": "das dekodierte Signal war eine Falle",
+   "relicClaimants": "die Jäger des verfluchten Relikts fanden uns",
+   "reinforcements": "Verstärkung antwortet auf den Ruf von {designator}",
+   "sentinels": "der Sentinel-Schwarm hat uns gefunden",
+   "leviathanAwake": "der Leviathan ist erwacht"
+  },
+  "hostilesCleared": "Feinde ausgeschaltet — Rotalarm wird aufgehoben",
+  "enemy": {
+   "escapes": "{designator} entkommt per Sprung — weg",
+   "spoolHalted": "Der Sprungantrieb von {designator} erlischt — Fluchtspool eingefroren",
+   "breaksOff": "{designator} bricht ab und zieht in den Tiefraum — entkommen",
+   "torpedoLaunch": "TORPEDO IM WASSER — {designator}",
+   "decoy": "{designator} stößt Köder aus — unsere Fische jagen ihn vielleicht",
+   "missilesInbound": "RAKETEN IM ANFLUG — {designator} feuert Salve ab",
+   "railDischarge": "SCHIENENENTLADUNG — {designator} — weiche der Feuerlinie aus!",
+   "destroyedAdrift": "{designator} im Treiben zerstört",
+   "destroyed": "{designator} zerstört (+{salvage} Bergegut)",
+   "destroyedTooSlow": "{who} zerstört — wir waren zu langsam",
+   "berthAway": "{shipClass} ist WEG — ihre Liegeplätze springen mit aus dem Feuer"
+  },
+  "auto": {
+   "vent": "AUTO-ENTLÜFTUNG aktiv — Plasma wird abgelassen, Leistung für {sec}s halbiert",
+   "repairComplete": "AUTO-REPARATUR fertig — {system} wiederhergestellt",
+   "repairStalled": "AUTO-REPARATUR stockt — kein Bergegut ({system} bei {pct}%)"
+  },
+  "derelict": {
+   "scanComplete": "Wrack-Tiefenscan abgeschlossen — {torpedoes} Torpedos geborgen",
+   "trap": "ES IST EINE FALLE — Feindkontakte fahren hoch!"
+  },
+  "shipLost": "SCHIFF VERLOREN in Sektor {sector}. {salvage} Bergegut gesichert.",
+  "demoComplete": "DEMO ABGESCHLOSSEN: {sectors} Sektoren geflogen, {salvage} Bergegut gesichert. Setz Space Couch Command auf die Wunschliste, um weiterzufliegen.",
+  "merchantArrives": "Gilden-Frachter LONG HAUL trifft per Warp ein. Die Versorgungslinie hat aufgeholt. Funk: rufen, wenn bereit",
+  "freighterThanks": "KESTREL dankt: Bergegut übertragen",
+  "distressResponding": "Antwort auf KESTRELs Notruf: Feinde im Anflug",
+  "objectiveComplete": "Auftrag erfüllt: {label} (+{reward} Bergegut). Sprungantrieb laden, sobald bereit.",
+  "arrival": "Sektor {sector}: {label} — {objective}",
+  "swarmSignatures": "SCHWARM-SIGNATUREN: {count} kleine Echos bewegen sich als ein Organismus. Geschütze werden wichtiger sein als Torpedos",
+  "survey": {
+   "unresolved": {
+    "one": "VERMESSUNG {designator} — {count} ungeklärtes Echo auf dem Schirm",
+    "other": "VERMESSUNG {designator} — {count} ungeklärte Echos auf dem Schirm"
+   }
+  },
+  "nav": {
+   "destinationCleared": "Ziel gelöscht — der nächste Sprung nimmt jede offene Route",
+   "courseLaid": "Kurs gesetzt: das System {system}",
+   "courseLaidWormhole": "Kurs gesetzt: das System {system} — durch die Apertur",
+   "fixCharted": "Navigationsfix: das System {system} — kartiert",
+   "fixRevisited": "Navigationsfix: das System {system} — erneut besucht; die Nachbarschaft hat sich weiterbewegt"
+  },
+  "outage": {
+   "decays": "Sperre von {system} klingt ab. Das Eindringmuster verliert seine Kohärenz",
+   "surgeGrounded": "Energiestoß über die Schutzhülle geerdet. Keine Systeme verloren",
+   "harvest": "ERNTEPROTOKOLL — {designator} greift in unseren Bus und nimmt sich {system} als Lagerbestand. Technik: Energie umleiten",
+   "intrusion": "EINDRINGUNGSSTOSS von {designator} — {system} gesperrt. Technik: Energie umleiten",
+   "anomalyFlare": "{designator} flackert — der Ausschlag schaltet {system} ab. Technik: Energie umleiten",
+   "hazardEmissions": "Die Emissionen von {designator} dringen ins Netz ein — {system} abgeschaltet. Technik: Energie umleiten",
+   "strayLance": "Ein verirrter Strahlungsspeer schaltet {system} ab — Leitungen verschmolzen. Technik: Energie umleiten",
+   "rerouteComplete": "UMLEITUNG abgeschlossen — {system} zurück am Bus"
+  },
+  "probe": {
+   "away": "Sonde unterwegs zu {designator} — noch {remaining} übrig",
+   "telemetryLive": "Sondentelemetrie aktiv — Wissenschaft hat den Steuerknüppel, Funk hat den Scan (PROBE / PROBE RADAR auf dem Hauptschirm)",
+   "onPad": "Sonde auf dem Pad — Bergungskanal öffnet sich. Halte sie ruhig.",
+   "extractionInterrupted": "Bergung unterbrochen — die Sonde hat das Pad verlassen",
+   "recoveryManifest": {
+    "one": "Bergungsliste — {count} Bergungskapsel verstaut (+◈{pay})",
+    "other": "Bergungsliste — {count} Bergungskapseln verstaut (+◈{pay})"
+   },
+   "recovered": "Sonde geborgen und wieder eingeracked — gute Arbeit, Wissenschaft",
+   "lostCaught": "SIGNAL VERLOREN: der Feed bricht in Rauschen ab. Etwas hat sie zuerst gefunden.",
+   "lostAborted": "Sonde auf Befehl der Wissenschaft versenkt — SIGNAL VERLOREN durch eigene Hand",
+   "lostWrecked": "Sondenhülle null — SIGNAL VERLOREN im Dunkeln",
+   "lostJump": "Der Sprungtransit reißt die Sondenleine — SIGNAL VERLOREN, Sonde verloren",
+   "signalLost": "SIGNAL VERLOREN: der Feed von {designator} bricht in Rauschen zusammen und bleibt so. Protokoll geschlossen, ungeklärt."
+  },
+  "outcome": {
+   "staleSignalClue": "Signalkoordinaten stimmen mit einem Faden überein, den SHIPNET schon hält — keine neuen Daten ({designator})",
+   "staleDecodedClue": "Dekodierte Koordinaten decken sich mit einem Faden, den SHIPNET schon hält — keine neuen Daten ({designator})",
+   "apertureFizzles": "Die Apertur zuckt … und fällt zurück in gebrochenes Sternenlicht. Das ferne Ende löst sich nie auf.",
+   "lurkerAnswers": "Ein Lauerer antwortet auf den Ping: eine hochfahrende Signatur abseits unseres Strahls",
+   "hullChewersEnd": "Schadenskontrolle: die Hüllenfresser brennen aus — Abfluss beendet, Platten halten",
+   "curseHeld": "Schwache Sprungsignaturen lungern am Sektorrand … und halten Abstand. Irgendetwas dort draußen verunsichert sie.",
+   "relicBeacon": "Die Wärme des Relikts war ein Peilsender. Die Ansprüche fallen aus dem Sprung, Waffen heiß"
+  },
+  "contained": {
+   "anomalyAmbush": "{designator}: Bewegung löst jeden Näherungsalarm aus… dann nichts. Was auch immer sich regte, ist still geworden.",
+   "guardians": "Maschinensignaturen regen sich im Kielwasser der Struktur… und halten am Sektorrand. Das Lied draußen hält ihre Zahl fest.",
+   "hatch": "{designator}: etwas Gewaltiges regt sich hinter der Luke… und wird still. Das Lied draußen hält es.",
+   "snare": "Die Falle pingt ins Schweigen hinaus. Nichts antwortet, solange das Lied anhält.",
+   "sentinels": "Sprungsignaturen drängen sich am Sektorrand in perfekter Formation… und halten dort. Das Lied draußen hält ihre Zahl fest.",
+   "boss": "Eine gewaltige Signatur steigt am Sektorrand auf… und dreht ab. Das Lied draußen verunsichert selbst die Großen.",
+   "leviathan": "{designator} zuckt im Schlaf… und ruht. Das Lied draußen hält es nieder."
+  },
+  "campaign": {
+   "archiveFragment": "ARCHIVFRAGMENT im tiefen Speicher des Schiffs gesichert: {total} über alle Logs hinweg geborgen",
+   "longRetreat": "DER LANGE RÜCKZUG: neuer Standardbefehl, selbst erteilt. System für System zurückfallen und jede Kolonie warnen, dass die Routen noch reichen.",
+   "guardiansWake": "WÄCHTER: Maschinensignaturen erwachen im Kielwasser der Struktur und bewegen sich als Einheit. Sie hatten darauf gezählt, dass jemand kommt",
+   "podFiled": "{designator} abgelegt: STABILISIERT. Das Gitter verweigert die Schnittstelle. Die Schläfer behalten ihre Gedanken für sich.",
+   "archiveRepeats": "Der gewebte Bericht wiederholt, was SHIPNET schon hält: keine neuen Verse (das Archiv ist geduldig)",
+   "severedRepeats": "Der abgetrennte Bericht spielt seine Warnung in die Dunkelheit zurück. SHIPNET hält jedes Wort bereits"
+  },
+  "rep": {
+   "killedAdrift": "Farben gestreckt, treibend getötet. Die Geschichte liegt schon auf den Piratenbändern, und sie reist mit unserer Kielnummer",
+   "refuseWin": "Forderung abgelehnt, Forderer verschrottet. Die Korsaren-Register stufen diesen Kiel unter TEUER neu ein",
+   "guildApology": "Eine Entschuldigung der Gilde kommt über das gebundene Band: der „Händler“ flog ihre Flagge zu Unrecht. Familientarife bleiben dieser Crew offen"
+  },
+  "uplink": {
+   "sourceDestroyed": "Uplink-Quelle zerstört — Ruf tot",
+   "cut": "Uplink gekappt — {designator} setzt sich ab",
+   "transmitting": "{designator} sendet einen Breitband-Uplink — Verstärkung. {cta}",
+   "ctaAuto": "Auto-Störsender antwortet ({pct}% Blockade)",
+   "ctaComms": "Funk: stören!",
+   "reinforcementsArrive": "⚠ VERSTÄRKUNG AUF DEM SCHIRM — der Ruf kam durch (blockiert {pct}%)",
+   "callDies": "Der Ruf stirbt im Rauschen — niemand hat uns gehört (blockiert {pct}%)"
+  },
+  "boss": {
+   "collectorDown": "Der Erntegitter-Verband löst sich Zelle für Zelle. Sein Hort gehört uns (+{salvage} Bergegut; eine versiegelte Vermessungssonde unter der Beute, +{probes} Sonde)",
+   "leviathanDown": "Der Gesang des Leviathans endet. Die Gilde ehrt den Kadaver-Anspruch (+{salvage} Bergegut). Das Logbuch verzeichnet nicht, ob es sich gelohnt hat",
+   "chimeraDown": "Die Chimäre löst sich auf: gestohlene Kiele reißen sich von der Biomasse los (+{salvage} Bergegut). Irgendwo schließen mehrere Register alte Akten",
+   "leviathanReturn": "MASSIVE BIOLOGISCHE RÜCKMELDUNG: {designator}. Etwas von der Größe eines Habitatrings treibt schlafend am Sektorrand. Die Wissenschaft will die Vermessung. Taktik lieber nicht.",
+   "collectorContact": "MASSIVER KONTAKT: {designator}. Ein Erntegitter entfaltet sich vor dem Sternenfeld und hat bereits begonnen, unsere Hülle zu indizieren",
+   "cruiserContact": "MASSIVER KONTAKT: {designator}. Ein biomechanischer Kreuzer löst sich aus der Dunkelheit, kielvoran und hungrig",
+   "leviathanSurvey": "Vermessung abgeschlossen. Ein lebender Tiefenclade-Leviathan, von Anfang bis Ende aufgezeichnet, während er schlief. Das Xeno-Archiv zahlt für Staunen (+{salvage} Bergegut)",
+   "leviathanWakes": "DER LEVIATHAN ERWACHT: {designator} wendet seine ganze Himmelslänge uns zu. Er erinnert sich, wer auf ihn geschossen hat",
+   "broodlings": "Brutlinge quellen aus seinen Mantelschloten. SCHWARM-Signaturen vermehren sich",
+   "keens": "{designator} STIMMT EINE KLAGE AN: eine zweite Brut reißt sich aus der Wunde los",
+   "startles": "{designator} SCHRECKT AUF: Segelschwingen spreizen sich, und es taucht in den tiefen Himmel. Das Vermessungsfenster schließt sich",
+   "grazerGone": "{designator} ist fort: eine Welle aus Segelstaub, wo der Weidegänger war. Das Dunkel behält seine Wunder vor den Ungeduldigen"
+  },
+  "hazard": {
+   "gravityShear": "⚠ GRAVITATIONSSCHERE — {designator} hat unseren Kiel. Steuer: JETZT aus dem Schacht ausbrechen",
+   "gravityClear": "Frei vom Schacht von {designator} — die Hülle hört auf zu ächzen",
+   "radiationLash": "STRAHLUNGSPEITSCHE — der Strahl von {designator} streicht über die Hülle ({damage} gegen den Frontbogen)",
+   "veilCloses": "Der Schleier schließt sich um uns, und unser Kielwasser wird still. Suchgeräte werden Mühe haben, eine so weiche Hülle zu finden",
+   "veilOpens": "Aus dem Schleier heraus. Unsere Signatur blüht zurück zu ehrlichem Rauschen",
+   "radiationZone": "⚠ HOHE STRAHLUNGSZONE — Abschirmung degradiert. Steuer: zurück in den Sektor",
+   "radiationNominal": "Strahlungswerte im Normbereich — zurück innerhalb der Sektorhülle",
+   "radiationCollapsed": "STRAHLENSCHUTZ ZUSAMMENGEBROCHEN: die Mannschaftsräume liegen dem Sturm offen. Alle Mann verloren."
+  },
+  "front": {
+   "rearQuiet": "Die Funkkanäle der Flottenführung im Heck sind verstummt. Sie sind nicht gestört; niemand antwortet. Hinter uns geschieht etwas.",
+   "closing": "⚠ Die Grenze hinter uns schließt sich auf dieses System. Erledigt, was der Sektor verlangt, und SPRINGT",
+   "ownsSky": "⚠ Die Grenze hinter uns beherrscht bereits die halbe Himmelskuppel dieses Systems: ein Überlebensfenster, kein Sektor. Arbeitet schnell und SPRINGT",
+   "huskSeen": "Ein Raider wirkt auf jedem Band falsch. Seine Panzerung ist geschichtet wie Narbengewebe, und seine Positionslichter wiederholen ein Muster, das nicht ihres ist. Irgendetwas hinter uns benutzt Schiffe wieder.",
+   "huskPrime": "Eine GROSSE Maschinensignatur reitet im Rudel. Ihre Telemetrie wiederholt sich, falsch, wie ein Echo, das auf ein Echo antwortet",
+   "sentinelsCome": "DIE SENTINELS KOMMEN: {count} Maschinensignaturen fallen in perfekter Formation aus dem Sprung, eine davon GROSS. Der Handshake des Relais war eine Vorladung",
+   "evacBerths": "{count} Kolonietransporter auf dem Plot, Liegeplätze werden noch geladen. Haltet die Raider fern, bis jede Uhr voll ist",
+   "evacBerthsFront": "{count} Kolonietransporter auf dem Plot, Liegeplätze werden noch geladen. Haltet die Raider fern, bis jede Uhr voll ist. Die Front ist hier: jeder Liegeplatz zählt doppelt",
+   "colonyAway": {
+    "one": "KOLONIE WEG: {count} Transporter hat den Sprung geschafft (+{pay} Bergegut). Die Gilde verbucht eine Dankesschuld. In diesem Lauf gerettete Kolonien: {saved}",
+    "other": "KOLONIE WEG: {count} Transporter haben den Sprung geschafft (+{pay} Bergegut). Die Gilde verbucht eine Dankesschuld. In diesem Lauf gerettete Kolonien: {saved}"
+   },
+   "lastTransportDies": "Der letzte Transporter stirbt an seiner Liegeplatzuhr. Der Kanal der Kolonie sendet noch eine Weile weiter. Dann nicht mehr."
+  },
+  "runAbandoned": "Lauf abgebrochen — {salvage} Bergegut gesichert",
+  "returnedToLobby": "Zurück in der Lobby — umrüsten und neu starten",
+  "save": {
+   "beyondDemo": "Dieser Spielstand liegt jenseits der Demo — die Demo umfasst die Sektoren 1–{max}.",
+   "flies": "Der gespeicherte Lauf fliegt die {shipClass} — Stationen zurückgesetzt; nehmt Platz und drückt erneut WEITER",
+   "continues": "Die {ship} setzt ihren Lauf vom letzten Sprungeintritt im System {system} fort"
+  },
+  "uncharted": "unvermessen",
+  "playerBack": "{player} ist zurück an der Station"
+ }
+}

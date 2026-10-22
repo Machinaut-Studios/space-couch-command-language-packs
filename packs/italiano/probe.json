@@ -1,0 +1,56 @@
+{
+  "probe": {
+    "bracket": {
+      "loot": "CAPSULA ROTTAMI",
+      "prize": "CAMPIONE DEL NUCLEO",
+      "terminal": "TERMINALE",
+      "terminalRead": "TERMINALE·LETTO",
+      "exitPad": "PIATTAFORMA USCITA",
+      "arc": "ARCO ELETTRICO",
+      "vent": "SFIATO",
+      "collapse": "PIASTRA CEDEVOLE"
+    },
+    "card": {
+      "landing": {
+        "acquiring": "ACQUISIZIONE TELEMETRIA{dots}"
+      },
+      "lost": {
+        "title": "SEGNALE PERSO",
+        "noReason": "portante caduta — nessuna telemetria"
+      },
+      "recovered": {
+        "title": "SONDA RECUPERATA",
+        "archived": "telemetria archiviata"
+      }
+    },
+    "endReason": {
+      "caught": "contatto perso — qualcosa l'ha trovata",
+      "aborted": "sonda autodistrutta",
+      "jump": "cavo reciso dal transito di salto",
+      "wrecked": "integrità dello scafo a zero"
+    },
+    "hud": {
+      "recovery": "RECUPERO {carried}/{total}",
+      "recoveryPrize": "RECUPERO {carried}/{total} · ✦ CAMPIONE DEL NUCLEO AL SICURO",
+      "noise": "RUMORE",
+      "hull": "SCAFO",
+      "extraction": "CANALE DI ESTRAZIONE ▸ {pct}%"
+    },
+    "radar": {
+      "contact": "CONTATTO",
+      "contactLost": "CONTATTO PERSO",
+      "pingReady": "PING PRONTO",
+      "extracting": "ESTRAZIONE IN CORSO"
+    },
+    "standby": {
+      "view": {
+        "title": "NESSUNA TELEMETRIA SONDA",
+        "hint": "lancia da un'eco di rilevamento"
+      },
+      "radar": {
+        "title": "SCANDAGLIO SPENTO",
+        "hint": "nessuna sonda in linea"
+      }
+    }
+  }
+}

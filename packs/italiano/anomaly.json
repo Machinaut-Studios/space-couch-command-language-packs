@@ -1,0 +1,679 @@
+{
+  "anomaly": {
+    "def": {
+      "verdant_world": {
+        "prefix": "CORPO INESPLORATO",
+        "label": "Mondo verdeggiante — biotico",
+        "scan": {
+          "m35": "Atmosfera calda e umida. Analoghi della clorofilla su ogni banda: l'intero pianeta fa fotosintesi.",
+          "m70": "La superficie si definisce: torri-scogliera di vetro vivo, alte chilometri, che crescono secondo schemi. Gli schemi si ripetono.",
+          "m100": "Le torri pulsano in sequenza mentre passiamo sopra. SHIPNET lo archivia come saluto. Scienze lo archivia come meteo. Registriamo entrambi."
+        },
+        "outcome": {
+          "hullBloom": "Una pioggia di spore si deposita sui graffi da micrometeoriti e fa presa come una saldatura (scafo +{hull})",
+          "salvageCacheSmall": "Un passaggio radente in aerofrenata raccoglie composti organici raffinati (+{salvage} rottami)",
+          "nothing": "Nessun atterraggio. Certi giardini non sono nostri da calpestare. Rilevamento archiviato."
+        }
+      },
+      "cinder_world": {
+        "prefix": "CORPO INESPLORATO",
+        "label": "Mondo di cenere — forgia morta",
+        "scan": {
+          "m35": "Temperatura superficiale nella norma, per una scoria. Cicatrici tettoniche in anelli concentrici perfetti. Un tempo qui c'era un'industria.",
+          "m70": "Anello di detriti orbitale: telai di fonderia, binari di acceleratori di massa, tutto freddo. Chi lavorava a questa forgia è partito e non è più tornato.",
+          "m100": "Il radar profondo mostra il mantello scavato in gallerie esagonali fino in fondo. L'intero pianeta era la forgia."
+        },
+        "outcome": {
+          "salvageCacheLarge": "L'anello di detriti cede scorte di lega intatte (+{salvage} rottami)",
+          "radiationFlare": "Un condensatore dormiente di un acceleratore di massa si scarica al nostro passaggio: scafo -{damage} sull'arco esposto",
+          "nothing": "Le gallerie sono vuote. Persino i fantasmi hanno timbrato il cartellino. Rilevamento archiviato."
+        }
+      },
+      "shrouded_giant": {
+        "prefix": "CORPO INESPLORATO",
+        "label": "Gigante velato — trasmettitore profondo",
+        "scan": {
+          "m35": "Coltre di idrogeno, celle temporalesche grandi come lune. Sotto il rumore: un'onda portante. Artificiale. Paziente.",
+          "m70": "L'onda portante ci sta catalogando: classe di scafo, massa, armamento. Qualcosa laggiù tiene registri molto antichi.",
+          "m100": "La trasmissione si chiude con un burst di dati puntato dritto sul nostro array. Non è ostile: è un registro di tutto il resto in questo settore."
+        },
+        "outcome": {
+          "intel": "Il registro si decompila senza errori: ogni ostile del settore, marcato e classificato. Sensori accesi.",
+          "nothing": "Il registro è cifrato oltre le nostre capacità. Annotiamo il bibliotecario e proseguiamo.",
+          "radiationFlare": "Una cella temporalesca scarica un arco sulla chiglia mentre il burst si chiude: scafo -{damage}. Il bibliotecario si fa pagare."
+        }
+      },
+      "hollow_moon": {
+        "prefix": "CORPO INESPLORATO",
+        "label": "Lunetta cava — risonante",
+        "scan": {
+          "m35": "Una piccola luna spaccata. La scansione di densità dice ERRORE: ottanta per cento vuoto, pareti di spessore perfetto.",
+          "m70": "Le cavità risuonano con le armoniche dei nostri motori. Non ci fa eco. Ci risponde a tono.",
+          "m100": "Mappa di risonanza completa: l'interno è un'unica camera, di forma indefinibile, accordata come una campana. Non la suoneremo due volte."
+        },
+        "outcome": {
+          "nothing": "SHIPNET archivia la registrazione come IRRISOLTO. Certi misteri tengono per sé i propri segreti.",
+          "intel": "L'onda stazionaria della campana ci riporta ogni nota di motore del settore. Contatti identificati.",
+          "salvageCacheSmall": "I diritti di rilevamento su un corpo risonante valgono una ricompensa dal registro della Gilda (+{salvage} rottami)"
+        }
+      },
+      "ringed_giant": {
+        "prefix": "CORPO INESPLORATO",
+        "label": "Colosso ad anelli — gigante a bande",
+        "scan": {
+          "m35": "Il sistema di anelli misura quattrocentomila chilometri da bordo a bordo: ghiaccio intrecciato, radunato da piccole lune pastore, macinato da un miliardo di lente collisioni. Sotto, le bande ruotano come bronzo fuso.",
+          "m70": "Una tempesta più antica della nostra specie cavalca la terza banda: un anticiclone grande come un oceano, ambra contro l'ammoniaca. Da diecimila anni chiude e riapre lo stesso occhio.",
+          "m100": "Rilevamento completo. Gli anelli conservano tutto ciò che il sistema ha mai spezzato: lune, comete, visitatori. Da qualche parte nell'intreccio c'è sempre qualcosa che vale la pena issare a bordo."
+        },
+        "outcome": {
+          "salvageCacheLarge": "Recupero dall'intreccio degli anelli: frammenti di relitti nel ghiaccio e minerale delle lune pastore, issati a bordo (+{salvage} rottami)",
+          "torpedoCache": "Un modulo munizioni viaggia nell'intreccio esterno, glassato di ghiaccio e intatto. Scorte di siluri +{torpedoes}",
+          "radiationFlare": "La magnetosfera schiocca una frustata di polvere carica degli anelli sulla nostra prua",
+          "nothing": "Il gigante si tiene i suoi anelli e il suo meteo. Rilevamento archiviato. Il divano vorrà vedere le foto."
+        }
+      },
+      "icefall_comet": {
+        "prefix": "ECO RAPIDA",
+        "label": "Cometa di ghiaccio — vagabonda a lungo periodo",
+        "scan": {
+          "m35": "Nucleo di ghiaccio primordiale, che degassa forte sul lato rivolto al sole. La coda si stende per mille chilometri di scintillio. Non rallenterà per noi.",
+          "m70": "La spettrometria attraverso la chioma rileva ghiaccio d'acqua, metano e composti organici, più una vena di qualcosa di raffinato. Questa palla di neve ha urtato cose e si è tenuta i pezzi.",
+          "m100": "Serie completa acquisita. Cade da prima delle colonie, e cadrà ancora quando il registro sarà polvere. Allineate la velocità se volete ciò che trasporta."
+        },
+        "outcome": {
+          "salvageCacheSmall": "Ghiacci volatili trattati in stiva. La Gilda paga bene la massa di reazione pulita (+{salvage} rottami)",
+          "probeCache": "Una vecchia sonda di rilevamento viaggia sul nucleo, saldata dal ghiaccio e dormiente. Sonde recuperate dai tecnici: +{probes}",
+          "nothing": "Continua a cadere. Noi continuiamo a volare. Le foto da sole valevano l'inseguimento."
+        }
+      },
+      "leviathan_husk": {
+        "prefix": "ECO MASSICCIA",
+        "label": "Leviatano morto — clade abissale",
+        "scan": {
+          "m35": "Scafo organico, cresciuto, non costruito. I marcatori di clade Vel'Shaar non tornano. Più antichi. Un clade abissale di cui gli emissari non cantano.",
+          "m70": "Analisi delle ferite: è morto combattendo. L'arma che gli ha aperto il fianco non compare in nessun registro SHIPNET. È fuggito fin qui per morire.",
+          "m100": "Camere cardiache fredde. Stive midollari sigillate a regola d'arte. Ciò che l'ha ucciso non è mai riuscito a entrare."
+        },
+        "outcome": {
+          "salvageCacheLarge": "Le stive midollari si aprono a una mano paziente: biometallo denso, intatto (+{salvage} rottami)",
+          "ambush": "Movimento nei canali della ferita. Dei predoni avevano fatto il nido nella carcassa, e noi li abbiamo svegliati.",
+          "torpedoCache": "Rastrelliere d'osso custodiscono ordigni cristallizzati, adattati ai nostri tubi (siluri +{torpedoes}).",
+          "nothing": "Il leviatano si tiene i suoi morti. Sigilliamo il rilevamento e lo lasciamo alla deriva."
+        }
+      },
+      "precursor_ring": {
+        "prefix": "ECO GEOMETRICA",
+        "label": "Anello dei Precursori — spezzato",
+        "scan": {
+          "m35": "Un anello spezzato, troppo regolare per essere roccia. Il materiale restituisce uno spettro che SHIPNET non sa nominare.",
+          "m70": "Le superfici di frattura sono levigate. Non si è rotto: è stato chiuso. Qualcosa non voleva che questa porta venisse usata due volte.",
+          "m100": "La faccia interna ripete una catena di glifi un milione di volte. Traduzione migliore: una freccia, che punta lontano. Lontano da cosa?"
+        },
+        "outcome": {
+          "intel": "Un reticolo sentinella dormiente si sveglia per una scansione e ci presta i suoi occhi. Tutti i contatti identificati.",
+          "salvageCacheSmall": "Le schegge di frattura sono raffinabili. Materiale esotico recuperato (+{salvage} rottami)",
+          "nothing": "L'anello non concede altro. La freccia punta lontano. Cogliamo l'allusione."
+        }
+      },
+      "guild_cache": {
+        "prefix": "AMMASSO DI CARICO",
+        "label": "Container della Gilda — sganciati",
+        "scan": {
+          "m35": "Container in lenta spirale, transponder rimossi. Schema di sgancio dei Free Haulers: scaricati in fretta, fatti per essere trovati.",
+          "m70": "Sigilli dei container intatti. Tracce del manifesto della Gilda recuperabili. Proprietario: chi chiede per primo al buio.",
+          "m100": "Il manifesto si decifra: «SE LO TROVI, TIENILO. MEGLIO A TE CHE A LORO.» La Gilda tiene registri onesti."
+        },
+        "outcome": {
+          "salvageCacheSmall": "Container forzati e issati a bordo (+{salvage} rottami). Meglio a noi che a loro.",
+          "torpedoCache": "Un container è una cassa munizioni della Gilda: siluri nelle culle di trasporto (+{torpedoes})",
+          "probeCache": "Un container è un kit di rilevamento della Gilda con i sigilli intatti. Sonde ricollocate nella nostra baia: +{probes}",
+          "ambush": "Dei razziatori di concessioni aspettavano a luci spente nella spirale che qualcun altro facesse il lavoro di apertura"
+        }
+      },
+      "siren_wreck": {
+        "prefix": "VIA LIBERA AUTOMATICO",
+        "label": "Relitto — transponder falso",
+        "scan": {
+          "m35": "Un relitto che trasmette in loop un VIA LIBERA della Gilda. Per la cronaca, di solito i relitti non dichiarano di stare bene.",
+          "m70": "Il checksum del transponder fallisce. Il via libera è montato da tre navi diverse. Qualcuno ha composto questa ninnananna.",
+          "m100": "Sotto il loop, un secondo canale: un conteggio. Ha contato quarantuno avvicinamenti prima del nostro."
+        },
+        "outcome": {
+          "ambush": "La ninnananna si interrompe a metà nota. Firme di accensione tutt'intorno: il conteggio voleva un numero tondo",
+          "salvageCacheSmall": "L'esca era farcita di carico vero. L'abbiamo issato a bordo in fretta (+{salvage} rottami)",
+          "nothing": "La trappola è abbandonata da tempo; ne resta solo la pazienza. Ci aggiungiamo al conteggio e ce ne andiamo."
+        }
+      },
+      "molt_husk": {
+        "prefix": "ECO ORGANICA",
+        "label": "Muta dei Vel'Shaar",
+        "scan": {
+          "m35": "Reticolo organico, cavo, su scala chilometrica. Il canto di clade Vel'Shaar risulta dormiente: non è una nave, è una pelle dismessa.",
+          "m70": "La muta porta ancora spore saldanti vive nelle giunture. I Vel'Shaar non lasciano mai niente per caso.",
+          "m100": "Traduzione del marcatore di clade: un glifo-dono. L'abisso lascia i suoi vecchi mantelli dove vagano i freddi."
+        },
+        "outcome": {
+          "hullBloom": "Le spore saldanti migrano nelle nostre giunture e fanno presa. Corazza riparata (scafo +{hull})",
+          "intel": "Le fossette sensoriali della muta funzionano ancora. Usandole illuminiamo ogni cacciatore nel buio.",
+          "nothing": "Le spore dormono troppo a fondo per svegliarsi. Registriamo il dono che non abbiamo potuto prendere."
+        }
+      },
+      "radiant_rift": {
+        "prefix": "ANOMALIA SENSORI",
+        "label": "Squarcio radiante — taglio spaziale",
+        "scan": {
+          "m35": "Una cucitura di luce dove lo spazio si piega male. Gli strumenti non concordano sulla distanza. Nessuno di loro.",
+          "m70": "Il bordo dello squarcio emette pennacchi carichi a ciclo lento. Bellissimi, e ionizzanti. Equipaggio via dal vetro d'osservazione.",
+          "m100": "Per un fotogramma della scansione, lo squarcio ha mostrato un campo stellare che non è il nostro. Archiviato. Segnalato. Non se ne parla."
+        },
+        "outcome": {
+          "radiationFlare": "Un pennacchio ci sferza la prua e asporta corazza (scafo -{damage}). Scienza rischiosa.",
+          "intel": "La rifrazione attraverso il taglio mette a fuoco l'intero settore. Tutti i contatti identificati.",
+          "nothing": "Lo squarcio chiude l'occhio. Il rilevamento lascia più domande di quante ne avesse all'inizio."
+        }
+      },
+      "munitions_grave": {
+        "prefix": "CAMPO DI DETRITI",
+        "label": "Deposito bellico — ordigni dismessi",
+        "scan": {
+          "m35": "Involucri di ordigni alla deriva, freddi da decenni. Schema di affondamento di una flotta: qualcuno ha chiuso una guerra quaggiù e ha scaricato gli avanzi.",
+          "m70": "Matricole degli involucri cancellate a lima. Testate inerti... per lo più. Protocollo di manipolazione: con delicatezza.",
+          "m100": "Raggiunto il nucleo del deposito: testate stabilizzate in culle compatibili con la Gilda. La guerra è finita. Le munizioni si conservano."
+        },
+        "outcome": {
+          "torpedoCache": "Ordigni recuperati issati a bordo con l'argano e ricollocati per i nostri tubi (siluri +{torpedoes}).",
+          "radiationFlare": "Una testata degradata esplode durante l'estrazione: scafo -{damage} sull'arco esposto.",
+          "nothing": "Ogni culla che raggiungiamo è vuota. Qualcuno più delicato è arrivato prima."
+        }
+      },
+      "wormhole_aperture": {
+        "prefix": "ECO DISTORTA",
+        "label": "Apertura di wormhole — luce stellare congelata",
+        "scan": {
+          "m35": "Un anello di luce sospeso dove non dovrebbe esserci massa: luce stellare, piegata e trattenuta. Le stelle dentro l'anello sono di anni più vecchie del cielo che le circonda.",
+          "m70": "La lente è una gola. Qualcosa la tiene aperta: il rilevamento legge una struttura nella curvatura, paziente come un'architettura.",
+          "m100": "Apertura cartografata e agganciata al piano di navigazione. L'imboccatura lontana è reale, ed è lontana. Il ponte reggerà per tutto il tempo che vorremo usarlo."
+        },
+        "outcome": {
+          "wormhole": "L'apertura si stabilizza. L'imboccatura lontana si risolve nel sistema {system}. Il Timone può saltare attraverso il ponte."
+        }
+      },
+      "ghost_signal": {
+        "prefix": "SEGNALE RICORRENTE",
+        "label": "Faro fantasma — in ripetizione",
+        "scan": {
+          "m35": "Uno schema di soccorso su una banda morta, in ripetizione. La cifratura è standard della Gilda... obsoleta di sei revisioni.",
+          "m70": "Lo schema si degrada a metà ciclo e riparte. Non è un faro che cicla. È un faro che muore. Chiama da molto tempo.",
+          "m100": "Il segnale si ripete... è vecchio. Origine triangolata: a un salto da qui. Qualcuno aspetta ancora di essere trovato."
+        },
+        "outcome": {
+          "questClue": "Coordinate decodificate e agganciate al piano di salto. Filone FARO FANTASMA aperto",
+          "nothing": "Il ciclo collassa nella statica prima che l'origine si risolva. Questo se lo tiene il buio."
+        }
+      },
+      "beacon_wreck": {
+        "prefix": "ECO FREDDA",
+        "label": "Nave silente — origine del faro",
+        "scan": {
+          "m35": "Eccola. Uno scafo di chitina cresciuta, motori spenti, chiglia spezzata da qualcosa di paziente. Il faro grida ancora da una gola morta.",
+          "m70": "Ispezione interna: alloggi dell'equipaggio sigillati dall'interno. Hanno razionato, e hanno aspettato. I conti sulle paratie arrivano a novecento giorni.",
+          "m100": "L'ultimo glifo del registro, bruciato nella gola del faro, dice: ABBIAMO RESISTITO. Le stive sono intatte. Rilasciate i droni di rilevamento."
+        },
+        "outcome": {
+          "salvageCacheLarge": "Le stive si aprono senza problemi: leghe raffinate, nuclei sigillati (+{salvage} rottami)",
+          "ambush": "Il faro non chiamava solo noi. Dei predoni di rottami piombano giù con le cariche di rivendicazione armate"
+        }
+      },
+      "sleeper_vault": {
+        "prefix": "ECO DI PIETRA LAVORATA",
+        "label": "Caveau dei Precursori — vena dormiente",
+        "scan": {
+          "m35": "Una vena di pietra lavorata lunga un chilometro, ricucita con un metallo più antico di ogni catalogo. Le coordinate del reperto finiscono qui.",
+          "m70": "Eco sismica: la vena è cava, e la cavità è calda. Lì dentro circola ancora energia, lenta come il polso di chi dorme.",
+          "m100": "Rilevamento completo. Un solo punto d'accesso: un nodo centrale che respira sotto la vena. Il caveau si aprirà a un prelievo. Niente nel rilevamento dice cosa lo richiuda."
+        },
+        "outcome": {
+          "nothing": "La vena trattiene il respiro. Il nodo centrale aspetta il nostro coraggio.",
+          "intel": "Sorvolando la vena, i nostri sensori sfruttano il suo reticolo di guardia per una scansione. Tutti i contatti del settore identificati"
+        },
+        "poiOutcome": {
+          "core": {
+            "salvageVault": "Il nucleo si apre come una banca dei semi: materiale dei Precursori dal valore inestimabile (+{salvage} rottami)",
+            "awakening": "La vena non è mai stata un caveau. Era una culla, e il prelievo suona come un vagito. Il GUARDIANO si sveglia"
+          }
+        }
+      },
+      "debris_heart": {
+        "prefix": "ECO A NUCLEO DENSO",
+        "label": "Relitto-fonderia — cuore della tempesta",
+        "scan": {
+          "m35": "Ogni roccia di questa tempesta dà lo stesso saggio: scoria, una sola colata, una sola fornace. La fornace è ancora davanti a noi.",
+          "m70": "Risoluzione: una nave fonderia, con la chiglia spezzata, le stive che perdono ancora. La tempesta non è meteo. È una ferita che non si è mai rimarginata.",
+          "m100": "Rilevamento completo. La stiva della forgia è fredda e sigillata, ma una giuntura di recupero risulta INTATTA. Qualunque cosa stesse colando quando si è spezzata, è ancora lì dentro."
+        },
+        "outcome": {
+          "nothing": "Il relitto mantiene la rotta tra i suoi stessi detriti, nel centro esatto della tempesta che ha creato.",
+          "salvageCacheLarge": "Il passaggio di rilevamento sfiora le sue perdite esterne: materiale di fonderia selezionato, alla deriva (+{salvage} rottami)"
+        },
+        "poiOutcome": {
+          "relic": {
+            "salvageVault": "La giuntura si apre sull'ultima colata, raffreddata nella sua culla: una lega dal valore inestimabile (+{salvage} rottami)",
+            "salvageJackpot": "La sonda percorre la giuntura e solleva lingotto dopo lingotto, ognuno con il marchio di una flotta morta (+{salvage} rottami)",
+            "torpedoes": "La giuntura non custodisce lingotti. È una santabarbara, a secco e intatta: siluri ricaricati nei tubi (+{torpedoes})",
+            "awakening": "La colata non è mai finita. L'equipaggio l'ha fermata e ha saldato la stiva dall'esterno. La giuntura si apre. Qualcosa ne cola fuori"
+          }
+        }
+      },
+      "ice_moon": {
+        "prefix": "CORPO INESPLORATO",
+        "label": "Luna gelida — criovulcanica",
+        "scan": {
+          "m35": "Un guscio di ghiaccio bianco-azzurro, segnato da fratture da un polo all'altro. Sotto la crosta: liquido. Liquido caldo. Qualcosa lo tiene caldo.",
+          "m70": "I criogeyser eruttano a ritmo lento, troppo lento per le maree e troppo regolare per il meteo. Il mare sotterraneo ha un battito.",
+          "m100": "Il sonar profondo rileva sotto il ghiaccio forme lunghe, che si muovono con intenzione e tengono il passo con la nostra orbita. Il mare ci guarda a sua volta. Rilevamento sigillato."
+        },
+        "outcome": {
+          "salvageCacheSmall": "Un geyser scaglia metalli salini raffinati fuori dal pozzo gravitazionale. Raccolti e stivati (+{salvage} rottami)",
+          "radiationFlare": "Un pennacchio criogenico esplode davanti alla prua: schegge congelate sull'arco esposto (scafo -{damage})",
+          "nothing": "Il ghiaccio si tiene il suo mare e il mare le sue forme. Noi teniamo le distanze. Rilevamento archiviato."
+        }
+      },
+      "worldring": {
+        "prefix": "ECO COLOSSALE",
+        "label": "Anello-mondo — fascia abitabile",
+        "scan": {
+          "m35": "L'eco è un anello: una fascia di materia lavorata abbastanza larga da camminarci sopra continenti, in rotazione per la gravità. Nessuno costruisce cose così. Qualcuno l'ha costruita.",
+          "m70": "La faccia interna ospita suolo, mari prosciugati e città vetrificate. Le pareti di contenimento dell'atmosfera reggono ancora. Le luci sono spente, ma il pavimento è caldo.",
+          "m100": "Analisi dei cuscinetti di rotazione: l'anello rallenta da diecimila anni. Qualcuno lo sta lasciando fermare con dolcezza. Un lungo addio, accudito da qualcosa di paziente."
+        },
+        "outcome": {
+          "salvageCacheLarge": "Una breccia in una parete di contenimento cede lega strutturale che nessuna nostra forgia saprebbe colare (+{salvage} rottami)",
+          "intel": "Il reticolo di traffico dell'anello sorveglia ancora il suo cielo, e per una scansione lo facciamo anche noi. Tutti i contatti identificati",
+          "radiationFlare": "Un cuscinetto di rotazione scarica un arco mentre attraversiamo la sua ombra. La scarica spazza l'arco esposto (scafo -{damage})",
+          "nothing": "Diecimila anni di addio, e noi non ne facciamo parte. Rilevamento archiviato con rispetto."
+        }
+      },
+      "war_sphere": {
+        "prefix": "ECO COLOSSALE",
+        "label": "Sfera da battaglia — fortezza fredda",
+        "scan": {
+          "m35": "Una sfera corazzata larga cento navi, buia su ogni banda. La trincea equatoriale è una fila di armi. Ora puntano tutte sul nulla.",
+          "m70": "Il disco focale sulla sommità potrebbe spaccare una luna. I banchi di condensatori risultano scarichi, non svuotati. Questa fortezza ha sparato tutto ciò che aveva, una volta sola.",
+          "m100": "Registro di battaglia recuperato dalla trincea: ha sparato tutto, contro tutto, e alla fine era sola. La guarnigione è sparita nel buio piuttosto che contare il prezzo. Stive intatte."
+        },
+        "outcome": {
+          "torpedoCache": "I ponti santabarbara custodiscono testate stabilizzate su culle compatibili con i nostri tubi (siluri recuperati: {torpedoes})",
+          "ambush": "La trincea non era vuota. Degli abusivi tengono reattori al minimo nelle gallerie dei cannoni, e noi abbiamo appena bussato alla loro porta",
+          "salvageCacheLarge": "Le schegge di corazza della grande trincea si raffinano a meraviglia (+{salvage} rottami)",
+          "nothing": "La fortezza custodisce il suo silenzio. Certe vittorie è meglio non esaminarle. Rilevamento archiviato."
+        }
+      },
+      "star_cradle": {
+        "prefix": "ECO IMPOSSIBILE",
+        "label": "Involucro stellare — la culla della stella",
+        "scan": {
+          "m35": "I sensori segnalano una stella dove nessuna stella si vede. È lì, ingabbiata dietro un reticolo di pannelli grandi come pianeti, che ne beve la luce fino a ridurla a un sussurro.",
+          "m70": "Il reticolo è incompleto: un portale di apertura resta spalancato, abbastanza largo per una flotta. La luce ne sgorga come da una ferita. I costruttori hanno lasciato la porta aperta.",
+          "m100": "Analisi dei consumi: la gabbia non sta sfruttando la stella. La sta custodendo, tenuta bassa come il fuoco di un focolare in vista di un inverno che non è ancora arrivato. Archiviato sotto: prepararsi."
+        },
+        "outcome": {
+          "intel": "Sfruttare il reticolo collettore della gabbia per una scansione illumina tutto il settore. Tutti i contatti identificati",
+          "salvageCacheLarge": "Un pannello collettore staccato, lungo chilometri, viene tagliato in materiale da stiva (+{salvage} rottami)",
+          "radiationFlare": "Il portale divampa mentre attraversiamo il suo fascio. Luce stellare ingabbiata spazza l'arco esposto (scafo -{damage})",
+          "nothing": "Il fuoco è coperto e l'inverno non è arrivato. Lasciamo la porta come l'abbiamo trovata. Rilevamento archiviato."
+        }
+      },
+      "haven_station": {
+        "prefix": "ECO STRUTTURATA",
+        "label": "Anello porto franco — ancoraggio silente",
+        "scan": {
+          "m35": "Una stazione a ruota in rotazione lenta e perfetta. Bracci d'attracco estesi, luci d'avvicinamento che lampeggiano verdi, nessun traffico e nessuna chiacchiera. Una porta aperta nel buio.",
+          "m70": "L'anello abitativo è pressurizzato e caldo. Tracce del registro la indicano come stazione di sosta dei Free Haulers, abbandonata in buon ordine con i moli vincolati e le scorte sigillate. Usanza della Gilda: rifornita per chiunque ne abbia bisogno.",
+          "m100": "Il registro del capomolo si chiude con una voce permanente: «ORMEGGIO LIBERO. PRENDI CIÒ CHE TI TIENE IN VOLO. REGISTRA CIÒ CHE PRENDI. LA STRADA PROVVEDE.» La strada provvede."
+        },
+        "outcome": {
+          "salvageCacheSmall": "Carico sciolto di coperta trasferito con l'argano sulla linea di cortesia (+{salvage} rottami). La strada provvede.",
+          "intel": "Il controllo del traffico dell'ancoraggio tiene ancora registri onesti. Ogni scafo che ha rilevato compare sul nostro piano",
+          "nothing": "Registriamo la visita nel libro del capomolo, come vuole l'usanza. L'ancoraggio continua a girare, paziente, in attesa della prossima chiglia."
+        },
+        "poiOutcome": {
+          "hatch": {
+            "salvageJackpot": "Il molo vincolato accoglie i nostri morsetti come un vecchio amico. Le scorte sigillate della Gilda passano nel nostro manifesto (+{salvage} rottami)",
+            "salvageLarge": "Il portello merci cicla senza intoppi: materiale pallettizzato, nostro per usanza di molo (+{salvage} rottami)",
+            "torpedoes": "La gabbia del furiere custodisce testate su culle standard della Gilda: siluri ricaricati nei tubi (+{torpedoes})"
+          },
+          "core": {
+            "reactorFlush": "L'alimentazione da terra regge il nostro carico durante il prelievo. Nucleo del reattore raffreddato: integrità del nucleo +{reactor}",
+            "salvageLarge": "Il bunker carburante dell'ancoraggio ci eroga un pieno senza fiatare (+{salvage} rottami)",
+            "torpedoes": "Il bunker ordigni risponde al nostro codice: siluri issati a bordo (+{torpedoes})"
+          }
+        }
+      },
+      "ring_pilgrim": {
+        "prefix": "SCIA DI MOTORE COERENTE",
+        "label": "Pellegrino ad anello — meraviglia di passaggio",
+        "scan": {
+          "m35": "Una nave in navigazione: uno scafo sottile che infila un anello di propulsione più largo di una città. La scia è pulita: niente scarichi, niente detriti, niente rumore. Solo spazio piegato, e restituito con garbo.",
+          "m70": "Ci ha visti. La luce dell'anello cala una volta, lenta e deliberata, poi riprende. Confronto con ogni protocollo di contatto in archivio: la corrispondenza più vicina è un inchino.",
+          "m100": "Rilevamento completo, e ce l'ha permesso. Ha mantenuto rotta e velocità per tutta la lettura, senza nascondere nulla. Chiunque siano, volevano essere compresi. L'archivio sopravvivrà a tutti noi."
+        },
+        "outcome": {
+          "salvageCacheLarge": "Una cassa si stacca dalla scia del pellegrino e scivola verso la nostra prua, con lentezza cerimoniale: un dono, fatto senza una parola (+{salvage} rottami)",
+          "intel": "Il pellegrino apre le sue carte al nostro array per un lungo istante. Tutti i contatti del settore identificati.",
+          "probeCache": "Ci restituisce qualcosa che avevamo perso: una sonda di rilevamento, morta da decenni a giudicare dalla matricola, pulita e funzionante (sonde +{probes}). Non abbiamo mai lanciato questa sonda.",
+          "nothing": "L'anello cala ancora una volta e il pellegrino prosegue, senza fretta, diretto dove finiscono le carte. Buon viaggio, straniero."
+        }
+      },
+      "collapsed_star": {
+        "prefix": "ANOMALIA GRAVITICA",
+        "label": "Stella collassata — fornace di accrescimento",
+        "scan": {
+          "m35": "Vicino all'eco gli strumenti concordano solo su questo: la luce entra e non esce. Anello di accrescimento a piena fornace. Timone: attenzione alla deriva.",
+          "m70": "L'anello sta masticando un convoglio catturato. Frammenti di scafo spalmati in luce attorno all'orizzonte. Alcune di quelle chiglie trasmettono ancora mentre affondano.",
+          "m100": "Rilevamento completato da un arco rispettoso. Il pozzo si tiene ciò che prende. L'ultima luce congelata di tutto ciò che ha divorato resta sospesa all'orizzonte come in un museo. Abbiamo fatto foto e tenuto le distanze."
+        },
+        "outcome": {
+          "intel": "La lente gravitazionale piega l'intero settore nel nostro array, e ogni contatto si risolve nel vetro terribile del pozzo",
+          "salvageCacheLarge": "Detriti trascinati dal campo seguono orbite stabili al bordo dell'anello. Un passaggio attento rende bene (+{salvage} rottami)",
+          "radiationFlare": "La fornace erutta uno spruzzo relativistico sull'arco esposto (scafo -{damage})",
+          "nothing": "Il pozzo si tiene i suoi morti e la sua luce. Rilevamento archiviato; le mani al Timone sono rimaste salde."
+        }
+      },
+      "spindle_star": {
+        "prefix": "EMETTITORE PERIODICO",
+        "label": "Faro di neutroni — fuso al millisecondo",
+        "scan": {
+          "m35": "Una stella morta accelerata fino all'urlo, che spazza il settore con una frustata di radiazioni a cadenza d'orologio. Ogni passaggio martella lo scafo. Conta il battito, Timone.",
+          "m70": "Il battito è perfetto. Un tempo i navigatori usavano questo fuso come faro. Le vecchie carte di salto si triangolano su di lui. Siamo dove un tempo passavano le navi.",
+          "m100": "Rilevamento completato tra una frustata e l'altra. Il fuso terrà il suo battito per un miliardo di anni, segnando una rotta che nessuno percorre più. Il faro è sopravvissuto al suo mare."
+        },
+        "outcome": {
+          "intel": "La frustata illumina in controluce ogni scafo del settore come un flash. Contatti identificati",
+          "radiationFlare": "Fuori tempo di mezzo battito. La frustata ci prende in pieno (scafo -{damage})",
+          "nothing": "Il battito continua, indifferente. Rilevamento archiviato; il nostro tempismo era buono."
+        }
+      },
+      "ember_veil": {
+        "prefix": "ECO DIFFUSA",
+        "label": "Nebulosa a emissione — velo di brace",
+        "scan": {
+          "m35": "Un banco immobile di polvere ionizzata, illuminato da dentro dalla prima luce di una protostella. Gli echi dei sensori si smorzano ai suoi margini: i nostri e quelli di chiunque altro.",
+          "m70": "Dentro il velo la nostra scia tace: la polvere si beve la nostra firma. Una nave potrebbe nascondersi qui. Qualcuna l'ha fatto. La polvere conserva vecchie ombre di scafi come fossili.",
+          "m100": "Rilevamento completo. Fra centomila anni la protostella si accenderà davvero e brucerà via questo nascondiglio. Fino ad allora, il velo custodisce segreti per chiunque sia abbastanza silenzioso da meritarli."
+        },
+        "outcome": {
+          "salvageCacheSmall": "Condensa delle correnti di polvere, incrostata sullo scafo per elettrostatica, risulta materiale raffinato (+{salvage} rottami)",
+          "probeCache": "Una delle ombre fossili è vera: una sonda di rilevamento perduta alla deriva nella corrente, ricollocata nella nostra baia (sonde +{probes})",
+          "nothing": "Il velo si tiene i suoi fossili e il suo silenzio. Registriamo il nascondiglio. Un equipaggio ricorda dove sono i ripari."
+        }
+      },
+      "drift_medusa": {
+        "prefix": "ECO MORBIDA",
+        "label": "Medusa del vuoto — sacca di gas errante",
+        "scan": {
+          "m35": "L'eco non ha scafo. Respira: una campana traslucida grande come una corvetta, che pulsa nel vento solare trascinandosi dietro chilometri di fronde luminose.",
+          "m70": "Pascola nella corrente di polvere del settore, innocua come il meteo. Le fronde pungono qualunque cosa le tocchi, e niente quaggiù è tanto sciocco da provarci.",
+          "m100": "Serie biologica completa registrata. Ci è passata nell'ombra mentre finivamo, con la luce della campana che increspava: quanto di più vicino a un saluto possa fare una sacca di gas. Registrato come: buon vicinato."
+        },
+        "outcome": {
+          "hullBloom": "Lembi di membrana staccati dalla campana si posano sui graffi e fanno presa come lacca (scafo +{hull})",
+          "salvageCacheSmall": "Lipidi delle fronde perse, conservati a freddo per l'ufficio xeno della Gilda (+{salvage} rottami)",
+          "nothing": "Prosegue pulsando lungo la corrente di polvere, imperturbabile. Certi incontri sono solo due viaggiatori che si incrociano."
+        }
+      },
+      "crystal_choir": {
+        "prefix": "ECO SFACCETTATA",
+        "label": "Entità cristallina — coro reticolare",
+        "scan": {
+          "m35": "Un reticolo ramificato di cristallo vivo, lungo chilometri, che cresce nel vuoto aperto. Ogni faccetta vibra su una nota diversa. Insieme formano un accordo.",
+          "m70": "L'accordo cambia mentre ci avviciniamo. Le armoniche dei nostri motori vengono intessute nel canto. Sta cantando di noi. Il campo nutritivo al suo centro si contrae.",
+          "m100": "Rilevamento completo: vita a reticolo di silicio, più ricca di minerali di qualunque vena onesta, e mentre ce ne andavamo ci ha cantato il numero di scafo. La Gilda non ha un modulo per questo. Archiviato sotto entrambe le voci."
+        },
+        "outcome": {
+          "salvageCacheLarge": "Faccette staccate si allontanano dal coro: materiale reticolare quasi puro, sciolto dal canto e raccolto con cura (+{salvage} rottami)",
+          "radiationFlare": "Il campo nutritivo si contrae verso di noi. Un picco di risonanza taglia l'arco esposto (scafo -{damage})",
+          "nothing": "Il coro continua a cantare, indifferente alle stime. Ce ne andiamo prima che impari tutta la nostra canzone."
+        }
+      },
+      "solar_grazer": {
+        "prefix": "ECO BIOLOGICA",
+        "label": "Manta stellare — pascolatrice ad ali-vela",
+        "scan": {
+          "m35": "Ali. Vele solari viventi, un chilometro da punta a punta, che virano sulla pressione della luce. Pascola il flusso di fotoni come le mandrie pascolano una pianura.",
+          "m70": "Tollera la nostra ombra a distanza di rilevamento, a malapena. Analisi della risposta di fuga: un solo gesto aggressivo e si tuffa nello spazio profondo. Armi fredde, tutti.",
+          "m100": "Serie xenobiologica completa: nutrizione, virate, il lungo e lento canto d'ali di una creatura che non ha mai avuto bisogno di temere niente. L'archivio paga per meraviglie così. Le armi sono rimaste fredde. Bel volo."
+        },
+        "outcome": {
+          "salvageCacheLarge": "L'ufficio xeno della Gilda paga un premio per la serie completa su una pascolatrice viva (+{salvage} rottami)",
+          "hullBloom": "La polvere delle vele nella sua scia si deposita sulla nostra corazza e fa presa (scafo +{hull})"
+        }
+      },
+      "reef_bloom": {
+        "prefix": "BIOMASSA DISPERSA",
+        "label": "Corallo del vuoto — barriera alla deriva",
+        "scan": {
+          "m35": "Una foresta senza un pianeta sotto: colonie ramificate di calcite ancorate a una ghiaia di comete morte, con i polipi aperti alla luce delle stelle.",
+          "m70": "La barriera cresce verso la stella più vicina al ritmo di un metro al secolo. La pazienza come strategia di sopravvivenza. La luce dei polipi si increspa quando i nostri fari la attraversano.",
+          "m100": "Rilevamento completo. Fra dieci milioni di anni questo sarà un muro attraverso il cielo. Noi c'eravamo quando era un giardino. Il registro se ne ricorderà per noi."
+        },
+        "outcome": {
+          "hullBloom": "I polipi della barriera colonizzano i graffi da micrometeoriti e fanno presa come pietra colata (scafo +{hull})",
+          "salvageCacheSmall": "Fronde di calcite morta, dense come buon minerale, issate a bordo (+{salvage} rottami)",
+          "nothing": "Il giardino cresce coi suoi tempi e tiene per sé i suoi pensieri. Rilevamento archiviato."
+        }
+      },
+      "mistweaver": {
+        "prefix": "NEBBIA IONIZZATA",
+        "label": "Tessinebbia — plasma senziente",
+        "scan": {
+          "m35": "Un banco di plasma alla deriva che rifiuta ogni classificazione. Si riorganizza ogni volta che si chiude la finestra di rilevamento. Non è meteo né macchina. È intenzionale.",
+          "m70": "Ci rimanda i nostri impulsi dei sensori, riordinati e ristrutturati, quasi una sintassi. Il pacchetto linguistico segnala una corrispondenza del 92% con una forma: interrogativa.",
+          "m100": "Finalmente la trama si risolve: un unico schema tenuto fermo su tutto il banco, paziente come un maestro con un allievo lento. È una domanda, e aspetta la nostra risposta."
+        },
+        "outcome": {
+          "questClue": "La domanda si dispiega in coordinate, tessute e piegate come stoffa. Filone LA DOMANDA DEL TESSITORE aperto",
+          "nothing": "La trama si disperde a metà schema, la domanda non posta, o ritirata. La foschia prosegue alla deriva, e non sappiamo chi dei due abbia fallito il colloquio."
+        }
+      },
+      "weaver_loom": {
+        "prefix": "ECO INTRECCIATA",
+        "label": "Il telaio del Tessitore — reticolo precursore",
+        "scan": {
+          "m35": "Le coordinate finiscono a un telaio: un reticolo di spazio lavorato più largo di una luna, fili di luce piegata tesi tra masse d'ancoraggio. La domanda del Tessinebbia veniva da qui.",
+          "m70": "Il telaio è in funzione, lentamente. Sta tessendo qualcosa dal vuoto e dalla pazienza, e ha quasi finito. Il segnale-schema al suo cuore è di nuovo la domanda, più forte.",
+          "m100": "Rilevamento completo. Un solo punto d'accesso: il segnale intessuto nella navetta-cuore. Decodificandolo, risponderemo alla domanda. Niente nel rilevamento dice cosa faccia il telaio con una risposta sbagliata."
+        },
+        "outcome": {
+          "nothing": "Il telaio tiene il filo. La navetta-cuore aspetta la nostra risposta.",
+          "intel": "Sorvolando le masse d'ancoraggio, i nostri sensori sfruttano l'ordito del telaio per una scansione. Tutti i contatti del settore identificati"
+        },
+        "poiOutcome": {
+          "signal": {
+            "salvageVault": "Il telaio accetta la risposta e tesse il pagamento: fogli di reticolo esotico stabile si avvolgono nella nostra stiva (+{salvage} rottami)",
+            "awakening": "Il telaio accetta la risposta, e pone una domanda più difficile. Il guardiano si dispiega dal reticolo: la CHIMERA ci prende le misure"
+          }
+        }
+      },
+      "sentinel_signal": {
+        "prefix": "EMISSIONE STRUTTURATA",
+        "label": "Segnale sentinella — trillo paziente",
+        "scan": {
+          "m35": "Un trillo meccanico che si ripete su una banda che nessuno assegna. Non è un loop di soccorso né un faro. È un conteggio, che conta qualcosa con pazienza.",
+          "m70": "Ricerca nei registri completata: niente. La codifica è più antica di ogni catalogo che SHIPNET possa raggiungere, più antica della Gilda e più antica delle carte. E non si sta degradando.",
+          "m100": "Il trillo non è trasmesso al buio. Riferisce a qualcosa, secondo un calendario tenuto da prima della storia scritta. Il percorso di ritorno si triangola pulito: un ripetitore morto, un salto più in profondità."
+        },
+        "outcome": {
+          "questClue": "Percorso di ritorno agganciato al piano di salto. Il segnale si triangola su un ripetitore morto nel sistema successivo. Filone IL SEGNALE SENTINELLA aperto"
+        }
+      },
+      "sentinel_relay": {
+        "prefix": "ECO DI MACCHINA MORTA",
+        "label": "Ripetitore sentinella — centralino dormiente",
+        "scan": {
+          "m35": "Il percorso di ritorno finisce a un reticolo: pale d'antenna lunghe chilometri, cresciute da macchine, fredde su ogni banda. Il centralino di casa del trillo, spento al suo posto.",
+          "m70": "Non morto. Dormiente. Un filo di energia circola sotto le pale, lento come un polso in letargo. Il trillo passa da qui, in uscita, verso un luogo più profondo di dove arrivano le carte.",
+          "m100": "Rilevamento completo. Un solo punto d'accesso: il segnale di instradamento al cuore del reticolo. Decodificandolo, sapremo chi sta ascoltando. Niente nel rilevamento dice quanto costi ascoltare."
+        },
+        "outcome": {
+          "nothing": "Il reticolo trattiene il suo polso invernale. Il segnale di instradamento aspetta il nostro coraggio.",
+          "intel": "Sorvolando le pale d'antenna, i nostri sensori sfruttano la rete di guardia del ripetitore per una scansione. Tutti i contatti del settore identificati."
+        },
+        "poiOutcome": {
+          "signal": {
+            "lore": "La decodifica si intesse pulita e il ripetitore si sveglia quanto basta per instradarla: un handshake, in uscita. Poi il trillo si ferma. Dopo secoli di conteggio, silenzio. Qualcosa ci ha sentiti. Qualcosa ha risposto."
+          }
+        }
+      },
+      "void_contact": {
+        "prefix": "ECO NULLA",
+        "label": "Il Void — assenza strutturata",
+        "scan": {
+          "m35": "Per una volta gli strumenti concordano, e concordano sul nulla: niente massa, niente luce, niente segnale. È un buco nel cielo con una rotta. I buchi non hanno rotte.",
+          "m70": "Mappatura delle occultazioni: le stelle di sfondo si spengono lungo il suo bordo d'attacco e riappaiono lungo quello d'uscita. Il nulla ha una lunghezza. E una prua.",
+          "m100": "Integrazione completa. Il Void è uno scafo, lungo chilometri, occultato oltre qualunque cosa negli archivi e in navigazione, con la rotta puntata sulle colonie interne. Non è un'anomalia. È una nave."
+        },
+        "outcome": {
+          "nothing": "Il rilevamento si chiude con un'aggiunta, segnalata dalla macchina come poco affidabile: la scia dello scafo risulta più fredda del vuoto. Come se risparmiasse ogni joule che ha per la fuga."
+        }
+      },
+      "sanctuary_berth": {
+        "prefix": "COLOSSO OCCULTATO",
+        "label": "L'arca — occultata, in navigazione",
+        "scan": {
+          "m35": "Da vicino l'occultamento si riduce a un tremolio: corazza cresciuta, non fresata, in corsi più antichi di ogni registro. L'arca non chiama, non rallenta, non le importa che siamo qui.",
+          "m70": "Il radar profondo, attraverso un fianco a reticolo aperto, mostra alloggiamenti: migliaia e migliaia, disposti come un favo, ognuno con dentro una forma cristallina sfaccettata. Non sono carico. Hanno un battito. Lento.",
+          "m100": "Rilevamento completo. Un'arca dormiente sotto occultamento totale, senza nessuno sveglio a bordo, in fuga dalla direzione in cui si rifiuta di puntare i sensori. A centro nave, un solo sistema parla ancora: una registrazione intessuta, trasmessa a nessuno. Il rilevamento non dice chi siano. La registrazione potrebbe."
+        },
+        "outcome": {
+          "nothing": "L'arca mantiene la rotta e il silenzio. Gli alloggiamenti continuano a pulsare, lenti come l'inverno.",
+          "intel": "Sorvolando i corsi dorsali, i nostri sensori sfruttano il reticolo di guardia dell'arca per una scansione. Tutti i contatti del settore identificati."
+        },
+        "poiOutcome": {
+          "relic": {
+            "lore": "La sonda stacca un pannello inciso dal corso dello scafo. La catena di glifi ripete una sola sequenza, ancora e ancora, come una mano che scrive un nome che ha paura di dimenticare.",
+            "salvageLarge": "Un montante tranciato di metallo cresciuto, alla deriva nella scia dell'arca. Nessuna nostra forgia saprebbe colarlo, e il registro lo paga (+{salvage} rottami)"
+          }
+        }
+      },
+      "void_relay": {
+        "prefix": "ECO IN SCIA",
+        "label": "Ripetitore d'archivio — sganciato",
+        "scan": {
+          "m35": "Un tamburo di metallo cresciuto che rotola nella vecchia scia dell'arca, lasciato cadere come una briciola, o una scatola nera. Il segnale intessuto della registrazione dell'arca finisce qui.",
+          "m70": "Il tamburo è un ripetitore. Ritrasmette la registrazione dell'arca verso l'esterno, in loop, da prima che le nostre carte avessero nomi. Non è una richiesta di soccorso. È un avvertimento, rivolto a chi verrà dopo.",
+          "m100": "Rilevamento completo. La parte finale della registrazione vive in questo tamburo, quella che l'arca ha smesso di trasmettere. Un solo punto d'accesso: la registrazione troncata. Decodificandola, la storia si chiude. Niente nel rilevamento dice che il finale ci piacerà."
+        },
+        "outcome": {
+          "nothing": "Il tamburo continua a rotolare, paziente. La registrazione troncata aspetta il nostro coraggio.",
+          "salvageCacheSmall": "I pannelli dell'involucro persi dal ripetitore risultano materiale esotico (+{salvage} rottami)"
+        }
+      }
+    },
+    "poiLabel": {
+      "mineral": {
+        "magnetiteSeam": "VENA DI MAGNETITE",
+        "iridiumBloom": "FIORE D'IRIDIO",
+        "crystalShearField": "CAMPO DI CRISTALLI ROTTI",
+        "rareEarthVein": "VENA DI TERRE RARE"
+      },
+      "relic": {
+        "precursorShard": "SCHEGGIA PRECURSORE",
+        "gravenMonolith": "MONOLITE INCISO",
+        "sealedReliquary": "RELIQUIARIO SIGILLATO",
+        "glyphCutPlate": "LASTRA A GLIFI"
+      },
+      "hatch": {
+        "sealedAirlock": "PORTELLO SIGILLATO",
+        "weldedBlastHatch": "PORTA BLINDATA SALDATA",
+        "breachedCargoMaw": "STIVA SVENTRATA"
+      },
+      "signal": {
+        "repeatingEmitter": "EMETTITORE CICLICO",
+        "buriedBlackBox": "SCATOLA NERA SEPOLTA",
+        "coherentEchoSource": "SORGENTE D'ECO COERENTE"
+      },
+      "organism": {
+        "sporeBloom": "NUBE DI SPORE",
+        "dormantBiomass": "BIOMASSA DORMIENTE",
+        "thingInTheIce": "COSA NEL GHIACCIO",
+        "reefPolypCluster": "COLONIA DI POLIPI"
+      },
+      "core": {
+        "livePowerCore": "NUCLEO ATTIVO",
+        "fuelCellCache": "CELLE A COMBUSTIBILE",
+        "hummingCapacitorBank": "BANCO CONDENSATORI RONZANTE"
+      }
+    },
+    "poiOutcome": {
+      "mineral": {
+        "salvageSmall": "I tagliatori a raggio mordono netto. Minerale selezionato issato a bordo (+{salvage} rottami)",
+        "salvageLarge": "La vena è più profonda di quanto stimato: materiale denso recuperato (+{salvage} rottami)",
+        "salvageJackpot": "ESITO DEL SAGGIO: reticolo di terre rare, quasi puro. La stiva imbarca il carico (+{salvage} rottami) e la Gilda vorrà sapere dove l'abbiamo trovato",
+        "tremor": "La vena si destabilizza durante il taglio. Una scossa scaglia detriti sui supporti dei raggi (scafo -{damage})"
+      },
+      "relic": {
+        "salvageLarge": "La sonda lo solleva intero. Opera dei Precursori: il registro paga per la sola provenienza (+{salvage} rottami)",
+        "questClue": "Sotto la patina: COORDINATE, incise per sopravvivere alle stelle. Il reperto è una chiave. Filone VENA DORMIENTE aperto",
+        "cursed": "La sonda lo porta a bordo con cura. Ogni strumento della nave ha un singhiozzo, tutti insieme. Il reperto è caldo. Non dovrebbe essere caldo.",
+        "salvageSmall": "Si sbriciola tra le pinze della sonda, ma i frammenti valgono ancora qualcosa (+{salvage} rottami)"
+      },
+      "hatch": {
+        "salvageJackpot": "La sonda si infila nel buio e trova l'ultima scorta dell'equipaggio: sigillata, intatta, mai reclamata (+{salvage} rottami)",
+        "lore": "La luce della sonda passa su una lavagna di registro imbullonata accanto al portello. L'ultima voce è una parola sola, incisa così a fondo da spezzare lo stilo: SOTTO.",
+        "probeLost": "Telemetria sonda: breccia interna… calore ambientale in aumento… eco di movimento. Ricontrollo. Ricontrollo.",
+        "awakening": "La stiva era occupata. Una creatura-covata si srotola dal buio ed esce attraverso lo scafo"
+      },
+      "signal": {
+        "intel": "Il decodificatore aggancia lo schema: è una RETE DI GUARDIA, e noi ci siamo dentro a guardare fuori. Tutti gli ostili del settore identificati",
+        "questClue": "Il segnale si scioglie in versi di navigazione: vecchie coordinate, che cantano ancora. Filone VENA DORMIENTE aperto",
+        "trapPing": "La decodifica risponde all'handshake. Era un laccio, e l'abbiamo appena tirato",
+        "salvageSmall": "È una boa di rivendicazione della Gilda, scaduta da decenni. Registrare la concessione a nostro nome frutta qualcosa (+{salvage} rottami)"
+      },
+      "organism": {
+        "hullPatch": "Il campione attecchisce sulla nostra corazza segnata come se gli fossimo mancati. La saldatura organica fa presa (scafo +{hull})",
+        "salvageSmall": "Coltura sigillata e conservata a freddo. L'ufficio xeno della Gilda paga a scatola chiusa (+{salvage} rottami)",
+        "infestation": "Il campione era un seme di sciame. Rosicchiascafi nella linea di recupero! Il controllo danni li sta bruciando (scafo -{drain}/s per {duration}s)"
+      },
+      "core": {
+        "reactorFlush": "La cella si beve il nostro calore di scarto mentre si scarica. Nucleo del reattore raffreddato: integrità del nucleo +{reactor}",
+        "torpedoes": "Dentro l'involucro: culle per testate standard della Gilda. Siluri ricaricati nei tubi (+{torpedoes})",
+        "salvageLarge": "Banchi di condensatori prosciugati fino all'ultimo coulomb (+{salvage} rottami)",
+        "tremor": "La cella si destabilizza sotto il prelievo. Archi di scarica sullo scafo (scafo -{damage})"
+      }
+    },
+    "terminal": {
+      "wreck": {
+        "line1": "…giorno 61: i colpi nel condotto di poppa vanno a tempo perfetto col reattore. Il capo dice risonanza. Il capo sbaglia.",
+        "line2": "MANIFESTO DI CARICO (rettificato): 40t minerale, 12 cuccette criogeniche, 11 OCCUPATE. Non aprire la cuccetta 7.",
+        "line3": "auto-log: camera stagna interna ciclata 214 volte in un turno. Nessuna tuta prelevata.",
+        "line4": "…abbiamo sigillato il ponte C e saldato i telai. Se stai leggendo, non fidarti del silenzio.",
+        "line5": "INFERMERIA: l'equipaggio lamenta di 'essere contato'. Prescritto riposo. Le lamentele sono cessate. Tutte.",
+        "line6": "ultima voce: ha imparato i codici delle porte. Non gli abbiamo mai insegnato i codici delle porte."
+      },
+      "cave": {
+        "line1": "SQUADRA RILEVAMENTO 3: le vene luccicano in modo strano quaggiù. L'analizzatore non rileva niente. L'analizzatore è cieco.",
+        "line2": "…la testa della trivella è tornata lucidata. Non consumata. Lucidata.",
+        "line3": "auto-faro: evento sismico 4,1, lo schema si ripete ogni 47 minuti. Esatti.",
+        "line4": "diario del campo: Ilsa ha contato le lampade due volte. Diciannove. Ne avevamo portate dodici.",
+        "line5": "…più scendiamo, più i tunnel sono caldi. Nessuno vuole dire 'respirano'."
+      },
+      "organic": {
+        "line1": "BIOPSIA 12: il tessuto si rimargina attorno al campionatore. Si tiene il campionatore.",
+        "line2": "…la squadra acustica dice che il ronzio è digestione. Scherzano. Vi prego, fate che stiano scherzando.",
+        "line3": "nota sul campo: ora le pareti si ritraggono dalle lampade. Il primo giorno non lo facevano.",
+        "line4": "…non correre. Si accorge di chi corre. Cammina fino alle scialuppe e si limiterà a guardare."
+      },
+      "halls": {
+        "line1": "REGISTRO DEL CURATORE: la galleria 9 è sparita. Non chiusa: sparita. Il corridoio adesso è più corto.",
+        "line2": "…i costruttori hanno proporzionato ogni arco a qualcosa alto quattro volte noi, e ogni maniglia a noi.",
+        "line3": "manutenzione: di notte le luci della grande sala si riordinano da sole. Lo schema è un conto alla rovescia.",
+        "line4": "…abbiamo trovato l'ultimo messaggio degli abitanti. È una parola sola, ripetuta per tutta l'altezza del muro: FERMI."
+      }
+    },
+    "log": {
+      "scanMilestone": "SCANSIONE {pct}% {designator}: {text}",
+      "podLore": "{designator}: {lore}",
+      "probeTerminal": "La sonda si collega a un terminale freddo: {line}"
+    }
+  }
+}

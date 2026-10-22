@@ -1,0 +1,56 @@
+{
+ "probe": {
+  "bracket": {
+   "loot": "BERGUNGSKAPSEL",
+   "prize": "KERNPROBE",
+   "terminal": "TERMINAL",
+   "terminalRead": "TERMINAL·GELESEN",
+   "exitPad": "AUSSTIEGSPAD",
+   "arc": "BOGENGEFAHR",
+   "vent": "AUSLASS",
+   "collapse": "EINSTURZENDE PLATTE"
+  },
+  "card": {
+   "landing": {
+    "acquiring": "TELEMETRIE WIRD ERFASST{dots}"
+   },
+   "lost": {
+    "title": "SIGNAL VERLOREN",
+    "noReason": "Träger verloren — keine Telemetrie"
+   },
+   "recovered": {
+    "title": "SONDE GEBORGEN",
+    "archived": "Telemetrie archiviert"
+   }
+  },
+  "endReason": {
+   "caught": "Kontakt verloren — etwas hat sie gefunden",
+   "aborted": "Sonde versenkt",
+   "jump": "Leine durch Sprungtransit gekappt",
+   "wrecked": "Hüllenintegrität null"
+  },
+  "hud": {
+   "recovery": "BERGUNG {carried}/{total}",
+   "recoveryPrize": "BERGUNG {carried}/{total} · ✦ KERNPROBE GESICHERT",
+   "noise": "LÄRM",
+   "hull": "HÜLLE",
+   "extraction": "BERGUNGSKANAL ▸ {pct}%"
+  },
+  "radar": {
+   "contact": "KONTAKT",
+   "contactLost": "KONTAKT VERLOREN",
+   "pingReady": "PING BEREIT",
+   "extracting": "BERGUNG LÄUFT"
+  },
+  "standby": {
+   "view": {
+    "title": "KEINE SONDENTELEMETRIE",
+    "hint": "von einem Vermessungsecho starten"
+   },
+   "radar": {
+    "title": "SCAN AUSGEFALLEN",
+    "hint": "keine Sonde in Verbindung"
+   }
+  }
+ }
+}

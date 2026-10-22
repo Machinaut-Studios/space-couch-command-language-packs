@@ -1,0 +1,86 @@
+{
+  "quest": {
+    "ghost_beacon": {
+      "name": "FARO FANTASMA",
+      "stage1": {
+        "log": "FARO FANTASMA: salta e trova la fonte del segnale",
+        "journal": "FARO FANTASMA: le coordinate reggono. Qualunque cosa l'abbia inviato è a un salto da qui, e trasmette ancora."
+      },
+      "stage2": {
+        "journal": "FARO FANTASMA chiuso. L'equipaggio della nave silenziosa ha finalmente una risposta. Diritto di recupero onorato (+{salvage} rottami). La sua sonda di rilevamento risponde ancora alla diagnostica, rimontata nella nostra baia (sonde +{probes})."
+      }
+    },
+    "sleeper_seam": {
+      "name": "VENA DORMIENTE",
+      "stage1": {
+        "log": "VENA DORMIENTE: segui le coordinate del reperto fino al sito dei precursori",
+        "journal": "VENA DORMIENTE: le coordinate sono pulite. Ciò che corrisponde a questa chiave è a un salto da qui, e aspetta con pazienza da moltissimo tempo."
+      },
+      "stage2": {
+        "log": "VENA DORMIENTE: esegui il rilevamento del caveau e un prelievo dal nucleo, se l'equipaggio osa",
+        "journal": "VENA DORMIENTE: il caveau è reale, e caldo. Il nodo centrale sotto la vena accetterà un prelievo. Il rilevamento non dice cosa abbia preso la vena, per dover essere sigillata così."
+      },
+      "stage3": {
+        "journal": "VENA DORMIENTE chiusa: la vena è dissigillata. Ciò che custodiva, non lo custodisce più."
+      }
+    },
+    "weaver_question": {
+      "name": "LA DOMANDA DEL TESSITORE",
+      "stage1": {
+        "log": "LA DOMANDA DEL TESSITORE: segui le coordinate ripiegate fino al telaio",
+        "journal": "LA DOMANDA DEL TESSITORE: le coordinate si dispiegano pulite. Ciò che l'ha posta è a un salto da qui, e attende un allievo degno della lezione."
+      },
+      "stage2": {
+        "log": "LA DOMANDA DEL TESSITORE: porta al telaio la nostra risposta. Decodifica il segnale intessuto, se l'equipaggio osa",
+        "journal": "LA DOMANDA DEL TESSITORE: il telaio è reale, e in funzione. La spola-cuore accetterà una decodifica. Il rilevamento non dice cosa faccia il telaio con una risposta sbagliata."
+      },
+      "stage3": {
+        "journal": "LA DOMANDA DEL TESSITORE chiusa: posta, risolta e pagata. In un modo o nell'altro."
+      }
+    },
+    "sentinel_signal": {
+      "name": "IL SEGNALE SENTINELLA",
+      "stage1": {
+        "log": "IL SEGNALE SENTINELLA: trova il ripetitore morto e decodifica il segnale che custodisce",
+        "journal": "IL SEGNALE SENTINELLA: il percorso di ritorno regge. Il ripetitore è un salto più in profondità, e il trillo continua a contare, paziente come l'inverno."
+      },
+      "stage2": {
+        "log": "IL SEGNALE SENTINELLA: l'handshake è stato udito. Salta quando vuoi, e arriva già ai posti di combattimento",
+        "journal": "IL SEGNALE SENTINELLA: il ripetitore ha instradato la nostra decodifica, e qualcosa oltre le carte ha risposto. L'handshake conteneva il nostro numero di scafo. Il prossimo arrivo non sarà tranquillo."
+      },
+      "stage3": {
+        "log": "IL SEGNALE SENTINELLA: le sentinelle sono arrivate. Distruggi lo sciame",
+        "journal": "IL SEGNALE SENTINELLA: la risposta arriva in massa. Il conteggio è sempre stato un registro di bersagli."
+      },
+      "stage4": {
+        "journal": "IL SEGNALE SENTINELLA chiuso: lo sciame è ferraglia e il vecchio conteggio è spezzato. I diritti di recupero su relitti di macchine così antiche pagano per intero (+{salvage} rottami). Una carcassa custodiva una sonda di rilevamento intatta (sonde +{probes})."
+      }
+    },
+    "the_void": {
+      "orders": "◉ PRIORITÀ UNO, COMANDO DELLA FLOTTA: i sensori a lungo raggio tracciano un VOID in movimento, in rotta diretta verso le colonie interne. Non restituisce massa, né luce, né segnale. Intercettatelo, trovatene l'origine, valutate la minaccia e fate rapporto.",
+      "name": "IL VOID",
+      "stage1": {
+        "log": "IL VOID: avvicinati alla struttura e completa il rilevamento del suo scafo",
+        "journal": "IL VOID: l'anomalia del Comando della Flotta ha uno scafo. È una nave oltre ogni scala di registro, occultata, in rotta verso le colonie interne... e intorno alla scia del nostro rilevamento si risvegliano vecchie macchine. Qualunque cosa sia, è sorvegliata."
+      },
+      "stage2": {
+        "log": "IL VOID: il registro si interrompe. Trova il ripetitore che la segue nella sua scia",
+        "journal": "FRAMMENTO D'ARCHIVIO recuperato. Il registro intessuto si decodifica a pezzi: un popolo chiamato OSSARI, a oceani interi addormentato nel cristallo, e alle sue spalle una patria UNMADE, la sua materia smontata e riutilizzata da qualcosa che non si ferma. Il registro si interrompe a metà voce."
+      },
+      "stage3": {
+        "journal": "FRAMMENTO D'ARCHIVIO recuperato: la coda del registro. Si interrompe a metà frase, e l'ultima riga completa è un azimut: la scia da cui fuggivano. L'abbiamo tracciata. La scia da cui fuggivano è NEL NOSTRO CIELO, alle nostre spalle, tra casa e qui."
+      },
+      "podLore": {
+        "attempt1": "Il prelievo si innesta pulito, e la capsula lo rifiuta: stabilizzata, il reticolo si ritesse attorno alla nostra interfaccia più in fretta di quanto riesca a mordere. Il battito all'interno rallenta, si assesta... più a fondo.",
+        "attempt2": "Secondo tentativo. Stavolta il reticolo legge il nostro prelievo e risponde con uno schema. Il pacchetto linguistico segnala una forma a bassa affidabilità: 'non ancora'. Il battito della capsula regge. Il nostro ha perso un colpo.",
+        "attempt3": "Ultimo tentativo. L'interfaccia si vetrifica nell'istante in cui tocca. La capsula si sigilla con il nostro strumento dentro la saldatura, con delicatezza, come si chiude la porta su un bambino che dorme. Il rilevamento la classifica: stabilizzata. Qualunque cosa li svegli, non siamo noi. Forse non dovrebbe svegliarli niente."
+      },
+      "unmaking": {
+        "band25": "I tracciati a lungo raggio a poppa si stanno zittendo. Le stelle ci sono ancora; tutto ciò che volava tra loro è sparito. E parte di ciò che vola ancora... dà letture sbagliate.",
+        "band50": "Le bande di predoni a poppa hanno cambiato dialetto: più traffico, chiamate più brevi, e ognuna riceve risposta. Qualcosa laggiù ora è molto organizzato, ed è più vicino di prima.",
+        "band75": "Spettrografo, arco di poppa: la luce stessa delle stelle sta perdendo righe. Intere frequenze semplicemente non arrivano più. Il registro usava una sola parola per questo. Abbiamo smesso di tradurla ad alta voce.",
+        "band100": "Il tracciato di poppa finisce su un bordo: un confine in movimento oltre il quale i nostri strumenti restituiscono lo stesso nulla che un tempo restituiva il Void. È in questo cielo. Correte, avvertite le colonie, e non fermatevi."
+      }
+    }
+  }
+}

@@ -1,0 +1,532 @@
+{
+ "view": {
+  "lobby": {
+   "wordmark": "SPACE COUCH COMMAND",
+   "shop": {
+    "button": "UPGRADES",
+    "buttonBanked": "UPGRADES ◈{banked}"
+   },
+   "back": "ZURÜCK ZUR BRÜCKE",
+   "key": {
+    "enter": "ENTER",
+    "esc": "ESC"
+   },
+   "tabs": {
+    "crew": "CREW",
+    "crewCount": "CREW {seated}/{core}",
+    "upgrades": "UPGRADES",
+    "upgradesBanked": "UPGRADES ◈{banked}",
+    "saved": "GESPEICHERT",
+    "savedCount": "GESPEICHERT {count}"
+   },
+   "pager": {
+    "more": "{n} MEHR",
+    "top": "ZURÜCK NACH OBEN"
+   },
+   "seat": {
+    "short": {
+     "helm": "STEUER",
+     "tactical": "TAKTIK",
+     "engineer": "TECHNIK",
+     "science": "WISSENSCH.",
+     "comms": "FUNK",
+     "helm_tac": "PILOT",
+     "ops": "OPS",
+     "sci_comms": "WISS·FUNK",
+     "sciops": "WISS·FUNK",
+     "command": "KOMMANDANT",
+     "cupola": "KUPPEL"
+    },
+    "open": "offen",
+    "cannoneers": "KANONIERE · OPTIONAL",
+    "cannoneersShort": "KANONEN",
+    "noGunners": "0/{total}",
+    "gunnerMore": "{name} +{more}"
+   },
+   "join": {
+    "kickerRemote": "FERNBRÜCKE",
+    "kickerNoNetwork": "KEINE NETZVERBINDUNG",
+    "kickerRoomCode": "RAUMCODE",
+    "kickerMirror": "BILDSCHIRM SPIEGELN",
+    "caption": "SCANNEN ZUM BEITRETEN",
+    "captionMirror": "⚠ NICHT ZUM BEITRETEN",
+    "remoteBody": "NIMM OBEN ÜBER „MEINE STATION“ PLATZ",
+    "noLanBody": "⚠ VERBINDE DIESEN RECHNER UND DEINE PHONES MIT DEMSELBEN WLAN, DANN NEU STARTEN",
+    "copyLink": "LINK KOPIEREN",
+    "copied": "KOPIERT ✓",
+    "castJoinQr": "BEITRITT-QR",
+    "castBackToJoinQr": "ZURÜCK ZUM QR",
+    "castAnotherTv": "ANDERER TV",
+    "castShowOnAnotherTv": "AUF ANDEREM TV ZEIGEN"
+   },
+   "crew": {
+    "kicker": "CREW",
+    "reconnecting": "⚠ VERBINDET NEU…",
+    "solo": "SOLO? DIE WREN FLIEGT MIT EINEM PLATZ",
+    "kickerNobody": "CREW · NOCH NIEMAND AN BORD",
+    "kickerPicks": "CREW · SPIELER WÄHLEN IHRE PLÄTZE AUF IHREN GERÄTEN",
+    "kickerNobodyShort": "NOCH NIEMAND AN BORD",
+    "guide": {
+     "step1": "NIMM EINE STATION",
+     "step2": "WÄHLE DORT EINE STATION",
+     "step2Sub": "JEDER WÄHLT SEINE EIGENE",
+     "step3Remote": "DER HOST STARTET DIE MISSION",
+     "step3Local": "WÄHLE EIN SCHIFF · DANN STARTEN",
+     "thisComputerStation": "DIESER RECHNER · DER TAB „MEINE STATION“",
+     "thisPhoneMenu": "DIESES PHONE · ☰ MENÜ ▸ STATION SPIELEN",
+     "everyoneScan": "ALLE ANDEREN · QR-CODE SCANNEN",
+     "phonesScan": "PHONES & TABLETS · QR-CODE SCANNEN",
+     "openLink": "LINK IN EINEM NEUEN TAB ÖFFNEN",
+     "thisScreenOpenLink": "DIESER BILDSCHIRM · LINK IN NEUEM TAB ÖFFNEN"
+    }
+   },
+   "launch": {
+    "cta": "STARTEN",
+    "waiting": "WARTE AUF CREW",
+    "crewed": {
+     "one": "{seated} VON {count} STATION BESETZT · {ready} BEREIT",
+     "other": "{seated} VON {count} STATIONEN BESETZT · {ready} BEREIT"
+    },
+    "crewedShort": "{seated}/{core} BESETZT·{ready} BEREIT",
+    "gunners": {
+     "one": "+{count} KANONIER",
+     "other": "+{count} KANONIERE"
+    },
+    "gunnersShort": "+{n} KANONEN",
+    "blocked": "⚠ NIEMAND AN BORD — ZUERST STATION BESETZEN",
+    "reconnecting": "⚠ {seat} VERBINDET NEU...",
+    "overwrites": "⚠ START ÜBERSCHREIBT SPEICHERSTAND VON {name}",
+    "hostLaunches": "DER HOST STARTET DIE MISSION",
+    "hostLaunchesShort": "DER HOST STARTET",
+    "openLinkTakeStation": "LINK IN NEUEM TAB ÖFFNEN, UM STATION ZU NEHMEN",
+    "openLinkShort": "LINK IN EINEM NEUEN TAB ÖFFNEN",
+    "scanTakeStation": "QR-CODE SCANNEN, UM EINE STATION ZU NEHMEN",
+    "scanShort": "QR SCANNEN ZUM BEITRETEN",
+    "newRunAs": "NEUER LAUF ALS {name}",
+    "newRunUnnamed": "NEUER LAUF · NAMENLOSES SCHIFF",
+    "toastHullLoaded": "RUMPF VON {name} GELADEN — CREW NEU SETZEN, DANN WEITER",
+    "toastHullChanged": "RUMPF GEWECHSELT — CREW WÄHLT PLÄTZE NEU"
+   },
+   "saves": {
+    "kicker": "SPEICHERSTAND FORTSETZEN",
+    "denyReason": "⚠ NIEMAND AN BORD — ZUERST CREW SETZEN",
+    "loadWarning": "⚠ WECHSELT ZU {label} — CREW SETZT NEU, DANN FORTSETZEN",
+    "resume": "FORTSETZEN {name}",
+    "load": "LADEN {name}",
+    "crewCount": "{n} CREW",
+    "crewUnrecorded": "CREW NICHT ERFASST",
+    "sectorLine": "SEKTOR {sector} · {label} · {crew}",
+    "sectorLineShort": "SEKTOR {sector} · {label}",
+    "seatCrewFirst": "ZUERST CREW SETZEN"
+   },
+   "ship": {
+    "kicker": "SCHIFF",
+    "nameKicker": "SCHIFFSNAME",
+    "draftStrip": "SCHIFFSNAME ▸ {draft}",
+    "stat": {
+     "hull": "HÜLLE",
+     "reactor": "REAKTOR",
+     "beams": "STRAHL",
+     "guns": "GESCHÜTZE",
+     "tubes": "ROHRE",
+     "torps": "TORPEDOS"
+    },
+    "statLineA": "HÜLLE {hull} · REAKT. {reactor} · STRAHL {beams}",
+    "statLineB": "GESCHÜTZE {guns} · ROHRE {tubes} · TORPS {torps}",
+    "unseat": "⚠ SCHIFFSWECHSEL SETZT {n} CREW ZURÜCK",
+    "namePlaceholder": "NAMENLOSES SCHIFF",
+    "verbName": "NAME",
+    "verbRename": "UMBENENNEN",
+    "keySave": "SPEICHERN",
+    "keyCancel": "ABBRECHEN",
+    "helperCollideEdit": "⚠ NAME EXISTIERT BEREITS — START ÜBERSCHREIBT",
+    "helperEditing": "KEYBOARD ▸ FERTIG SPEICHERT",
+    "helperCollide": "⚠ ÜBERSCHREIBT DIESEN SPEICHERSTAND"
+   },
+   "upgrades": {
+    "kicker": "UPGRADES",
+    "banked": "◈ {banked} GESICHERT",
+    "earn": "VERDIENE ◈ BERGEGUT BEI MISSIONEN",
+    "bankedEarn": "◈ {banked} GESICHERT · VERDIENE BERGEGUT BEI MISSIONEN",
+    "installed": "✓ INSTALLIERT",
+    "alreadyInstalled": "✓ BEREITS INSTALLIERT",
+    "buy": "KAUFEN ◈ {cost}",
+    "buyPhone": "KAUFEN ◈{cost}",
+    "needPhone": "BRAUCHT ◈{need}",
+    "need": "BRAUCHT ◈ {need}",
+    "needMore": "BRAUCHT ◈ {need} MEHR",
+    "warnNeedMorePhone": "⚠ BRAUCHT ◈{need} MEHR",
+    "warnNeedMore": "⚠ BRAUCHT ◈ {need} MEHR"
+   }
+  },
+  "science": {
+   "idle": {
+    "title": "KEIN AKTIVER SCAN",
+    "hint": "WISSENSCHAFT: KONTAKT ZUM SCANNEN WÄHLEN"
+   },
+   "analysisCaption": "ANALYSE",
+   "targetPointsCaption": "ZIELPUNKTE",
+   "vitals": {
+    "hull": "HÜLLE {cur}/{max}",
+    "shield": "SCHILDE {cur}/{max}"
+   },
+   "spoolWarn": "⚠ SPRUNGSPULE ERKANNT — FLUCHTANTRIEB {pct}%",
+   "probesAboard": "SONDEN AN BORD {count}",
+   "classText": {
+    "unresolved": "UNBEKANNTES ECHO",
+    "unknown": "KLASSE UNBEKANNT — SCAN LÄUFT"
+   },
+   "typeWord": {
+    "derelict": "TREIBENDES WRACK",
+    "mine": "NÄHERUNGSMINE",
+    "friendly": "ZIVILER FRACHTER",
+    "asteroid": "ASTEROID",
+    "unknown": "UNBEKANNTES OBJEKT"
+   },
+   "subRow": {
+    "online": "◈ {designator}",
+    "offline": "◈ {designator}  [OFFLINE]",
+    "empty": "KEINE ZIELPUNKTE GEFUNDEN — WEITER SCANNEN"
+   }
+  },
+  "ui": {
+   "boot": {
+    "skipHint": {
+     "touch": "HALTEN ZUM ÜBERSPRINGEN",
+     "keyboard": "[LEERTASTE] GEDRÜCKT HALTEN"
+    },
+    "crewReady": "CREW BEREIT {ready}/{total}",
+    "test": {
+     "mainframe": {
+      "label": "ORACLE-HAUPTRECHNER 9",
+      "status": "ONLINE"
+     },
+     "memory": {
+      "label": "KERNSPEICHER 262144K",
+      "status": "GEPRÜFT"
+     },
+     "nav": {
+      "label": "NAVIGATIONSRECHNER",
+      "status": "NOMINAL"
+     },
+     "sensors": {
+      "label": "SENSORFELD",
+      "status": "KALIBRIERT"
+     },
+     "weapons": {
+      "label": "WAFFENSICHERUNG",
+      "status": "SICHER"
+     },
+     "reactor": {
+      "label": "REAKTORSCHUTZ",
+      "status": "STABIL"
+     },
+     "lifeSupport": {
+      "label": "LEBENSERHALTUNG"
+     },
+     "cryo": {
+      "label": "KRYOBUCHT",
+      "status": "{crew} BELEGT"
+     },
+     "cartography": {
+      "label": "STERNENKARTOGRAFIE",
+      "status": "GELADEN"
+     }
+    },
+    "line": {
+     "interfaceReady": "SCHNITTSTELLE 2037 BEREIT",
+     "registry": "UES {ship} // REGISTER 47-ND-1120",
+     "crew": "CREW {crew} · KI 01 · MISSION: [KLASSIFIZIERT]",
+     "awaiting": "> WARTE AUF VORRANGIGEN VERKEHR . . ."
+    },
+    "defaultShip": "HEROLD",
+    "signalDivider": "── EINGEHENDES SIGNAL ──",
+    "priorityHeader": "◉ PRIORITÄT EINS — EINGEHENDE ÜBERTRAGUNG // FLOTTENKOMMANDO",
+    "transmission": {
+     "anomaly": "Fernsensoren haben eine Anomalie auf direktem Kurs zu den inneren Kolonien erfasst: eine sich bewegende VOID, eine Region des Raums, die keine Masse, kein Licht und kein Signal zurückgibt.",
+     "orders": "Abfangen, seinen Ursprung finden, die Bedrohung einschätzen und Bericht erstatten."
+    },
+    "telemetry": {
+     "line": "> {line} ..... OK",
+     "plot": "BERECHNE ABFANGVEKTOR",
+     "paging": "DURCHBLÄTTERE NAVIGATIONSTABELLEN // SEKTORKARTEN",
+     "align": "AUSRICHTUNG DER TRÄGHEITSPLATTFORM",
+     "spool": "LADE SPRUNGKONDENSATOR-TESTZELLE",
+     "crossCheck": "KREUZPRÜFUNG SENSORBASIS",
+     "arming": "AKTIVIERE TELEMETRIEBUS",
+     "cryo": "KRYO-WIEDERBELEBUNGSZYKLUS ABGESCHLOSSEN",
+     "stations": "CREW-STATIONEN MELDEN SICH",
+     "uplink": "FLOTTENKOMMANDO-UPLINK: GESPERRT",
+     "signalFloor": "SIGNALBODEN NOMINAL // KEINE RÜCKKEHR AUS DER VOID"
+    },
+    "solution": "ABFANGLÖSUNG {bar} {pct}%",
+    "ready": "SYSTEME BEREIT",
+    "begin": "► MISSION BEGINNEN"
+   },
+   "credits": {
+    "header": "SB-OS 2.4 // NACHSPANN",
+    "title": "SPACE COUCH COMMAND",
+    "soundtrack": "◇  ORIGINALE SOUNDTRACK  ◇",
+    "licence": "Musik lizenziert von White Bat Audio, mit freundlicher Genehmigung.",
+    "close": {
+     "touch": "ANTIPPEN ZUM SCHLIESSEN",
+     "keyboard": "ESC / C — SCHLIESSEN"
+    }
+   },
+   "settings": {
+    "header": "SB-OS 2.4 // HOST-KONSOLE",
+    "hint": {
+     "touch": "ZEILE ANTIPPEN · AUSSEN ZUM SCHLIESSEN",
+     "keysClose": "↑↓ WÄHLEN · ENTER BESTÄTIGEN · ESC SCHLIESSEN",
+     "keysResume": "↑↓ WÄHLEN · ENTER BESTÄTIGEN · ESC FORTSETZEN"
+    },
+    "row": {
+     "theme": "THEMA: {value}",
+     "themeWide": "THEMA: AMBER",
+     "sound": "TON: {value}",
+     "soundWide": "TON: AUS",
+     "fullscreen": "VOLLBILD: {value}",
+     "fullscreenWide": "VOLLBILD: AUS",
+     "station": "STATION SPIELEN",
+     "joinHost": "ANDEREN HOST BEITRETEN",
+     "credits": "NACHSPANN",
+     "close": "SCHLIESSEN",
+     "resume": "FORTSETZEN",
+     "restart": "NEU STARTEN AB SEKTOR 1",
+     "abandon": "LAUF ABBRECHEN"
+    },
+    "desc": {
+     "theme": "CRT-FARBPALETTE DURCHSCHALTEN (T)",
+     "sound": "BRÜCKENLAUTSPRECHER UMSCHALTEN (M)",
+     "fullscreen": "GANZEN BILDSCHIRM FÜLLEN (F)",
+     "station": "DIESEN BILDSCHIRM GEGEN EINE CREW-STATION TAUSCHEN",
+     "joinHost": "STOPPEN — ZURÜCK ZUM HOST-/BEITRITTS-BILDSCHIRM",
+     "credits": "SOUNDTRACK-HOMMAGE — WHITE BAT AUDIO (C)",
+     "closeLobby": "PANEL SCHLIESSEN — ZURÜCK ZUR LOBBY",
+     "resume": "PANEL SCHLIESSEN — ZURÜCK AUF DIE BRÜCKE",
+     "restart": "NEU STARTEN AB SEKTOR 1",
+     "abandon": "BERGEGUT SICHERN — ZURÜCK ZUR LOBBY"
+    }
+   }
+  },
+  "game": {
+   "documentTitle": "Space Couch Command — Hauptbildschirm",
+   "hud": {
+    "sector": {
+     "none": "SEKTOR —",
+     "line": "SEKTOR {n} — {label}"
+    },
+    "alert": {
+     "green": "ALARM GRÜN",
+     "yellow": "ALARM GELB",
+     "red": "ALARM ROT"
+    },
+    "sysLabel": "SB-OS 2.4 // BRÜCKENVERBINDUNG",
+    "jump": {
+     "charge": "SPRUNG {pct}%",
+     "ready": "SPRUNG BEREIT"
+    },
+    "stats": "BERGEGUT {salvage} · KILLS {kills}",
+    "ribbon": "◍ EINGEHENDE ÜBERTRAGUNG — FUNK",
+    "ordnance": {
+     "torpedo": {
+      "one": "⚠ TORPEDO EINGEHEND",
+      "other": "⚠ TORPEDOS ×{count} EINGEHEND"
+     },
+     "missile": {
+      "one": "⚠ LENKWAFFE",
+      "other": "⚠ LENKWAFFEN ×{count}"
+     },
+     "rail": {
+      "one": "⚠ RAIL-SLUG",
+      "other": "⚠ RAIL-SLUGS ×{count}"
+     },
+     "rocket": {
+      "one": "⚠ RAKETE",
+      "other": "⚠ RAKETEN ×{count}"
+     }
+    }
+   },
+   "titleCard": "SEKTOR {n} — {label}",
+   "clear": {
+    "title": "SEKTOR GESICHERT",
+    "ready": "SPRUNGANTRIEB BEREIT — STEUER: ZÜNDEN",
+    "spool": "SPRUNGANTRIEB HOCHLAUFEN, UM FORTZUFAHREN — SPRUNGLADUNG {pct}%"
+   },
+   "gameOver": {
+    "shipLost": "VERLOREN",
+    "demoComplete": "DEMO ABGESCHLOSSEN",
+    "stats": {
+     "sectorsFlown": "FLUGSEKTOREN",
+     "sectorsReached": "SEKTOR ERREICHT",
+     "salvageBanked": "BERGEGUT SICHER",
+     "kills": "ABSCHÜSSE",
+     "coloniesSaved": "KOLONIEN EVAK."
+    },
+    "restart": "▶ NEUER LAUF  [ENTER]",
+    "lobby": "▷ ZUR LOBBY  [L]",
+    "hint": "ESC: MENÜ",
+    "cta": "◈ WUNSCHLISTE SPACE COUCH COMMAND AUF STEAM"
+   },
+   "boot": {
+    "banner": "SB-OS 2.4 // BRÜCKEN-VIEWSCREEN",
+    "memory": "SPEICHERPRÜFUNG .......... OK",
+    "phosphor": "PHOSPHORMATRIX ........... OK",
+    "shipnet": "SHIPNET-UPLINK ......... SYNC",
+    "link": "BRÜCKENVERBINDUNG HERGESTELLT",
+    "fault": "VERBINDUNGSFEHLER: {reason}"
+   },
+   "connection": {
+    "lost": "◍ SIGNAL VERLOREN — VERBINDE NEU…",
+    "failed": "◍ VERBINDUNG VERLOREN — SEITE NEU LADEN"
+   },
+   "settingsValue": {
+    "theme": {
+     "green": "GRÜN",
+     "amber": "AMBER",
+     "mixed": "GEMISCHT"
+    },
+    "on": "EIN",
+    "off": "AUS"
+   },
+   "muteKey": "M",
+   "music": {
+    "artist": "White Bat Audio",
+    "pack": {
+     "la2077": "LA 2077 Atmosphere Pack",
+     "darksynth": "Darksynth"
+    },
+    "track": {
+     "theMessage": "The Message",
+     "hourglass": "Hourglass",
+     "implantChip": "Implant Chip",
+     "lostInAStrangeCity": "Lost in a Strange City",
+     "neonAlley": "Neon Alley",
+     "policeWork": "Police Work",
+     "project31": "Project #31",
+     "itsAlmostDawn": "It's Almost Dawn",
+     "youreBeingFollowed": "You're Being Followed",
+     "surveillance": "Surveillance",
+     "corruption": "Corruption",
+     "ghostInTheMachine": "Ghost in the Machine",
+     "theHunter": "The Hunter",
+     "theNightstalkerOfChiba": "The Nightstalker of Chiba",
+     "upload": "Upload"
+    }
+   }
+  },
+  "stage": {
+   "comms": {
+    "idle": {
+     "title": "KANALMONITOR",
+     "sub": "— KEINE AKTIVE ÜBERTRAGUNG —",
+     "none": "KEIN VERKEHR ERFASST",
+     "last": "LETZTE ÜBERTRAGUNG: {contact}"
+    },
+    "live": {
+     "label": "LIVE-ÜBERTRAGUNG",
+     "unknownContact": "UNBEKANNTER KONTAKT",
+     "contactFaction": "{speaker} — {faction}",
+     "receiving": "◍ EMPFANGE ÜBERTRAGUNG…",
+     "respCaption": "ANTWORTOPTIONEN — FUNK ANTWORTET…",
+     "endTransmission": "◈ ÜBERTRAGUNG BEENDEN",
+     "expiryCaption": "ANTWORTFENSTER",
+     "expirySecs": "{secs}s"
+    },
+    "signal": {
+     "title": "{label} — {designator}",
+     "unknownSignal": "UNBEKANNTES SIGNAL",
+     "sub": "PASSIVER MONITOR — NUR EMPFANG · KEIN RÜCKKANAL",
+     "listening": "· · · HÖRT ZU",
+     "carrierBurst": "◍ TRÄGERIMPULS"
+    }
+   },
+   "chart": {
+    "caption": "NAV-KARTE // GALAXIS",
+    "sysTitle": "SYSTEM: {name}",
+    "legend": "● ERFASST · ◌ SIGNALGRENZE · BLASS = JENSEITS DER SENSOREN",
+    "dest": "ZIEL ▸ {name}",
+    "destRandom": "ZUFÄLL. VERBUNDEN",
+    "destLocked": "GESPERRT",
+    "uncharted": "UNKARTIERT",
+    "destTag": "▸ ZIEL",
+    "debris": "⚠ TRÜMMER",
+    "idle": {
+     "title": "WARTE AUF KARTEN",
+     "sub": "LANGSTRECKEN-VERMESSUNG LÄUFT"
+    }
+   },
+   "helm": {
+    "heading": "KURS",
+    "evasive": "AUSWEICHEN",
+    "throttle": "SCHUB",
+    "jumpCharge": "SPRUNGLADUNG",
+    "jumpReady": "BEREIT",
+    "jumpEngage": "SPRUNGLADUNG — STEUER: ZÜNDEN",
+    "jumpSpooling": "SPRUNGLADUNG — HOCHLAUF",
+    "hazards": {
+     "caption": "NÄCHSTE GEFAHREN",
+     "captionLock": "NÄCHSTE GEFAHREN — MINENERFASSUNG",
+     "captionNone": "NÄCHSTE GEFAHREN — KEINE",
+     "asteroid": "AST   {designator} {dist}u",
+     "mine": "MINE  {name} {dist}u",
+     "mineLock": "MINE  {name} {dist}u ◀ ERFASST",
+     "unknownMine": "unbekannt"
+    }
+   },
+   "eng": {
+    "headline": "REAKTOR {out} u/s · BEDARF {demand} u/s",
+    "overclock": "⚠ ÜBERTAKTET",
+    "colSystem": "SYSTEM",
+    "colIntegrity": "INTEGRITÄT",
+    "colPower": "ENERGIE ZUGEW. / BEDARF",
+    "system": {
+     "reactor": "REAKTOR",
+     "engines": "TRIEBWERKE",
+     "jumpDrive": "SPRUNGANTRIEB",
+     "lifeSupport": "LEBENSERHALTUNG",
+     "sensors": "SENSOREN",
+     "weapons": "WAFFEN",
+     "shields": "SCHILDE"
+    },
+    "rowOffline": "{system}  [OFFLINE]",
+    "power": "{alloc}/{dem} u/s",
+    "idle": "ruhend"
+   }
+  },
+  "mods": {
+   "title": "MODS",
+   "language": "SPRACHE",
+   "languageRow": "SPRACHE ▸ {value}",
+   "desc": {
+    "language": "SPRACHE DES SPIELS WÄHLEN",
+    "mods": "INSTALLIERTE SPRACHPAKETE UND DER MODS-ORDNER"
+   },
+   "close": {
+    "touch": "AUSSEN ANTIPPEN ZUM SCHLIESSEN",
+    "keyboard": "↑ / ↓ — ENTER — ESC SCHLIESST"
+   },
+   "english": "English",
+   "refresh": "AKTUALISIEREN",
+   "exportTemplate": "ENGLISCHE VORLAGE EXPORTIEREN",
+   "openFolder": "MODS-ORDNER ÖFFNEN",
+   "empty": "Keine Sprachpakete installiert.",
+   "noFolder": "Dieses Gerät hat keinen Mods-Ordner.",
+   "loading": "SPRACHE WIRD GELADEN…",
+   "exported": "Vorlage geschrieben nach {path}",
+   "exportFailed": "Vorlage konnte nicht geschrieben werden",
+   "lobbyOnly": "SPRACHE WIRD IN DER LOBBY GEÄNDERT",
+   "row": {
+    "coverage": "{percent}% ÜBERSETZT",
+    "version": "v{version}",
+    "author": "von {author}",
+    "clean": "KEINE PROBLEME",
+    "problems": {
+     "one": "{count} PROBLEM",
+     "other": "{count} PROBLEME"
+    },
+    "unusable": "NICHT NUTZBAR"
+   }
+  }
+ }
+}

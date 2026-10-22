@@ -1,0 +1,59 @@
+{
+ "parascope": {
+  "range": "{dist}u",
+  "chevron": "{tag} {dist}u",
+  "lock": "◉ FIXIERT",
+  "tracking": "◌ ORTUNG",
+  "threatScope": {
+   "title": "BEDROHUNGSRADAR · 360°",
+   "view": "BLICK {deg}°"
+  },
+  "nav": {
+   "title": "NAV · DRAUFSICHT",
+   "north": "N",
+   "heading": "KURS {deg}°"
+  },
+  "projectile": {
+   "torpedo": "TORPEDO",
+   "missile": "LENKWAFFE",
+   "rocket": "RAKETE",
+   "rail": "SCHIENE",
+   "noisemaker": "STÖRKÖRPER",
+   "flare": "LEUCHTKUGEL"
+  },
+  "collision": {
+   "banner": "⚠ Kollisionskurs — {designator} {sec}s",
+   "unknown": "KONTAKT"
+  },
+  "spinal": {
+   "armed": "SPINALACHSE ▲ SCHARF",
+   "fwd": "SPINALACHSE ▲ VORN",
+   "edgeLeft": "◄ ACHSE VORN",
+   "edgeRight": "ACHSE VORN ►",
+   "lock": "◉ SPINALZIEL — {name} {dist}u"
+  },
+  "touch": {
+   "steerLeft": "links steuern",
+   "steerRight": "rechts steuern",
+   "throttleUp": "Schub erhöhen",
+   "throttleDown": "Schub verringern"
+  },
+  "trigger": {
+   "fire": "feuern",
+   "rail": "Schiene",
+   "safe": "sicher"
+  },
+  "chip": {
+   "recenter": "⌖ zentrieren",
+   "freeLookOn": "☉ freier Blick an",
+   "freeLookOff": "☉ freier Blick aus",
+   "gyro": "⌖ Gyro",
+   "railArmed": "⌁ Schiene scharf",
+   "armRail": "⌁ Schiene scharf machen"
+  },
+  "hint": {
+   "touch": "◄ ► steuern · ▲ ▼ Schub · ziehen = umschauen · scharf + tippen = Schiene",
+   "keyboard": "a/d steuern · w/s Schub · ziehen umschauen · r zentrieren · scharf + Leertaste = Schiene"
+  }
+ }
+}

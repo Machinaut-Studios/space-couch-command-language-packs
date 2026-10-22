@@ -1,0 +1,57 @@
+{
+  "encounter": {
+    "survey": {
+      "label": "RILEVAMENTO PRIMA LUCE",
+      "objective": "Rilevamento del sistema: completa la scansione di un'anomalia"
+    },
+    "patrol": {
+      "label": "PATTUGLIA PIRATA",
+      "objective": "Distruggi tutti gli ostili"
+    },
+    "ambush": {
+      "label": "IMBOSCATA PIRATA",
+      "objective": "Distruggi tutti gli ostili"
+    },
+    "asteroidField": {
+      "label": "CAMPO DI ASTEROIDI",
+      "objective": "Distruggi i pirati nascosti tra le rocce"
+    },
+    "driftField": {
+      "label": "CAMPO ALLA DERIVA",
+      "objective": "Distruggi i pirati alla deriva tra le rocce in movimento"
+    },
+    "derelict": {
+      "label": "RELITTO ABBANDONATO",
+      "objective": "Scansiona a fondo il relitto in cerca di rottami"
+    },
+    "distress": {
+      "label": "RICHIESTA DI SOCCORSO",
+      "objective": "Comunicazioni: rispondi al mayday",
+      "defendObjective": "Difendi il mercantile: distruggi tutti gli ostili"
+    },
+    "minefield": {
+      "label": "CAMPO MINATO",
+      "objective": "Raggiungi e scansiona il relitto dentro il campo"
+    },
+    "hunter": {
+      "label": "CACCIATORE ASSASSINO",
+      "objective": "Distruggi il cacciatore d'élite"
+    },
+    "firstContact": {
+      "label": "PRIMO CONTATTO",
+      "objective": "Comunicazioni: apri un canale"
+    },
+    "trader": {
+      "label": "MERCANTE DELLA GILDA",
+      "objective": "Comunicazioni: chiama il mercante"
+    },
+    "debrisStorm": {
+      "label": "TEMPESTA DI DETRITI",
+      "objective": "Attraversa la tempesta e rileva l'eco al suo centro"
+    },
+    "evacuation": {
+      "label": "EVACUAZIONE COLONIA",
+      "objective": "Copri il convoglio finché i trasporti non saltano"
+    }
+  }
+}

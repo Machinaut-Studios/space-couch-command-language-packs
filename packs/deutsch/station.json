@@ -1,0 +1,1772 @@
+{
+ "station": {
+  "solo": {
+   "unit": {
+    "sec": "{n}s",
+    "dist": "{n}u"
+   },
+   "tab": {
+    "fly": "Fliegen",
+    "guns": "Waffen",
+    "ops": "Ops"
+   },
+   "detent": {
+    "stop": "STOPP",
+    "third": "1/3",
+    "twoThirds": "2/3",
+    "full": "VOLL"
+   },
+   "throttleOrder": {
+    "allStop": "ALLE STOPP",
+    "ahead13": "VORAUS 1/3",
+    "ahead23": "VORAUS 2/3",
+    "aheadFull": "VORAUS VOLL"
+   },
+   "shipmaster": "SCHIFFSFÜHRER",
+   "chip": {
+    "spd": "tempo",
+    "hdg": "bug",
+    "ord": "befehl",
+    "mine": "⚠ Mine",
+    "haz": "gef"
+   },
+   "label": {
+    "hull": "hülle",
+    "shield": "schild"
+   },
+   "view": {
+    "map": "karte",
+    "parascope": "parascope",
+    "promote": "⧉ schirm"
+   },
+   "lock": {
+    "rocketsArmed": "RAKETEN SCHARF — Karte antippen zum Feuern",
+    "brgRng": "PEIL {brg}° · ENT {rng}u",
+    "closing": "ANN {sign}{speed}u/s",
+    "none": "○ KEIN ZIEL — Kontakt antippen"
+   },
+   "radiation": "☢ hohe Strahlung — Hülle wird abgetragen",
+   "evasive": {
+    "on": "⤨ AUSWEICHEN AN",
+    "off": "Ausweichen",
+    "hint": "schwerer zu treffen · lauter"
+   },
+   "jump": {
+    "engage": "⭍ SPRUNG STARTEN",
+    "spooling": "◉ Aufladen",
+    "spool": "Sprung laden",
+    "punch": "geladen — Sprung auslösen",
+    "locked": "Antrieb gesperrt",
+    "tapCharge": "tippen zum Laden des Antriebs"
+   },
+   "flare": {
+    "label": "Fackel",
+    "ready": "Punktabwehr",
+    "expended": "PA verbraucht"
+   },
+   "ecm": {
+    "on": "≋ ECM AN",
+    "off": "ECM",
+    "hintOn": "zieht Energie · laut",
+    "hintOff": "stört Suchraketen"
+   },
+   "rail": {
+    "label": "⌁ Rail",
+    "noSlugs": "keine Slugs",
+    "armedView": "SCHARF — aus der Sicht feuern",
+    "armedTap": "◉ SCHARF — nochmal tippen",
+    "cycling": "LADEN {sec}s",
+    "pressArm": "drücken = scharf",
+    "pressArmSteer": "drücken · zum Zielen steuern"
+   },
+   "chart": {
+    "label": "⌖ Sternkarte",
+    "plot": "Kurs setzen",
+    "destFallback": "UNBEKANNT"
+   },
+   "throttle": {
+    "label": "Schub",
+    "engines": "Triebwerke",
+    "offline": "AUS",
+    "idle": "Leerl.",
+    "starved": "⚠ Energiemangel — Schub gemindert"
+   },
+   "heading": {
+    "ord": "befehl",
+    "bow": "bug"
+   },
+   "fire": {
+    "title": "Feuerleitung",
+    "beam": "Strahl {range}u",
+    "torp": "Torp {n}",
+    "noise": "Täusch {n}",
+    "heat": "Hitze {n}",
+    "hot": "HEISS",
+    "far": "FERN",
+    "go": "FEUER",
+    "cannoneer": "Kanonier",
+    "cannoneerTitle": "an einen Kanonier übergeben",
+    "manned": "⇢ von Kanonier besetzt",
+    "noLockHint": "kein Ziel — Kontakt auf Karte antippen",
+    "outOfRange": "Ziel zu weit ({dist}u) — auf {range}u nähern",
+    "solution": "◈ FEUERLÖSUNG",
+    "solutionDetail": "— Peil {brg}° · Ent {rng}",
+    "tapLoad": "· tippen zum Laden",
+    "brg": "Peil",
+    "dly": "Verz.",
+    "arms": "scharf ~{n}u",
+    "runTo": "Lauf zu {what} ~{sec}s",
+    "runMark": "Marke",
+    "fish": "Torp {speed}u/s",
+    "armsNear": "⚠ scharf nahe Eigenschiff"
+   },
+   "weapon": {
+    "phaser": "Phaser"
+   },
+   "tube": {
+    "noise": "Täuschkörper",
+    "torpedo": "Torpedo",
+    "loadTorp": "Torp laden",
+    "loadNoise": "Täusch laden"
+   },
+   "rack": {
+    "missileTitleAt": "Flugkörper auf {target} abfeuern",
+    "missileTitleNone": "Flugkörper gehen aufs Ziel — Kontakt antippen",
+    "noMissiles": "KEINE FLUGKÖRPER",
+    "missileNoLock": "FK · KEIN ZIEL",
+    "missileFire": "FK ▸ {target}",
+    "rocketTitle": "scharf machen, dann Karte antippen — Rakete in diese Peilung",
+    "noRockets": "KEINE RAKETEN",
+    "mapToArm": "KARTENANSICHT NÖTIG",
+    "armed": "◉ SCHARF ×{n}",
+    "arm": "RAK SCHARF ×{n}",
+    "hint": "Raketen: scharf machen, dann Karte antippen · Flugkörper folgen der Sperre",
+    "torps": "Torp",
+    "noiseStock": "Täusch",
+    "msls": "FK",
+    "rkts": "Rak"
+   },
+   "target": {
+    "title": "Zieldaten",
+    "scan": "Scan {pct}%",
+    "subTarget": "Teilziel",
+    "shieldUp": "Schild aktiv — zuerst senken",
+    "aim": "Ziel ▸",
+    "aimHull": "HÜLLE",
+    "aimDestroyed": "HÜLLE — {part} zerstört",
+    "located": "{n} erfasst",
+    "scanReveals": "Scan zeigt Punkte",
+    "none": "kein Ziel — Zieldaten bei Erfassung"
+   },
+   "jumpStrip": {
+    "outage": "Zwangsausfall — Energie umleiten",
+    "hailIncoming": "eingehender Ruf — annehmen",
+    "hailOpen": "Kanal offen — rufen",
+    "probe": "Sonde aktiv — Steuerknüppel"
+   },
+   "power": {
+    "title": "Systeme · Autooffiziere",
+    "forcedOffline": "{systems} ZWANGSWEISE AUS",
+    "reroute": "⚡ Umleiten",
+    "salvageTitle": "Bergegut — Autoreparatur verbraucht es",
+    "repChip": "Rep {pct}%",
+    "repTitle": "Auto-Reparatur — läuft selbst, verbraucht Bergegut",
+    "ventingChip": "Ablass {sec}s",
+    "vent": "Ablass",
+    "ventingTitle": "Auto-Ablass — Leistung halbiert",
+    "ventArmedTitle": "Auto-Ablass scharf — Auslösung bei {heat}",
+    "coreChip": "Kern {pct}%",
+    "coreTitle": "Reaktorkerntemperatur",
+    "stalled": "⚠ Auto-Reparatur steht",
+    "output": "LEISTUNG {n}u/s",
+    "over": "ÜBER {n}",
+    "free": "FREI {n}",
+    "integrity": "{system} — Integrität {pct}%",
+    "bus": "Bus",
+    "lockedOut": "⚠ GESPERRT",
+    "offline": "AUSGEFALLEN",
+    "priorityLabel": "{system}-Energievorrang",
+    "granted": "{granted} von {demand}u Bedarf zugeteilt · Vorrang {pct}%",
+    "restoreTitle": "Strom zurück (vorige Einstellung)",
+    "cutTitle": "Strom abschalten (Vorrang 0)",
+    "breakerRestore": "{system}-Sicherung: einschalten",
+    "breakerCut": "{system}-Sicherung: abschalten",
+    "off": "AUS"
+   },
+   "sysTag": {
+    "reactor": "REA",
+    "engines": "TRW",
+    "sensors": "SEN",
+    "jumpDrive": "SPR",
+    "shields": "SCH",
+    "weapons": "WAF"
+   },
+   "spool": {
+    "on": "◉ laden",
+    "off": "laden",
+    "label": "Sprung",
+    "charged": "✦ geladen — im Flugdock auslösen",
+    "starved": "⚠ zu wenig freie Energie (braucht {n}u)",
+    "throttled": "Antrieb gedrosselt auf {pct}%"
+   },
+   "shield": {
+    "tag": "DFL",
+    "title": "Deflektor — ein Regler, vier Bögen",
+    "chargeTitle": "Ladung {charge}/{max}",
+    "allocation": "Schildverteilung — alle Bögen",
+    "average": "mittlere Ladung"
+   },
+   "signals": {
+    "probePilot": "Sondenpilot",
+    "sensors": "Sensoren",
+    "faceSweep": "Fächer",
+    "faceScan": "Scan",
+    "faceProbe": "Sonde",
+    "surveys": "◈ Erkundung ×{n}",
+    "closeSurvey": "✕ Erkundung schließen"
+   },
+   "sweep": {
+    "brg": "PEIL",
+    "rng": "ENT",
+    "dly": "VERZ {sec}s",
+    "solutionLive": "● LÖSUNG AKTIV — ziehen zum Zielen",
+    "scanning": "▸ SCAN {target} · {pct}%",
+    "outOfRange": "⚠ AUSSER REICHWEITE",
+    "passive": "○ PASSIVER FÄCHER — Echo antippen zum Scannen",
+    "mode": "Modus",
+    "modePlot": "◉ PLOTTEN",
+    "modeScan": "○ SCAN"
+   },
+   "scanStrip": {
+    "stop": "stopp",
+    "passive": "passiv · tippen zum Scannen",
+    "outOfRange": "⚠ AUSSER SENSORREICHW. — auf {range}u nähern ({dist}u)",
+    "jumpSpool": "⚠ Sprungladung erkannt — Fluchtantrieb bei {pct}%"
+   },
+   "ledger": {
+    "label": "Bilanz",
+    "title": "Diplomatische Bilanz — durch Antworten auf Rufe bewegt",
+    "factionTitle": "{faction}: {value}",
+    "faction": {
+     "corsairs": "CORSAIRS",
+     "syndicate": "SYNDIKAT",
+     "guild": "GILDE",
+     "velshaar": "VEL'SHAAR"
+    },
+    "stance": {
+     "hostile": "feindlich",
+     "wary": "misstrauisch",
+     "neutral": "neutral",
+     "respected": "geachtet",
+     "feared": "gefürchtet"
+    }
+   }
+  },
+  "shell": {
+   "gameTitle": "Space Couch Command",
+   "pageTitle": "Space Couch Command — Offizierskonsole",
+   "app": {
+    "connecting": "verbinde…",
+    "reconnecting": {
+     "title": "WIEDERVERBINDUNG…",
+     "sub": "stelle deine Station wieder"
+    },
+    "failed": "Verbindung gescheitert",
+    "back": "Zurück",
+    "left": "von der Brücke getrennt",
+    "rejoin": "Erneut",
+    "syncing": "synchronisiere…"
+   },
+   "header": {
+    "link": "SHIPNET VERBINDUNG // SB-OS 2.4"
+   },
+   "run": {
+    "sector": "SEK {n}",
+    "demo": "DEMO",
+    "jump": "spr",
+    "hail": "◍ Ruf",
+    "screen": "◱ schirm",
+    "sectorClear": "✦ Sektor geräumt — Sprungantrieb laden"
+   },
+   "settings": {
+    "button": "Einstellung",
+    "title": "EINSTELL.",
+    "options": "Terminaloptionen",
+    "close": "Einstell. schließen",
+    "fullscreen": "⛶ Vollbild",
+    "enter": "ein",
+    "exit": "aus",
+    "notAvailable": "n/v",
+    "fullscreenHint": "Dieser Browser kann nicht in den Vollbildmodus. Füge das Terminal zu deinem Home-Bildschirm hinzu, um die Brücke ohne Browserleisten zu öffnen.",
+    "sound": "🔊 Ton",
+    "on": "an",
+    "off": "aus"
+   },
+   "tacMap": {
+    "anomaly": "Anomalie"
+   },
+   "roleMeta": {
+    "gunnerLabel": "Kanonier",
+    "helmBlurb": "Steuern, Flucht & Sprung",
+    "tacticalBlurb": "Waffen & Schilde",
+    "engineeringBlurb": "Energie & Reparatur",
+    "scienceBlurb": "Scannen, planen & nutzen",
+    "commsBlurb": "Alarm, Ruf & Protokoll",
+    "gunnerBlurb": "Turm bemannen — großer FEUER-Knopf",
+    "cupolaBlurb": "die 360°-Drehbatterie — du bist die Punktabwehr"
+   },
+   "join": {
+    "bootLine": "SB-OS 2.4 // SHIPNET-TERMINAL",
+    "linkLine": "VERBINDUNG HERGESTELLT: WARTE AUF OFFIZIERSKENNUNG",
+    "subtitle": "OFFIZIERSTERMINAL",
+    "roomCode": "Raumcode",
+    "roomCodePlaceholder": "ABCD",
+    "yourName": "Dein Name",
+    "namePlaceholder": "Offizier",
+    "board": "An Bord gehen",
+    "hint": "Scanne den QR-Code auf dem Hauptbildschirm oder gib den Raumcode vom Fernseher ein."
+   },
+   "boot": {
+    "rows": {
+     "header": "SB-OS 2.4 // {station}",
+     "observerDeck": "BEOBACHTERDECK",
+     "powerBus": "STROMBUS",
+     "ok": "OK",
+     "crtPhosphor": "CRT-PHOSPHOR",
+     "warm": "WARM",
+     "shipnetUplink": "SHIPNET-UPLINK",
+     "sync": "SYNC",
+     "module": "{duty}-MODUL",
+     "online": "ONLINE",
+     "phaserBank": "PHASERBANK",
+     "charging": "LÄDT",
+     "selfTest": "CONSOLEN-SELBSTTEST",
+     "pass": "GUT",
+     "stationBinding": "STATIONSZUORDNUNG",
+     "none": "KEINE",
+     "readOnlyFeed": "NUR-LESEN-FEED",
+     "live": "LIVE"
+    },
+    "ready": {
+     "title": "◉ KONSOLE BEREIT",
+     "waiting": "warte auf Crew ({ready}/{total})",
+     "standingBy": "{station} bereit",
+     "mainScreen": "▸ der Hauptbildschirm kann für alle starten"
+    },
+    "selfTestTitle": "◉ Selbsttest beim Einschalten",
+    "hold": "überall halten — bereit melden",
+    "crewReady": "Crew bereit {ready}/{total}",
+    "crewSeated": "{crew} · der Hauptbildschirm kann für alle starten",
+    "spectator": "Zuschauer-Feed — keine Bereitschaftsprüfung nötig",
+    "crewSpectator": "{crew} · die Brücke startet, wenn alle melden"
+   },
+   "game": {
+    "unknownDuty": "Unbekannter Posten. Schau auf den Hauptbildschirm.",
+    "jumping": {
+     "title": "SPRUNG…",
+     "sub": "halt dich irgendwo fest"
+    },
+    "demoComplete": {
+     "title": "DEMO ABGESCHLOSSEN",
+     "sub": "Vier Sektoren, eine Brücke, eine Couch."
+    },
+    "shipLost": {
+     "title": "VERLOREN",
+     "sub": "Die Brücke wird dunkel."
+    },
+    "summary": {
+     "sectors": "Sektoren",
+     "sector": "Sektor",
+     "kills": "Abschüsse",
+     "coloniesSaved": "Kolonien gerettet",
+     "banked": "gebucht"
+    },
+    "bankedNote": "Bergegut auf das Schiffskonto gebucht: Gesamt",
+    "wishlist": "◈ WUNSCHLISTE AUF STEAM",
+    "restart": "↻ NEUER LAUF",
+    "returnToLobby": "⌂ ZURÜCK ZUR LOBBY",
+    "noStation": "KEINE STATION",
+    "pickSeat": "Freien Platz besetzen. Belegte Stationen bleiben bis zur Lobby gesperrt.",
+    "manned": "besetzt — {name}",
+    "reconnectingSeat": "WIEDERVERBINDUNG ({name}) — antippen zum Übernehmen",
+    "vacant": "frei — tippen zum Besetzen",
+    "rejoinNote": "Unter altem Namen wieder beigetreten? Dein Platz wird beim Einsteigen automatisch zugeordnet."
+   },
+   "lobby": {
+    "header": "SHIPNET VERBINDUNG // BRÜCKENCREW",
+    "hull": "Hülle",
+    "ship": "SCHIFF: {name}",
+    "crew": "Crew {n}",
+    "hullSelect": "◀ der Hauptbildschirm wählt den Rumpf ▶",
+    "savedShips": {
+     "one": "{count} gespeichertes Schiff — vom Hauptbildschirm fortsetzen",
+     "other": "{count} gespeicherte Schiffe — vom Hauptbildschirm fortsetzen"
+    },
+    "savedShip": "{name} · Sek {sector} · {shipClass}",
+    "crewUnrecorded": "Crew nicht erfasst",
+    "selectDuty": "Station wählen",
+    "optional": "optional",
+    "swivel": "360°-Drehturm",
+    "reconnecting": "verbindet neu…",
+    "open": "● frei",
+    "tapToLeave": "tippen: verlassen",
+    "ready": "Bereit ✓",
+    "markReady": "Bereit melden",
+    "waiting": "Warte, bis der Host am Hauptbildschirm startet.",
+    "stats": {
+     "hull": "Hülle",
+     "power": "Leist.",
+     "speed": "Tempo",
+     "beam": "Strahl",
+     "gun": "Turm",
+     "tube": "Rohr",
+     "torp": "Torp"
+    },
+    "modules": {
+     "mergedFireControl": "vereinte Feuerleitung",
+     "flareDefense": "Fackelabwehr",
+     "autoJammer": "Auto-Störer {pct}%",
+     "autoRepair": "Auto-Reparatur {pct}%",
+     "autoVent": "Auto-Ablass"
+    },
+    "outfitting": {
+     "title": "AUSRÜSTUNG",
+     "hint": "Ausrüstung gibt es am Hauptbildschirm; der Host rüstet das Schiff aus."
+    }
+   }
+  },
+  "helm": {
+   "console": {
+    "title": "STEUER",
+    "header": {
+     "link": "SHIPNET VERBINDUNG // SB-OS 2.4 ·",
+     "clock": "T+{clock}"
+    },
+    "chip": {
+     "speed": "tmp",
+     "throttle": "schb",
+     "heading": "bug",
+     "ordered": "bef",
+     "mine": "⚠ mine",
+     "hazard": "gef"
+    },
+    "hull": "Hülle",
+    "view": {
+     "map": "Map",
+     "parascope": "parascope"
+    },
+    "promote": {
+     "scope": "⧉ schirm",
+     "chart": "⧉ Karte auf Schirm"
+    },
+    "radiation": "☢ hohe Strahlung — Hülle wird abgetragen",
+    "evasive": {
+     "on": "⤨ AUSWEICHEN AN",
+     "off": "Ausweichen",
+     "hint": "schwerer zu treffen · lauter"
+    },
+    "jump": {
+     "engage": "⭍ SPRUNG STARTEN",
+     "idle": "Sprungantrieb",
+     "ready": "geladen — auslösen (Kern heizt sich auf)",
+     "locked": "Antrieb gesperrt — Energie umleiten",
+     "waiting": "Technik lädt den Sprung"
+    },
+    "rail": {
+     "label": "⌁ Rail",
+     "noSlugs": "keine Slugs",
+     "armedScope": "SCHARF — Steuer feuert aus der Ansicht",
+     "armed": "◉ SCHARF — nochmal tippen",
+     "cycling": "LADEN {sec}s",
+     "pressArm": "drücken = scharf",
+     "pressArmSteer": "drücken · zum Zielen steuern",
+     "bears": "Rail zeigt auf Bug {bearing}° — steuern zum Zielen"
+    },
+    "ecm": {
+     "on": "≋ ECM AN",
+     "off": "ECM",
+     "hintOn": "zieht Energie · laut",
+     "hintOff": "stört Suchraketen"
+    },
+    "flare": {
+     "label": "✺ Fackel",
+     "hintReady": "nicht gg. Torp.",
+     "hintSpent": "leer"
+    },
+    "chart": {
+     "label": "⌖ Karte",
+     "plotCourse": "Kurs setzen",
+     "locked": "GESPERRT"
+    },
+    "throttle": {
+     "label": "Schub",
+     "order": {
+      "allStop": "ALLE STOPP",
+      "aheadThird": "VORAUS 1/3",
+      "aheadTwoThirds": "VORAUS 2/3",
+      "aheadFull": "VORAUS VOLL"
+     },
+     "detent": {
+      "stop": "STOPP",
+      "third": "1/3",
+      "twoThirds": "2/3",
+      "full": "VOLL"
+     }
+    },
+    "engines": {
+     "label": "Triebwerke",
+     "offline": "AUS",
+     "idle": "Leerl.",
+     "starved": "⚠ Energiemangel — Schub gemindert"
+    },
+    "caption": {
+     "ordered": "bef",
+     "bow": "bug"
+    }
+   },
+   "compass": {
+    "cardinal": {
+     "north": "N",
+     "east": "O",
+     "south": "S",
+     "west": "W"
+    },
+    "heading": "KRS",
+    "ordered": "BEF",
+    "slew": "{dir} {delta}° @ {rate}°/s {dir}"
+   },
+   "starMap": {
+    "awaiting": "WARTE AUF KARTEN",
+    "surveying": "Fernvermessung läuft",
+    "debris": "⚠ TRÜMMER",
+    "dest": "▸ ZIEL",
+    "header": {
+     "title": "NAVKARTE // GALAXIS",
+     "system": "SYS: {name}",
+     "uncharted": "UNVERMESSEN",
+     "legend": "● kartiert · ◌ Signalgrenze · blass = jenseits der Sensoren",
+     "close": "Karte schließen"
+    },
+    "hint": "verbundenes System antippen zum Sperren · erneut antippen zum Lösen",
+    "footer": {
+     "dest": "Ziel",
+     "random": "ZUFALL VERBUNDEN",
+     "locked": "GESPERRT",
+     "jump": "Sprung",
+     "clear": "lösen",
+     "engage": "⭍ SPRUNG STARTEN",
+     "driveLocked": "⚠ Antrieb gesperrt"
+    }
+   }
+  },
+  "scan": {
+   "glass": {
+    "noPower": "KEINE ENERGIE: SENSOREN",
+    "noPowerHint": "Energie auf SENSORS leiten — Schüssel aktivieren",
+    "noReturn": "KEIN ECHO AUF DEM SCHIRM",
+    "noReturnHint": "Kontakt abtasten, um es auf den Schirm zu bringen",
+    "spentPoint": "{label} ✓"
+   },
+   "status": {
+    "target": "ZIEL {name}",
+    "targetClassed": "{designator} · {shipClass}",
+    "targetAnomaly": "{designator} · {anomaly}",
+    "unresolvedReturn": "UNBEKANNTES ECHO",
+    "spin": "DREH {deg}°",
+    "res": "AUFL {pct}%"
+   },
+   "analysis": "Analyse",
+   "poi": {
+    "unresolvedPoint": "UNBEKANNTER PUNKT",
+    "spent": "bereits genutzt — der Punkt ist verbraucht",
+    "resolving": "wird noch aufgelöst — Tiefenscan darauf halten, um den Punkt zu vermessen",
+    "noProbes": "⚠ keine Sonden an Bord — Händler verkaufen sie",
+    "probesAboard": "Sonden an Bord: {count}",
+    "outOfRange": "⚠ außer Aktionsreichweite — auf ~{range}u nähern ({distance}u jetzt)",
+    "actioned": "✓ erledigt",
+    "surveyToUnlock": "ERST VERMESSEN",
+    "oneProbe": "· 1 Sonde",
+    "pointsOfInterest": {
+     "one": "{count} Interessenspunkt auf dem Schirm — Markierung antippen, um die Aktion zu prüfen",
+     "other": "{count} Interessenspunkte auf dem Schirm — Markierung antippen, um die Aktion zu prüfen"
+    }
+   }
+  },
+  "hybrid": {
+   "helmTac": {
+    "seconds": "{sec}s",
+    "title": "PILOT-SCHÜTZE",
+    "tab": {
+     "fly": "fliegen",
+     "guns": "waffen"
+    },
+    "detent": {
+     "stop": "STOPP",
+     "third": "1/3",
+     "twoThirds": "2/3",
+     "full": "VOLL"
+    },
+    "order": {
+     "allStop": "ALLE STOPP",
+     "ahead13": "VORAUS 1/3",
+     "ahead23": "VORAUS 2/3",
+     "aheadFull": "VORAUS VOLL"
+    },
+    "chip": {
+     "spd": "tempo",
+     "hdg": "bug",
+     "ord": "soll",
+     "mine": "⚠ Mine",
+     "haz": "gefahr",
+     "hull": "hülle"
+    },
+    "view": {
+     "map": "karte",
+     "parascope": "parascope",
+     "screen": "⧉ bildschirm"
+    },
+    "lock": {
+     "rocketsArmed": "RAKETEN SCHARF — Karte antippen zum Feuern",
+     "brgRng": "PEIL {brg}° · REICHW. {rng}u",
+     "closing": "ANN {sign}{rate}u/s",
+     "none": "○ KEIN ZIEL — Kontakt antippen",
+     "radiation": "☢ hohe Strahlung — Hülle wird abgetragen"
+    },
+    "evasive": {
+     "on": "⤨ AUSWEICHEN AN",
+     "off": "Ausweichen",
+     "hint": "schwerer zu treffen · lauter"
+    },
+    "jump": {
+     "engage": "⭍ SPRUNG EINLEITEN",
+     "label": "Sprungantrieb",
+     "spooled": "geladen — jetzt auslösen",
+     "locked": "Antrieb gesperrt",
+     "opsSpools": "Ops lädt die Sprungladung"
+    },
+    "flare": {
+     "label": "✺ Flare",
+     "pointDefense": "deine Punktabwehr",
+     "expended": "PA verbraucht"
+    },
+    "ecm": {
+     "on": "≋ ECM AN",
+     "off": "ECM",
+     "drawsPower": "zieht Strom · laut",
+     "scrambles": "stört Zielsuche"
+    },
+    "rail": {
+     "label": "⌁ Schiene",
+     "noSlugs": "keine Slugs",
+     "armedView": "SCHARF — Steuer feuert aus der Ansicht",
+     "armedTap": "◉ SCHARF — tippen: feuern",
+     "cycle": "LADE {sec}s",
+     "pressToArm": "drücken: scharf",
+     "pressToArmSteer": "drücken: scharf · lenken zielt"
+    },
+    "chart": {
+     "label": "⌖ Galaxie",
+     "plot": "Kurs setzen",
+     "locked": "GESPERRT"
+    },
+    "throttle": {
+     "label": "Schub",
+     "engines": "Triebwerke",
+     "offline": "AUS",
+     "idle": "leerl.",
+     "starved": "⚠ Energiemangel — Schub geschwächt"
+    },
+    "dial": {
+     "ord": "soll",
+     "bow": "· bug"
+    },
+    "beam": {
+     "title": "Strahlbänke",
+     "chargeHeat": "Ladung · Hitze",
+     "range": "Reichw. {n}u",
+     "heat": "Hitze {n}",
+     "delegatedTitle": "an einen Kanonier übergeben",
+     "cannoneer": "Kanonier",
+     "hot": "HEISS",
+     "far": "FERN",
+     "fire": "FEUER",
+     "manned": "⇢ von einem Kanonier besetzt",
+     "noLock": "kein Ziel — Kontakt auf der Karte antippen",
+     "outOfRange": "Ziel außer Strahlreichweite ({dist}u) — auf {range}u nähern"
+    },
+    "torpedo": {
+     "title": "Torpedoraum",
+     "magazine": "Magazin",
+     "torpedoes": "Torpedos {n}",
+     "noisemakers": "Täuschkörper {n}",
+     "solutionTitle": "◈ FEUERLÖSUNG",
+     "solutionReadout": "— Peil {brg}° · Reichw. {rng}",
+     "tapToLoad": "· tippen zum Laden",
+     "bearing": "Peil",
+     "runTo": "Laufzeit bis {who}: ~{sec}s",
+     "mark": "Punkt",
+     "fishSpeed": "Torpedotempo {n}u/s",
+     "noRockets": "KEINE RAKETEN",
+     "mapToArm": "AUF KARTE SCHARF",
+     "armedDisarm": "◉ SCHARF ×{n} — ENTSCHARF",
+     "armRockets": "RAKETEN SCHARF ×{n}",
+     "looseTracking": "lockere Zielfolge",
+     "tapMapToFire": "auf Karte tippen",
+     "armDelay": "Scharfverz.",
+     "arms": "scharf bei ~{n}u",
+     "unsafe": "⚠ scharf nahe eigenem Schiff (ohne IFF)",
+     "noise": "Täusch.",
+     "torp": "Torpedo",
+     "fire": "FEUER",
+     "loadTorp": "lade Torp.",
+     "loadNoise": "lade Täusch."
+    },
+    "ordnance": {
+     "title": "Munition",
+     "torpedoes": "Torpedos",
+     "noisemakers": "Täuschkörper",
+     "missiles": "Lenkraketen",
+     "rockets": "Raketen",
+     "missileRack": "Lenkraketenrack",
+     "homing": "zielsuchend · tippen für Salve",
+     "noMissiles": "KEINE LENKW.",
+     "noLock": "KEIN ZIEL",
+     "fireMissile": "LENKRAKETE FEUERN ▸ {designator}",
+     "expended": "Lenkraketenrack verbraucht",
+     "fliesToLock": "Lenkraketen fliegen zum Ziel — Karte antippen"
+    },
+    "target": {
+     "title": "Zieldaten",
+     "scan": "Scan {pct}%",
+     "shield": "Schild",
+     "hull": "Hülle",
+     "subTarget": "Teilziel",
+     "shieldUp": "Schild aktiv — erst senken",
+     "aim": "Ziel ▸",
+     "aimHull": "HÜLLE",
+     "aimHullDestroyed": "HÜLLE — {designator} zerstört",
+     "points": {
+      "one": "{count} Punkt geortet",
+      "other": "{count} Punkte geortet"
+     },
+     "noPoints": "keine Zielpunkte geortet. Der Scan der Wissenschaft enthüllt sie."
+    }
+   },
+   "sci": {
+    "sweep": {
+     "title": "Sensorabtastung",
+     "titlePlot": "Sensorabtastung · Plot",
+     "brg": "PEIL",
+     "rng": "ENTF",
+     "dly": "VERZ",
+     "solutionLive": "● LÖSUNG AKTIV — ziehen zum Zielen",
+     "scanLine": "▸ SCAN {designator} · {pct}%",
+     "noPower": "⚠ KEINE ENERGIE FÜR SENSOREN",
+     "outOfRange": "⚠ AUSSER REICHWEITE",
+     "passive": "○ PASSIVER SCAN — Echo zum Scannen antippen",
+     "mode": "Modus",
+     "modePlot": "◉ PLOT",
+     "modeScan": "○ SCAN"
+    },
+    "active": {
+     "title": "Aktivscan",
+     "derelict": "Scanne {designator} — Wrack",
+     "classified": "Scanne {designator} — {shipClass}",
+     "anomaly": "Scanne {designator} — {what}",
+     "unknown": "Scanne {designator} (unbekannt)",
+     "unresolved": "ungeklärtes Echo",
+     "stop": "Stopp",
+     "sensorsDead": "⚠ KEINE ENERGIE FÜR SENSOREN — Antenne vom Energiepult speisen",
+     "outOfSensorRange": "⚠ AUSSER SENSORREICHWEITE — auf {range}u nähern ({now}u jetzt)",
+     "derelictSlow": "Tiefenscan ist langsam; Bergegut & Torpedos werden zu 100% geborgen",
+     "identified": "◇ identifiziert: {shipClass}",
+     "jumpSpool": "⚠ Sprungladung erkannt — Fluchtantrieb bei {pct}%",
+     "targetPoints": "⚑ Zielpunkte — an die Feuerleitung melden",
+     "keepScanning": "Weiter scannen, um Zielpunkte zu orten…",
+     "idleHelp": "Echo antippen zum Scannen. Feinde zeigen Zielpunkte, Wracks liefern Bergegut, Minen werden für den Steuermann markiert."
+    },
+    "scope": {
+     "probePilot": "Sondenpilot",
+     "sensorScan": "Sensorscan"
+    },
+    "derelict": {
+     "title": "◆ WRACK {designator}",
+     "units": "{n} Einh.",
+     "stripped": "✦ ausgeschlachtet — Bergegut geborgen",
+     "salvageOnFull": "Bergegut bei vollem Scan (langsamer Tiefenscan)",
+     "scanning": "scannt…",
+     "deepScan": "Tiefenscan"
+    },
+    "hostile": {
+     "title": "Feinde",
+     "classified": "{designator} · {shipClass}",
+     "unknown": "{designator} · Unbekannter Feind",
+     "distScan": "{dist} Einheiten · Scan {pct}%",
+     "scanning": "scannt…",
+     "scan": "Scan"
+    },
+    "mine": {
+     "title": "Minenfeld · {n} sichtbar",
+     "marked": "⚠ {designator} · {dist}u",
+     "faint": "· schwacher Kontakt · {dist}u",
+     "markedTag": "markiert",
+     "marking": "markiert…",
+     "scanToMark": "markieren: scan"
+    },
+    "friendly": "○ {designator} · Frachter",
+    "seconds": "{sec}s",
+    "distU": "{n}u"
+   },
+   "comms": {
+    "autoJam": {
+     "idle": "Auto-Störsender — bereit · keine feindliche Verbindung",
+     "active": "AUTO-STÖRSENDER — aktiv",
+     "outOfRange": "außer Reichweite — Sensoren speisen",
+     "block": "{pct}% Uplink-Sperre"
+    }
+   }
+  },
+  "gunnery": {
+   "gunner": {
+    "bank": {
+     "lettered": "Phaser {letter}",
+     "none": "Phaser"
+    },
+    "hits": "Treff.",
+    "lockedTarget": "Ziel erfasst",
+    "phaserBank": "Phaserbank",
+    "charge": "Ladung",
+    "heat": "Hitze",
+    "waitingForLock": "○ warte auf Taktik, ein Ziel zu erfassen",
+    "inRange": "{dist}u · in Reichweite",
+    "tooFarBeam": "{dist}u · zu weit (Strahl {beam}u)",
+    "status": {
+     "noBank": "○ keine Bank",
+     "offline": "○ offline",
+     "overheated": "○ überhitzt",
+     "ready": "bereit",
+     "charging": "◌ lädt auf"
+    },
+    "sub": {
+     "noBank": "keine Phaserbank — wartet auf einen Platz",
+     "weaponsOffline": "Waffen offline — Technik fragen",
+     "overheated": "überhitzt — entlüftet",
+     "charging": "lädt…",
+     "noTarget": "wartet, bis Taktik ein Ziel erfasst",
+     "target": "→ {designator}",
+     "tooFar": "zu weit — {dist}u / {beam}u"
+    },
+    "feedback": {
+     "hit": "✦ TREFF!",
+     "streak": "TREFFER ×{streak}"
+    },
+    "fire": "FEUER"
+   },
+   "cupola": {
+    "weapon": {
+     "laser": "LASER",
+     "gatling": "GATLING",
+     "rocket": "RAKETE"
+    },
+    "gyro": {
+     "noSignal": "KEIN GYRO-SIGNAL",
+     "denied": "GYRO VERWEIGERT"
+    },
+    "banner": {
+     "link": "SHIPNET-VERBINDUNG // SB-OS 2.4",
+     "title": "KUPPEL-SCHÜTZE",
+     "phoneTitle": "KUPPEL",
+     "freeLook": "TURM FREI-BLICK · ANSICHT"
+    },
+    "chip": {
+     "lock": "◉ ZIEL",
+     "range": "{range}u",
+     "closing": "nähert {rate}u/s",
+     "opening": "entfernt {rate}u/s",
+     "holding": "hält",
+     "tracking": "◌ suche — kein Ziel",
+     "noLock": "◌ kein Ziel",
+     "round": "SCHUSS"
+    },
+    "hint": {
+     "desktop": "ziehen zum Umsehen · Rand halten zum Drehen · Waffe scharf schalten",
+     "phone": "ziehen: umsehen · wischen: drehen"
+    },
+    "btn": {
+     "recenter": "⌖ zentrieren",
+     "gyro": "⌖ Gyro",
+     "screen": "⧉ Schirm",
+     "fire": "FEUER"
+    },
+    "aria": {
+     "recenter": "zentrieren",
+     "gyroAim": "Gyro-Ziel",
+     "promote": "auf den Hauptschirm"
+    },
+    "hud": {
+     "heat": "Hitze",
+     "overheat": "Überhitzt",
+     "gat": "gat",
+     "rkt": "rak"
+    },
+    "status": {
+     "overheat": "ÜBERHITZT",
+     "heat": "Hitze {heat}",
+     "noAmmo": "LEER",
+     "armed": "bereit · {status}"
+    },
+    "gate": {
+     "noLink": "kein Link",
+     "disarmed": "ENTSCHARFT — Waffe aktivieren",
+     "weaponsDark": "WAFFEN DUNKEL — Energie umleiten",
+     "beyond": "Punkt {dist}u — Reichw. {range}u",
+     "overheat": "ÜBERHITZT — kühlt bei {resumeAt}",
+     "holdBeam": "halten — Strahl feuert",
+     "noAmmoGatling": "KEINE MUN. — Gatling leer",
+     "cycling": "LÄDT {sec}s",
+     "burstPd": "Salve — Punktabwehr",
+     "holdBurst": "halten — Salve feuert",
+     "noAmmoRocket": "KEINE MUN. — Pod leer",
+     "unguided": "ungelenkt — Punkt vorhalten"
+    }
+   },
+   "engSciComms": {
+    "tab": {
+     "power": "Energie",
+     "sci": "Wissenschaft",
+     "comms": "Funk"
+    },
+    "station": "Betrieb",
+    "hull": "Hülle",
+    "strip": {
+     "forcedOutage": "Zwangsabschaltung — Energie umleiten",
+     "incomingHail": "eingehender Ruf — annehmen",
+     "channelOpen": "Kanal offen — Ruf",
+     "probeActive": "Sonde aktiv — Stick",
+     "sweepLive": "Sweep aktiv — Radar"
+    },
+    "outage": {
+     "banner": "{systems} ZWANGS-AUS",
+     "systemFallback": "System",
+     "reroute": "⚡ Energie umleiten"
+    },
+    "power": {
+     "title": "Energieverteilung · Ops-Module",
+     "salvageTitle": "Bergegut — Auto-Reparatur verbraucht es",
+     "salvageUnit": "· Bergegut",
+     "noSalvage": "⚠ kein Bergegut — Auto-Reparatur steht",
+     "output": "LEISTUNG {output}u/s",
+     "over": "ÜBER {amount}",
+     "free": "FREI {amount}",
+     "coach": "Verbrauch = {formula}. Balken ziehen setzt Priorität. {cut} schaltet auf 0 und merkt sich. Reparaturen laufen automatisch ({pct}%); sie verbrauchen Bergegut.",
+     "coachFormula": "Bedarf × Priorität",
+     "benchCoach": "Verbrauch = Bedarf × Priorität · ✂ schneidet & merkt sich"
+    },
+    "module": {
+     "autoRepair": "Auto-Reparatur {pct}%",
+     "runsItself": "läuft selbst",
+     "autoVentVenting": "Auto-Entlüftung — entlüftet {sec}s",
+     "autoVentArmed": "Auto-Entl. bereit",
+     "outputHalved": "Leistung halbiert",
+     "tripsAt": "löst aus bei Kern {heat}",
+     "core": "Kern {pct}%",
+     "temp": "Temp."
+    },
+    "reactor": {
+     "coreSource": "Kernquelle — speist Bus",
+     "bus": "Bus",
+     "lockedOut": "⚠ GESPERRT",
+     "offline": "OFFLINE",
+     "output": "{output}u"
+    },
+    "jump": {
+     "title": "Sprungantrieb · Deflektor",
+     "spooling": "◉ Laden",
+     "spool": "Sprung laden",
+     "charge": "Sprungladung",
+     "charged": "✦ geladen — der Pilot kann auslösen",
+     "starved": "⚠ zu wenig freie Energie (braucht {need}u) — ein System abschalten",
+     "throttled": "Antrieb gedrosselt auf {pct}% — Laden dauert länger",
+     "draws": "zieht {rate} u/s beim Laden",
+     "off": "aus — keine Energie"
+    },
+    "shield": {
+     "title": "Deflektor — alle Bögen",
+     "chg": "Lad.",
+     "chargeTitle": "Ladung {cur}/{max}",
+     "allocLabel": "Schildzuteilung — alle Bögen",
+     "caption": "ein Regler, vier Bögen; Energie verteilt sich gleich · Zuteilung bestimmt den Bedarf von SCHILDE"
+    },
+    "ping": {
+     "title": "aktiver Ping — enthüllt das Innere UND lockt es an (LAUT)",
+     "noCarrier": "◌ kein Träger",
+     "ready": "◉ Ping",
+     "cooldown": "◌ Ping {sec}s"
+    }
+   },
+   "sciComms": {
+    "tab": {
+     "sci": "Wissenschaft",
+     "comms": "Funk"
+    },
+    "station": "Wissenschaft & Funk",
+    "hull": "Hülle",
+    "strip": {
+     "incomingHail": "eingehender Ruf — annehmen",
+     "channelOpen": "Kanal offen — Ruf",
+     "probeActive": "Sonde aktiv — Stick",
+     "sweepLive": "Sweep aktiv — Radar"
+    }
+   }
+  },
+  "science": {
+   "common": {
+    "noPower": "⚠ KEINE ENERGIE FÜR SENSOREN",
+    "distanceU": "{n}u",
+    "scanning": "scannt…"
+   },
+   "console": {
+    "title": "Wissensch.",
+    "tabs": {
+     "scan": "Scan",
+     "boards": "Listen"
+    },
+    "headerChip": {
+     "contacts": "Kontakte",
+     "unsurveyed": "unvermessen",
+     "probes": "Sonden"
+    },
+    "onScreen": {
+     "probe": "⧉ Sonde auf Schirm",
+     "scan": "⧉ Scan auf Schirm"
+    },
+    "probeActiveJump": "SONDE AKTIV — Stick übernehmen",
+    "sweep": {
+     "title": "Sensorabtastung",
+     "titlePlot": "Sensorabtastung · Plot"
+    },
+    "plot": {
+     "bearing": "PEIL",
+     "range": "ENTF",
+     "delay": "VERZ",
+     "delayValue": "{sec}s",
+     "solutionLive": "● LÖSUNG AKTIV — ziehen zum Zielen",
+     "hint": "ziehen zum Zielen · Peil + Verz. an Taktik melden",
+     "retract": "Modus aus zieht zurück"
+    },
+    "status": {
+     "scanning": "▸ SCAN {designator} · {pct}%",
+     "outOfRange": "⚠ AUSSER REICHWEITE",
+     "passive": "○ PASSIVER SCAN — Echo zum Scannen antippen"
+    },
+    "mode": {
+     "label": "Modus",
+     "plot": "◉ PLOT",
+     "scan": "○ SCAN"
+    },
+    "foot": {
+     "noPower": "⚠ keine Energie für Sensoren",
+     "bite": "Sensorreichweite {range}u",
+     "pinned": "ferne Echos am Rand fixiert"
+    },
+    "activeScan": {
+     "title": "Aktivscan",
+     "headline": {
+      "derelict": "Scanne {designator} — Wrack",
+      "identified": "Scanne {designator} — {shipClass}",
+      "anomaly": "Scanne {designator} — {name}",
+      "unknown": "Scanne {designator} (unbekannt)"
+     },
+     "unresolvedFallback": "ungeklärtes Echo",
+     "stop": "Stopp",
+     "noPowerLong": "⚠ KEINE ENERGIE FÜR SENSOREN — Technik soll die Antenne speisen",
+     "outOfRangeLong": "⚠ AUSSER SENSORREICHWEITE — Steuer muss auf {range}u heran ({dist}u jetzt)",
+     "derelictSlow": "Tiefenscan ist langsam; Bergegut & Torpedos werden zu 100% geborgen",
+     "identified": "◇ identifiziert: {shipClass}",
+     "jumpSpool": "⚠ Sprungladung erkannt — Fluchtantrieb bei {pct}%",
+     "targetPoints": "⚑ Zielpunkte — an Taktik melden",
+     "keepScanning": "Weiter scannen, um Zielpunkte zu orten…",
+     "selectHint": "Kontakt zum Scannen wählen. Feinde zeigen Zielpunkte, Wracks liefern Bergegut, Minen werden für Steuer markiert."
+    },
+    "hero": {
+     "probePilot": "Sondenpilot",
+     "sensorScan": "Sensorscan"
+    },
+    "derelict": {
+     "title": "◆ WRACK {designator}",
+     "range": "{n} Einh.",
+     "stripped": "✦ ausgeschlachtet — Bergegut geborgen",
+     "pending": "Bergegut bei vollem Scan (langsamer Tiefenscan)",
+     "deepScan": "Tiefenscan"
+    },
+    "hostiles": {
+     "title": "Feinde",
+     "identified": "{designator} · {shipClass}",
+     "unknown": "{designator} · Unbekannter Feind"
+    },
+    "mines": {
+     "title": "Minenfeld · {n} sichtbar",
+     "marked": "⚠ {designator} · {dist}u",
+     "faint": "· schwacher Kontakt · {dist}u",
+     "markedBadge": "markiert",
+     "marking": "markiert…",
+     "scanToMark": "markieren: scan"
+    },
+    "friendly": {
+     "label": "○ {designator} · Frachter"
+    },
+    "contactRow": {
+     "range": "{distance} Einheiten · Scan {pct}%",
+     "scan": "Scan"
+    }
+   },
+   "survey": {
+    "questThread": "◈ Questverlauf",
+    "board": {
+     "title": "Anomalie-Vermessung",
+     "subtitle": "Tiefenscan des Unbekannten",
+     "unsurveyed": "{n} von {total} unvermessen",
+     "allSurveyed": "Sektor vermessen ✦"
+    },
+    "card": {
+     "nameFallback": "Anomalie",
+     "unresolvedName": "UNGEKLÄRTES ECHO",
+     "kind": {
+      "planet": "Planet",
+      "wreck": "Wrack",
+      "phenomenon": "Phänomen",
+      "organism": "Organismus",
+      "mega": "Mega",
+      "comet": "Komet"
+     },
+     "designatorDist": "{designator} · {dist}u",
+     "unresolvedHint": "ungeklärtes Echo: vermessen, um herauszufinden, was da ist",
+     "outOfRange": "⚠ außer Sensorreichweite — Steuer muss auf {range}u heran",
+     "status": {
+      "complete": "✦ vermessen — archiviert",
+      "running": "Tiefenscan läuft…",
+      "nextMilestone": "nächste Etappe bei {pct}%",
+      "awaiting": "Vermessung offen"
+     },
+     "surveying": "vermessen…",
+     "survey": "Vermess."
+    }
+   },
+   "systemLog": {
+    "title": "Systemlog",
+    "order": {
+     "newestFirst": "Neueste zuerst — tippen für Neueste zuletzt",
+     "newestLast": "Neueste zuletzt — tippen für Neueste zuerst"
+    },
+    "badge": {
+     "up": "↑ neu",
+     "down": "↓ neu"
+    },
+    "empty": "LOG-PUFFER LEER — WARTE AUF VERKEHR",
+    "counter": "log {n}"
+   },
+   "probe": {
+    "siteFallback": "unvermessenes Innere",
+    "phase": {
+     "landing": "Abstieg — Telemetrie wird aufgebaut",
+     "exploring": "Verbindung stabil — Stille ist Überleben",
+     "extracting": "Bergungskanal {pct}%",
+     "extracted": "Sonde geborgen",
+     "lost": "Signal verloren"
+    },
+    "interact": {
+     "channeling": "BERGUNG {pct}%",
+     "loot": "BERGEN ▸ Bergungskapsel",
+     "prize": "BERGEN ▸ ✦ Kernprobe",
+     "terminal": "LESEN ▸ Terminal",
+     "exit": "EXTRAHIEREN ▸ Pad",
+     "nothing": "— nichts in Reichweite"
+    },
+    "recovery": "BERGUNG",
+    "prizeCarried": "✦ Kernprobe",
+    "throttle": "SCH {pct}%",
+    "ping": {
+     "ready": "Ping bereit · Funk",
+     "cooldown": "Ping {sec}s · Funk"
+    },
+    "abort": "halt·sprengen",
+    "help": {
+     "drag": "Glas ziehen zum Fliegen · loslassen stoppt",
+     "keys": "w/s Schub · a/d drehen"
+    }
+   },
+   "sweep": {
+    "sns": "SENS {n}",
+    "returns": "ECHOS {n}",
+    "anomalyFallback": "Anomalie",
+    "blipIdentified": "{designator} {shipClass}",
+    "zoomOut": "rauszoomen (mehr Reichweite)",
+    "zoomIn": "reinzoomen (engere Reichweite)",
+    "rng": "entf"
+   }
+  },
+  "comms": {
+   "common": {
+    "ch": "Kan.",
+    "mhz": "MHz",
+    "seconds": "{n}s",
+    "unknown": "UNBEKANNT",
+    "unknownSignal": "UNBEKANNTES SIGNAL",
+    "unresolved": "UNGEKLÄRT"
+   },
+   "console": {
+    "title": "Funk",
+    "alertCaption": "alarm",
+    "tab": {
+     "hail": "Ruf",
+     "signal": "Signal",
+     "ops": "Ops"
+    },
+    "alertLamp": {
+     "green": "Grün",
+     "yellow": "Gelb",
+     "red": "Rot"
+    },
+    "alertName": {
+     "green": "GRÜN",
+     "yellow": "GELB",
+     "red": "ROT"
+    },
+    "alertLabel": "Zustand",
+    "jump": {
+     "incomingHail": "eingehender Ruf — annehmen",
+     "channelOpen": "Kanal offen — rufen",
+     "hostileUplink": "feindlicher Uplink — Gegensignal",
+     "probeLive": "Sondenabtastung aktiv — Radar"
+    },
+    "signals": {
+     "title": "feindliche Signale",
+     "none": "keine feindlichen Emissionen auf den Bändern",
+     "hostile": "feindlich",
+     "reinforcement": "◍ Verstärkungs-Uplink",
+     "spooling": "⚠ Fluchtsprung lädt auf"
+    },
+    "status": {
+     "title": "Schiffsstatus",
+     "relay": "▸ an den Captain weitergeben",
+     "hull": "Hülle",
+     "pwr": "Leist.",
+     "core": "Kern",
+     "on": "EIN",
+     "off": "AUS",
+     "locked": "GESPERRT",
+     "shdAvg": "Schild Ø",
+     "alert": "alarm",
+     "threats": "Gefahr",
+     "tag": {
+      "reactor": "REA",
+      "engines": "ANT",
+      "jumpDrive": "SPR",
+      "lifeSupport": "LEB",
+      "sensors": "SEN",
+      "weapons": "WAF",
+      "shields": "SCH"
+     }
+    },
+    "router": {
+     "onScreen": "auf dem Schirm:",
+     "setBy": "· gesetzt von {who}",
+     "channelNumber": "KN{n}",
+     "live": "live",
+     "channel": {
+      "map": {
+       "label": "Taktikkarte",
+       "hint": "die Standardbühne"
+      },
+      "science": {
+       "label": "Scankarte",
+       "hint": "das aktuelle Scanziel, groß"
+      },
+      "comms": {
+       "label": "Funk",
+       "hint": "der Funkkanal — Rufe + Schiffslog"
+      },
+      "parascope": {
+       "label": "Parascope",
+       "hint": "3D-Flugansicht der Steuerung"
+      },
+      "cupola": {
+       "label": "Kuppel",
+       "hint": "die Turmansicht des Kuppelschützen"
+      }
+     },
+     "channelName": {
+      "map": "KARTE",
+      "helm": "STEUER",
+      "science": "WISSENSCHAFT",
+      "engineering": "TECHNIK",
+      "comms": "FUNK",
+      "hail": "RUF",
+      "parascope": "PARASCOPE",
+      "cupola": "KUPPEL",
+      "probe": "SONDE",
+      "probe_radar": "SONDE_RADAR",
+      "chart": "SEKTORKARTE"
+     }
+    }
+   },
+   "hail": {
+    "bank": "Kanalbank: der Captain entscheidet, ihr sprecht",
+    "empty": "NICHTS AUF DEN FUNKBÄNDERN.",
+    "emptyHint": "Träger und passive Signale erscheinen hier.",
+    "noCarriers": "keine Träger — nur die Signale unten",
+    "distance": "{dist}u",
+    "distanceSurrendered": "{dist}u · kapituliert",
+    "hailButton": "rufen",
+    "tuneButton": "abstim.",
+    "passiveHeading": "passive Signale — senden, nicht sprechen",
+    "passiveRow": "◌ {label} — {designator}",
+    "enemyKnown": "▲ {designator} · {shipClass}",
+    "enemyUnknown": "▲ {designator} · Unbekannter Feind",
+    "friendly": "○ {designator} · {shipClass}",
+    "friendlyFallback": "Frachter",
+    "derelict": "◆ {designator} · Wrack",
+    "incoming": "eingehende Übertragung — antworten, um anzunehmen",
+    "carrierLock": "Kanal {mhz} MHz · Trägersperre",
+    "unidentified": "unbekannt",
+    "tone": {
+     "friendly": "FREUNDLICH",
+     "neutral": "NEUTRAL",
+     "hostile": "FEINDLICH"
+    },
+    "acquiring": "Bild wird erfasst…",
+    "audioOnly": "nur Audio — kein Bild",
+    "relay": "⇢ an den Captain weitergeben. Diese Anzeige ist nur Funk.",
+    "receiving": "empfange…",
+    "doctrine": "der Captain entscheidet laut; ihr drückt",
+    "end": "✕ Übertragung beenden",
+    "responseWindow": "Antwortfenster",
+    "silence": "Schweigen ist eine Antwort"
+   },
+   "monitor": {
+    "header": "Kanal {mhz} MHz · passiver Monitor",
+    "source": "Quelle {designator}",
+    "unresolved": "ungeklärt",
+    "rxOnly": "nur Empf.",
+    "onAir": "on air: Ton läuft auf dem Hauptschirm (Funk)",
+    "silent": "nichts zu erwidern; es spricht nicht mit euch",
+    "drop": "✕ Kanal beenden"
+   },
+   "strip": {
+    "title": "Signalspektrum",
+    "axisMhz": "{hi} MHz",
+    "monitoring": {
+     "one": "ÜBERWACHUNG · {count} TRÄGER",
+     "other": "ÜBERWACHUNG · {count} TRÄGER"
+    },
+    "incoming": "◍ EINGEHENDER TRÄGER",
+    "lock": "TRÄGERSPERRE · {speaker}",
+    "destabilizing": "⚠ TRÄGER INSTABIL",
+    "stable": "TRÄGER STABIL"
+   },
+   "jam": {
+    "idle": "Gegensignal · kein feindlicher Uplink",
+    "title": "Gegensignal // Frequenzsprung-Jagd",
+    "strength": "STÖRSTÄRKE J",
+    "blocked": "BLOCKIERT {pct}%",
+    "uplink": "FEIND-UPLINK",
+    "chance": "VERST.-CHANCE {pct}%",
+    "callEnds": "RUF ENDET",
+    "callTimer": "T-{n}s",
+    "target": "ZIEL {designator} · UPLINK",
+    "outOfRange": "⚠ SIGNAL AUSSER REICHWEITE",
+    "locked": "◉ SPERRE",
+    "seeking": "◌ SUCHT",
+    "outOfRangeHint": "Anrufer jenseits der Störreichweite; Sensoren speisen, um sie zu verlängern",
+    "dragHint": "ZIEHEN, um den Störer auf den hellen feindlichen Träger zu lenken · SPERRE halten"
+   },
+   "intercepts": {
+    "title": "◍ sigint — Ohren im VOID",
+    "none": "Überwachung — keine Abfänge",
+    "unknownSource": "unbekannte Quelle",
+    "footer": "gebt Wichtiges weiter; die Brücke hört das nicht"
+   },
+   "radar": {
+    "titleCompact": "Sondenscan",
+    "title": "Sondenradar",
+    "noCarrier": "◌ kein Träger",
+    "ping": "◉ Ping",
+    "pingCooldown": "◌ Ping · {n}s",
+    "screen": "⧉ Schirm",
+    "warning": "⚠ ein aktiver Ping ist laut; es wird ihn hören",
+    "noReturns": "▸ keine Echos; nur passive Abtastung",
+    "echoLast": "◌ letztes Echo",
+    "echoFresh": "◍ Echo",
+    "echoLine": "{tag} · Peil {brg}° · Dist {rng}% · {age}",
+    "ageNow": "jetzt",
+    "ageAgo": "vor {n}s"
+   },
+   "log": {
+    "title": "Schiffslog",
+    "jumpLatestUp": "↑ neueste",
+    "jumpLatestDown": "↓ neueste",
+    "jumpTitle": "Zum neuesten Eintrag springen",
+    "orderNewestFirst": "↑ neu",
+    "orderNewestLast": "↓ neu",
+    "orderNewestFirstTitle": "Neueste zuerst — tippen: neueste zuletzt",
+    "orderNewestLastTitle": "Neueste zuletzt — tippen: neueste zuerst",
+    "empty": "KEINE EINTRÄGE.",
+    "counter": "Log {n}"
+   },
+   "ledger": {
+    "title": "diplomatisches Hauptbuch",
+    "caption": "das Wort des Schiffs, gehalten vom Funk",
+    "stance": {
+     "hostile": "feindlich",
+     "wary": "misstrauisch",
+     "neutral": "neutral",
+     "respected": "geachtet",
+     "feared": "gefürchtet"
+    }
+   }
+  },
+  "tactical": {
+   "arc": {
+    "fore": "vorn",
+    "aft": "Heck",
+    "port": "Backb.",
+    "stbd": "Stb."
+   },
+   "tab": {
+    "fire": "Feuerleitung",
+    "torp": "Torpedos"
+   },
+   "weapon": {
+    "phaser": "Phaser"
+   },
+   "scopePanel": {
+    "title": "Zielanzeige",
+    "titleArmed": "Zielanzeige · Waffen frei",
+    "armedBanner": "RAKETEN SCHARF — tippen zum Feuern"
+   },
+   "chip": {
+    "target": "● {designator}",
+    "targetClass": "● {designator} · {shipClass}",
+    "bearingRange": "PEIL {brg}° · DIST {rng}u",
+    "closing": "ANN {rate}u/s",
+    "noLockArmed": "○ KEIN ZIEL — Tippen feuert Raketen",
+    "noLock": "○ KEINE ZIELERFASSUNG — Kontakt antippen"
+   },
+   "ranges": {
+    "gun": "Gesch. {n}u",
+    "beam": "Strahl {n}u",
+    "seeker": "Suchkopf {n}u"
+   },
+   "threat": {
+    "title": "Bedrohungstafel",
+    "empty": "— keine Feinde auf der Tafel —",
+    "colId": "ID",
+    "colClass": "Klasse",
+    "colRng": "Dist",
+    "colBrg": "Peil",
+    "unidentified": "unbekannt",
+    "mineLocked": "Mine · gesperrt",
+    "mine": "Mine",
+    "debris": "Trümmer"
+   },
+   "target": {
+    "title": "Zieldaten",
+    "scan": "Scan {pct}%",
+    "shield": "Schild",
+    "hull": "Hülle",
+    "subTarget": "Unterziel",
+    "shieldUp": "Schild aktiv — erst senken",
+    "aim": "Ziel ▸",
+    "aimHull": "HÜLLE",
+    "hullDestroyed": "HÜLLE — {designator} zerstört",
+    "pointsLocated": {
+     "one": "{count} Punkt geortet",
+     "other": "{count} Punkte geortet"
+    },
+    "noPoints": "keine Zielpunkte geortet — Wissenschaft soll scannen",
+    "noLock": "keine Zielerfassung — Kontakt auf dem Schirm antippen"
+   },
+   "deflector": {
+    "title": "Deflektorstatus",
+    "allocation": "Bogen-Leistungsverteilung → Technik"
+   },
+   "ordnance": {
+    "title": "Bewaffnung",
+    "torpedoes": "Torpedos",
+    "noisemakers": "Störkörper",
+    "missiles": "Lenkwaffen",
+    "rockets": "Raketen",
+    "railgun": "Railgun → Steuer",
+    "railLine": "SCHIENE {stock} · {status}"
+   },
+   "rail": {
+    "cycling": "LÄDT {sec}s",
+    "ready": "BEREIT",
+    "cyclingLc": "lädt {sec}s",
+    "readyLc": "bereit"
+   },
+   "launchers": {
+    "title": "Werfer",
+    "stripMissiles": "Lenkwaffen {n}",
+    "stripRail": "Schiene {n} · {status}",
+    "missileRack": "Lenkwaffenrack",
+    "homing": "Zielsuche · tippen für Salve",
+    "noMissiles": "KEINE LENKW.",
+    "noLock": "KEIN ZIEL",
+    "fireMissile": "LENKWAFFE FEUERN ▸ {designator}",
+    "missilesExpended": "Lenkwaffenrack verbraucht",
+    "missileNeedsLock": "Lenkwaffen fliegen auf das aktuelle Ziel: erst einen Kontakt antippen",
+    "rocketPod": "Raketenpod",
+    "looseTracking": "Grobzielung · Anzeige antippen",
+    "noRockets": "KEINE RAKETEN",
+    "armedDisarm": "◉ SCHARF ×{n} — ENTSCHÄRFEN",
+    "armRockets": "RAKETEN SCHARF ×{n}",
+    "podExpended": "Raketenpod verbraucht",
+    "armedHint": "Tippen auf die Anzeige feuert in diese Peilung; entschärfen stellt das Antippen-Zielen wieder her",
+    "idleHint": "Tippen auf die Zielanzeige feuert im Scharf-Zustand statt zu erfassen"
+   },
+   "beams": {
+    "title": "Strahlbänke",
+    "chargeHeat": "Ladung · Hitze",
+    "range": "Reichw. {n}u",
+    "heat": "Hitze {n}",
+    "cannoneer": "Kanonier",
+    "hot": "HEISS",
+    "far": "FERN",
+    "fire": "FEUER",
+    "delegatedNote": "Phaserbänke mit {mark} werden von einem Kanonier bedient",
+    "outOfRange": "Ziel außer Strahlreichweite ({dist}u) — auf {range}u nähern"
+   },
+   "turrets": {
+    "pdToCupola": "Punktverteidigung → Kuppelschütze",
+    "hold": "HALT",
+    "pd": "PV",
+    "holdSheds": "HALT spart Geschützstrom",
+    "title": "Geschütztürme",
+    "pdAuto": "PV auto · Leistung",
+    "pdRange": "PV {n}u",
+    "heat": "Hitze {n}",
+    "rdy": "bereit {sec}s",
+    "offline": "offline",
+    "ready": "bereit",
+    "holdNote": "HALT spart Geschützstrom. Auto-PV hat Vorrang (Torpedos sind nicht abfangbar)."
+   },
+   "torpedo": {
+    "title": "Torpedoraum",
+    "magazine": "Magazin",
+    "magTorpedoes": "Torpedos {n}",
+    "magNoisemakers": "Störkörper {n}",
+    "solutionTitle": "◈ FEUERLÖSUNG",
+    "solutionReadout": "— Peil {brg}° · Dist {rng}",
+    "solutionTap": "· tippen: laden",
+    "bearing": "Peilung",
+    "estRunTarget": "gesch. Laufzeit zu {designator}: ~{sec}s",
+    "estRunMark": "gesch. Laufzeit Marke: ~{sec}s",
+    "fishSpeed": "Fisch-Tempo {n}u/s",
+    "armDelay": "Scharfverz.",
+    "armsOut": "scharf ab ~{n}u",
+    "noIff": "⚠ nahe am eigenen Schiff scharf (kein IFF)",
+    "noise": "Störer",
+    "torpedo": "Torpedo",
+    "fire": "FEUER",
+    "loadTorp": "Torp laden",
+    "loadNoise": "Störer laden",
+    "inFlight": "im Flug"
+   },
+   "flight": {
+    "missile": "LENKWAFFE",
+    "rocket": "RAKETE",
+    "rail": "SCHIENE",
+    "noise": "STÖRER",
+    "flare": "FLARE",
+    "torp": "TORP",
+    "chasingLock": "verfolgt Ziel",
+    "fizzled": "verpufft",
+    "wild": "außer Kontrolle",
+    "looseTracking": "grobe Zielsuche",
+    "running": "läuft",
+    "luring": "lockt",
+    "decoying": "täuscht",
+    "lock": "● ZIEL",
+    "seeking": "sucht",
+    "active": "aktiv",
+    "arm": "scharf {sec}s"
+   },
+   "unit": {
+    "sec": "{n}s"
+   },
+   "header": {
+    "hull": "Hülle"
+   },
+   "scopeCanvas": {
+    "ringGun": "GESCH",
+    "ringBeam": "STRAHL",
+    "ringSeeker": "SUCH",
+    "arm": "SCHARF",
+    "rangeButton": "Dist"
+   },
+   "schematic": {
+    "mineCasing": "MINENGEHÄUSE — NUR HÜLLENTREFFER",
+    "aimHull": "ZIEL: HÜLLE"
+   }
+  },
+  "eng": {
+   "header": {
+    "hull": "Hülle"
+   },
+   "tab": {
+    "power": "Energie",
+    "reactor": "Reaktor",
+    "repair": "Reparat."
+   },
+   "system": {
+    "reactor": "Reaktor",
+    "engines": "Antrieb",
+    "sensors": "Sensoren",
+    "jumpDrive": "Sprungantr.",
+    "shields": "Schilde",
+    "weapons": "Waffen"
+   },
+   "arc": {
+    "fore": "Vorn",
+    "aft": "Heck",
+    "port": "Backb.",
+    "stbd": "Stb."
+   },
+   "state": {
+    "lockedOut": "⚠ GESPERRT",
+    "notEnoughPower": "ZU WENIG ENERGIE",
+    "offline": "OFFLINE"
+   },
+   "reroute": {
+    "forcedOffline": "{systems} ZWANGSWEISE OFFLINE",
+    "cause": "Eindringen/Stoß",
+    "button": "⚡ Energie umleiten",
+    "systemFallback": "System",
+    "dialogLabel": "Leitungsumleitung: {system}",
+    "title": "UMLEITUNG — LEITUNGSFÜHRUNG · {system}",
+    "hint": "Leitungen drehen · SRC verbinden ▸ {abbr}",
+    "hide": "ausblenden — Wiederherstellung läuft weiter",
+    "close": "Umleitungsfeld schließen",
+    "restore": "Wiederh.",
+    "awaiting": "WARTE AUF LEITUNGSTELEMETRIE…",
+    "src": "QUE",
+    "flowing": "▸ ENERGIE FLIESST — {system} WIRD WIEDERHERGESTELLT",
+    "incomplete": "ROUTE UNVOLLSTÄNDIG"
+   },
+   "abbr": {
+    "reactor": "REA",
+    "engines": "ANT",
+    "jumpDrive": "SPR",
+    "sensors": "SEN",
+    "weapons": "WAF",
+    "shields": "SCH",
+    "fallback": "SYS"
+   },
+   "schematic": {
+    "title": "Schiffsschema",
+    "hint": "Knoten antippen → Zeile",
+    "integ": "Integ. {pct}%"
+   },
+   "damage": {
+    "title": "Schadenskontrolle",
+    "salvage": "Bergegut · Reparaturen zehren davon",
+    "noSalvage": "⚠ kein Bergegut — Reparaturteams starten nicht",
+    "hull": "Hülle",
+    "none": "keine Systemschäden — Teams in Bereitschaft",
+    "rowActive": "● repariert",
+    "rowDispatch": "antippen: entsenden",
+    "noFieldRepair": "keine Feldreparatur",
+    "btnActive": "repariert…",
+    "btn": "Reparatur",
+    "recall": "Reparaturteam zurückrufen",
+    "dispatch": "Reparaturteam entsenden"
+   },
+   "gauges": {
+    "title": "Reaktoranzeigen",
+    "output": "LEISTUNG",
+    "coreTemp": "KERNTEMP",
+    "wpnHeat": "WAF HITZE",
+    "contain": "EINDÄMM."
+   },
+   "reactor": {
+    "title": "Reaktorkern",
+    "overdrawn": "⚠ Energie überzogen — ein System hungert",
+    "overclockBanner": "⚡ Überlastung — Hitze steigt · Signatur laut",
+    "coreTemp": "Kerntemp · rote Linie {line}",
+    "danger": "▲ GEFAHR",
+    "redLineTip": "rote Linie — Reaktor nimmt Schaden über {line}",
+    "readoutOutput": "Leistung",
+    "readoutDemand": "Bedarf",
+    "readoutContainment": "Eindämmung",
+    "unitPerSec": "u/s",
+    "overclockOn": "⚡ Überlast EIN",
+    "overclock": "Überlast",
+    "overclockHint": "+{bonus}u Leistung · baut Hitze auf",
+    "vent": "❄ Ventil ({sec}s, ½ Leistung)",
+    "venting": "ventilt… {sec}s · Leistung halbiert",
+    "ventIdle": "Kern {heat}% · Waffenhitze {wpn}"
+   },
+   "flux": {
+    "title": "Energiefluss",
+    "trace": "Bedarfsverlauf · u/s",
+    "cap": "▁▁ Grenze {output}",
+    "readout": "{demand}u/s"
+   },
+   "jump": {
+    "title": "Sprungantrieb",
+    "spooling": "◉ Lädt…",
+    "spool": "Sprung laden",
+    "charge": "Sprungladung",
+    "charged": "✦ geladen: Kondensator leitet in den Kern ab. Bald springen oder über das Ventil ablassen.",
+    "starved": "⚠ nicht genug freie Energie (braucht {need}u) — ein System abschalten",
+    "throttled": "Antrieb gedrosselt auf {pct}% — Laden dauert länger",
+    "draws": "zieht {rate} u/s beim Laden",
+    "off": "aus — keine Energie gezogen"
+   },
+   "power": {
+    "title": "Energieverteilung",
+    "outputLine": "LEISTUNG {output}u/s",
+    "over": "ÜBER {amount}",
+    "free": "FREI {amount}",
+    "howTo": "Bezug = {formula}. Balken ziehen zum Einstellen; Füllung = zugeteilt. Unterversorgte Zeilen blinken {alarm}. {cut} schaltet auf 0 und merkt sich den Wert.",
+    "formula": "Bedarf × Priorität",
+    "coreSource": "Kernquelle — speist Bus",
+    "coreSourceShort": "Kernquelle",
+    "reactorOutput": "{output}u",
+    "lifeSupportNote": "Lebenserhaltung reserviert zuerst {amount}u, solange der Schalter EIN ist. Die Abschirmung ist die Gesundheitsanzeige der Crew."
+   },
+   "shields": {
+    "title": "Schildverteilung",
+    "charge": "Lad.",
+    "chargeTip": "Ladung {charge}/{max}",
+    "alloc": "{arc}-Schildverteilung",
+    "note": "Bögen regenerieren aus SCHILDE-Energie · Gesamtverteilung treibt den Bedarf"
+   },
+   "lifeSupport": {
+    "button": "Lebenserhalt.",
+    "on": "◉ EIN",
+    "off": "○ AUS",
+    "openTip": "Lebenserhaltungs-Schalter öffnen (Abschirmung schwindet)",
+    "closeTip": "Lebenserhaltungs-Schalter schließen (Abschirmung regeneriert)",
+    "meter": "Strahlenschutz",
+    "statusFence": "☢ Zaun verbrennt Abschirmung — zurück hinein",
+    "statusOpen": "Schalter OFFEN — die Crew gart langsam",
+    "statusStarved": "⚠ unterversorgt — kein Regen",
+    "statusShielded": "Crew abgeschirmt",
+    "statusRegen": "regeneriert +{rate}/s"
+   },
+   "row": {
+    "priority": "{system} Energie-Priorität",
+    "breakerRestore": "{system} Schalter: wiederherstellen",
+    "breakerCut": "{system} Schalter: trennen",
+    "restoreTip": "Energie zurück (vorherige Einstellung)",
+    "cutTip": "Energie trennen (Priorität 0)",
+    "cut": "AUS",
+    "grantedTip": "zugeteilt {granted} von {demand}u Bedarf · Priorität {pct}%",
+    "integrityTip": "Integrität {pct}%",
+    "lockedTip": "ereignisbedingter Ausfall — Energie umleiten"
+   }
+  }
+ }
+}

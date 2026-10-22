@@ -1,0 +1,59 @@
+{
+ "app": {
+  "fatal": {
+   "missingWebBuild": {
+    "title": "Web-Build fehlt",
+    "message": "Kein SPA-Build unter {dir}. Ausführen: pnpm -F @scc/{name} build"
+   },
+   "portInUse": {
+    "title": "Port wird bereits benutzt",
+    "message": "Port {port} ({label}) ist bereits belegt, vermutlich durch eine andere Kopie von Space Couch Command oder einen Dev-Stack. Der Host-Modus braucht genau diese Ports, damit Telefone in eurem Netzwerk beitreten können."
+   },
+   "connectionLost": {
+    "title": "Verbindung verloren",
+    "message": "{why}\nBitte den Host um eine neue Einladung."
+   },
+   "joinFailed": {
+    "title": "Beitrittsfehler",
+    "message": "Die Lobby des Hosts hat keinen Raumcode. Ist seine Brücke noch online?"
+   },
+   "steamJoinUnavailable": {
+    "title": "Steam-Beitritt nicht möglich",
+    "message": "Öffnet Steam und startet diese Edition aus eurer Bibliothek, dann versucht die Einladung erneut."
+   },
+   "wrongEdition": {
+    "title": "Falsche Steam-Edition",
+    "message": "Beide Spieler müssen die Demo nutzen oder beide die Vollversion.",
+    "inviteMessage": "Diese Einladung gilt für eine andere Edition. Beide Spieler müssen die Demo nutzen oder beide die Vollversion."
+   },
+   "startupFailed": {
+    "title": "Startfehler"
+   }
+  },
+  "portLabel": {
+   "gameServer": "Spielserver",
+   "mainScreen": "Hauptbildschirm",
+   "stations": "Stationen"
+  },
+  "joinPrompt": {
+   "message": "Der Brücke deines Freundes beitreten?",
+   "detail": "Diese Brücke wird geschlossen (alle Telefone im lokalen Netzwerk trennen sich), und Space Couch Command startet neu als Remote-Crewmitglied.",
+   "stay": "Hier bleiben",
+   "leave": "Wechseln"
+  },
+  "window": {
+   "mainScreenTitle": "{title} — Hauptbildschirm"
+  },
+  "steam": {
+   "p2pFailed": "Steam-P2P-Sitzung fehlgeschlagen (Code {code})",
+   "lobbyMissingData": "Der Lobby dieser Brücke fehlen ihre Raumdaten.",
+   "hostLeft": "Der Host hat diese Brücke verlassen.",
+   "unavailable": "Steam nicht verfügbar",
+   "linkUnavailable": "STEAM IST NICHT VERFÜGBAR — ÖFFNE STEAM UND STARTE DAS SPIEL AUS DEINER BIBLIOTHEK",
+   "linkWrongEdition": "DIESER STEAM-LINK GEHÖRT ZU EINER ANDEREN EDITION — BEIDE SPIELER MÜSSEN DIE DEMO NUTZEN ODER BEIDE DIE VOLLVERSION",
+   "invalidLink": "UNGÜLTIGER STEAM-EINLADUNGSLINK — KOPIERE DEN GANZEN LINK AUS 'FREUNDE EINLADEN'",
+   "joinNotHere": "VON DIESEM BILDSCHIRM KEIN STEAM-BEITRITT MÖGLICH",
+   "joinFailed": "STEAM-BEITRITT FEHLGESCHLAGEN — STEAM ONLINE PRÜFEN, ERNEUT VERSUCHEN"
+  }
+ }
+}

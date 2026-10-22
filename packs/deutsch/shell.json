@@ -1,0 +1,96 @@
+{
+ "shell": {
+  "brand": "Space Couch Command",
+  "picker": {
+   "hint": "SPIEL AUF DIESEM RECHNER HOSTEN ODER BEI EINEM ANDEREN BEITRETEN",
+   "hostButton": "▶ SPIEL HOSTEN",
+   "joinButton": "SPIEL BEITRETEN"
+  },
+  "join": {
+   "go": "LOS",
+   "back": "ZURÜCK",
+   "anyway": "TROTZDEM LOS",
+   "addressLabel": {
+    "desktop": "Steam-Einladungslink oder Host-Adresse",
+    "mobile": "Host-Adresse"
+   },
+   "addressPlaceholder": "Steam-Einladungslink oder 192.168.1.70",
+   "hint": {
+    "desktop": "STEAM-EINLADUNGSLINK EINFÜGEN, ODER DIE LOKALE NETZWERKADRESSE ODER DEN LINK DES HOSTS EINTIPPEN",
+    "mobile": "HOST-ADRESSE AUS SEINER LOBBY: IP, IP:PORT ODER DER GANZE LINK"
+   },
+   "needAddr": "ADRESSE DES HOSTS EINGEBEN — z. B. 192.168.1.70",
+   "noIpv6": "IPv6-ADRESSEN KÖNNEN HIER NICHT VERWENDET WERDEN. FRAG DEN HOST NACH SEINER IPv4-ADRESSE (z. B. 192.168.1.70)",
+   "looking": "SUCHE NACH {host} …",
+   "portSeparator": " ODER ",
+   "silent": {
+    "desktop": "KEINE ANTWORT VON {host} AUF {ports}. PRÜFE DIE ADRESSE, STELLE SICHER, DASS BEIDE RECHNER IM SELBEN NETZWERK SIND, UND PRÜFE DIE FIREWALL DES HOSTS",
+    "mobile": "KEINE ANTWORT VON {host} AUF {ports}. PRÜFE DIE ADRESSE, STELLE SICHER, DASS BEIDE GERÄTE IM SELBEN WLAN SIND, UND ERLAUBE DEN ZUGRIFF AUF DAS LOKALE NETZWERK"
+   },
+   "listener": "ETWAS ANTWORTET UNTER {address}, HAT SICH ABER NICHT ALS BRÜCKE ZU ERKENNEN GEGEBEN. ES WIRD TROTZDEM VERSUCHT; DEINE KONSOLE FRAGT NACH DEM RAUMCODE",
+   "found": "RAUM {room} BEI {host} GEFUNDEN — WARTEN",
+   "foundNoRoom": "HOST BEI {host} GEFUNDEN. DEINE KONSOLE FRAGT NACH DEM RAUMCODE",
+   "unverified": "WÄHLE {address} OHNE PRÜFUNG AN. WENN DORT NICHTS IST, HÄNGT DEINE KONSOLE AUF IHREM BEITRITTSBILDSCHIRM",
+   "steamJoining": "BEITRITT ZUR STEAM-BRÜCKE …",
+   "steamRestarting": "BEITRITT ZUR STEAM-BRÜCKE — NEUSTART ALS REMOTE-CREW"
+  },
+  "standby": {
+   "hostDesktop": "HOST AUF DIESEM RECHNER — BITTE WARTEN",
+   "hostPhone": "HOST AUF DIESEM TELEFON — BITTE WARTEN",
+   "leaving": "DIESE BRÜCKE WIRD VERLASSEN — ABMELDUNG LÄUFT"
+  },
+  "toolbar": {
+   "mainTab": "HAUPTSCHIRM",
+   "stationTab": "MEINE STATION",
+   "popout": "AUSLAGERN",
+   "popoutTitle": "Hauptschirm in einem eigenen Fenster öffnen",
+   "popoutShow": "FENSTER ZEIGEN",
+   "popoutRetry": "NOCHMAL AUSLAGERN",
+   "join": "BEITRETEN",
+   "joinTitle": "Hosting beenden und einer fremden Brücke beitreten",
+   "leave": "BRÜCKE VERLASSEN",
+   "invite": "FREUNDE EINLADEN",
+   "lanPhones": "TELEFONE: {phones} · HAUPTSCHIRM: {main}",
+   "lanRemote": "REMOTE-BRÜCKE · RAUM {room}",
+   "lanJoined": "BEITRITT {host} · RAUM {room}",
+   "askOnConsole": "AUF DER KONSOLE ABFRAGEN",
+   "mainFrameTitle": "Hauptschirm",
+   "stationFrameTitle": "Meine Station",
+   "bridgeMissing": "Brücken-Shell fehlt — Preload konnte nicht geladen werden"
+  },
+  "steam": {
+   "offline": "STEAM OFFLINE",
+   "online": "ONLINE",
+   "named": "STEAM: {name}",
+   "inviteFailed": "STEAM: EINLADUNG FEHLER",
+   "friendsOpen": "STEAM: FREUNDE OFFEN"
+  },
+  "boot": {
+   "poweringBridge": "BRÜCKE STARTET",
+   "startingCore": "NODE-KERN WIRD GESTARTET",
+   "unpacking": "SPIELDATEN ENTPACKEN",
+   "unpackingPercent": "SPIELDATEN ENTPACKEN · {pct}%",
+   "firstLaunchOnly": "nur beim ersten Start — spätere Starts sind schnell",
+   "waiting": "WARTE AUF BRÜCKENSYSTEME",
+   "elapsed": "{line} · {seconds}s",
+   "checkingLan": "LAN WIRD GEPRÜFT",
+   "bridgeUp": "BRÜCKE STEHT",
+   "joining": "BEITRITT ZUR BRÜCKE",
+   "leaving": "VERLASSE DIESE BRÜCKE",
+   "leavingDetail": "fährt herunter",
+   "standingBy": "BRÜCKE IN BEREITSCHAFT",
+   "standingByDetail": "ein Spiel hosten oder beitreten",
+   "coreStopped": "BRÜCKEN-KERN GESTOPPT",
+   "coreUnresponsive": "BRÜCKEN-KERN REAGIERT NICHT",
+   "coreLost": "BRÜCKEN-KERN IM HINTERGRUND VERLOREN",
+   "forceClose": "app erzwungen beenden und neu starten"
+  },
+  "chip": {
+   "station": "📺 HAUPT",
+   "stationLabel": "Zurück zum Hauptschirm",
+   "leave": "⏏ RAUS",
+   "leaveLabel": "Diese Brücke verlassen",
+   "frameTitle": "Space Couch Command Hauptschirm"
+  }
+ }
+}

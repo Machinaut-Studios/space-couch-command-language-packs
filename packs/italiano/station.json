@@ -1,0 +1,1777 @@
+{
+  "station": {
+    "solo": {
+      "unit": {
+        "sec": "{n}s",
+        "dist": "{n}u"
+      },
+      "tab": {
+        "fly": "Volo",
+        "guns": "Armi",
+        "ops": "Oper."
+      },
+      "detent": {
+        "stop": "FERMO",
+        "third": "1/3",
+        "twoThirds": "2/3",
+        "full": "TUTTA"
+      },
+      "throttleOrder": {
+        "allStop": "TUTTO FERMO",
+        "ahead13": "AVANTI 1/3",
+        "ahead23": "AVANTI 2/3",
+        "aheadFull": "AVANTI TUTTA"
+      },
+      "shipmaster": "COMANDANTE",
+      "chip": {
+        "spd": "vel",
+        "hdg": "prua",
+        "ord": "rotta",
+        "mine": "⚠ mina",
+        "haz": "pericolo"
+      },
+      "label": {
+        "hull": "scafo",
+        "shield": "scudo"
+      },
+      "view": {
+        "map": "mappa",
+        "parascope": "parascopio",
+        "promote": "⧉ schermo"
+      },
+      "lock": {
+        "rocketsArmed": "RAZZI ARMATI — tocca la mappa e spara",
+        "brgRng": "AZ {brg}° · DIST {rng}u",
+        "closing": "AVV {sign}{speed}u/s",
+        "none": "○ NESSUN AGGANCIO — tocca un contatto"
+      },
+      "radiation": "☢ radiazioni alte — lo scafo si consuma",
+      "evasive": {
+        "on": "⤨ EVASIVA ATTIVA",
+        "off": "Evasiva",
+        "hint": "meno colpibile · più rumore"
+      },
+      "jump": {
+        "engage": "⭍ ESEGUI SALTO",
+        "spooling": "◉ In carica",
+        "spool": "Carica salto",
+        "punch": "carico — salta!",
+        "locked": "motore bloccato",
+        "tapCharge": "tocca per caricare il motore"
+      },
+      "flare": {
+        "label": "bengala",
+        "ready": "difesa ravvicinata",
+        "expended": "difesa esaurita"
+      },
+      "ecm": {
+        "on": "≋ ECM ATTIVO",
+        "off": "ECM",
+        "hintOn": "consuma energia · rumore",
+        "hintOff": "disturba i missili"
+      },
+      "rail": {
+        "label": "⌁ railgun",
+        "noSlugs": "proiettili esauriti",
+        "armedView": "ARMATO — spara dalla vista",
+        "armedTap": "◉ ARMATO — tocca e spara",
+        "cycling": "RIC {sec}s",
+        "pressArm": "premi per armare",
+        "pressArmSteer": "premi per armare · vira e mira"
+      },
+      "chart": {
+        "label": "⌖ carta",
+        "plot": "traccia la rotta",
+        "destFallback": "BLOCCATO"
+      },
+      "throttle": {
+        "label": "manetta",
+        "engines": "motori",
+        "offline": "SPENTI",
+        "idle": "minimo",
+        "starved": "⚠ energia insufficiente — spinta ridotta"
+      },
+      "heading": {
+        "ord": "rotta",
+        "bow": "prua"
+      },
+      "fire": {
+        "title": "controllo tiro",
+        "beam": "raggio {range}u",
+        "torp": "siluri {n}",
+        "noise": "esche {n}",
+        "heat": "calore {n}",
+        "hot": "CALDO",
+        "far": "LONT.",
+        "go": "FUOCO",
+        "cannoneer": "cannoniere",
+        "cannoneerTitle": "affidato a un Cannoniere",
+        "manned": "⇢ gestito da un Cannoniere",
+        "noLockHint": "nessun aggancio — tocca un contatto in mappa",
+        "outOfRange": "fuori portata ({dist}u) — avvicinati a {range}u",
+        "solution": "◈ SOLUZIONE DI TIRO",
+        "solutionDetail": "— az {brg}° · dist {rng}",
+        "tapLoad": "· tocca per caricare",
+        "brg": "az",
+        "dly": "rit",
+        "arms": "innesco ~{n}u",
+        "runTo": "corsa verso {what} ~{sec}s",
+        "runMark": "punto",
+        "fish": "siluro {speed}u/s",
+        "armsNear": "⚠ innesco vicino alla nave"
+      },
+      "weapon": {
+        "phaser": "phaser"
+      },
+      "tube": {
+        "noise": "esca",
+        "torpedo": "siluro",
+        "loadTorp": "carica siluro",
+        "loadNoise": "carica esca"
+      },
+      "rack": {
+        "missileTitleAt": "lancia un missile su {target}",
+        "missileTitleNone": "i missili vanno sull'aggancio — tocca un contatto in mappa",
+        "noMissiles": "MISSILI ESAURITI",
+        "missileNoLock": "MSL · NO AGGANCIO",
+        "missileFire": "MSL ▸ {target}",
+        "rocketTitle": "arma, poi tocca la mappa per lanciare un razzo in quella direzione",
+        "noRockets": "RAZZI ESAURITI",
+        "mapToArm": "MAPPA PER ARMARE",
+        "armed": "◉ ARMATI ×{n}",
+        "arm": "ARMA RAZZI ×{n}",
+        "hint": "razzi: arma, poi tocca la mappa per sparare · i missili seguono l'aggancio",
+        "torps": "siluri",
+        "noiseStock": "esche",
+        "msls": "missili",
+        "rkts": "razzi"
+      },
+      "target": {
+        "title": "dati bersaglio",
+        "scan": "sc. {pct}%",
+        "subTarget": "sottobersaglio",
+        "shieldUp": "scudo attivo — abbattilo prima",
+        "aim": "mira ▸",
+        "aimHull": "SCAFO",
+        "aimDestroyed": "SCAFO — {part} fuori uso",
+        "located": "trovati: {n}",
+        "scanReveals": "la scansione svela i punti",
+        "none": "nessun aggancio — dati all'aggancio"
+      },
+      "jumpStrip": {
+        "outage": "spegnimento forzato — devia energia",
+        "hailIncoming": "chiamata in arrivo — rispondi",
+        "hailOpen": "canale aperto — chiama",
+        "probe": "sonda attiva — cloche"
+      },
+      "power": {
+        "title": "sistemi · auto-ufficiali",
+        "forcedOffline": "SPEGNIMENTO FORZATO: {systems}",
+        "reroute": "⚡ Devia energia",
+        "salvageTitle": "rottami — spesi dalle auto-riparazioni",
+        "repChip": "rip {pct}%",
+        "repTitle": "modulo di auto-riparazione — autonomo, consuma rottami",
+        "ventingChip": "sfiato {sec}s",
+        "vent": "sfiato",
+        "ventingTitle": "auto-sfiato — potenza dimezzata",
+        "ventArmedTitle": "auto-sfiato pronto — scatta a nucleo {heat}",
+        "coreChip": "nucl. {pct}%",
+        "coreTitle": "temperatura del nucleo",
+        "stalled": "⚠ auto-riparazione ferma",
+        "output": "POTENZA {n}u/s",
+        "over": "DEFICIT {n}",
+        "free": "LIBERA {n}",
+        "integrity": "{system} — integrità {pct}%",
+        "bus": "rete",
+        "lockedOut": "⚠ BLOCCATO",
+        "offline": "SPENTO",
+        "priorityLabel": "priorità energia: {system}",
+        "granted": "assegnati {granted} su {demand}u richiesti · priorità {pct}%",
+        "restoreTitle": "ripristina energia (valore precedente)",
+        "cutTitle": "taglia energia (priorità 0)",
+        "breakerRestore": "interruttore {system}: ripristina",
+        "breakerCut": "interruttore {system}: taglia",
+        "off": "OFF"
+      },
+      "sysTag": {
+        "reactor": "REA",
+        "engines": "MOT",
+        "sensors": "SEN",
+        "jumpDrive": "SAL",
+        "shields": "SCU",
+        "weapons": "ARM"
+      },
+      "spool": {
+        "on": "◉ carica",
+        "off": "carica",
+        "label": "salto",
+        "charged": "✦ carico — salta dal pannello di volo",
+        "starved": "⚠ energia libera insufficiente (servono {n}u)",
+        "throttled": "motore limitato al {pct}%"
+      },
+      "shield": {
+        "tag": "DEF",
+        "title": "deflettore — una manopola, quattro archi",
+        "chargeTitle": "carica {charge}/{max}",
+        "allocation": "ripartizione scudi — tutti gli archi",
+        "average": "carica media"
+      },
+      "signals": {
+        "probePilot": "pilota sonda",
+        "sensors": "sensori",
+        "faceSweep": "radar",
+        "faceScan": "scans.",
+        "faceProbe": "sonda",
+        "surveys": "◈ rilevamenti ×{n}",
+        "closeSurvey": "✕ chiudi rilevamenti"
+      },
+      "sweep": {
+        "brg": "AZ",
+        "rng": "DIST",
+        "dly": "RIT {sec}s",
+        "solutionLive": "● SOLUZIONE PRONTA — trascina e mira",
+        "scanning": "▸ SCANSIONE {target} · {pct}%",
+        "outOfRange": "⚠ FUORI PORTATA",
+        "passive": "○ SCANDAGLIO PASSIVO — tocca un'eco e scansiona",
+        "mode": "modo",
+        "modePlot": "◉ TIRO",
+        "modeScan": "○ SCANS."
+      },
+      "scanStrip": {
+        "stop": "ferma",
+        "passive": "scandaglio passivo · tocca un'eco",
+        "outOfRange": "⚠ FUORI PORTATA SENSORI — avvicinati a {range}u (ora {dist}u)",
+        "jumpSpool": "⚠ carica di salto rilevata — motore di fuga al {pct}%"
+      },
+      "ledger": {
+        "label": "registro",
+        "title": "registro diplomatico — dipende da come rispondi alle chiamate",
+        "factionTitle": "{faction}: {value}",
+        "faction": {
+          "corsairs": "CORSAIRS",
+          "syndicate": "SYNDICATE",
+          "guild": "GILDA",
+          "velshaar": "VEL'SHAAR"
+        },
+        "stance": {
+          "hostile": "ostilità",
+          "wary": "sospetto",
+          "neutral": "neutralità",
+          "respected": "rispetto",
+          "feared": "timore"
+        }
+      }
+    },
+    "shell": {
+      "gameTitle": "Space Couch Command",
+      "pageTitle": "Space Couch Command — Terminale ufficiale",
+      "app": {
+        "connecting": "connessione…",
+        "reconnecting": {
+          "title": "RICONNESSIONE…",
+          "sub": "ripristino postazione"
+        },
+        "failed": "connessione fallita",
+        "back": "Torna",
+        "left": "disconnesso dalla plancia",
+        "rejoin": "Rientra",
+        "syncing": "sincronizzazione…"
+      },
+      "header": {
+        "link": "COLLEG. SHIPNET // SB-OS 2.4"
+      },
+      "run": {
+        "sector": "SETT. {n}",
+        "demo": "DEMO",
+        "jump": "salto",
+        "hail": "◍ chiamata",
+        "screen": "◱ schermo",
+        "sectorClear": "✦ settore libero — carica il motore a salto"
+      },
+      "settings": {
+        "button": "opzioni",
+        "title": "impostazioni",
+        "options": "opzioni terminale",
+        "close": "chiudi impostazioni",
+        "fullscreen": "⛶ schermo intero",
+        "enter": "attiva",
+        "exit": "esci",
+        "notAvailable": "n/d",
+        "fullscreenHint": "Questo browser non supporta lo schermo intero. Aggiungi il terminale alla schermata Home per avere la plancia senza le barre del browser.",
+        "sound": "🔊 audio",
+        "on": "sì",
+        "off": "no"
+      },
+      "tacMap": {
+        "anomaly": "anomalia"
+      },
+      "roleMeta": {
+        "gunnerLabel": "Tiratore",
+        "helmBlurb": "Rotta, evasione e salto",
+        "tacticalBlurb": "Armi e scudi",
+        "engineeringBlurb": "Energia e guasti",
+        "scienceBlurb": "Scansiona, mira, sfrutta",
+        "commsBlurb": "Allarmi, chiamate e log",
+        "gunnerBlurb": "Mano alla torretta — gran tasto FUOCO",
+        "cupolaBlurb": "la batteria girevole a 360° — sei tu la difesa ravvicinata"
+      },
+      "join": {
+        "bootLine": "SB-OS 2.4 // TERMINALE SHIPNET",
+        "linkLine": "COLLEGAMENTO STABILITO: IN ATTESA DI ID UFFICIALE",
+        "subtitle": "terminale ufficiale",
+        "roomCode": "Codice stanza",
+        "roomCodePlaceholder": "ABCD",
+        "yourName": "Il tuo nome",
+        "namePlaceholder": "Ufficiale",
+        "board": "Sali a bordo",
+        "hint": "Inquadra il QR sullo schermo principale o digita il codice stanza mostrato sulla TV."
+      },
+      "boot": {
+        "rows": {
+          "header": "SB-OS 2.4 // {station}",
+          "observerDeck": "PONTE OSSERVATORI",
+          "powerBus": "RETE ENERGIA",
+          "ok": "OK",
+          "crtPhosphor": "FOSFORI CRT",
+          "warm": "A REGIME",
+          "shipnetUplink": "COLLEG. SHIPNET",
+          "sync": "SINCRO",
+          "module": "MODULO {duty}",
+          "online": "IN LINEA",
+          "phaserBank": "BANCO PHASER",
+          "charging": "IN CARICA",
+          "selfTest": "AUTOTEST CONSOLE",
+          "pass": "SUPERATO",
+          "stationBinding": "ASSEGNAZIONE POSTO",
+          "none": "NESSUNA",
+          "readOnlyFeed": "FLUSSO SOLA LETTURA",
+          "live": "ATTIVO"
+        },
+        "ready": {
+          "title": "◉ CONSOLE PRONTA",
+          "waiting": "attesa equipaggio ({ready}/{total})",
+          "standingBy": "{station} in attesa",
+          "mainScreen": "▸ lo schermo principale può avviare per tutti"
+        },
+        "selfTestTitle": "◉ autotest all'accensione",
+        "hold": "tieni premuto ovunque — segnala pronto",
+        "crewReady": "equipaggio pronto {ready}/{total}",
+        "crewSeated": "{crew} · lo schermo principale può avviare per tutti",
+        "spectator": "modalità spettatore — non serve segnalare pronto",
+        "crewSpectator": "{crew} · la plancia parte quando tutti sono pronti"
+      },
+      "game": {
+        "unknownDuty": "Ruolo sconosciuto. Guarda lo schermo principale.",
+        "jumping": {
+          "title": "IN SALTO…",
+          "sub": "reggetevi forte"
+        },
+        "demoComplete": {
+          "title": "DEMO COMPLETATA",
+          "sub": "Quattro settori, una plancia, un divano."
+        },
+        "shipLost": {
+          "title": "NAVE PERDUTA",
+          "sub": "La plancia si spegne."
+        },
+        "summary": {
+          "sectors": "settori",
+          "sector": "settore",
+          "kills": "abbattimenti",
+          "coloniesSaved": "colonie salvate",
+          "banked": "in cassa"
+        },
+        "bankedNote": "rottami nella cassa della nave: totale",
+        "wishlist": "◈ LISTA DESIDERI STEAM",
+        "restart": "↻ NUOVA MISSIONE",
+        "returnToLobby": "⌂ TORNA ALLA LOBBY",
+        "noStation": "SENZA POSTAZIONE",
+        "pickSeat": "Prendi un posto libero. Le postazioni occupate restano bloccate fino alla lobby.",
+        "manned": "occupata — {name}",
+        "reconnectingSeat": "RICONNESSIONE ({name}) — tocca per subentrare",
+        "vacant": "libera — tocca per occuparla",
+        "rejoinNote": "Rientri con il tuo vecchio nome? La tua postazione si ricollega da sola all'imbarco."
+      },
+      "lobby": {
+        "header": "COLLEG. SHIPNET // EQUIPAGGIO",
+        "hull": "Scafo",
+        "ship": "NAVE: {name}",
+        "crew": "equip. {n}",
+        "hullSelect": "◀ lo schermo principale sceglie lo scafo ▶",
+        "savedShips": {
+          "one": "{count} nave salvata — continua dallo schermo principale",
+          "many": "{count} navi salvate — continua dallo schermo principale",
+          "other": "{count} navi salvate — continua dallo schermo principale"
+        },
+        "savedShip": "{name} · sett. {sector} · {shipClass}",
+        "crewUnrecorded": "equip. non registrato",
+        "selectDuty": "scegli la postazione",
+        "optional": "opzionale",
+        "swivel": "torretta girevole a 360°",
+        "reconnecting": "riconnessione…",
+        "open": "● libera",
+        "tapToLeave": "tocca per lasciare",
+        "ready": "Pronto ✓",
+        "markReady": "Segnala pronto",
+        "waiting": "In attesa che l'host avvii la missione dallo schermo principale.",
+        "stats": {
+          "hull": "scafo",
+          "power": "ener.",
+          "speed": "vel",
+          "beam": "raggi",
+          "gun": "torr.",
+          "tube": "tubi",
+          "torp": "siluri"
+        },
+        "modules": {
+          "mergedFireControl": "controllo tiro unificato",
+          "flareDefense": "difesa a bengala",
+          "autoJammer": "auto-disturbo {pct}%",
+          "autoRepair": "auto-riparazione {pct}%",
+          "autoVent": "auto-sfiato"
+        },
+        "outfitting": {
+          "title": "allestimento",
+          "hint": "l'allestimento è sullo schermo principale; l'host equipaggia la nave"
+        }
+      }
+    },
+    "helm": {
+      "console": {
+        "title": "TIMONE",
+        "header": {
+          "link": "COLLEG. SHIPNET // SB-OS 2.4 ·",
+          "clock": "T+{clock}"
+        },
+        "chip": {
+          "speed": "vel",
+          "throttle": "man",
+          "heading": "prua",
+          "ordered": "rot",
+          "mine": "⚠ mina",
+          "hazard": "per."
+        },
+        "hull": "scafo",
+        "view": {
+          "map": "map.",
+          "parascope": "parascopio"
+        },
+        "promote": {
+          "scope": "⧉ schermo",
+          "chart": "⧉ carta su schermo"
+        },
+        "radiation": "☢ radiazioni alte — lo scafo si consuma",
+        "evasive": {
+          "on": "⤨ EVASIVA ATTIVA",
+          "off": "Evasiva",
+          "hint": "meno colpibile · più rumore"
+        },
+        "jump": {
+          "engage": "⭍ ESEGUI SALTO",
+          "idle": "Motore salto",
+          "ready": "carico — salta! (il nucleo si scalda)",
+          "locked": "motore bloccato — devia l'energia",
+          "waiting": "l'Ingegneria carica il salto"
+        },
+        "rail": {
+          "label": "⌁ rail",
+          "noSlugs": "senza colpi",
+          "armedScope": "ARMATO — il timone spara dalla vista",
+          "armed": "◉ ARMATO — tocca e spara",
+          "cycling": "RICARICA {sec}s",
+          "pressArm": "premi per armare",
+          "pressArmSteer": "premi per armare · vira e mira",
+          "bears": "il railgun punta a prua, {bearing}° — vira per mirare"
+        },
+        "ecm": {
+          "on": "≋ ECM ON",
+          "off": "ECM",
+          "hintOn": "consuma energia · rumore",
+          "hintOff": "disturba i missili"
+        },
+        "flare": {
+          "label": "✺ bengala",
+          "hintReady": "non i siluri",
+          "hintSpent": "finiti"
+        },
+        "chart": {
+          "label": "⌖ carta",
+          "plotCourse": "traccia rotta",
+          "locked": "BLOCCATO"
+        },
+        "throttle": {
+          "label": "manetta",
+          "order": {
+            "allStop": "TUTTO FERMO",
+            "aheadThird": "AVANTI 1/3",
+            "aheadTwoThirds": "AVANTI 2/3",
+            "aheadFull": "AVANTI TUTTA"
+          },
+          "detent": {
+            "stop": "FERMO",
+            "third": "1/3",
+            "twoThirds": "2/3",
+            "full": "TUTTA"
+          }
+        },
+        "engines": {
+          "label": "motori",
+          "offline": "SPENTI",
+          "idle": "minimo",
+          "starved": "⚠ energia insufficiente — spinta ridotta"
+        },
+        "caption": {
+          "ordered": "rot",
+          "bow": "prua"
+        }
+      },
+      "compass": {
+        "cardinal": {
+          "north": "N",
+          "east": "E",
+          "south": "S",
+          "west": "O"
+        },
+        "heading": "PRUA",
+        "ordered": "ROTTA",
+        "slew": "{dir} {delta}° @ {rate}°/s {dir}"
+      },
+      "starMap": {
+        "awaiting": "IN ATTESA DI CARTE",
+        "surveying": "rilevamento a lungo raggio in corso",
+        "debris": "⚠ DETRITI",
+        "dest": "▸ META",
+        "header": {
+          "title": "CARTA NAV // GALASSIA",
+          "system": "SIS: {name}",
+          "uncharted": "INESPLORATO",
+          "legend": "● mappato · ◌ frontiera con segnale · tenue = oltre i sensori",
+          "close": "chiudi carta"
+        },
+        "hint": "tocca un sistema collegato per fissare la meta · tocca di nuovo per liberarla",
+        "footer": {
+          "dest": "meta",
+          "random": "SISTEMA CASUALE",
+          "locked": "BLOCCATO",
+          "jump": "salto",
+          "clear": "annulla",
+          "engage": "⭍ esegui salto",
+          "driveLocked": "⚠ motore bloccato"
+        }
+      }
+    },
+    "scan": {
+      "glass": {
+        "noPower": "SENSORI SENZA ENERGIA",
+        "noPowerHint": "devia energia ai SENSORI per accendere l'antenna",
+        "noReturn": "NESSUNA ECO IN VISTA",
+        "noReturnHint": "intercetta un contatto per mostrarlo qui",
+        "spentPoint": "{label} ✓"
+      },
+      "status": {
+        "target": "BERS. {name}",
+        "targetClassed": "{designator} · {shipClass}",
+        "targetAnomaly": "{designator} · {anomaly}",
+        "unresolvedReturn": "ECO NON RISOLTA",
+        "spin": "ROT {deg}°",
+        "res": "RIS {pct}%"
+      },
+      "analysis": "analisi",
+      "poi": {
+        "unresolvedPoint": "PUNTO NON RISOLTO",
+        "spent": "azione già eseguita — il punto è esaurito",
+        "resolving": "risoluzione in corso — tieni la scansione profonda qui per rilevare il punto",
+        "noProbes": "⚠ nessuna sonda a bordo — le vendono i mercanti",
+        "probesAboard": "sonde a bordo: {count}",
+        "outOfRange": "⚠ fuori raggio d'azione — avvicinati a ~{range}u (ora {distance}u)",
+        "actioned": "✓ eseguita",
+        "surveyToUnlock": "rileva per sbloccare",
+        "oneProbe": "· 1 sonda",
+        "pointsOfInterest": {
+          "one": "{count} punto di interesse sullo schermo — tocca un indicatore per vederne l'azione",
+          "many": "{count} punti di interesse sullo schermo — tocca un indicatore per vederne l'azione",
+          "other": "{count} punti di interesse sullo schermo — tocca un indicatore per vederne l'azione"
+        }
+      }
+    },
+    "hybrid": {
+      "helmTac": {
+        "seconds": "{sec}s",
+        "title": "PILOTA-ARTIGL.",
+        "tab": {
+          "fly": "volo",
+          "guns": "armi"
+        },
+        "detent": {
+          "stop": "FERMO",
+          "third": "1/3",
+          "twoThirds": "2/3",
+          "full": "TUTTA"
+        },
+        "order": {
+          "allStop": "TUTTO FERMO",
+          "ahead13": "AVANTI 1/3",
+          "ahead23": "AVANTI 2/3",
+          "aheadFull": "AVANTI TUTTA"
+        },
+        "chip": {
+          "spd": "vel.",
+          "hdg": "prua",
+          "ord": "rotta",
+          "mine": "⚠ mina",
+          "haz": "peric.",
+          "hull": "scafo"
+        },
+        "view": {
+          "map": "mappa",
+          "parascope": "parascopio",
+          "screen": "⧉ schermo"
+        },
+        "lock": {
+          "rocketsArmed": "RAZZI ARMATI — tocca la mappa per sparare",
+          "brgRng": "AZ {brg}° · DIST {rng}u",
+          "closing": "AVV {sign}{rate}u/s",
+          "none": "○ NO AGGANCIO — tocca contatto",
+          "radiation": "☢ radiazioni alte — lo scafo si consuma"
+        },
+        "evasive": {
+          "on": "⤨ EVASIVA ATTIVA",
+          "off": "Evasiva",
+          "hint": "meno colpibile · più rumore"
+        },
+        "jump": {
+          "engage": "⭍ ESEGUI SALTO",
+          "label": "Motore a salto",
+          "spooled": "carico — salta!",
+          "locked": "motore bloccato",
+          "opsSpools": "le Operazioni lo caricano"
+        },
+        "flare": {
+          "label": "✺ bengala",
+          "pointDefense": "la tua difesa ravvic.",
+          "expended": "bengala finiti"
+        },
+        "ecm": {
+          "on": "≋ ECM ATTIVO",
+          "off": "ECM",
+          "drawsPower": "energivoro · rumoroso",
+          "scrambles": "disturba la guida"
+        },
+        "rail": {
+          "label": "⌁ railgun",
+          "noSlugs": "nessun colpo",
+          "armedView": "ARMATO — il Timone spara dalla vista",
+          "armedTap": "◉ ARMATO — tocca e spara",
+          "cycle": "CICLO {sec}s",
+          "pressToArm": "premi per armare",
+          "pressToArmSteer": "premi per armare · vira per mirare"
+        },
+        "chart": {
+          "label": "⌖ carta",
+          "plot": "traccia rotta",
+          "locked": "BLOCCATA"
+        },
+        "throttle": {
+          "label": "manetta",
+          "engines": "motori",
+          "offline": "SPENTI",
+          "idle": "minimo",
+          "starved": "⚠ energia insufficiente — spinta ridotta"
+        },
+        "dial": {
+          "ord": "rotta",
+          "bow": "· prua"
+        },
+        "beam": {
+          "title": "banchi raggio",
+          "chargeHeat": "carica · calore",
+          "range": "portata {n}u",
+          "heat": "calore {n}",
+          "delegatedTitle": "affidata a un Cannoniere",
+          "cannoneer": "cannoniere",
+          "hot": "CALDO",
+          "far": "LONT.",
+          "fire": "FUOCO",
+          "manned": "⇢ affidata a un Cannoniere",
+          "noLock": "nessun aggancio — tocca un contatto in mappa",
+          "outOfRange": "bersaglio fuori portata ({dist}u) — avvicinati a {range}u"
+        },
+        "torpedo": {
+          "title": "sala siluri",
+          "magazine": "deposito",
+          "torpedoes": "siluri {n}",
+          "noisemakers": "esche {n}",
+          "solutionTitle": "◈ SOLUZIONE DI TIRO",
+          "solutionReadout": "— az {brg}° · dist {rng}",
+          "tapToLoad": "· tocca e carica",
+          "bearing": "azimut",
+          "runTo": "corsa stimata a {who}: ~{sec}s",
+          "mark": "punto",
+          "fishSpeed": "vel. siluro {n}u/s",
+          "noRockets": "NIENTE RAZZI",
+          "mapToArm": "MAPPA PER ARMARE",
+          "armedDisarm": "◉ ARMATI ×{n} — DISARMA",
+          "armRockets": "ARMA RAZZI ×{n}",
+          "looseTracking": "guida imprecisa",
+          "tapMapToFire": "tocca mappa e spara",
+          "armDelay": "ritardo arm.",
+          "arms": "si arma a ~{n}u",
+          "unsafe": "⚠ può armarsi vicino a noi (no IFF)",
+          "noise": "esca",
+          "torp": "siluro",
+          "fire": "FUOCO",
+          "loadTorp": "carica sil.",
+          "loadNoise": "carica esca"
+        },
+        "ordnance": {
+          "title": "munizioni",
+          "torpedoes": "siluri",
+          "noisemakers": "esche",
+          "missiles": "missili",
+          "rockets": "razzi",
+          "missileRack": "lanciamissili",
+          "homing": "guidati · premi a raffica",
+          "noMissiles": "NIENTE MISSILI",
+          "noLock": "NO AGGANCIO",
+          "fireMissile": "LANCIA MISSILE ▸ {designator}",
+          "expended": "lanciamissili esaurito",
+          "fliesToLock": "i missili seguono l'aggancio — tocca un contatto in mappa"
+        },
+        "target": {
+          "title": "dati bersaglio",
+          "scan": "scans.{pct}%",
+          "shield": "scudo",
+          "hull": "scafo",
+          "subTarget": "sottobersaglio",
+          "shieldUp": "scudo attivo — abbattilo prima",
+          "aim": "mira ▸",
+          "aimHull": "SCAFO",
+          "aimHullDestroyed": "SCAFO — {designator} fuori uso",
+          "points": {
+            "one": "{count} punto individuato",
+            "many": "{count} punti individuati",
+            "other": "{count} punti individuati"
+          },
+          "noPoints": "nessun punto bersaglio individuato. La scansione di Scienze li rivela."
+        }
+      },
+      "sci": {
+        "sweep": {
+          "title": "scandaglio",
+          "titlePlot": "scandaglio · tiro",
+          "brg": "AZ",
+          "rng": "DIST",
+          "dly": "RIT",
+          "solutionLive": "● SOLUZIONE PRONTA — trascina e mira",
+          "scanLine": "▸ SCANSIONE {designator} · {pct}%",
+          "noPower": "⚠ SENSORI SENZA ENERGIA",
+          "outOfRange": "⚠ FUORI PORTATA",
+          "passive": "○ SCANDAGLIO PASSIVO — tocca un'eco da scansionare",
+          "mode": "modo",
+          "modePlot": "◉ TIRO",
+          "modeScan": "○ SCANS."
+        },
+        "active": {
+          "title": "scansione attiva",
+          "derelict": "Scansione {designator} — relitto abbandonato",
+          "classified": "Scansione {designator} — {shipClass}",
+          "anomaly": "Scansione {designator} — {what}",
+          "unknown": "Scansione {designator} (ignoto)",
+          "unresolved": "eco non risolta",
+          "stop": "ferma",
+          "sensorsDead": "⚠ SENSORI SENZA ENERGIA — alimenta l'antenna dal quadro energia",
+          "outOfSensorRange": "⚠ FUORI PORTATA SENSORI — avvicinati a {range}u (ora {now}u)",
+          "derelictSlow": "la scansione profonda è lenta; rottami e siluri recuperati al 100%",
+          "identified": "◇ identificazione: {shipClass}",
+          "jumpSpool": "⚠ salto in carica rilevato — motore di fuga al {pct}%",
+          "targetPoints": "⚑ punti bersaglio — segnalali al controllo tiro",
+          "keepScanning": "Scansiona ancora per trovare i punti bersaglio…",
+          "idleHelp": "Tocca un'eco dello scandaglio per scansionarla. I nemici rivelano i punti bersaglio; i relitti danno rottami; le mine vengono segnalate al pilota."
+        },
+        "scope": {
+          "probePilot": "pilota sonda",
+          "sensorScan": "scans. sensori"
+        },
+        "derelict": {
+          "title": "◆ RELITTO {designator}",
+          "units": "{n} unità",
+          "stripped": "✦ spogliato — rottami recuperati",
+          "salvageOnFull": "rottami a scansione completa (lenta)",
+          "scanning": "scansione…",
+          "deepScan": "scans. prof."
+        },
+        "hostile": {
+          "title": "ostili",
+          "classified": "{designator} · {shipClass}",
+          "unknown": "{designator} · Ostile ignoto",
+          "distScan": "{dist} unità · scans. {pct}%",
+          "scanning": "scansione…",
+          "scan": "scans."
+        },
+        "mine": {
+          "title": "campo minato · visibili: {n}",
+          "marked": "⚠ {designator} · {dist}u",
+          "faint": "· contatto debole · {dist}u",
+          "markedTag": "marcata",
+          "marking": "marcatura…",
+          "scanToMark": "scans. e marca"
+        },
+        "friendly": "○ {designator} · Mercantile",
+        "seconds": "{sec}s",
+        "distU": "{n}u"
+      },
+      "comms": {
+        "autoJam": {
+          "idle": "modulo auto-disturbo — armato · nessun uplink ostile",
+          "active": "AUTO-DISTURBO — modulo attivo",
+          "outOfRange": "fuori portata — alimenta i sensori",
+          "block": "blocco uplink {pct}%"
+        }
+      }
+    },
+    "gunnery": {
+      "gunner": {
+        "bank": {
+          "lettered": "Phaser {letter}",
+          "none": "Phaser"
+        },
+        "hits": "colpi",
+        "lockedTarget": "bersaglio",
+        "phaserBank": "banco phaser",
+        "charge": "carica",
+        "heat": "calore",
+        "waitingForLock": "○ in attesa che la Tattica agganci un bersaglio",
+        "inRange": "{dist}u · in portata",
+        "tooFarBeam": "{dist}u · troppo lontano (raggio {beam}u)",
+        "status": {
+          "noBank": "○ in attesa",
+          "offline": "○ fuori uso",
+          "overheated": "○ surriscaldato",
+          "ready": "pronto",
+          "charging": "◌ in carica"
+        },
+        "sub": {
+          "noBank": "nessun banco phaser — attendi uno slot",
+          "weaponsOffline": "armi fuori uso — chiedi a Ingegneria",
+          "overheated": "surriscaldato — sfiato",
+          "charging": "in carica…",
+          "noTarget": "in attesa che la Tattica agganci un bersaglio",
+          "target": "→ {designator}",
+          "tooFar": "troppo lontano — {dist}u / {beam}u"
+        },
+        "feedback": {
+          "hit": "✦ COLPO!",
+          "streak": "COLPI ×{streak}"
+        },
+        "fire": "FUOCO"
+      },
+      "cupola": {
+        "weapon": {
+          "laser": "LASER",
+          "gatling": "GATLING",
+          "rocket": "RAZZO"
+        },
+        "gyro": {
+          "noSignal": "GIROSCOPIO MUTO",
+          "denied": "GIROSC. NEGATO"
+        },
+        "banner": {
+          "link": "COLLEG. SHIPNET // SB-OS 2.4",
+          "title": "ARTIGLIERE CUPOLA",
+          "phoneTitle": "CUPOLA",
+          "freeLook": "TORRETTA · VISTA LIBERA"
+        },
+        "chip": {
+          "lock": "◉ AGGANC",
+          "range": "{range}u",
+          "closing": "si avvicina {rate}u/s",
+          "opening": "si allontana {rate}u/s",
+          "holding": "stabile",
+          "tracking": "◌ in cerca — no aggancio",
+          "noLock": "◌ no aggan.",
+          "round": "COLPO"
+        },
+        "hint": {
+          "desktop": "trascina per guardare · tieni i bordi per ruotare · arma e spara",
+          "phone": "trascina: guarda · scorri: ruota"
+        },
+        "btn": {
+          "recenter": "⌖ ricentra",
+          "gyro": "⌖ giros.",
+          "screen": "⧉ schermo",
+          "fire": "FUOCO"
+        },
+        "aria": {
+          "recenter": "ricentra",
+          "gyroAim": "mira giros.",
+          "promote": "mostra su schermo"
+        },
+        "hud": {
+          "heat": "calore",
+          "overheat": "surriscald.",
+          "gat": "gat",
+          "rkt": "raz"
+        },
+        "status": {
+          "overheat": "SURRISCALD.",
+          "heat": "calore {heat}",
+          "noAmmo": "NO MUNIZ.",
+          "armed": "armato · {status}"
+        },
+        "gate": {
+          "noLink": "scollegato",
+          "disarmed": "DISARMATO — scegli un'arma",
+          "weaponsDark": "ARMI SPENTE — devia energia",
+          "beyond": "punto {dist}u — portata {range}u",
+          "overheat": "SURRISCALDATO — riprende a {resumeAt}",
+          "holdBeam": "tieni premuto — raggio",
+          "noAmmoGatling": "NO MUNIZ. — gatling a secco",
+          "cycling": "CICLO {sec}s",
+          "burstPd": "raffica — difesa ravvicinata",
+          "holdBurst": "tieni premuto — raffica",
+          "noAmmoRocket": "NO MUNIZ. — razzi finiti",
+          "unguided": "non guidati — anticipa il punto"
+        }
+      },
+      "engSciComms": {
+        "tab": {
+          "power": "Energia",
+          "sci": "Scienze",
+          "comms": "Comun."
+        },
+        "station": "Operazioni",
+        "hull": "scafo",
+        "strip": {
+          "forcedOutage": "spegnimento forzato — devia energia",
+          "incomingHail": "chiamata in arrivo — rispondi",
+          "channelOpen": "canale aperto — chiama",
+          "probeActive": "sonda attiva — cloche",
+          "sweepLive": "scandaglio radar attivo"
+        },
+        "outage": {
+          "banner": "SPEGNIMENTO FORZATO: {systems}",
+          "systemFallback": "sistema",
+          "reroute": "⚡ Devia energia"
+        },
+        "power": {
+          "title": "distribuzione energia · moduli operativi",
+          "salvageTitle": "rottami — spesi dalle auto-riparazioni",
+          "salvageUnit": "· rottami",
+          "noSalvage": "⚠ niente rottami — auto-riparazione ferma",
+          "output": "POTENZA {output}u/s",
+          "over": "DEFICIT {amount}",
+          "free": "LIBERA {amount}",
+          "coach": "Consumo = {formula}. Trascina una barra per la priorità. {cut} azzera e ricorda. Riparazioni automatiche (al {pct}%), pagate in rottami.",
+          "coachFormula": "richiesta × priorità",
+          "benchCoach": "consumo = richiesta × priorità · ✂ azzera e ricorda"
+        },
+        "module": {
+          "autoRepair": "auto-riparazione {pct}%",
+          "runsItself": "automatica",
+          "autoVentVenting": "auto-sfiato — sfiato {sec}s",
+          "autoVentArmed": "auto-sfiato armato",
+          "outputHalved": "potenza dimezzata",
+          "tripsAt": "scatta a nucleo {heat}",
+          "core": "nucleo {pct}%",
+          "temp": "temp."
+        },
+        "reactor": {
+          "coreSource": "nucleo — alimenta il bus",
+          "bus": "bus",
+          "lockedOut": "⚠ BLOCCATO",
+          "offline": "SPENTO",
+          "output": "{output}u"
+        },
+        "jump": {
+          "title": "motore a salto · deflettore",
+          "spooling": "◉ In carica",
+          "spool": "Carica salto",
+          "charge": "carica salto",
+          "charged": "✦ carico — il pilota può saltare",
+          "starved": "⚠ energia libera insufficiente (servono {need}u) — togli energia a un sistema",
+          "throttled": "motore limitato al {pct}% — carica più lenta",
+          "draws": "assorbe {rate} u/s in carica",
+          "off": "spento — nessun consumo"
+        },
+        "shield": {
+          "title": "Deflettore — ogni arco",
+          "chg": "car.",
+          "chargeTitle": "carica {cur}/{max}",
+          "allocLabel": "ripartizione scudi — tutti gli archi",
+          "caption": "una manopola, quattro archi; energia ripartita equamente · la ripartizione fissa la richiesta SCUDI"
+        },
+        "ping": {
+          "title": "ping attivo — rivela l'interno E lo attira (RUMOROSO)",
+          "noCarrier": "◌ no portante",
+          "ready": "◉ ping",
+          "cooldown": "◌ ping {sec}s"
+        }
+      },
+      "sciComms": {
+        "tab": {
+          "sci": "Scienze",
+          "comms": "Comun."
+        },
+        "station": "Scienze e Comun.",
+        "hull": "scafo",
+        "strip": {
+          "incomingHail": "chiamata in arrivo — rispondi",
+          "channelOpen": "canale aperto — chiama",
+          "probeActive": "sonda attiva — cloche",
+          "sweepLive": "scandaglio radar attivo"
+        }
+      }
+    },
+    "science": {
+      "common": {
+        "noPower": "⚠ SENSORI SENZA ENERGIA",
+        "distanceU": "{n}u",
+        "scanning": "scansione…"
+      },
+      "console": {
+        "title": "Scienze",
+        "tabs": {
+          "scan": "Scans.",
+          "boards": "Liste"
+        },
+        "headerChip": {
+          "contacts": "contatti",
+          "unsurveyed": "da rilevare",
+          "probes": "sonde"
+        },
+        "onScreen": {
+          "probe": "⧉ sonda su schermo",
+          "scan": "⧉ scans. su schermo"
+        },
+        "probeActiveJump": "SONDA ATTIVA — prendi la cloche",
+        "sweep": {
+          "title": "scandaglio",
+          "titlePlot": "scandaglio · tiro"
+        },
+        "plot": {
+          "bearing": "AZ",
+          "range": "DIST",
+          "delay": "RIT",
+          "delayValue": "{sec}s",
+          "solutionLive": "● SOLUZIONE PRONTA — trascina e mira",
+          "hint": "trascina per mirare · comunica az + rit alla Tattica",
+          "retract": "off: soluzione ritirata"
+        },
+        "status": {
+          "scanning": "▸ SCANSIONE {designator} · {pct}%",
+          "outOfRange": "⚠ FUORI PORTATA",
+          "passive": "○ SCANDAGLIO PASSIVO — tocca un'eco da scansionare"
+        },
+        "mode": {
+          "label": "modo",
+          "plot": "◉ TIRO",
+          "scan": "○ SCANS."
+        },
+        "foot": {
+          "noPower": "⚠ sensori senza energia",
+          "bite": "portata sensori {range}u",
+          "pinned": "echi lontani sul bordo"
+        },
+        "activeScan": {
+          "title": "scans. attiva",
+          "headline": {
+            "derelict": "Scansione {designator} — relitto abbandonato",
+            "identified": "Scansione {designator} — {shipClass}",
+            "anomaly": "Scansione {designator} — {name}",
+            "unknown": "Scansione {designator} (ignoto)"
+          },
+          "unresolvedFallback": "eco non risolta",
+          "stop": "ferma",
+          "noPowerLong": "⚠ SENSORI SENZA ENERGIA — chiedi a Ingegneria di alimentare l'antenna",
+          "outOfRangeLong": "⚠ FUORI PORTATA SENSORI — il Timone deve avvicinarsi a {range}u (ora {dist}u)",
+          "derelictSlow": "la scansione profonda è lenta; rottami e siluri recuperati al 100%",
+          "identified": "◇ identificazione: {shipClass}",
+          "jumpSpool": "⚠ salto in carica rilevato — motore di fuga al {pct}%",
+          "targetPoints": "⚑ punti bersaglio — segnalali alla Tattica",
+          "keepScanning": "Scansiona ancora per trovare i punti bersaglio…",
+          "selectHint": "Seleziona un contatto da scansionare. I nemici rivelano i punti bersaglio; i relitti danno rottami; le mine vengono segnalate al Timone."
+        },
+        "hero": {
+          "probePilot": "pilota sonda",
+          "sensorScan": "scans. sensori"
+        },
+        "derelict": {
+          "title": "◆ RELITTO {designator}",
+          "range": "{n} unità",
+          "stripped": "✦ spogliato — rottami recuperati",
+          "pending": "rottami a scansione completa (lenta)",
+          "deepScan": "scans. prof."
+        },
+        "hostiles": {
+          "title": "ostili",
+          "identified": "{designator} · {shipClass}",
+          "unknown": "{designator} · Ostile ignoto"
+        },
+        "mines": {
+          "title": "campo minato · visibili: {n}",
+          "marked": "⚠ {designator} · {dist}u",
+          "faint": "· contatto debole · {dist}u",
+          "markedBadge": "marcata",
+          "marking": "marcatura…",
+          "scanToMark": "scans. e marca"
+        },
+        "friendly": {
+          "label": "○ {designator} · Mercantile"
+        },
+        "contactRow": {
+          "range": "{distance} unità · scans. {pct}%",
+          "scan": "scans."
+        }
+      },
+      "survey": {
+        "questThread": "◈ filone aperto",
+        "board": {
+          "title": "rilev. anomalie",
+          "subtitle": "scansiona a fondo l'ignoto",
+          "unsurveyed": "{n} di {total} da rilevare",
+          "allSurveyed": "settore rilevato ✦"
+        },
+        "card": {
+          "nameFallback": "anomalia",
+          "unresolvedName": "ECO NON RISOLTA",
+          "kind": {
+            "planet": "pianeta",
+            "wreck": "relitto",
+            "phenomenon": "fenomeno",
+            "organism": "organismo",
+            "mega": "mega",
+            "comet": "cometa"
+          },
+          "designatorDist": "{designator} · {dist}u",
+          "unresolvedHint": "eco non risolta: rileva per scoprire cosa c'è là fuori",
+          "outOfRange": "⚠ fuori portata sensori — il Timone deve avvicinarsi a {range}u",
+          "status": {
+            "complete": "✦ rilevamento completo — archiviato",
+            "running": "scansione in corso…",
+            "nextMilestone": "prossima soglia al {pct}%",
+            "awaiting": "da rilevare"
+          },
+          "surveying": "rilevamento…",
+          "survey": "rileva"
+        }
+      },
+      "systemLog": {
+        "title": "log sistema",
+        "order": {
+          "newestFirst": "Recenti in alto — tocca per metterli in basso",
+          "newestLast": "Recenti in basso — tocca per metterli in alto"
+        },
+        "badge": {
+          "up": "↑ nuovi",
+          "down": "↓ nuovi"
+        },
+        "empty": "BUFFER LOG VUOTO — IN ATTESA DI TRAFFICO",
+        "counter": "voce {n}"
+      },
+      "probe": {
+        "siteFallback": "interno inesplorato",
+        "phase": {
+          "landing": "discesa — acquisizione telemetria",
+          "exploring": "link stabile — il silenzio è vita",
+          "extracting": "canale di estrazione {pct}%",
+          "extracted": "sonda recuperata",
+          "lost": "segnale perso"
+        },
+        "interact": {
+          "channeling": "ESTRAZIONE {pct}%",
+          "loot": "RECUPERA ▸ capsula rottami",
+          "prize": "RECUPERA ▸ ✦ campione nucleo",
+          "terminal": "LEGGI ▸ terminale",
+          "exit": "ESTRAI ▸ uscita",
+          "nothing": "— niente a portata"
+        },
+        "recovery": "RECUPERO",
+        "prizeCarried": "✦ campione nucleo",
+        "throttle": "MAN {pct}%",
+        "ping": {
+          "ready": "ping pronto · comun.",
+          "cooldown": "ping {sec}s · comun."
+        },
+        "abort": "tieni·annulla",
+        "help": {
+          "drag": "trascina il vetro per volare · rilascia: stop",
+          "keys": "w/s manetta · a/d virata"
+        }
+      },
+      "sweep": {
+        "sns": "SENS {n}",
+        "returns": "ECHI {n}",
+        "anomalyFallback": "anomalia",
+        "blipIdentified": "{designator} {shipClass}",
+        "zoomOut": "riduci zoom (più portata)",
+        "zoomIn": "aumenta zoom (meno portata)",
+        "rng": "dist"
+      }
+    },
+    "comms": {
+      "common": {
+        "ch": "can.",
+        "mhz": "MHz",
+        "seconds": "{n}s",
+        "unknown": "IGNOTO",
+        "unknownSignal": "SEGNALE IGNOTO",
+        "unresolved": "NON RISOLTO"
+      },
+      "console": {
+        "title": "Comun.",
+        "alertCaption": "allarme",
+        "tab": {
+          "hail": "Chiamate",
+          "signal": "Segnale",
+          "ops": "Operaz."
+        },
+        "alertLamp": {
+          "green": "Verde",
+          "yellow": "Giallo",
+          "red": "Rosso"
+        },
+        "alertName": {
+          "green": "VERDE",
+          "yellow": "GIALLO",
+          "red": "ROSSO"
+        },
+        "alertLabel": "condizione",
+        "jump": {
+          "incomingHail": "chiamata in arrivo — rispondi",
+          "channelOpen": "canale aperto — chiama",
+          "hostileUplink": "uplink ostile — controsegnale",
+          "probeLive": "scandaglio sonda attivo — radar"
+        },
+        "signals": {
+          "title": "segnali nemici",
+          "none": "nessuna emissione ostile sulle bande",
+          "hostile": "ostile",
+          "reinforcement": "◍ uplink rinforzi",
+          "spooling": "⚠ salto di fuga in carica"
+        },
+        "status": {
+          "title": "stato nave",
+          "relay": "▸ riferisci al capitano",
+          "hull": "scafo",
+          "pwr": "energ.",
+          "core": "nucleo",
+          "on": "ON",
+          "off": "OFF",
+          "locked": "IN BLOCCO",
+          "shdAvg": "scudi med.",
+          "alert": "allarme",
+          "threats": "minacce",
+          "tag": {
+            "reactor": "REA",
+            "engines": "MOT",
+            "jumpDrive": "SAL",
+            "lifeSupport": "VIT",
+            "sensors": "SEN",
+            "weapons": "ARM",
+            "shields": "SCU"
+          }
+        },
+        "router": {
+          "onScreen": "ora sullo schermo:",
+          "setBy": "· scelto da {who}",
+          "channelNumber": "CAN{n}",
+          "live": "in onda",
+          "channel": {
+            "map": {
+              "label": "Mappa tattica",
+              "hint": "la vista predefinita"
+            },
+            "science": {
+              "label": "Scansione",
+              "hint": "il bersaglio attuale, in grande"
+            },
+            "comms": {
+              "label": "Comun.",
+              "hint": "il canale comun. — chiamate + diario di bordo"
+            },
+            "parascope": {
+              "label": "Parascopio",
+              "hint": "vista di volo 3D del Timone"
+            },
+            "cupola": {
+              "label": "Cupola",
+              "hint": "vista torretta dell'artigliere cupola"
+            }
+          },
+          "channelName": {
+            "map": "MAPPA",
+            "helm": "TIMONE",
+            "science": "SCIENZE",
+            "engineering": "INGEGNERIA",
+            "comms": "COMUN.",
+            "hail": "CHIAMATA",
+            "parascope": "PARASCOPIO",
+            "cupola": "CUPOLA",
+            "probe": "SONDA",
+            "probe_radar": "RADAR SONDA",
+            "chart": "CARTA"
+          }
+        }
+      },
+      "hail": {
+        "bank": "banco canali: il Capitano decide, tu parli",
+        "empty": "NULLA SULLE BANDE DI COMUNICAZIONE.",
+        "emptyHint": "Qui compariranno portanti e segnali passivi.",
+        "noCarriers": "nessuna portante — solo i segnali qui sotto",
+        "distance": "{dist}u",
+        "distanceSurrendered": "{dist}u · resa",
+        "hailButton": "chiama",
+        "tuneButton": "ascolta",
+        "passiveHeading": "segnali passivi — trasmettono, non parlano",
+        "passiveRow": "◌ {label} — {designator}",
+        "enemyKnown": "▲ {designator} · {shipClass}",
+        "enemyUnknown": "▲ {designator} · Ostile ignoto",
+        "friendly": "○ {designator} · {shipClass}",
+        "friendlyFallback": "Mercantile",
+        "derelict": "◆ {designator} · Relitto",
+        "incoming": "trasmissione in arrivo — rispondi per aprirla",
+        "carrierLock": "can. {mhz} MHz · aggancio portante",
+        "unidentified": "fazione ignota",
+        "tone": {
+          "friendly": "AMICHEVOLE",
+          "neutral": "NEUTRALE",
+          "hostile": "OSTILE"
+        },
+        "acquiring": "acquisizione video…",
+        "audioOnly": "solo audio — niente video",
+        "relay": "⇢ riferisci al capitano. Questo testo lo vedono solo le Comunicazioni.",
+        "receiving": "ricezione…",
+        "doctrine": "il Capitano decide a voce; tu premi",
+        "end": "✕ chiudi trasmissione",
+        "responseWindow": "finestra di risposta",
+        "silence": "anche tacere è una risposta"
+      },
+      "monitor": {
+        "header": "can. {mhz} MHz · ascolto passivo",
+        "source": "fonte {designator}",
+        "unresolved": "non risolta",
+        "rxOnly": "solo rx",
+        "onAir": "in onda: l'audio si sente dallo schermo principale (comun.)",
+        "silent": "niente da rispondere; non sta parlando con te",
+        "drop": "✕ lascia canale"
+      },
+      "strip": {
+        "title": "spettro del segnale",
+        "axisMhz": "{hi} MHz",
+        "monitoring": {
+          "one": "MONITORAGGIO · {count} PORTANTE",
+          "many": "MONITORAGGIO · {count} PORTANTI",
+          "other": "MONITORAGGIO · {count} PORTANTI"
+        },
+        "incoming": "◍ PORTANTE IN ARRIVO",
+        "lock": "AGGANCIO PORTANTE · {speaker}",
+        "destabilizing": "⚠ PORTANTE SI DESTABILIZZA",
+        "stable": "PORTANTE STABILE"
+      },
+      "jam": {
+        "idle": "controsegnale · nessun uplink ostile",
+        "title": "controsegnale // caccia al salto freq.",
+        "strength": "POTENZA DISTURBO J",
+        "blocked": "BLOCCATO {pct}%",
+        "uplink": "UPLINK NEMICO",
+        "chance": "PROB. RINF. {pct}%",
+        "callEnds": "FINE CHIAMATA",
+        "callTimer": "T-{n}s",
+        "target": "BERS {designator} · UPLINK",
+        "outOfRange": "⚠ SEGNALE FUORI PORTATA",
+        "locked": "◉ AGGANCIO",
+        "seeking": "◌ RICERCA",
+        "outOfRangeHint": "chiamante oltre la portata del disturbatore; alimenta i SENSORI per estenderla",
+        "dragHint": "TRASCINA il disturbatore sulla portante nemica luminosa · mantieni l'AGGANCIO"
+      },
+      "intercepts": {
+        "title": "◍ sigint — orecchie sul void",
+        "none": "in ascolto — nessuna intercettazione",
+        "unknownSource": "fonte ignota",
+        "footer": "riferisci ciò che conta; la plancia non lo sente"
+      },
+      "radar": {
+        "titleCompact": "scandaglio sonda",
+        "title": "radar sonda",
+        "noCarrier": "◌ nessuna portante",
+        "ping": "◉ ping",
+        "pingCooldown": "◌ ping · {n}s",
+        "screen": "⧉ schermo",
+        "warning": "⚠ un ping attivo fa rumore: lo sentirà",
+        "noReturns": "▸ nessuna eco; solo scandaglio passivo",
+        "echoLast": "◌ ultima eco",
+        "echoFresh": "◍ eco",
+        "echoLine": "{tag} · az {brg}° · dist {rng}% · {age}",
+        "ageNow": "ora",
+        "ageAgo": "{n}s fa"
+      },
+      "log": {
+        "title": "log sistema",
+        "jumpLatestUp": "↑ ultime",
+        "jumpLatestDown": "↓ ultime",
+        "jumpTitle": "Vai alla voce più recente",
+        "orderNewestFirst": "↑ nuove",
+        "orderNewestLast": "↓ nuove",
+        "orderNewestFirstTitle": "Recenti in cima — tocca per averle in fondo",
+        "orderNewestLastTitle": "Recenti in fondo — tocca per averle in cima",
+        "empty": "NESSUNA VOCE.",
+        "counter": "voci {n}"
+      },
+      "ledger": {
+        "title": "registro diplomatico",
+        "caption": "la parola della nave, custodita dalle comunicazioni",
+        "stance": {
+          "hostile": "ostilità",
+          "wary": "sospetto",
+          "neutral": "neutralità",
+          "respected": "rispetto",
+          "feared": "timore"
+        }
+      }
+    },
+    "tactical": {
+      "arc": {
+        "fore": "prua",
+        "aft": "pop.",
+        "port": "sinis.",
+        "stbd": "dritta"
+      },
+      "tab": {
+        "fire": "controllo tiro",
+        "torp": "siluri"
+      },
+      "weapon": {
+        "phaser": "phaser"
+      },
+      "scopePanel": {
+        "title": "visore di tiro",
+        "titleArmed": "visore di tiro · fuoco libero",
+        "armedBanner": "RAZZI ARMATI — tocca per sparare"
+      },
+      "chip": {
+        "target": "● {designator}",
+        "targetClass": "● {designator} · {shipClass}",
+        "bearingRange": "AZ {brg}° · DIST {rng}u",
+        "closing": "AVV. {rate}u/s",
+        "noLockArmed": "○ NESSUN AGGANCIO — tocca per i razzi",
+        "noLock": "○ NESSUN BERSAGLIO — tocca un contatto"
+      },
+      "ranges": {
+        "gun": "cann. {n}u",
+        "beam": "raggio {n}u",
+        "seeker": "ricerca {n}u"
+      },
+      "threat": {
+        "title": "quadro minacce",
+        "empty": "— nessun ostile sul quadro —",
+        "colId": "id",
+        "colClass": "classe",
+        "colRng": "dist",
+        "colBrg": "az",
+        "unidentified": "non identificato",
+        "mineLocked": "mina · agganciata",
+        "mine": "mina",
+        "debris": "detriti"
+      },
+      "target": {
+        "title": "dati bersaglio",
+        "scan": "scans. {pct}%",
+        "shield": "scudo",
+        "hull": "scafo",
+        "subTarget": "componente",
+        "shieldUp": "scudo attivo — abbattilo prima",
+        "aim": "mira ▸",
+        "aimHull": "SCAFO",
+        "hullDestroyed": "SCAFO — {designator} fuori uso",
+        "pointsLocated": {
+          "one": "{count} punto individuato",
+          "many": "{count} punti individuati",
+          "other": "{count} punti individuati"
+        },
+        "noPoints": "nessun punto di mira trovato — fai scansionare a Scienze",
+        "noLock": "nessun aggancio — tocca un contatto sul visore"
+      },
+      "deflector": {
+        "title": "stato deflettori",
+        "allocation": "ripartizione energia archi → ingegneria"
+      },
+      "ordnance": {
+        "title": "munizioni",
+        "torpedoes": "siluri",
+        "noisemakers": "esche sonore",
+        "missiles": "missili",
+        "rockets": "razzi",
+        "railgun": "railgun → timone",
+        "railLine": "RAIL {stock} · {status}"
+      },
+      "rail": {
+        "cycling": "RICARICA {sec}s",
+        "ready": "PRONTO",
+        "cyclingLc": "ricarica {sec}s",
+        "readyLc": "pronto"
+      },
+      "launchers": {
+        "title": "lanciatori",
+        "stripMissiles": "missili {n}",
+        "stripRail": "rail {n} · {status}",
+        "missileRack": "lanciamissili",
+        "homing": "autoguidati · tocca a raffica",
+        "noMissiles": "ZERO MISSILI",
+        "noLock": "NO AGGANC.",
+        "fireMissile": "LANCIA MISSILE ▸ {designator}",
+        "missilesExpended": "lanciamissili esaurito",
+        "missileNeedsLock": "i missili puntano all'aggancio attuale: prima tocca un contatto",
+        "rocketPod": "lanciarazzi",
+        "looseTracking": "guida lasca · tocca il visore",
+        "noRockets": "ZERO RAZZI",
+        "armedDisarm": "◉ ARMATI ×{n} — DISARMA",
+        "armRockets": "ARMA RAZZI ×{n}",
+        "podExpended": "lanciarazzi esaurito",
+        "armedHint": "i tocchi sul visore sparano in quella direzione; disarma per tornare ad agganciare col tocco",
+        "idleHint": "da armati, i tocchi sul visore di tiro sparano invece di agganciare"
+      },
+      "beams": {
+        "title": "banchi raggio",
+        "chargeHeat": "carica · calore",
+        "range": "portata {n}u",
+        "heat": "calore {n}",
+        "cannoneer": "cannoniere",
+        "hot": "CALDO",
+        "far": "LONT.",
+        "fire": "FUOCO",
+        "delegatedNote": "i banchi phaser segnati {mark} sono affidati a un Cannoniere",
+        "outOfRange": "bersaglio fuori portata raggio ({dist}u) — avvicinati a {range}u"
+      },
+      "turrets": {
+        "pdToCupola": "difesa ravv. → artigliere cupola",
+        "hold": "FERMO",
+        "pd": "DIFESA",
+        "holdSheds": "FERMO toglie energia",
+        "title": "torrette",
+        "pdAuto": "dif. auto · energia",
+        "pdRange": "dif. {n}u",
+        "heat": "calore {n}",
+        "rdy": "pronta {sec}s",
+        "offline": "offline",
+        "ready": "pronta",
+        "holdNote": "FERMO toglie energia alle torrette. La difesa automatica ha la precedenza (i siluri non si possono intercettare)."
+      },
+      "torpedo": {
+        "title": "sala siluri",
+        "magazine": "deposito",
+        "magTorpedoes": "siluri {n}",
+        "magNoisemakers": "esche sonore {n}",
+        "solutionTitle": "◈ SOLUZIONE DI TIRO",
+        "solutionReadout": "— az {brg}° · dist {rng}",
+        "solutionTap": "· tocca: carica",
+        "bearing": "azimut",
+        "estRunTarget": "corsa stim. su {designator}: ~{sec}s",
+        "estRunMark": "corsa stim. al segno: ~{sec}s",
+        "fishSpeed": "vel. siluro {n}u/s",
+        "armDelay": "ritardo inn.",
+        "armsOut": "innesco a ~{n}u",
+        "noIff": "⚠ può innescarsi vicino alla nave (no IFF)",
+        "noise": "esca",
+        "torpedo": "siluro",
+        "fire": "FUOCO",
+        "loadTorp": "carica sil.",
+        "loadNoise": "carica esca",
+        "inFlight": "in volo"
+      },
+      "flight": {
+        "missile": "MISSILE",
+        "rocket": "RAZZO",
+        "rail": "RAIL",
+        "noise": "ESCA",
+        "flare": "BENGALA",
+        "torp": "SILURO",
+        "chasingLock": "segue l'aggancio",
+        "fizzled": "a vuoto",
+        "wild": "fuori controllo",
+        "looseTracking": "guida lasca",
+        "running": "in corsa",
+        "luring": "attira",
+        "decoying": "depista",
+        "lock": "● AGGANCIO",
+        "seeking": "in ricerca",
+        "active": "in azione",
+        "arm": "innesco {sec}s"
+      },
+      "unit": {
+        "sec": "{n}s"
+      },
+      "header": {
+        "hull": "scafo"
+      },
+      "scopeCanvas": {
+        "ringGun": "CANN.",
+        "ringBeam": "RAGGIO",
+        "ringSeeker": "RIC.",
+        "arm": "INNES.",
+        "rangeButton": "scala"
+      },
+      "schematic": {
+        "mineCasing": "INVOLUCRO MINA — SOLO TIRI ALLO SCAFO",
+        "aimHull": "MIRA: SCAFO"
+      }
+    },
+    "eng": {
+      "header": {
+        "hull": "scafo"
+      },
+      "tab": {
+        "power": "Energia",
+        "reactor": "Reattore",
+        "repair": "Riparaz."
+      },
+      "system": {
+        "reactor": "Reattore",
+        "engines": "Motori",
+        "sensors": "Sensori",
+        "jumpDrive": "Motore salto",
+        "shields": "Scudi",
+        "weapons": "Armi"
+      },
+      "arc": {
+        "fore": "Prua",
+        "aft": "Pop.",
+        "port": "Sinis.",
+        "stbd": "Dritta"
+      },
+      "state": {
+        "lockedOut": "⚠ IN BLOCCO",
+        "notEnoughPower": "ENERGIA INSUFFICIENTE",
+        "offline": "OFFLINE"
+      },
+      "reroute": {
+        "forcedOffline": "SPEGNIMENTO FORZATO: {systems}",
+        "cause": "intrusione/picco",
+        "button": "⚡ Devia energia",
+        "systemFallback": "sistema",
+        "dialogLabel": "Deviazione energia, condotti: {system}",
+        "title": "DEVIAZIONE — INSTRADAMENTO CONDOTTI · {system}",
+        "hint": "ruota i condotti · collega SORG ▸ {abbr}",
+        "hide": "nascondi pannello — il ripristino continua",
+        "close": "chiudi pannello deviazione",
+        "restore": "ripristino",
+        "awaiting": "IN ATTESA DATI INSTRADAMENTO…",
+        "src": "SORG",
+        "flowing": "▸ ENERGIA IN FLUSSO — {system} IN RIPRISTINO",
+        "incomplete": "PERCORSO INCOMPLETO"
+      },
+      "abbr": {
+        "reactor": "REA",
+        "engines": "MOT",
+        "jumpDrive": "SAL",
+        "sensors": "SEN",
+        "weapons": "ARM",
+        "shields": "SCU",
+        "fallback": "SIS"
+      },
+      "schematic": {
+        "title": "Schema nave",
+        "hint": "tocca nodo → riga energia",
+        "integ": "integr. {pct}%"
+      },
+      "damage": {
+        "title": "Controllo danni",
+        "salvage": "rottami · servono per riparare",
+        "noSalvage": "⚠ niente rottami — le squadre non possono partire",
+        "hull": "Scafo",
+        "none": "nessun danno ai sistemi — squadre pronte",
+        "rowActive": "● in riparazione",
+        "rowDispatch": "tocca per inviare",
+        "noFieldRepair": "non riparabile qui",
+        "btnActive": "riparando…",
+        "btn": "ripara",
+        "recall": "richiama la squadra",
+        "dispatch": "invia squadra riparazioni"
+      },
+      "gauges": {
+        "title": "Indicatori reattore",
+        "output": "POTENZA",
+        "coreTemp": "TEMP NUCLEO",
+        "wpnHeat": "CALORE ARMI",
+        "contain": "CONTENIM."
+      },
+      "reactor": {
+        "title": "Nucleo reattore",
+        "overdrawn": "⚠ energia oltre il limite — un sistema è a secco",
+        "overclockBanner": "⚡ OVERCLOCK — il calore sale · firma rumorosa",
+        "coreTemp": "temp. nucleo · linea rossa {line}",
+        "danger": "▲ PERICOLO",
+        "redLineTip": "linea rossa — oltre {line} il reattore si danneggia",
+        "readoutOutput": "potenza",
+        "readoutDemand": "richiesta",
+        "readoutContainment": "contenimento",
+        "unitPerSec": "u/s",
+        "overclockOn": "⚡ OVERCLOCK ATTIVO",
+        "overclock": "OVERCLOCK",
+        "overclockHint": "+{bonus}u potenza · genera calore",
+        "vent": "❄ Sfiato ({sec}s, ½ potenza)",
+        "venting": "sfiato… {sec}s · potenza dimezzata",
+        "ventIdle": "nucleo {heat}% · calore armi {wpn}"
+      },
+      "flux": {
+        "title": "Flusso energia",
+        "trace": "traccia richiesta · u/s",
+        "cap": "▁▁ cap. {output}",
+        "readout": "{demand}u/s"
+      },
+      "jump": {
+        "title": "Motore a salto",
+        "spooling": "◉ In carica",
+        "spool": "Carica salto",
+        "charge": "carica salto",
+        "charged": "✦ carico: il condensatore si scarica nel nucleo. Salta presto o usa lo SFIATO.",
+        "starved": "⚠ energia libera insufficiente (servono {need}u) — togli energia a un sistema",
+        "throttled": "motore limitato al {pct}% — carica più lenta",
+        "draws": "assorbe {rate} u/s durante la carica",
+        "off": "spento — nessun consumo"
+      },
+      "power": {
+        "title": "Distribuzione energia",
+        "outputLine": "POTENZA {output}u/s",
+        "over": "DEFICIT {amount}",
+        "free": "LIBERA {amount}",
+        "howTo": "Consumo = {formula}. Trascina una barra per impostarlo; riempimento = concesso. Le righe a secco lampeggiano {alarm}. {cut} azzera e ricorda.",
+        "formula": "richiesta × priorità",
+        "coreSource": "fonte nucleo — alimenta il bus",
+        "coreSourceShort": "fonte nucleo",
+        "reactorOutput": "{output}u",
+        "lifeSupportNote": "il supporto vitale si riserva prima {amount}u finché l'interruttore è ON. La schermatura è la barra salute dell'equipaggio."
+      },
+      "shields": {
+        "title": "Ripartizione scudi",
+        "charge": "car.",
+        "chargeTip": "carica {charge}/{max}",
+        "alloc": "ripartizione scudo {arc}",
+        "note": "gli archi si rigenerano con l'energia SCUDI · la ripartizione totale ne fissa la richiesta"
+      },
+      "lifeSupport": {
+        "button": "supporto vitale",
+        "on": "◉ ON",
+        "off": "○ OFF",
+        "openTip": "apri l'interruttore del supporto vitale (schermatura in calo)",
+        "closeTip": "chiudi l'interruttore del supporto vitale (schermatura in ripresa)",
+        "meter": "schermatura radiazioni",
+        "statusFence": "☢ la barriera consuma la schermatura — torna dentro",
+        "statusOpen": "interruttore APERTO — l'equipaggio cuoce piano",
+        "statusStarved": "⚠ a secco/offline — niente rigenerazione",
+        "statusShielded": "equipaggio protetto",
+        "statusRegen": "rigenerazione +{rate}/s"
+      },
+      "row": {
+        "priority": "priorità energia {system}",
+        "breakerRestore": "interruttore {system}: ripristina",
+        "breakerCut": "interruttore {system}: taglia",
+        "restoreTip": "ripristina energia (impostazione precedente)",
+        "cutTip": "taglia energia (priorità 0)",
+        "cut": "OFF",
+        "grantedTip": "concessi {granted} di {demand}u richiesti · priorità {pct}%",
+        "integrityTip": "integrità {pct}%",
+        "lockedTip": "blocco forzato da un evento — devia l'energia per ripristinare"
+      }
+    }
+  }
+}
